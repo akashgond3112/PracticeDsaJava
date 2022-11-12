@@ -1,6 +1,4 @@
-package LinkedList;
-
-import org.w3c.dom.Node;
+package LinkedList.SinglyLinkedList;
 
 public class IntroduceLinkedList {
     Node head;

@@ -1,6 +1,6 @@
-package LinkedList;
+package LinkedList.SinglyLinkedList;
 
-public class DeletionFromLinkedList extends IntroduceLinkedList{
+public class DeletionFromLinkedList extends IntroduceLinkedList {
 
     DeletionFromLinkedList(){
         super();
