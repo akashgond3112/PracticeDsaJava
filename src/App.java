@@ -1,9 +1,39 @@
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 public class App {
+
+    public static void main(String[] args) throws Exception {
+        System.out.println("Hello, World!");
+//        List<String> logs = new ArrayList<>();
+//        logs.add("6");
+//        logs.add("register Vikash gond123");
+//        logs.add("register Vikash gond123");
+//        logs.add("login Vikash gond123");
+//        logs.add("login Vikash gond12");
+//        logs.add("logout Vikash");
+//        logs.add("logout Akash");
+//
+//
+//        List<String> result = Result.implementAPI(logs);
+//        result.forEach(System.out::println);
+
+        List<Integer> teamA = new ArrayList<>();
+        List<Integer> teamB = new ArrayList<>();
+
+        teamA.add(2);
+        teamA.add(10);
+        teamA.add(5);
+        teamA.add(4);
+        teamA.add(8);
+
+        teamB.add(3);
+        teamB.add(1);
+        teamB.add(7);
+        teamB.add(8);
+
+        Result.counts(teamA, null).forEach(System.out::println);
+
+    }
 
     class Result {
 
@@ -13,6 +43,15 @@ public class App {
          * The function is expected to return a STRING_ARRAY.
          * The function accepts STRING_ARRAY logs as parameter.
 
+         */
+
+        /*
+         * Complete the 'counts' function below.
+         *
+         * The function is expected to return an INTEGER_ARRAY.
+         * The function accepts following parameters:
+         *  1. INTEGER_ARRAY teamA
+         *  2. INTEGER_ARRAY teamB
          */
 
         public static List<String> implementAPI(List<String> logs) {
@@ -66,21 +105,47 @@ public class App {
             return result;
         }
 
-    }
+        public static List<Integer> counts(List<Integer> teamA, List<Integer> teamB) {
 
-    public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
-        List<String> logs = new ArrayList<>();
-        logs.add("6");
-        logs.add("register Vikash gond123");
-        logs.add("register Vikash gond123");
-        logs.add("login Vikash gond123");
-        logs.add("login Vikash gond12");
-        logs.add("logout Vikash");
-        logs.add("logout Akash");
+            List<Integer> result = new ArrayList<>();
+            int[] counts = new int[teamB.size()];
+
+            for (int i = 0; i < teamB.size(); i++) {
+
+                for (Integer integer : teamA) {
+                    if (integer <= teamB.get(i)) {
+                        counts[i] += 1;
+                    }
+                }
+            }
+
+            for (int count : counts) {
+                result.add(count);
+            }
+
+            return result;
+
+        }
+
+        public static List<Integer> counts1(List<Integer> teamA, List<Integer> teamB) {
+            ArrayList<Integer> res = new ArrayList<Integer>();
+            Collections.sort(teamA);
+            for (int i = 0; i < teamB.size(); i++) {
+                int low = 0;
+                int high = teamA.size() - 1;
+                while (low <= high) {
+                    int mid = (low + high) / 2;
+                    if (teamA.get(mid) > teamB.get(i))
+                        high = mid - 1;
+                    else
+                        low = mid + 1;
+                }
+                res.add(low);
+            }
+            return res;
 
 
-        List<String> result = Result.implementAPI(logs);
-        result.forEach(System.out::println);
+        }
+
     }
 }
