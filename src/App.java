@@ -35,7 +35,7 @@ public class App {
 
     }
 
-    class Result {
+    static class Result {
 
         /*
          * Complete the 'implementAPI' function below.
