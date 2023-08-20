@@ -37,6 +37,7 @@ public class ConvertSortedArrayToBinarySearchTree {
     public static TreeNode sortedArrayToBST(int[] nums) {
 
         return solution1(nums, 0, nums.length - 1);
+//        return solution2(nums, 0, nums.length - 1);
     }
 
     private static TreeNode solution1(int nums[], int l, int r) {
@@ -57,10 +58,9 @@ public class ConvertSortedArrayToBinarySearchTree {
         return root;
     }
 
-    private TreeNode solution2(int[] nums, int l, int r) {
+    private static TreeNode solution2(int[] nums, int l, int r) {
         if (l > r) return null;
-        if (l == r) return new TreeNode(nums[l]);
-        int mid = (l + r) / 2;
+        int mid = l + (r-l)/2;
         TreeNode root = new TreeNode(nums[mid]);
         root.left = solution2(nums, l, mid - 1);
         root.right = solution2(nums, mid + 1, r);
