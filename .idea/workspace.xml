@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="springtutorial:war" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="697252cc-7674-4df4-b819-341bc29cf007" name="Changes" comment="Commit-20/08/2023">
+      <change afterPath="$PROJECT_DIR$/src/main/slidingWindow/fixedSize/CountOccurenceOfAnagrams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/slidingWindow/fixedSize/FirstNegativeIntegerInEveryWindowOfSizeK.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/slidingWindow/fixedSize/MaxMinSubArrayOfSizeK.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice_Spring_Boot/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice_Spring_Boot/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice_Spring_Boot/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice_Spring_Boot/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice_Spring_Boot/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice_Spring_Boot/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice_Spring_Boot/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice_Spring_Boot/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice_Spring_Boot/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice_Spring_Boot/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice_Spring_Boot/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice_Spring_Boot/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice_Spring_Boot/src/main/java/com/spring/hibernate/demo/CreateStudentDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice_Spring_Boot/src/main/java/com/spring/hibernate/demo/DeleteStudentDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice_Spring_Boot/src/main/java/com/spring/hibernate/demo/QueryStudentDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice_Spring_Boot/src/main/java/com/spring/hibernate/demo/ReadStudentDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice_Spring_Boot/src/main/java/com/spring/hibernate/demo/UpdateStudentDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice_Spring_Boot/src/main/java/com/spring/hibernate/demo/entity/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice_Spring_Boot/src/main/java/com/spring/hibernate/university/onetomany/CreateCourseDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice_Spring_Boot/src/main/java/com/spring/hibernate/university/onetomany/CreateInstructorDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice_Spring_Boot/src/main/java/com/spring/hibernate/university/onetomany/DeleteCourseDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice_Spring_Boot/src/main/java/com/spring/hibernate/university/onetomany/DeleteInstructorDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice_Spring_Boot/src/main/java/com/spring/hibernate/university/onetomany/GetInstructorDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice_Spring_Boot/src/main/java/com/spring/hibernate/university/onetomany/entity/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice_Spring_Boot/src/main/java/com/spring/hibernate/university/onetomany/entity/Instructor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice_Spring_Boot/src/main/java/com/spring/hibernate/university/onetomany/entity/InstructorDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice_Spring_Boot/src/main/java/com/spring/hibernate/university/onetotone/CreateInstructorDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice_Spring_Boot/src/main/java/com/spring/hibernate/university/onetotone/DeleteInstructorDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice_Spring_Boot/src/main/java/com/spring/hibernate/university/onetotone/entity/Instructor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice_Spring_Boot/src/main/java/com/spring/hibernate/university/onetotone/entity/InstructorDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice_Spring_Boot/src/main/java/com/spring/hibernate/university/onetotonebi/DeleteInstructorDetailDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice_Spring_Boot/src/main/java/com/spring/hibernate/university/onetotonebi/GetInstructorDetailDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice_Spring_Boot/src/main/java/com/spring/hibernate/university/onetotonebi/entity/Instructor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice_Spring_Boot/src/main/java/com/spring/hibernate/university/onetotonebi/entity/InstructorDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice_Spring_Boot/src/main/java/com/spring/jdbc/TestJdbc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice_Spring_Boot/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice_Spring_Boot/src/main/resources/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice_Spring_Boot/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../Practice_Spring_Boot/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice_Spring_Boot/.vscode/launch.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Practice_Spring_Boot/.vscode/launch.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice_Spring_Boot/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Practice_Spring_Boot/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice_Spring_Boot/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../Practice_Spring_Boot/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice_Spring_Boot/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../Practice_Spring_Boot/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="repository" />
+    </option>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2J3VH7RPUnkOJm3uE3Hd3d6wj43" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/agond/IdeaProjects/PracticeDSA&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;659476cf04b5790abb125addbde5977f&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="Test" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean package" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.FirstNegativeIntegerInEveryWindowOfSizeK">
+    <configuration name="FirstNegativeIntegerInEveryWindowOfSizeK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.slidingWindow.fixedSize.FirstNegativeIntegerInEveryWindowOfSizeK" />
+      <module name="PracticeDSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.slidingWindow.fixedSize.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MaxMinSubArrayOfSizeK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.slidingWindow.fixedSize.MaxMinSubArrayOfSizeK" />
+      <module name="PracticeDSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.slidingWindow.fixedSize.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PascalTriangleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PracticeDSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Test" />
+      <option name="MAIN_CLASS_NAME" value="Test.PascalTriangleTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PascalTriangleTest.TestTwo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PracticeDSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Test" />
+      <option name="MAIN_CLASS_NAME" value="Test.PascalTriangleTest" />
+      <option name="METHOD_NAME" value="TestTwo" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="spring" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.0.27" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="/usr/lib/jvm/java-1.17.0-openjdk-amd64">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="springtutorial:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/springtutorial_war" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="bd5276ee-5f74-41e1-8b84-0da02c8b84c0" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="35309" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="springtutorial:war" />
+        </option>
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.FirstNegativeIntegerInEveryWindowOfSizeK" />
+        <item itemvalue="Application.MaxMinSubArrayOfSizeK" />
+        <item itemvalue="JUnit.PascalTriangleTest.TestTwo" />
+        <item itemvalue="JUnit.PascalTriangleTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="697252cc-7674-4df4-b819-341bc29cf007" name="Changes" comment="" />
+      <created>1671306662927</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1671306662927</updated>
+      <workItem from="1671306665093" duration="889000" />
+      <workItem from="1671402563575" duration="5942000" />
+      <workItem from="1671456527440" duration="32000" />
+      <workItem from="1692537979639" duration="197000" />
+      <workItem from="1692538190547" duration="2043000" />
+      <workItem from="1692541524529" duration="4056000" />
+      <workItem from="1692562053785" duration="1246000" />
+      <workItem from="1692612100999" duration="58000" />
+      <workItem from="1692810664932" duration="622000" />
+      <workItem from="1692861946701" duration="15000" />
+      <workItem from="1692890509633" duration="9953000" />
+    </task>
+    <task id="LOCAL-00001" summary="commit-19122022">
+      <created>1671408501232</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1671408501232</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Commit-20/08/2023">
+      <option name="closed" value="true" />
+      <created>1692550398469</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1692550398469</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="commit-19122022" />
+    <MESSAGE value="Commit-20/08/2023" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit-20/08/2023" />
+  </component>
+</project>
