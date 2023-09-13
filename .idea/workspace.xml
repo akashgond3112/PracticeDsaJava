@@ -9,10 +9,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="697252cc-7674-4df4-b819-341bc29cf007" name="Changes" comment="Commit-30/08/2023">
-      <change afterPath="$PROJECT_DIR$/src/main/slidingWindow/fixedSize/FindTheKBeautyOfANumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/slidingWindow/fixedSize/MinimumRecolorsToGetKConsecutiveBlackBlocks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="697252cc-7674-4df4-b819-341bc29cf007" name="Changes" comment="Commit-90/09/2023">
+      <change afterPath="$PROJECT_DIR$/src/main/slidingWindow/easy/ContainsDuplicateTwo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/slidingWindow/easy/LongestEvenOddSubarrayWithThreshold.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/slidingWindow/easy/MaximumAverageSubarrayOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/slidingWindow/easy/MinimumDifferenceBetweenHighestAndLowestOfKScores.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/slidingWindow/medium/NumberOfSubArraysOfSizeKAndAverageGreaterThanOrEqualToThreshold.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,30 +62,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/agond/IdeaProjects/PracticeDSA&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;659476cf04b5790abb125addbde5977f&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "create.test.in.the.same.root": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/home/agond/IdeaProjects/PracticeDSA",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "fileTemplates",
+    "spring.configuration.checksum": "659476cf04b5790abb125addbde5977f",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -100,13 +102,13 @@
       <command value="mvn clean package" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.MinimumRecolorsToGetKConsecutiveBlackBlocks">
-    <configuration name="FindTheKBeautyOfANumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.slidingWindow.fixedSize.FindTheKBeautyOfANumber" />
+  <component name="RunManager" selected="Application.NumberOfSubArraysOfSizeKAndAverageGreaterThanOrEqualToThreshold">
+    <configuration name="ContainsDuplicateTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.slidingWindow.easy.ContainsDuplicateTwo" />
       <module name="PracticeDSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.slidingWindow.fixedSize.*" />
+          <option name="PATTERN" value="main.slidingWindow.easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,12 +116,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestKUniqueCharactersSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.slidingWindow.variableSize.LongestKUniqueCharactersSubstring" />
+    <configuration name="LongestEvenOddSubarrayWithThreshold" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.slidingWindow.easy.LongestEvenOddSubarrayWithThreshold" />
       <module name="PracticeDSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.slidingWindow.variableSize.*" />
+          <option name="PATTERN" value="main.slidingWindow.easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,12 +129,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinimumRecolorsToGetKConsecutiveBlackBlocks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.slidingWindow.fixedSize.MinimumRecolorsToGetKConsecutiveBlackBlocks" />
+    <configuration name="MaximumAverageSubarrayOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.slidingWindow.easy.MaximumAverageSubarrayOne" />
       <module name="PracticeDSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.slidingWindow.fixedSize.*" />
+          <option name="PATTERN" value="main.slidingWindow.easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,12 +142,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinimumWindowSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.slidingWindow.variableSize.MinimumWindowSubstring" />
+    <configuration name="MinimumDifferenceBetweenHighestAndLowestOfKScores" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.slidingWindow.easy.MinimumDifferenceBetweenHighestAndLowestOfKScores" />
       <module name="PracticeDSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.slidingWindow.variableSize.*" />
+          <option name="PATTERN" value="main.slidingWindow.easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,12 +155,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PickMaximumNumberOfToys" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.slidingWindow.variableSize.PickMaximumNumberOfToys" />
+    <configuration name="NumberOfSubArraysOfSizeKAndAverageGreaterThanOrEqualToThreshold" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.slidingWindow.medium.NumberOfSubArraysOfSizeKAndAverageGreaterThanOrEqualToThreshold" />
       <module name="PracticeDSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.slidingWindow.variableSize.*" />
+          <option name="PATTERN" value="main.slidingWindow.medium.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -255,11 +257,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MinimumRecolorsToGetKConsecutiveBlackBlocks" />
-        <item itemvalue="Application.FindTheKBeautyOfANumber" />
-        <item itemvalue="Application.MinimumWindowSubstring" />
-        <item itemvalue="Application.PickMaximumNumberOfToys" />
-        <item itemvalue="Application.LongestKUniqueCharactersSubstring" />
+        <item itemvalue="Application.NumberOfSubArraysOfSizeKAndAverageGreaterThanOrEqualToThreshold" />
+        <item itemvalue="Application.LongestEvenOddSubarrayWithThreshold" />
+        <item itemvalue="Application.MaximumAverageSubarrayOne" />
+        <item itemvalue="Application.ContainsDuplicateTwo" />
+        <item itemvalue="Application.MinimumDifferenceBetweenHighestAndLowestOfKScores" />
       </list>
     </recent_temporary>
   </component>
@@ -296,7 +298,12 @@
       <workItem from="1694073293606" duration="76000" />
       <workItem from="1694094524713" duration="2204000" />
       <workItem from="1694159978389" duration="17000" />
-      <workItem from="1694197777088" duration="3705000" />
+      <workItem from="1694197777088" duration="12709000" />
+      <workItem from="1694419085379" duration="19000" />
+      <workItem from="1694444825825" duration="1252000" />
+      <workItem from="1694528148193" duration="2109000" />
+      <workItem from="1694592162388" duration="553000" />
+      <workItem from="1694625708298" duration="4799000" />
     </task>
     <task id="LOCAL-00001" summary="commit-19122022">
       <created>1671408501232</created>
@@ -345,7 +352,15 @@
       <option name="project" value="LOCAL" />
       <updated>1693434081303</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Commit-90/09/2023">
+      <option name="closed" value="true" />
+      <created>1694255317528</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1694255317528</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -369,7 +384,8 @@
     <MESSAGE value="Commit-28/08/2023" />
     <MESSAGE value="Commit-29/08/2023" />
     <MESSAGE value="Commit-30/08/2023" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit-30/08/2023" />
+    <MESSAGE value="Commit-90/09/2023" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit-90/09/2023" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -408,6 +424,39 @@
           <url>file://$PROJECT_DIR$/src/main/slidingWindow/fixedSize/MinimumRecolorsToGetKConsecutiveBlackBlocks.java</url>
           <line>12</line>
           <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/slidingWindow/easy/ContainsDuplicateTwo.java</url>
+          <line>50</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/slidingWindow/easy/ContainsDuplicateTwo.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/slidingWindow/easy/MaximumAverageSubarrayOne.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/slidingWindow/easy/MaximumAverageSubarrayOne.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/slidingWindow/easy/MaximumAverageSubarrayOne.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/slidingWindow/medium/NumberOfSubArraysOfSizeKAndAverageGreaterThanOrEqualToThreshold.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="23" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
