@@ -9,12 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="697252cc-7674-4df4-b819-341bc29cf007" name="Changes" comment="Commit-90/09/2023">
-      <change afterPath="$PROJECT_DIR$/src/main/slidingWindow/easy/ContainsDuplicateTwo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/slidingWindow/easy/LongestEvenOddSubarrayWithThreshold.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/slidingWindow/easy/MaximumAverageSubarrayOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/slidingWindow/easy/MinimumDifferenceBetweenHighestAndLowestOfKScores.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/slidingWindow/medium/NumberOfSubArraysOfSizeKAndAverageGreaterThanOrEqualToThreshold.java" afterDir="false" />
+    <list default="true" id="697252cc-7674-4df4-b819-341bc29cf007" name="Changes" comment="Commit-13/09/2023">
+      <change afterPath="$PROJECT_DIR$/src/main/slidingWindow/medium/LongestSubarrayOfOnesAfterDeletingOneElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/slidingWindow/medium/MaximizeTheConfusionOfAnExam.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,30 +59,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "create.test.in.the.same.root": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/home/agond/IdeaProjects/PracticeDSA",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "fileTemplates",
-    "spring.configuration.checksum": "659476cf04b5790abb125addbde5977f",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/agond/IdeaProjects/PracticeDSA&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;fileTemplates&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;659476cf04b5790abb125addbde5977f&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -102,20 +99,7 @@
       <command value="mvn clean package" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.NumberOfSubArraysOfSizeKAndAverageGreaterThanOrEqualToThreshold">
-    <configuration name="ContainsDuplicateTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.slidingWindow.easy.ContainsDuplicateTwo" />
-      <module name="PracticeDSA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="main.slidingWindow.easy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.LongestSubarrayOfOnesAfterDeletingOneElement">
     <configuration name="LongestEvenOddSubarrayWithThreshold" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.slidingWindow.easy.LongestEvenOddSubarrayWithThreshold" />
       <module name="PracticeDSA" />
@@ -129,12 +113,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaximumAverageSubarrayOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.slidingWindow.easy.MaximumAverageSubarrayOne" />
+    <configuration name="LongestSubarrayOfOnesAfterDeletingOneElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.slidingWindow.medium.LongestSubarrayOfOnesAfterDeletingOneElement" />
       <module name="PracticeDSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.slidingWindow.easy.*" />
+          <option name="PATTERN" value="main.slidingWindow.medium.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,8 +126,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinimumDifferenceBetweenHighestAndLowestOfKScores" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.slidingWindow.easy.MinimumDifferenceBetweenHighestAndLowestOfKScores" />
+    <configuration name="MaximizeTheConfusionOfAnExam" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.slidingWindow.medium.MaximizeTheConfusionOfAnExam" />
+      <module name="PracticeDSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.slidingWindow.medium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MaximumAverageSubarrayOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.slidingWindow.easy.MaximumAverageSubarrayOne" />
       <module name="PracticeDSA" />
       <extension name="coverage">
         <pattern>
@@ -257,11 +254,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LongestSubarrayOfOnesAfterDeletingOneElement" />
+        <item itemvalue="Application.MaximizeTheConfusionOfAnExam" />
         <item itemvalue="Application.NumberOfSubArraysOfSizeKAndAverageGreaterThanOrEqualToThreshold" />
         <item itemvalue="Application.LongestEvenOddSubarrayWithThreshold" />
         <item itemvalue="Application.MaximumAverageSubarrayOne" />
-        <item itemvalue="Application.ContainsDuplicateTwo" />
-        <item itemvalue="Application.MinimumDifferenceBetweenHighestAndLowestOfKScores" />
       </list>
     </recent_temporary>
   </component>
@@ -303,7 +300,9 @@
       <workItem from="1694444825825" duration="1252000" />
       <workItem from="1694528148193" duration="2109000" />
       <workItem from="1694592162388" duration="553000" />
-      <workItem from="1694625708298" duration="4799000" />
+      <workItem from="1694625708298" duration="4823000" />
+      <workItem from="1694683098737" duration="10000" />
+      <workItem from="1694700004610" duration="9153000" />
     </task>
     <task id="LOCAL-00001" summary="commit-19122022">
       <created>1671408501232</created>
@@ -360,11 +359,29 @@
       <option name="project" value="LOCAL" />
       <updated>1694255317528</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Commit-13/09/2023">
+      <option name="closed" value="true" />
+      <created>1694642660620</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1694642660620</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-core" />
+    <option featureType="dependencySupport" implementationName="executable:docker" />
+    <option featureType="dependencySupport" implementationName="java:jakarta.persistence:jakarta.persistence-api" />
+    <option featureType="dependencySupport" implementationName="java:jakarta.validation:jakarta.validation-api" />
+    <option featureType="dependencySupport" implementationName="executable:kubectl" />
+    <option featureType="dependencySupport" implementationName="java:org.hibernate.validator:hibernate-validator" />
+    <option featureType="dependencySupport" implementationName="maven-packaging:war" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-webmvc" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -385,7 +402,8 @@
     <MESSAGE value="Commit-29/08/2023" />
     <MESSAGE value="Commit-30/08/2023" />
     <MESSAGE value="Commit-90/09/2023" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit-90/09/2023" />
+    <MESSAGE value="Commit-13/09/2023" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit-13/09/2023" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -394,11 +412,6 @@
           <url>file://$PROJECT_DIR$/src/main/slidingWindow/fixedSize/CountOccurenceOfAnagrams.java</url>
           <line>31</line>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/slidingWindow/variableSize/LargestSubarrayOfSumK.java</url>
-          <line>16</line>
-          <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/slidingWindow/fixedSize/FindTheKBeautyOfANumber.java</url>
@@ -457,6 +470,11 @@
           <url>file://$PROJECT_DIR$/src/main/slidingWindow/medium/NumberOfSubArraysOfSizeKAndAverageGreaterThanOrEqualToThreshold.java</url>
           <line>47</line>
           <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/slidingWindow/medium/LongestSubarrayOfOnesAfterDeletingOneElement.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="25" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
