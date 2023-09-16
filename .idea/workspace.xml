@@ -9,10 +9,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="697252cc-7674-4df4-b819-341bc29cf007" name="Changes" comment="Commit-13/09/2023">
-      <change afterPath="$PROJECT_DIR$/src/main/slidingWindow/medium/LongestSubarrayOfOnesAfterDeletingOneElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/slidingWindow/medium/MaximizeTheConfusionOfAnExam.java" afterDir="false" />
+    <list default="true" id="697252cc-7674-4df4-b819-341bc29cf007" name="Changes" comment="Commit-14/09/2023">
+      <change afterPath="$PROJECT_DIR$/src/main/slidingWindow/medium/CountCompleteSubArraysInAnArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/slidingWindow/medium/NumberOfSubstringsContainingAllThreeCharacters.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/slidingWindow/medium/LongestSubarrayOfOnesAfterDeletingOneElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/slidingWindow/medium/LongestSubarrayOfOnesAfterDeletingOneElement.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +69,7 @@
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
     &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
+    &quot;extract.method.default.visibility&quot;: &quot;private&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;last_opened_file_path&quot;: &quot;/home/agond/IdeaProjects/PracticeDSA&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
@@ -99,13 +101,13 @@
       <command value="mvn clean package" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.LongestSubarrayOfOnesAfterDeletingOneElement">
-    <configuration name="LongestEvenOddSubarrayWithThreshold" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.slidingWindow.easy.LongestEvenOddSubarrayWithThreshold" />
+  <component name="RunManager" selected="Application.CountCompleteSubArraysInAnArray">
+    <configuration name="CountCompleteSubArraysInAnArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.slidingWindow.medium.CountCompleteSubArraysInAnArray" />
       <module name="PracticeDSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.slidingWindow.easy.*" />
+          <option name="PATTERN" value="main.slidingWindow.medium.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,12 +141,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaximumAverageSubarrayOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.slidingWindow.easy.MaximumAverageSubarrayOne" />
+    <configuration name="NumberOfSubArraysOfSizeKAndAverageGreaterThanOrEqualToThreshold" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.slidingWindow.medium.NumberOfSubArraysOfSizeKAndAverageGreaterThanOrEqualToThreshold" />
       <module name="PracticeDSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.slidingWindow.easy.*" />
+          <option name="PATTERN" value="main.slidingWindow.medium.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -152,8 +154,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumberOfSubArraysOfSizeKAndAverageGreaterThanOrEqualToThreshold" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.slidingWindow.medium.NumberOfSubArraysOfSizeKAndAverageGreaterThanOrEqualToThreshold" />
+    <configuration name="NumberOfSubstringsContainingAllThreeCharacters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.slidingWindow.medium.NumberOfSubstringsContainingAllThreeCharacters" />
       <module name="PracticeDSA" />
       <extension name="coverage">
         <pattern>
@@ -254,11 +256,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CountCompleteSubArraysInAnArray" />
+        <item itemvalue="Application.NumberOfSubstringsContainingAllThreeCharacters" />
         <item itemvalue="Application.LongestSubarrayOfOnesAfterDeletingOneElement" />
         <item itemvalue="Application.MaximizeTheConfusionOfAnExam" />
         <item itemvalue="Application.NumberOfSubArraysOfSizeKAndAverageGreaterThanOrEqualToThreshold" />
-        <item itemvalue="Application.LongestEvenOddSubarrayWithThreshold" />
-        <item itemvalue="Application.MaximumAverageSubarrayOne" />
       </list>
     </recent_temporary>
   </component>
@@ -302,7 +304,10 @@
       <workItem from="1694592162388" duration="553000" />
       <workItem from="1694625708298" duration="4823000" />
       <workItem from="1694683098737" duration="10000" />
-      <workItem from="1694700004610" duration="9153000" />
+      <workItem from="1694700004610" duration="9844000" />
+      <workItem from="1694764729903" duration="313000" />
+      <workItem from="1694794702137" duration="6417000" />
+      <workItem from="1694890740029" duration="4029000" />
     </task>
     <task id="LOCAL-00001" summary="commit-19122022">
       <created>1671408501232</created>
@@ -367,7 +372,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694642660620</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Commit-14/09/2023">
+      <option name="closed" value="true" />
+      <created>1694728200913</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1694728200913</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -403,7 +416,8 @@
     <MESSAGE value="Commit-30/08/2023" />
     <MESSAGE value="Commit-90/09/2023" />
     <MESSAGE value="Commit-13/09/2023" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit-13/09/2023" />
+    <MESSAGE value="Commit-14/09/2023" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit-14/09/2023" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -472,9 +486,19 @@
           <option name="timeStamp" value="23" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/slidingWindow/medium/LongestSubarrayOfOnesAfterDeletingOneElement.java</url>
-          <line>54</line>
-          <option name="timeStamp" value="25" />
+          <url>file://$PROJECT_DIR$/src/main/slidingWindow/medium/NumberOfSubstringsContainingAllThreeCharacters.java</url>
+          <line>73</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/slidingWindow/medium/CountCompleteSubArraysInAnArray.java</url>
+          <line>67</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/slidingWindow/medium/CountCompleteSubArraysInAnArray.java</url>
+          <line>82</line>
+          <option name="timeStamp" value="44" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

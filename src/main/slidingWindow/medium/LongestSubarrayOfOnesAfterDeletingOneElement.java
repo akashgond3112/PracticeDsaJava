@@ -43,7 +43,6 @@ public class LongestSubarrayOfOnesAfterDeletingOneElement {
         int ans = 0;
         int startIndex = 0;
         int endIndex = 0;
-        int ones = 0;
         int zeroes = 0;
 
         while (endIndex < nums.length) {
