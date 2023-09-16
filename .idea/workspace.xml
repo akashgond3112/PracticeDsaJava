@@ -9,11 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="697252cc-7674-4df4-b819-341bc29cf007" name="Changes" comment="Commit-14/09/2023">
-      <change afterPath="$PROJECT_DIR$/src/main/slidingWindow/medium/CountCompleteSubArraysInAnArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/slidingWindow/medium/NumberOfSubstringsContainingAllThreeCharacters.java" afterDir="false" />
+    <list default="true" id="697252cc-7674-4df4-b819-341bc29cf007" name="Changes" comment="Commit-16/09/2023">
+      <change afterPath="$PROJECT_DIR$/src/main/slidingWindow/medium/CountNumberOfNiceSubArrays.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/slidingWindow/medium/LongestSubarrayOfOnesAfterDeletingOneElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/slidingWindow/medium/LongestSubarrayOfOnesAfterDeletingOneElement.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,9 +99,22 @@
       <command value="mvn clean package" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.CountCompleteSubArraysInAnArray">
+  <component name="RunManager" selected="Application.CountNumberOfNiceSubArrays">
     <configuration name="CountCompleteSubArraysInAnArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.slidingWindow.medium.CountCompleteSubArraysInAnArray" />
+      <module name="PracticeDSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.slidingWindow.medium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CountNumberOfNiceSubArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.slidingWindow.medium.CountNumberOfNiceSubArrays" />
       <module name="PracticeDSA" />
       <extension name="coverage">
         <pattern>
@@ -130,19 +141,6 @@
     </configuration>
     <configuration name="MaximizeTheConfusionOfAnExam" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.slidingWindow.medium.MaximizeTheConfusionOfAnExam" />
-      <module name="PracticeDSA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="main.slidingWindow.medium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NumberOfSubArraysOfSizeKAndAverageGreaterThanOrEqualToThreshold" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.slidingWindow.medium.NumberOfSubArraysOfSizeKAndAverageGreaterThanOrEqualToThreshold" />
       <module name="PracticeDSA" />
       <extension name="coverage">
         <pattern>
@@ -256,11 +254,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CountNumberOfNiceSubArrays" />
         <item itemvalue="Application.CountCompleteSubArraysInAnArray" />
         <item itemvalue="Application.NumberOfSubstringsContainingAllThreeCharacters" />
         <item itemvalue="Application.LongestSubarrayOfOnesAfterDeletingOneElement" />
         <item itemvalue="Application.MaximizeTheConfusionOfAnExam" />
-        <item itemvalue="Application.NumberOfSubArraysOfSizeKAndAverageGreaterThanOrEqualToThreshold" />
       </list>
     </recent_temporary>
   </component>
@@ -307,7 +305,7 @@
       <workItem from="1694700004610" duration="9844000" />
       <workItem from="1694764729903" duration="313000" />
       <workItem from="1694794702137" duration="6417000" />
-      <workItem from="1694890740029" duration="4029000" />
+      <workItem from="1694890740029" duration="9623000" />
     </task>
     <task id="LOCAL-00001" summary="commit-19122022">
       <created>1671408501232</created>
@@ -380,7 +378,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694728200913</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Commit-16/09/2023">
+      <option name="closed" value="true" />
+      <created>1694895083294</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1694895083294</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -417,7 +423,8 @@
     <MESSAGE value="Commit-90/09/2023" />
     <MESSAGE value="Commit-13/09/2023" />
     <MESSAGE value="Commit-14/09/2023" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit-14/09/2023" />
+    <MESSAGE value="Commit-16/09/2023" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit-16/09/2023" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -486,19 +493,14 @@
           <option name="timeStamp" value="23" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/slidingWindow/medium/NumberOfSubstringsContainingAllThreeCharacters.java</url>
-          <line>73</line>
-          <option name="timeStamp" value="35" />
+          <url>file://$PROJECT_DIR$/src/main/slidingWindow/medium/CountNumberOfNiceSubArrays.java</url>
+          <line>71</line>
+          <option name="timeStamp" value="47" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/slidingWindow/medium/CountCompleteSubArraysInAnArray.java</url>
-          <line>67</line>
-          <option name="timeStamp" value="42" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/slidingWindow/medium/CountCompleteSubArraysInAnArray.java</url>
-          <line>82</line>
-          <option name="timeStamp" value="44" />
+          <url>file://$PROJECT_DIR$/src/main/slidingWindow/medium/CountNumberOfNiceSubArrays.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="48" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
