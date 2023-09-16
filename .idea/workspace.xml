@@ -10,8 +10,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="697252cc-7674-4df4-b819-341bc29cf007" name="Changes" comment="Commit-16/09/2023">
-      <change afterPath="$PROJECT_DIR$/src/main/slidingWindow/medium/CountNumberOfNiceSubArrays.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PracticeDSA/main/slidingWindow/medium/CountNumberOfNiceSubArrays.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PracticeDSA/main/slidingWindow/medium/CountNumberOfNiceSubArrays.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/slidingWindow/medium/CountNumberOfNiceSubArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/slidingWindow/medium/CountNumberOfNiceSubArrays.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -305,7 +306,7 @@
       <workItem from="1694700004610" duration="9844000" />
       <workItem from="1694764729903" duration="313000" />
       <workItem from="1694794702137" duration="6417000" />
-      <workItem from="1694890740029" duration="9623000" />
+      <workItem from="1694890740029" duration="9971000" />
     </task>
     <task id="LOCAL-00001" summary="commit-19122022">
       <created>1671408501232</created>
@@ -494,13 +495,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/slidingWindow/medium/CountNumberOfNiceSubArrays.java</url>
-          <line>71</line>
-          <option name="timeStamp" value="47" />
+          <line>65</line>
+          <option name="timeStamp" value="49" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/slidingWindow/medium/CountNumberOfNiceSubArrays.java</url>
-          <line>57</line>
-          <option name="timeStamp" value="48" />
+          <line>58</line>
+          <option name="timeStamp" value="50" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -2,6 +2,8 @@ package main.slidingWindow.medium;
 
 import org.junit.Assert;
 
+import java.util.LinkedList;
+
 /**
  * @author agond
  * @package main.slidingWindow.medium
@@ -49,7 +51,6 @@ public class CountNumberOfNiceSubArrays {
         int temp = 0;
 
         while (endIndex < nums.length) {
-
             if (nums[endIndex] % 2 != 0) {
                 count++;
                 temp = 0;
@@ -61,15 +62,27 @@ public class CountNumberOfNiceSubArrays {
                     count--;
                 }
                 startIndex++;
-
             }
             max += temp;
-
             endIndex++;
-
         }
 
         return max;
+    }
+
+    public static int numberOfSubarrays(int[] nums, int k) {
+        LinkedList<Integer> list = new LinkedList<>();
+        list.add(-1);
+        int res = 0;
+        for (int i = 0; i < nums.length; ++i) {
+            if (nums[i] % 2 == 1)
+                list.add(i);
+            if (list.size() > k + 1)
+                list.pop();
+            if (list.size() == k + 1)
+                res += list.get(1) - list.get(0);
+        }
+        return res;
     }
 
     public static void main(String[] args) {
@@ -85,7 +98,7 @@ public class CountNumberOfNiceSubArrays {
 
         int[] arr3 = {2, 2, 2, 1, 2, 2, 1, 2, 2, 2};
         k = 2;
-        result = numberOfSubArrays(arr3, k);
+        result = numberOfSubarrays(arr3, k);
         Assert.assertEquals(16, result);
 
     }
