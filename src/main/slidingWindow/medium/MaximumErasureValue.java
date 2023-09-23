@@ -2,10 +2,13 @@ package main.slidingWindow.medium;
 
 import org.junit.Assert;
 
+import java.util.HashMap;
+import java.util.Map;
+
 /**
  * @author agond
  * @package main.slidingWindow.medium
- * @Date 22/09/2023
+ * @Date 23/09/2023
  * @Project PracticeDSA
  */
 
@@ -39,7 +42,28 @@ public class MaximumErasureValue {
     public static int maximumUniqueSubarray(int[] nums) {
         int startIndex = 0;
         int endIndex = 0;
+        int result = 0;
         int max = 0;
+
+        Map<Integer, Integer> integerMap = new HashMap<>();
+
+        while (endIndex < nums.length) {
+
+            integerMap.put(nums[endIndex], integerMap.getOrDefault(nums[endIndex], 0) + 1);
+            result += nums[endIndex];
+            while (integerMap.get(nums[endIndex]) > 1) {
+                result -= nums[startIndex];
+                integerMap.put(nums[startIndex], integerMap.getOrDefault(nums[startIndex], 0) - 1);
+                if (integerMap.get(nums[startIndex]) == 0) {
+                    integerMap.remove(nums[startIndex]);
+                }
+                startIndex++;
+            }
+            endIndex++;
+            max = Math.max(max, result);
+
+        }
+
 
         return max;
     }
@@ -48,11 +72,11 @@ public class MaximumErasureValue {
         int[] arr;
         int result = 0;
 
-        arr = new int[]{4,2,4,5,6};
+        arr = new int[]{4, 2, 4, 5, 6};
         result = maximumUniqueSubarray(arr);
         Assert.assertEquals("Test 1", 17, result);
 
-        arr = new int[]{5,2,1,2,5,2,1,2,5};
+        arr = new int[]{5, 2, 1, 2, 5, 2, 1, 2, 5};
         result = maximumUniqueSubarray(arr);
         Assert.assertEquals("Test 1", 8, result);
     }
