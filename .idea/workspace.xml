@@ -9,9 +9,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="697252cc-7674-4df4-b819-341bc29cf007" name="Changes" comment="Commit-22/09/2023">
+    <list default="true" id="697252cc-7674-4df4-b819-341bc29cf007" name="Changes" comment="Commit-23/09/2023">
+      <change afterPath="$PROJECT_DIR$/src/main/slidingWindow/medium/GrumpyBookstoreOwner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/slidingWindow/medium/MaximumErasureValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/slidingWindow/medium/MaximumErasureValue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PracticeDSA/main/slidingWindow/medium/MaximumNumberOfVowelsInASubstringOfGivenLength.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PracticeDSA/main/slidingWindow/medium/MaximumNumberOfVowelsInASubstringOfGivenLength.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,9 +101,9 @@
       <command value="mvn clean package" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.MaximumErasureValue">
-    <configuration name="CountCompleteSubArraysInAnArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.slidingWindow.medium.CountCompleteSubArraysInAnArray" />
+  <component name="RunManager" selected="Application.GrumpyBookstoreOwner">
+    <configuration name="CountNumberOfNiceSubArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.slidingWindow.medium.CountNumberOfNiceSubArrays" />
       <module name="PracticeDSA" />
       <extension name="coverage">
         <pattern>
@@ -113,8 +115,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CountNumberOfNiceSubArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.slidingWindow.medium.CountNumberOfNiceSubArrays" />
+    <configuration name="GrumpyBookstoreOwner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.slidingWindow.medium.GrumpyBookstoreOwner" />
       <module name="PracticeDSA" />
       <extension name="coverage">
         <pattern>
@@ -254,11 +256,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GrumpyBookstoreOwner" />
         <item itemvalue="Application.MaximumErasureValue" />
         <item itemvalue="Application.MaximumNumberOfVowelsInASubstringOfGivenLength" />
         <item itemvalue="Application.MaxConsecutiveOnesThree" />
         <item itemvalue="Application.CountNumberOfNiceSubArrays" />
-        <item itemvalue="Application.CountCompleteSubArraysInAnArray" />
       </list>
     </recent_temporary>
   </component>
@@ -311,7 +313,8 @@
       <workItem from="1695024298322" duration="15000" />
       <workItem from="1695041018161" duration="631000" />
       <workItem from="1695407422420" duration="11148000" />
-      <workItem from="1695499559278" duration="3980000" />
+      <workItem from="1695499559278" duration="4602000" />
+      <workItem from="1695547197995" duration="6961000" />
     </task>
     <task id="LOCAL-00001" summary="commit-19122022">
       <created>1671408501232</created>
@@ -408,7 +411,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695418832990</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Commit-23/09/2023">
+      <option name="closed" value="true" />
+      <created>1695508226245</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1695508226245</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -447,7 +458,8 @@
     <MESSAGE value="Commit-14/09/2023" />
     <MESSAGE value="Commit-16/09/2023" />
     <MESSAGE value="Commit-22/09/2023" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit-22/09/2023" />
+    <MESSAGE value="Commit-23/09/2023" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit-23/09/2023" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -529,6 +541,11 @@
           <url>file://$PROJECT_DIR$/src/main/slidingWindow/medium/MaxConsecutiveOnesThree.java</url>
           <line>55</line>
           <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/slidingWindow/medium/GrumpyBookstoreOwner.java</url>
+          <line>75</line>
+          <option name="timeStamp" value="64" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
