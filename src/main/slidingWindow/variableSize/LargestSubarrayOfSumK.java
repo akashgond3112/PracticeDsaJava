@@ -18,7 +18,7 @@ public class LargestSubarrayOfSumK {
             } else if (actualSum == expectedSum) {
                 max = Math.max(max, endIndex - startIndex + 1);
                 endIndex++;
-            } else if( actualSum > expectedSum){
+            } else {
                 while (actualSum > expectedSum) {
                     actualSum = actualSum - arr[startIndex];
                     startIndex++;
