@@ -10,7 +10,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="697252cc-7674-4df4-b819-341bc29cf007" name="Changes" comment="Commit-26/09/2023">
-      <change afterPath="$PROJECT_DIR$/src/main/slidingWindow/medium/MaximumPointsYouCanObtainFromCards.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -314,7 +313,9 @@
       <workItem from="1695499559278" duration="4602000" />
       <workItem from="1695547197995" duration="18661000" />
       <workItem from="1695714995603" duration="7000" />
-      <workItem from="1695756292010" duration="10586000" />
+      <workItem from="1695756292010" duration="11952000" />
+      <workItem from="1695801198150" duration="110000" />
+      <workItem from="1695847670366" duration="65000" />
     </task>
     <task id="LOCAL-00001" summary="commit-19122022">
       <created>1671408501232</created>
@@ -578,11 +579,6 @@
           <url>file://$PROJECT_DIR$/src/main/slidingWindow/medium/LongestRepeatingCharacterReplacement.java</url>
           <line>57</line>
           <option name="timeStamp" value="66" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/slidingWindow/medium/MaximumPointsYouCanObtainFromCards.java</url>
-          <line>64</line>
-          <option name="timeStamp" value="69" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
