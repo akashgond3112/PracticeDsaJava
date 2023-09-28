@@ -22,7 +22,7 @@ public class CountOccurenceOfAnagrams {
 
         if (txt.length() <= 0 || pat.length() <= 0) return ans;
 
-        Map<Character, Integer> characterHashMap = new HashMap();
+        Map<Character, Integer> characterHashMap = new HashMap<>();
 
         for (int z = 0; z < pat.length(); z++) {
             characterHashMap.put(pat.charAt(z), characterHashMap.getOrDefault(pat.charAt(z), 0) + 1);
