@@ -9,8 +9,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="697252cc-7674-4df4-b819-341bc29cf007" name="Changes" comment="Commit-28/09/2023">
-      <change afterPath="$PROJECT_DIR$/src/main/slidingWindow/medium/MinimumSwapsToGroupAllOnesTogether.java" afterDir="false" />
+    <list default="true" id="697252cc-7674-4df4-b819-341bc29cf007" name="Changes" comment="Commit-02/10/2023">
+      <change afterPath="$PROJECT_DIR$/src/main/slidingWindow/medium/MaximumLengthOfRepeatedSubarray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -322,7 +322,7 @@
       <workItem from="1695974454570" duration="17000" />
       <workItem from="1696060493582" duration="601000" />
       <workItem from="1696237044079" duration="550000" />
-      <workItem from="1696267724027" duration="5416000" />
+      <workItem from="1696267724027" duration="6527000" />
     </task>
     <task id="LOCAL-00001" summary="commit-19122022">
       <created>1671408501232</created>
@@ -467,7 +467,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695939688756</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Commit-02/10/2023">
+      <option name="closed" value="true" />
+      <created>1696280514650</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1696280514650</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -512,7 +520,8 @@
     <MESSAGE value="Commit-26/09/2023" />
     <MESSAGE value="Commit-27/09/2023" />
     <MESSAGE value="Commit-28/09/2023" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit-28/09/2023" />
+    <MESSAGE value="Commit-02/10/2023" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit-02/10/2023" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
