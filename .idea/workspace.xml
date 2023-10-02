@@ -9,10 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="697252cc-7674-4df4-b819-341bc29cf007" name="Changes" comment="Commit-27/09/2023">
-      <change afterPath="$PROJECT_DIR$/src/main/slidingWindow/medium/MaximumNumberOfOccurrencesOfASubstring.java" afterDir="false" />
+    <list default="true" id="697252cc-7674-4df4-b819-341bc29cf007" name="Changes" comment="Commit-28/09/2023">
+      <change afterPath="$PROJECT_DIR$/src/main/slidingWindow/medium/MinimumSwapsToGroupAllOnesTogether.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/slidingWindow/fixedSize/CountOccurenceOfAnagrams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/slidingWindow/fixedSize/CountOccurenceOfAnagrams.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,33 +99,7 @@
       <command value="mvn clean package" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.MaximumNumberOfOccurrencesOfASubstring">
-    <configuration name="BinarySubarraysWithSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.slidingWindow.medium.BinarySubarraysWithSum" />
-      <module name="PracticeDSA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="main.slidingWindow.medium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LongestKUniqueCharactersSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.slidingWindow.variableSize.LongestKUniqueCharactersSubstring" />
-      <module name="PracticeDSA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="main.slidingWindow.variableSize.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.MinimumSwapsToGroupAllOnesTogether">
     <configuration name="LongestRepeatingCharacterReplacement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.slidingWindow.medium.LongestRepeatingCharacterReplacement" />
       <module name="PracticeDSA" />
@@ -159,6 +132,32 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="main.slidingWindow.medium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MinimumSwapsToGroupAllOnesTogether" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.slidingWindow.medium.MinimumSwapsToGroupAllOnesTogether" />
+      <module name="PracticeDSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.slidingWindow.medium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PickMaximumNumberOfToys" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.slidingWindow.variableSize.PickMaximumNumberOfToys" />
+      <module name="PracticeDSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.slidingWindow.variableSize.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -255,11 +254,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MinimumSwapsToGroupAllOnesTogether" />
+        <item itemvalue="Application.PickMaximumNumberOfToys" />
         <item itemvalue="Application.MaximumNumberOfOccurrencesOfASubstring" />
         <item itemvalue="Application.MaximumPointsYouCanObtainFromCards" />
         <item itemvalue="Application.LongestRepeatingCharacterReplacement" />
-        <item itemvalue="Application.LongestKUniqueCharactersSubstring" />
-        <item itemvalue="Application.BinarySubarraysWithSum" />
       </list>
     </recent_temporary>
   </component>
@@ -319,7 +318,11 @@
       <workItem from="1695801198150" duration="110000" />
       <workItem from="1695847670366" duration="732000" />
       <workItem from="1695898972709" duration="268000" />
-      <workItem from="1695930178718" duration="7969000" />
+      <workItem from="1695930178718" duration="8567000" />
+      <workItem from="1695974454570" duration="17000" />
+      <workItem from="1696060493582" duration="601000" />
+      <workItem from="1696237044079" duration="550000" />
+      <workItem from="1696267724027" duration="5416000" />
     </task>
     <task id="LOCAL-00001" summary="commit-19122022">
       <created>1671408501232</created>
@@ -456,7 +459,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695847799619</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Commit-28/09/2023">
+      <option name="closed" value="true" />
+      <created>1695939688756</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1695939688756</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -500,7 +511,8 @@
     <MESSAGE value="Commit-25/09/2023" />
     <MESSAGE value="Commit-26/09/2023" />
     <MESSAGE value="Commit-27/09/2023" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit-27/09/2023" />
+    <MESSAGE value="Commit-28/09/2023" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit-28/09/2023" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
