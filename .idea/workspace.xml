@@ -9,9 +9,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="697252cc-7674-4df4-b819-341bc29cf007" name="Changes" comment="Commit-24/10/2023">
-      <change afterPath="$PROJECT_DIR$/src/main/slidingWindow/medium/GetEqualSubstringsWithinBudget.java" afterDir="false" />
+    <list default="true" id="697252cc-7674-4df4-b819-341bc29cf007" name="Changes" comment="Commit-25/10/2023">
+      <change afterPath="$PROJECT_DIR$/src/main/slidingWindow/medium/ChessPawnMovement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/slidingWindow/medium/LongestSubstringOfAllVowelsInOrder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/slidingWindow/medium/GetEqualSubstringsWithinBudget.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/slidingWindow/medium/GetEqualSubstringsWithinBudget.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,13 +101,13 @@
       <command value="mvn clean package" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.GetEqualSubstringsWithinBudget">
-    <configuration name="CountOccurenceOfAnagrams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.slidingWindow.fixedSize.CountOccurenceOfAnagrams" />
+  <component name="RunManager" selected="Application.LongestSubstringOfAllVowelsInOrder">
+    <configuration name="ChessPawnMovement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.slidingWindow.medium.ChessPawnMovement" />
       <module name="PracticeDSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.slidingWindow.fixedSize.*" />
+          <option name="PATTERN" value="main.slidingWindow.medium.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -152,8 +154,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinimumConsecutiveCardsToPickUp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.slidingWindow.medium.MinimumConsecutiveCardsToPickUp" />
+    <configuration name="LongestSubstringOfAllVowelsInOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.slidingWindow.medium.LongestSubstringOfAllVowelsInOrder" />
       <module name="PracticeDSA" />
       <extension name="coverage">
         <pattern>
@@ -254,11 +256,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LongestSubstringOfAllVowelsInOrder" />
+        <item itemvalue="Application.ChessPawnMovement" />
         <item itemvalue="Application.GetEqualSubstringsWithinBudget" />
         <item itemvalue="Application.LongestNiceSubarray" />
         <item itemvalue="Application.FindAllAnagramsinAString" />
-        <item itemvalue="Application.CountOccurenceOfAnagrams" />
-        <item itemvalue="Application.MinimumConsecutiveCardsToPickUp" />
       </list>
     </recent_temporary>
   </component>
@@ -337,7 +339,14 @@
       <workItem from="1698134592873" duration="156000" />
       <workItem from="1698172101445" duration="2412000" />
       <workItem from="1698224292278" duration="609000" />
-      <workItem from="1698257343371" duration="3615000" />
+      <workItem from="1698257343371" duration="4397000" />
+      <workItem from="1698307691278" duration="17000" />
+      <workItem from="1698326477537" duration="2779000" />
+      <workItem from="1698669032164" duration="13000" />
+      <workItem from="1698685745263" duration="1016000" />
+      <workItem from="1698792697027" duration="599000" />
+      <workItem from="1698836243299" duration="17000" />
+      <workItem from="1698876181534" duration="1914000" />
     </task>
     <task id="LOCAL-00001" summary="commit-19122022">
       <created>1671408501232</created>
@@ -522,7 +531,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698173806883</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Commit-25/10/2023">
+      <option name="closed" value="true" />
+      <created>1698261303876</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1698261303876</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -572,7 +589,8 @@
     <MESSAGE value="Commit-17/10/2023" />
     <MESSAGE value="Commit-19/10/2023" />
     <MESSAGE value="Commit-24/10/2023" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit-24/10/2023" />
+    <MESSAGE value="Commit-25/10/2023" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit-25/10/2023" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -694,9 +712,9 @@
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
-        <watch expression="(maxSize + minSize) / 2" language="JAVA" />
         <watch expression="endIndex - startIndex + 1" language="JAVA" />
-        <watch expression="cards[startIndex]" language="JAVA" />
+        <watch expression="word.charAt(endIndex - 1)" language="JAVA" />
+        <watch expression="word.charAt(endIndex)" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
