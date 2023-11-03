@@ -9,12 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="697252cc-7674-4df4-b819-341bc29cf007" name="Changes" comment="Commit-25/10/2023">
-      <change afterPath="$PROJECT_DIR$/src/main/slidingWindow/medium/ChessPawnMovement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/slidingWindow/medium/LongestSubstringOfAllVowelsInOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/slidingWindow/medium/GetEqualSubstringsWithinBudget.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/slidingWindow/medium/GetEqualSubstringsWithinBudget.java" afterDir="false" />
-    </list>
+    <list default="true" id="697252cc-7674-4df4-b819-341bc29cf007" name="Changes" comment="Commit-01/11/2023" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -346,7 +341,7 @@
       <workItem from="1698685745263" duration="1016000" />
       <workItem from="1698792697027" duration="599000" />
       <workItem from="1698836243299" duration="17000" />
-      <workItem from="1698876181534" duration="1914000" />
+      <workItem from="1698876181534" duration="2209000" />
     </task>
     <task id="LOCAL-00001" summary="commit-19122022">
       <created>1671408501232</created>
@@ -539,7 +534,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698261303876</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Commit-01/11/2023">
+      <option name="closed" value="true" />
+      <created>1698878215910</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1698878215910</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -590,7 +593,8 @@
     <MESSAGE value="Commit-19/10/2023" />
     <MESSAGE value="Commit-24/10/2023" />
     <MESSAGE value="Commit-25/10/2023" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit-25/10/2023" />
+    <MESSAGE value="Commit-01/11/2023" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit-01/11/2023" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
