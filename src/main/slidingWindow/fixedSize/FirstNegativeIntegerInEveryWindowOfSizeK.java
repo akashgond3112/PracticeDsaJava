@@ -4,7 +4,7 @@ import java.util.*;
 
 public class FirstNegativeIntegerInEveryWindowOfSizeK {
 
-    public static long[] printFirstNegativeInteger(long arr[], int n, int k) {
+    public static long[] printFirstNegativeInteger(long[] arr, int n, int k) {
         int numWindows = n - k + 1;
         long[] result = new long[numWindows];
         int startIndex = 0;
@@ -34,7 +34,7 @@ public class FirstNegativeIntegerInEveryWindowOfSizeK {
     }
 
     public static void main(String[] args) {
-        long arr[] = {-8, 2, 3, -6, 10};
+        long[] arr = {-8, 2, 3, -6, 10};
         int n = arr.length;
         int k = 2;
         System.out.println(Arrays.toString(printFirstNegativeInteger(arr, n, k)));

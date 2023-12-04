@@ -9,7 +9,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="697252cc-7674-4df4-b819-341bc29cf007" name="Changes" comment="Commit-01/11/2023" />
+    <list default="true" id="697252cc-7674-4df4-b819-341bc29cf007" name="Changes" comment="Commit-01/11/2023">
+      <change afterPath="$PROJECT_DIR$/src/main/slidingWindow/medium/LongestContinuousSubarrayWithAbsoluteDiffLessThanOrEqualToLimit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/slidingWindow/fixedSize/FirstNegativeIntegerInEveryWindowOfSizeK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/slidingWindow/fixedSize/FirstNegativeIntegerInEveryWindowOfSizeK.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,6 +34,17 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "contexts": [
+    {
+      "name": "arn:aws:eks:eu-west-1:472574992225:cluster/galactica"
+    }
+  ],
+  "isMigrated": true
+}]]></component>
+  <component name="KubernetesSettings">
+    <option name="contextName" value="arn:aws:eks:eu-west-1:472574992225:cluster/galactica" />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -66,7 +81,7 @@
     &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
     &quot;extract.method.default.visibility&quot;: &quot;private&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/agond/IdeaProjects/PracticeDSA&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/agond/obcp/promotions-test-suite/pom.xml&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -96,7 +111,7 @@
       <command value="mvn clean package" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.LongestSubstringOfAllVowelsInOrder">
+  <component name="RunManager" selected="Application.LongestContinuousSubarrayWithAbsoluteDiffLessThanOrEqualToLimit">
     <configuration name="ChessPawnMovement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.slidingWindow.medium.ChessPawnMovement" />
       <module name="PracticeDSA" />
@@ -110,8 +125,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindAllAnagramsinAString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.slidingWindow.medium.FindAllAnagramsinAString" />
+    <configuration name="GetEqualSubstringsWithinBudget" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.slidingWindow.medium.GetEqualSubstringsWithinBudget" />
       <module name="PracticeDSA" />
       <extension name="coverage">
         <pattern>
@@ -123,8 +138,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetEqualSubstringsWithinBudget" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.slidingWindow.medium.GetEqualSubstringsWithinBudget" />
+    <configuration name="LongestContinuousSubarrayWithAbsoluteDiffLessThanOrEqualToLimit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.slidingWindow.medium.LongestContinuousSubarrayWithAbsoluteDiffLessThanOrEqualToLimit" />
       <module name="PracticeDSA" />
       <extension name="coverage">
         <pattern>
@@ -251,11 +266,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LongestContinuousSubarrayWithAbsoluteDiffLessThanOrEqualToLimit" />
         <item itemvalue="Application.LongestSubstringOfAllVowelsInOrder" />
         <item itemvalue="Application.ChessPawnMovement" />
         <item itemvalue="Application.GetEqualSubstringsWithinBudget" />
         <item itemvalue="Application.LongestNiceSubarray" />
-        <item itemvalue="Application.FindAllAnagramsinAString" />
       </list>
     </recent_temporary>
   </component>
@@ -342,6 +357,17 @@
       <workItem from="1698792697027" duration="599000" />
       <workItem from="1698836243299" duration="17000" />
       <workItem from="1698876181534" duration="2209000" />
+      <workItem from="1699185035552" duration="7000" />
+      <workItem from="1699347637519" duration="45000" />
+      <workItem from="1699467184444" duration="599000" />
+      <workItem from="1699520321396" duration="11000" />
+      <workItem from="1700071723039" duration="600000" />
+      <workItem from="1700125248729" duration="59000" />
+      <workItem from="1700473842161" duration="137000" />
+      <workItem from="1700506092403" duration="203000" />
+      <workItem from="1700557574922" duration="403000" />
+      <workItem from="1700731268727" duration="12000" />
+      <workItem from="1701716233583" duration="6718000" />
     </task>
     <task id="LOCAL-00001" summary="commit-19122022">
       <created>1671408501232</created>
