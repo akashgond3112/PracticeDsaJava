@@ -9,10 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="697252cc-7674-4df4-b819-341bc29cf007" name="Changes" comment="Commit-01/11/2023">
-      <change afterPath="$PROJECT_DIR$/src/main/slidingWindow/medium/LongestContinuousSubarrayWithAbsoluteDiffLessThanOrEqualToLimit.java" afterDir="false" />
+    <list default="true" id="697252cc-7674-4df4-b819-341bc29cf007" name="Changes" comment="Commit-04/12/2023">
+      <change afterPath="$PROJECT_DIR$/src/main/slidingWindow/medium/RepeatedDNASequences.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/slidingWindow/fixedSize/FirstNegativeIntegerInEveryWindowOfSizeK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/slidingWindow/fixedSize/FirstNegativeIntegerInEveryWindowOfSizeK.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,14 +34,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="KubernetesApiProvider"><![CDATA[{
-  "contexts": [
+  <component name="KubernetesApiProvider">{
+  &quot;contexts&quot;: [
     {
-      "name": "arn:aws:eks:eu-west-1:472574992225:cluster/galactica"
+      &quot;name&quot;: &quot;arn:aws:eks:eu-west-1:472574992225:cluster/galactica&quot;
     }
   ],
-  "isMigrated": true
-}]]></component>
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="KubernetesSettings">
     <option name="contextName" value="arn:aws:eks:eu-west-1:472574992225:cluster/galactica" />
   </component>
@@ -111,7 +110,7 @@
       <command value="mvn clean package" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.LongestContinuousSubarrayWithAbsoluteDiffLessThanOrEqualToLimit">
+  <component name="RunManager" selected="Application.RepeatedDNASequences">
     <configuration name="ChessPawnMovement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.slidingWindow.medium.ChessPawnMovement" />
       <module name="PracticeDSA" />
@@ -151,8 +150,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestNiceSubarray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.slidingWindow.medium.LongestNiceSubarray" />
+    <configuration name="LongestSubstringOfAllVowelsInOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.slidingWindow.medium.LongestSubstringOfAllVowelsInOrder" />
       <module name="PracticeDSA" />
       <extension name="coverage">
         <pattern>
@@ -164,8 +163,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestSubstringOfAllVowelsInOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.slidingWindow.medium.LongestSubstringOfAllVowelsInOrder" />
+    <configuration name="RepeatedDNASequences" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.slidingWindow.medium.RepeatedDNASequences" />
       <module name="PracticeDSA" />
       <extension name="coverage">
         <pattern>
@@ -266,11 +265,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RepeatedDNASequences" />
         <item itemvalue="Application.LongestContinuousSubarrayWithAbsoluteDiffLessThanOrEqualToLimit" />
         <item itemvalue="Application.LongestSubstringOfAllVowelsInOrder" />
         <item itemvalue="Application.ChessPawnMovement" />
         <item itemvalue="Application.GetEqualSubstringsWithinBudget" />
-        <item itemvalue="Application.LongestNiceSubarray" />
       </list>
     </recent_temporary>
   </component>
@@ -367,7 +366,8 @@
       <workItem from="1700506092403" duration="203000" />
       <workItem from="1700557574922" duration="403000" />
       <workItem from="1700731268727" duration="12000" />
-      <workItem from="1701716233583" duration="6718000" />
+      <workItem from="1701716233583" duration="7588000" />
+      <workItem from="1701806550935" duration="4314000" />
     </task>
     <task id="LOCAL-00001" summary="commit-19122022">
       <created>1671408501232</created>
@@ -568,7 +568,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698878215910</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Commit-04/12/2023">
+      <option name="closed" value="true" />
+      <created>1701727567586</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1701727567586</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -620,7 +628,8 @@
     <MESSAGE value="Commit-24/10/2023" />
     <MESSAGE value="Commit-25/10/2023" />
     <MESSAGE value="Commit-01/11/2023" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit-01/11/2023" />
+    <MESSAGE value="Commit-04/12/2023" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit-04/12/2023" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -742,9 +751,8 @@
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
-        <watch expression="endIndex - startIndex + 1" language="JAVA" />
-        <watch expression="word.charAt(endIndex - 1)" language="JAVA" />
-        <watch expression="word.charAt(endIndex)" language="JAVA" />
+        <watch expression="s.length()-10" language="JAVA" />
+        <watch expression="endIndex &lt;= s.length() - 10" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
