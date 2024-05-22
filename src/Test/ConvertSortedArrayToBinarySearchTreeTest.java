@@ -1,9 +1,8 @@
 package Test;
 
 import main.Arrray.easy.ConvertSortedArrayToBinarySearchTree;
-import org.testng.annotations.Test;
+import org.junit.Test;
 
-import static org.testng.Assert.*;
 
 /**
  * @author agond
