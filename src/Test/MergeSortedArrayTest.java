@@ -1,7 +1,8 @@
 package Test;
 
 import main.Arrray.easy.MergeSortedArray;
-import org.testng.annotations.Test;
+import org.junit.Test;
+
 
 /**
  * @author agond
