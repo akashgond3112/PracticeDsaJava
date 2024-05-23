@@ -28,8 +28,6 @@ Constraints:
 -10^3 <= arr[i] <= 10^3
 */
 
-import org.junit.Assert;
-
 import java.util.HashSet;
 import java.util.Set;
 
