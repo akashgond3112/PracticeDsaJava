@@ -109,7 +109,7 @@ public class MaximumEnemyFortsThatCanBeCaptured {
 				minusOnes = false;
 			}
 
-			if (minusOnes && fort == -1) {
+			if (minusOnes && fort == -1 || ones && fort == 1) {
 				counter = 0;
 			}
 			if (fort == 1) {
