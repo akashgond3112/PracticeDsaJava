@@ -1,4 +1,4 @@
-package main.Arrray.easy;
+package main.two_pointers.easy;
 
 import java.util.Arrays;
 
