@@ -1,7 +1,7 @@
 package Test;
 
 
-import main.Arrray.easy.PascalTriangle;
+import main.dsa.linear.Array.easy.PascalTriangle;
 import org.junit.Assert;
 import org.junit.Test;
 
