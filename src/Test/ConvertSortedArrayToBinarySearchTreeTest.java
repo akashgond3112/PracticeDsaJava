@@ -1,6 +1,6 @@
 package Test;
 
-import main.Arrray.easy.ConvertSortedArrayToBinarySearchTree;
+import main.dsa.linear.Array.easy.ConvertSortedArrayToBinarySearchTree;
 import org.junit.Test;
 
 
