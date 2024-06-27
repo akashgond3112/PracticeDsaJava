@@ -1,4 +1,4 @@
-package main.dsa.nonlinear.tree;
+package main.dsa.nonlinear.tree.binary;
 
 public class Pair<A, B> {
 	public final A node;

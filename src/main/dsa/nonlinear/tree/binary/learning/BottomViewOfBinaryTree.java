@@ -1,7 +1,7 @@
-package main.dsa.nonlinear.tree.learning;
+package main.dsa.nonlinear.tree.binary.learning;
 
-import main.dsa.nonlinear.tree.Node;
-import main.dsa.nonlinear.tree.Pair;
+import main.dsa.nonlinear.tree.binary.Node;
+import main.dsa.nonlinear.tree.binary.Pair;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
@@ -9,6 +9,8 @@ import java.util.List;
 import java.util.Map;
 import java.util.Queue;
 import java.util.TreeMap;
+
+import static java.lang.System.*;
 
 public class BottomViewOfBinaryTree {
 
@@ -62,7 +64,7 @@ public class BottomViewOfBinaryTree {
 		root.right.right = new Node(7);
 
 		for (Integer list : topView(root)) {
-			System.out.println(list);
+			out.println(list);
 		}
 	}
 }

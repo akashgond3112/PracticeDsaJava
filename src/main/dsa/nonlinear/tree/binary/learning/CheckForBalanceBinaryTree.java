@@ -1,10 +1,11 @@
-package main.dsa.nonlinear.tree.learning;
+package main.dsa.nonlinear.tree.binary.learning;
 
-import main.dsa.nonlinear.tree.Node;
+
+import main.dsa.nonlinear.tree.binary.Node;
 
 import static java.lang.System.out;
-import static main.dsa.nonlinear.tree.learning.BinaryTree.insert;
-import static main.dsa.nonlinear.tree.learning.MaxDepth.getMaxDepth;
+import static main.dsa.nonlinear.tree.binary.learning.BinaryTree.insert;
+import static main.dsa.nonlinear.tree.binary.learning.MaxDepth.getMaxDepth;
 
 public class CheckForBalanceBinaryTree {
 

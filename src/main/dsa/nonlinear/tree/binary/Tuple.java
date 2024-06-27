@@ -1,4 +1,4 @@
-package main.dsa.nonlinear.tree;
+package main.dsa.nonlinear.tree.binary;
 
 public class Tuple<A, B, C> {
 	public final A node;
