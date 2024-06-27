@@ -1,9 +1,10 @@
-package main.dsa.nonlinear.tree.learning;
+package main.dsa.nonlinear.tree.binary.learning;
 
-import main.dsa.nonlinear.tree.Node;
+
+import main.dsa.nonlinear.tree.binary.Node;
 
 import static java.lang.System.*;
-import static main.dsa.nonlinear.tree.learning.BinaryTree.*;
+import static main.dsa.nonlinear.tree.binary.learning.BinaryTree.insert;
 
 public class MaxDepth {
 

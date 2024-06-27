@@ -1,7 +1,8 @@
-package main.dsa.nonlinear.tree.learning;
+package main.dsa.nonlinear.tree.binary.learning;
 
-import main.dsa.nonlinear.tree.Node;
-import main.dsa.nonlinear.tree.Pair;
+
+import main.dsa.nonlinear.tree.binary.Node;
+import main.dsa.nonlinear.tree.binary.Pair;
 
 import java.util.LinkedList;
 import java.util.Queue;

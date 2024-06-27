@@ -1,6 +1,7 @@
-package main.dsa.nonlinear.tree.learning;
+package main.dsa.nonlinear.tree.binary.learning;
 
-import main.dsa.nonlinear.tree.BinaryTreeNode;
+
+import main.dsa.nonlinear.tree.binary.BinaryTreeNode;
 
 import java.util.HashMap;
 import java.util.LinkedList;

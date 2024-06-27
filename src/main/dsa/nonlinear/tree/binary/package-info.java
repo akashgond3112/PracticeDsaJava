@@ -1,4 +1,4 @@
-package main.dsa.nonlinear.tree;
+package main.dsa.nonlinear.tree.binary;
 
 /*
 Types of Binary Tree can be classified into multiples types based on multiple factors:
