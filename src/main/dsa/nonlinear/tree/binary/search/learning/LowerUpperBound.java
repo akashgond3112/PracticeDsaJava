@@ -5,7 +5,7 @@ import static java.lang.System.*;
 public class LowerUpperBound {
 
 
-	public static long findLowerBound(int[] array, int target, int n) {
+	public static int findLowerBound(int[] array, int target, int n) {
 
 		int low = 0;
 		int high = array.length - 1;
@@ -23,7 +23,7 @@ public class LowerUpperBound {
 		return ans;
 	}
 
-	public static long findUpperBound(int[] array, int target, int n) {
+	public static int findUpperBound(int[] array, int target, int n) {
 
 		int low = 0;
 		int high = array.length - 1;
