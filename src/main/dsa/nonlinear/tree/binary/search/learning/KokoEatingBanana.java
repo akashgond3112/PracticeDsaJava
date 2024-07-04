@@ -9,7 +9,7 @@ public class KokoEatingBanana {
 		int low = 0;
 		int high = findMax(arr);
 
-		while (low < high) {
+		while (low <= high) {
 			int mid = low + (high - low) / 2;
 
 			int totalEat = findTotalHours(arr, mid);

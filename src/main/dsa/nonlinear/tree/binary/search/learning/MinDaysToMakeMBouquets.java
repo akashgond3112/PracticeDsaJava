@@ -13,7 +13,7 @@ public class MinDaysToMakeMBouquets {
 		int low = findMin(arr);
 		int high = findMax(arr);
 
-		while (low < high) {
+		while (low <= high) {
 			int mid = (low + high) / 2;
 
 			if (possible(arr, mid, m, k)) {
