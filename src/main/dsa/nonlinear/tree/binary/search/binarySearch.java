@@ -1,4 +1,4 @@
-package main.searching;
+package main.dsa.nonlinear.tree.binary.search;
 
 public class binarySearch {
 
