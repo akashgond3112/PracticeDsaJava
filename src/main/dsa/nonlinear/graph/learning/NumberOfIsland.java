@@ -35,6 +35,7 @@ public class NumberOfIsland {
 					int newCol = c + l;
 
 					if (newRow >= 0 && newRow < n && newCol >= 0 && newCol < m && grid[newRow][newCol] == '1' && visited[newRow][newCol] == 0) {
+						visited[newRow][newCol] = 1;
 						queue.add(new Pair(newRow, newCol));
 					}
 				}
