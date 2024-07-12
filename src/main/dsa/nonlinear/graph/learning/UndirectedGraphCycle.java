@@ -41,12 +41,12 @@ import java.util.List;
 
 public class UndirectedGraphCycle {
 
-	public static boolean dfs(int node, int parent, List<ArrayList<Integer>> provinces, int[] vis) {
+	public static boolean dfs(int node, int parent, List<ArrayList<Integer>> adj, int[] vis) {
 
 		vis[node] = 1;
-		for (int v : provinces.get(node)) {
+		for (int v : adj.get(node)) {
 			if (vis[v] == 0) {
-				if (dfs(v, node, provinces, vis))
+				if (dfs(v, node, adj, vis))
 					return true;
 			} else if (v != parent) {
 				return true;
