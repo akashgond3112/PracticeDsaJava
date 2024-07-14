@@ -1,7 +1,8 @@
-package main.dsa.nonlinear.graph.learning;
+package main.dsa.nonlinear.graph.learning.topologicalsort;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
+import java.util.List;
 import java.util.Queue;
 
 /*
@@ -52,7 +53,7 @@ Constraints:
 */
 public class KahnsAlgorithm {
 
-	static int[] topoSort(int v, ArrayList<ArrayList<Integer>> adj) {
+	static int[] topoSort(int v, List<ArrayList<Integer>> adj) {
 
 		int[] inDegrees = new int[v];
 		for (int i = 0; i < v; i++) {
