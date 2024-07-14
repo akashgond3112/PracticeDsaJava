@@ -1,7 +1,12 @@
 package main.dsa.nonlinear.graph.learning;
 
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.LinkedList;
 import java.util.List;
+import java.util.Queue;
+
+import static main.dsa.nonlinear.graph.learning.topologicalsort.CourseSchedule.queueTask;
 
 /*
 Eventual Safe States
@@ -87,6 +92,36 @@ public class EventualSafeStates {
 		return false;
 	}
 
+	static List<Integer> eventualSafeNodesUsingTopoSort(int v, List<List<Integer>> adj) {
+
+		ArrayList<ArrayList<Integer>> reverseList = new ArrayList<>();
+		for (int i = 0; i < v; i++) {
+			reverseList.add(new ArrayList<>());
+		}
+
+		int[] inDegree = new int[v];
+		for (int i = 0; i < v; i++) {
+			for (int j : adj.get(i)) {
+				reverseList.get(j).add(i);
+				inDegree[i]++;
+			}
+		}
+
+		Queue<Integer> queue = new LinkedList<>();
+		List<Integer> res = new ArrayList<>();
+
+		for (int i = 0; i < v; i++) {
+			if (inDegree[i] == 0) {
+				queue.add(i);
+			}
+		}
+
+		queueTask(reverseList, inDegree, queue, res);
+
+		Collections.sort(res);
+		return res;
+	}
+
 	public static void main(String[] args) {
 		int V = 12;
 		List<List<Integer>> adj = new ArrayList<>();
@@ -109,6 +144,12 @@ public class EventualSafeStates {
 
 		EventualSafeStates obj = new EventualSafeStates();
 		List<Integer> safeNodes = obj.eventualSafeNodes(V, adj);
+		for (int node : safeNodes) {
+			System.out.print(node + " ");
+		}
+		System.out.println("");
+
+		safeNodes = eventualSafeNodesUsingTopoSort(V, adj);
 		for (int node : safeNodes) {
 			System.out.print(node + " ");
 		}
