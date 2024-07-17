@@ -1,7 +1,9 @@
 package main.dsa.nonlinear.graph.learning.topologicalsort;
 
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Comparator;
 import java.util.HashSet;
 import java.util.LinkedList;
 import java.util.List;
@@ -59,6 +61,19 @@ Constraints:
 */
 public class WordLadderII {
 
+	static class comp implements Comparator<ArrayList<String>> {
+
+		public int compare(ArrayList<String> a, ArrayList<String> b) {
+			StringBuilder x = new StringBuilder();
+			StringBuilder y = new StringBuilder();
+			for (String s : a)
+				x.append(s);
+			for (String s : b)
+				y.append(s);
+			return x.toString().compareTo(y.toString());
+		}
+	}
+
 	public List<ArrayList<String>> findSequences(String startWord, String targetWord, String[] wordList) {
 		Set<String> set = new HashSet<>();
 		Collections.addAll(set, wordList);
@@ -113,5 +128,28 @@ public class WordLadderII {
 			}
 		}
 		return result;
+	}
+
+	public static void main(String[] args) {
+		String startWord = "der";
+		String targetWord = "dfs";
+		String[] wordList = { "des", "der", "dfr", "dgt", "dfs" };
+
+		WordLadderII obj = new WordLadderII();
+		List<ArrayList<String>> ans = obj.findSequences(startWord, targetWord, wordList);
+
+		// If no transformation sequence is possible.
+		if (ans.isEmpty())
+			System.out.println(-1);
+		else {
+
+			ans.sort(new comp());
+			for (ArrayList<String> an : ans) {
+				for (String s : an) {
+					System.out.print(s + " ");
+				}
+				System.out.println();
+			}
+		}
 	}
 }
