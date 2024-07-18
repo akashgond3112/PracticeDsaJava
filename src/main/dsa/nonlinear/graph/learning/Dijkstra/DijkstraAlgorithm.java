@@ -1,10 +1,12 @@
 package main.dsa.nonlinear.graph.learning.Dijkstra;
 
-import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Comparator;
+import java.util.HashSet;
+import java.util.Objects;
 import java.util.PriorityQueue;
+import java.util.Set;
 
 /*
 Dijkstra Algorithm
@@ -67,6 +69,50 @@ public class DijkstraAlgorithm {
 			this.node = node;
 			this.distance = distance;
 		}
+
+		@Override
+		public boolean equals(Object o) {
+			if (this == o) return true;
+			if (o == null || getClass() != o.getClass()) return false;
+			Pair pair = (Pair) o;
+			return node == pair.node;
+		}
+
+		@Override
+		public int hashCode() {
+			return Objects.hash(node);
+		}
+	}
+
+	static int[] dijkstraUsingSet(int v, ArrayList<ArrayList<ArrayList<Integer>>> adj, int s) {
+
+		Set<Pair> set = new HashSet<>();
+		int[] dist = new int[v];
+		Arrays.fill(dist, (int) 1e9);
+		dist[s] = 0;
+		set.add(new Pair(s, 0));
+
+		while (!set.isEmpty()) {
+			Pair p = set.iterator().next();
+			int node = p.node;
+			int distance = p.distance;
+			set.remove(p);
+
+			for (ArrayList<Integer> neighbor : adj.get(node)) {
+				int adjNode = neighbor.get(0);
+				int edgeWeight = neighbor.get(1);
+
+				if (distance + edgeWeight < dist[adjNode]) {
+					if (dist[adjNode] != 1e9) {
+						set.remove(new Pair(adjNode, dist[adjNode]));
+					}
+					dist[adjNode] = distance + edgeWeight;
+					set.add(new Pair(adjNode, dist[adjNode]));
+				}
+
+			}
+		}
+		return dist;
 	}
 
 	//Function to find the shortest distance of all the vertices
@@ -115,9 +161,16 @@ public class DijkstraAlgorithm {
 		adj.get(2).add(new ArrayList<>(Arrays.asList(0, 6)));
 
 		int[] result = dijkstra(V, adj, S);
+		int[] result1 = dijkstraUsingSet(V, adj, S);
 
 		for (int i = 0; i < V; i++) {
 			System.out.print(result[i] + " ");
 		}
+		System.out.println(); // for new line
+
+		for (int i = 0; i < V; i++) {
+			System.out.print(result1[i] + " ");
+		}
+		System.out.println();
 	}
 }
