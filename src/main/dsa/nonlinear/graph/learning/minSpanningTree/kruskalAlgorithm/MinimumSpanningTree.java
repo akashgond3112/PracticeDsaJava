@@ -1,8 +1,8 @@
-package main.dsa.nonlinear.graph.learning.minSpanningTree.primsAlgorithm;
+package main.dsa.nonlinear.graph.learning.minSpanningTree.kruskalAlgorithm;
 
 import java.util.ArrayList;
-import java.util.Comparator;
-import java.util.PriorityQueue;
+import java.util.Collections;
+import java.util.List;
 
 import static java.lang.System.*;
 
@@ -56,54 +56,65 @@ The maximum size of the priority queue can be E so after at most E iterations th
 
 Space Complexity: O(E) + O(V), where E = no. of edges and V = no. of vertices. O(E) occurs due to the size of the priority queue and O(V) due to the visited array. If we wish to get the mst, we need an extra O(V-1) space to store the edges of the most.
 
+Time Complexity: O(N+E) + O(E logE) + O(E*4α*2)   where N = no. of nodes and E = no. of edges. O(N+E) for extracting edge information from the adjacency list. O(E logE) for sorting the array consists of the edge tuples. Finally, we are using the disjoint set operations inside a loop. The loop will continue to E times. Inside that loop, there are two disjoint set operations like findUPar() and UnionBySize() each taking 4 and so it will result in 4*2. That is why the last term O(E*4*2) is added.
 
+Space Complexity: O(N) + O(N) + O(E) where E = no. of edges and N = no. of nodes. O(E) space is taken by the array that we are using to store the edge information. And in the disjoint set data structure, we are using two N-sized arrays i.e. a parent and a size array (as we are using unionBySize() function otherwise, a rank array of the same size if unionByRank() is used) which result in the first two terms O(N).
 */
 public class MinimumSpanningTree {
 
-	static class Pair {
-		int node;
-		int distance;
+	static class Edge implements Comparable<Edge> {
+		int src;
+		int dest;
+		int weight;
 
-		public Pair(int node, int distance) {
-			this.node = node;
-			this.distance = distance;
+		Edge(int _src, int _dest, int _wt) {
+			this.src = _src;
+			this.dest = _dest;
+			this.weight = _wt;
+		}
+
+		// Comparator function used for
+		// sorting edges based on their weight
+		public int compareTo(Edge compareEdge) {
+			return this.weight - compareEdge.weight;
 		}
 	}
 
-	static int spanningTree(int V, ArrayList<ArrayList<ArrayList<Integer>>> adj) {
+	int spanningTree(int v, ArrayList<ArrayList<ArrayList<Integer>>> adj) {
 
-		PriorityQueue<Pair> pq = new PriorityQueue<>(Comparator.comparingInt(x -> x.distance));
+		List<Edge> edges = new ArrayList<>();
+		for (int i = 0; i < v; i++) {
+			for (int j = 0; j < adj.get(i).size(); j++) {
+				int adjNode = adj.get(i).get(j).get(0);
+				int wt = adj.get(i).get(j).get(1);
 
-		int[] visited = new int[V];
-		pq.add(new Pair(0, 0));
-		int sum = 0;
-		while (!pq.isEmpty()) {
-			Pair pair = pq.poll();
-			int node = pair.node;
-			int distance = pair.distance;
-			if (visited[node] == 1)
-				continue;
-			visited[node] = 1;
-			sum += distance;
-
-			for (int i = 0; i < adj.get(node).size(); i++) {
-				int node2 = adj.get(node).get(i).get(0);
-				int distance2 = adj.get(node).get(i).get(1);
-
-				if (visited[node2] == 0) {
-					pq.add(new Pair(node2, distance2));
-				}
+				Edge tmp = new Edge(i, adjNode, wt);
+				edges.add(tmp);
 			}
 		}
-		return sum;
+		DisjointSet set = new DisjointSet(v);
+		Collections.sort(edges);
+		int mstWt = 0;
+
+		for (Edge edge : edges) {
+			int wt = edge.weight;
+			int currU = edge.src;
+			int currV = edge.dest;
+
+			if (set.findUPar(currU) != set.findUPar(currV)) {
+				mstWt += wt;
+				set.unionBySize(currU, currV);
+			}
+		}
+		return mstWt;
 	}
 
 	public static void main(String[] args) {
-		int V = 5;
+		int i1 = 5;
 		ArrayList<ArrayList<ArrayList<Integer>>> adj = new ArrayList<>();
 		int[][] edges = { { 0, 1, 2 }, { 0, 2, 1 }, { 1, 2, 1 }, { 2, 3, 2 }, { 3, 4, 1 }, { 4, 2, 2 } };
 
-		for (int i = 0; i < V; i++) {
+		for (int i = 0; i < i1; i++) {
 			adj.add(new ArrayList<>());
 		}
 
@@ -124,8 +135,8 @@ public class MinimumSpanningTree {
 			adj.get(v).add(tmp2);
 		}
 
-		int sum = spanningTree(V, adj);
+		MinimumSpanningTree obj = new MinimumSpanningTree();
+		int sum = obj.spanningTree(i1, adj);
 		out.println("The sum of all the edge weights: " + sum);
 	}
-
 }
