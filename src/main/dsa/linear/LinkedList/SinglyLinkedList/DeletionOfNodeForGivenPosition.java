@@ -30,83 +30,88 @@ The number of nodes in the list is sz.
 
 public class DeletionOfNodeForGivenPosition {
 
-	Node head;
+    Node head;
 
-	void push(int new_Data) {
-		Node new_node = new Node(new_Data);
+    void push(int new_Data) {
+        Node new_node = new Node(new_Data);
 
-		new_node.next = head;
-		head = new_node;
-	}
+        new_node.next = head;
+        head = new_node;
+    }
 
-	Node delete(int position) {
+    Node delete(int position) {
 
-		if (head == null) {
-			return null;
-		}
+        if (head == null) {
+            return null;
+        }
 
-		Node dummy = new Node(0);
-		dummy.next = head;
-		Node fast = dummy;
-		Node slow = dummy;
+        if (position == 1) {
+            head = head.next;
+            return head;
+        }
 
-		// Move fast ahead by n+1 steps
-		for (int i = 0; i <= position; i++) {
-			fast = fast.next;
-		}
+        Node dummy = new Node(0);
+        dummy.next = head;
+        Node fast = dummy;
+        Node slow = dummy;
 
-		// Move both fast and slow pointers until fast reaches the end
-		while (fast != null) {
-			fast = fast.next;
-			slow = slow.next;
-		}
+        // Move fast ahead by n+1 steps
+        for (int i = 0; i <= position; i++) {
+            fast = fast.next;
+        }
 
-		// Remove the nth node from end
-		slow.next = slow.next.next;
+        // Move both fast and slow pointers until fast reaches the end
+        while (fast != null) {
+            fast = fast.next;
+            slow = slow.next;
+        }
 
-		return dummy.next;
-	}
+        // Remove the nth node from end
+        slow.next = slow.next.next;
 
-	void printList() {
-		Node tNode = head;
-		while (tNode != null) {
-			System.out.print(tNode.data + " ");
-			tNode = tNode.next;
-		}
-	}
+        return dummy.next;
+    }
 
-	class Node {
-		int data;
-		Node next;
+    void printList() {
+        Node tNode = head;
+        while (tNode != null) {
+            System.out.print(tNode.data + " ");
+            tNode = tNode.next;
+        }
+    }
 
-		Node(int d) {
-			data = d;
-			next = null;
-		}
+    static class Node {
+        int data;
+        Node next;
 
-	}
+        Node(int d) {
+            data = d;
+            next = null;
+        }
+
+    }
 
 
-	public static void main(String[] args) {
+    public static void main(String[] args) {
 
-		DeletionOfNodeForGivenPosition data = new DeletionOfNodeForGivenPosition();
+        DeletionOfNodeForGivenPosition data = new DeletionOfNodeForGivenPosition();
 
-		data.push(1);
-		data.push(2);
-//		data.push(3);
-//		data.push(4);
-//		data.push(5);
+        data.push(1);
+        data.push(2);
+        data.push(3);
+        data.push(4);
+        data.push(5);
 
-		System.out.println("\n Create linked list is: ");
-		data.printList();
+        System.out.println("\n Create linked list is: ");
+        data.printList();
 
-		Node delete = data.delete(1);
+        Node delete = data.delete(1);
 
-		System.out.println("\n Updated linked list is: ");
-		while (delete != null) {
-			System.out.print(delete.data + " ");
-			delete = delete.next;
-		}
-	}
+        System.out.println("\n Updated linked list is: ");
+        while (delete != null) {
+            System.out.print(delete.data + " ");
+            delete = delete.next;
+        }
+    }
 
 }

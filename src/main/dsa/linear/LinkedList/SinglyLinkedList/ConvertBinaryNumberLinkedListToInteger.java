@@ -1,16 +1,17 @@
 package main.dsa.linear.LinkedList.SinglyLinkedList;
 
-class Node {
-    int data;
-    Node next;
-
-    Node(int data) {
-        this.data = data;
-        next = null;
-    }
-}
 
 public class ConvertBinaryNumberLinkedListToInteger {
+
+    static class Node {
+        int data;
+        Node next;
+
+        Node(int data) {
+            this.data = data;
+            next = null;
+        }
+    }
 
     Node head;
 
@@ -32,7 +33,7 @@ public class ConvertBinaryNumberLinkedListToInteger {
 
             System.out.println(current.data);
 
-            result += current.data * (Math.pow(2, counter));
+            result += (int) (current.data * (Math.pow(2, counter)));
 //
             current = current.next;
             counter++;
@@ -41,7 +42,7 @@ public class ConvertBinaryNumberLinkedListToInteger {
         return result;
     }
 
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         /* Start with the empty list */
         ConvertBinaryNumberLinkedListToInteger convertBinaryNumberLinkedListToInteger = new ConvertBinaryNumberLinkedListToInteger();
 

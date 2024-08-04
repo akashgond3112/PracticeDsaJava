@@ -2,6 +2,7 @@ package main.dsa.linear.LinkedList.SinglyLinkedList;
 
 public class IntroduceLinkedList {
     Node head;
+
     static class Node{
         int data;
         Node next;
@@ -49,7 +50,6 @@ public class IntroduceLinkedList {
         }
 
         last_node.next = new_node;
-        return;
     }
 
     public void printList(){
