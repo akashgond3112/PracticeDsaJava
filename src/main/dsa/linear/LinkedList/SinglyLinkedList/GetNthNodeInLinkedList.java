@@ -4,7 +4,7 @@ public class GetNthNodeInLinkedList {
 
     Node head;
 
-    public int getNthNode(GetNthNodeInLinkedList getNthNodeInLinkedList, int index) {
+    public int getNthNode(int index) {
 
         Node current = head;
         int count = 0;
@@ -56,6 +56,6 @@ public class GetNthNodeInLinkedList {
         /* Check the count function */
 
         System.out.printf("Element at index 3 is %d",
-                getNthNodeInLinkedList.getNthNode(getNthNodeInLinkedList, 3));
+                getNthNodeInLinkedList.getNthNode(3));
     }
 }

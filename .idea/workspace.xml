@@ -9,9 +9,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="697252cc-7674-4df4-b819-341bc29cf007" name="Changes" comment="Commit-05/12/2023">
+    <list default="true" id="697252cc-7674-4df4-b819-341bc29cf007" name="Changes" comment="Commit-03/08/2024">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/dsa/nonlinear/graph/learning/minSpanningTree/kruskalAlgorithm/AccountMerge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/nonlinear/graph/learning/minSpanningTree/kruskalAlgorithm/AccountMerge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/dsa/linear/LinkedList/SinglyLinkedList/ConvertBinaryNumberLinkedListToInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/linear/LinkedList/SinglyLinkedList/ConvertBinaryNumberLinkedListToInteger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/dsa/linear/LinkedList/SinglyLinkedList/DeletionFromLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/linear/LinkedList/SinglyLinkedList/DeletionFromLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/dsa/linear/LinkedList/SinglyLinkedList/DeletionOfNodeForGivenPosition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/linear/LinkedList/SinglyLinkedList/DeletionOfNodeForGivenPosition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/dsa/linear/LinkedList/SinglyLinkedList/GetNthNodeInLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/linear/LinkedList/SinglyLinkedList/GetNthNodeInLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/dsa/linear/LinkedList/SinglyLinkedList/IntroduceLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/linear/LinkedList/SinglyLinkedList/IntroduceLinkedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +76,11 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Application.ConvertBinaryNumberLinkedListToInteger.executor": "Run",
+    "Application.DeletionFromLinkedList.executor": "Run",
+    "Application.DeletionOfNodeForGivenPosition.executor": "Run",
     "Application.LongestTurbulentSubarray.executor": "Run",
+    "Application.SinglyLinkedList.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
@@ -112,13 +120,13 @@
       <command value="mvn clean package" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.LongestTurbulentSubarray">
-    <configuration name="ChessPawnMovement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.slidingWindow.medium.ChessPawnMovement" />
+  <component name="RunManager" selected="Application.DeletionOfNodeForGivenPosition">
+    <configuration name="ConvertBinaryNumberLinkedListToInteger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.dsa.linear.LinkedList.SinglyLinkedList.ConvertBinaryNumberLinkedListToInteger" />
       <module name="PracticeDSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.slidingWindow.medium.*" />
+          <option name="PATTERN" value="main.dsa.linear.LinkedList.SinglyLinkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,12 +134,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestContinuousSubarrayWithAbsoluteDiffLessThanOrEqualToLimit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.slidingWindow.medium.LongestContinuousSubarrayWithAbsoluteDiffLessThanOrEqualToLimit" />
+    <configuration name="DeletionFromLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.dsa.linear.LinkedList.SinglyLinkedList.DeletionFromLinkedList" />
       <module name="PracticeDSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.slidingWindow.medium.*" />
+          <option name="PATTERN" value="main.dsa.linear.LinkedList.SinglyLinkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,12 +147,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestSubstringOfAllVowelsInOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.slidingWindow.medium.LongestSubstringOfAllVowelsInOrder" />
+    <configuration name="DeletionOfNodeForGivenPosition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.dsa.linear.LinkedList.SinglyLinkedList.DeletionOfNodeForGivenPosition" />
       <module name="PracticeDSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.slidingWindow.medium.*" />
+          <option name="PATTERN" value="main.dsa.linear.LinkedList.SinglyLinkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -165,12 +173,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RepeatedDNASequences" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.slidingWindow.medium.RepeatedDNASequences" />
+    <configuration name="SinglyLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.dsa.linear.LinkedList.SinglyLinkedList.SinglyLinkedList" />
       <module name="PracticeDSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.slidingWindow.medium.*" />
+          <option name="PATTERN" value="main.dsa.linear.LinkedList.SinglyLinkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -267,11 +275,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DeletionOfNodeForGivenPosition" />
+        <item itemvalue="Application.DeletionFromLinkedList" />
+        <item itemvalue="Application.ConvertBinaryNumberLinkedListToInteger" />
+        <item itemvalue="Application.SinglyLinkedList" />
         <item itemvalue="Application.LongestTurbulentSubarray" />
-        <item itemvalue="Application.RepeatedDNASequences" />
-        <item itemvalue="Application.LongestContinuousSubarrayWithAbsoluteDiffLessThanOrEqualToLimit" />
-        <item itemvalue="Application.LongestSubstringOfAllVowelsInOrder" />
-        <item itemvalue="Application.ChessPawnMovement" />
       </list>
     </recent_temporary>
   </component>
