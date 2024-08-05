@@ -9,12 +9,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="697252cc-7674-4df4-b819-341bc29cf007" name="Changes" comment="Commit-03/08/2024">
+    <list default="true" id="697252cc-7674-4df4-b819-341bc29cf007" name="Changes" comment="Commit-04/08/2024">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/dsa/linear/LinkedList/SinglyLinkedList/ConvertBinaryNumberLinkedListToInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/linear/LinkedList/SinglyLinkedList/ConvertBinaryNumberLinkedListToInteger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/dsa/linear/LinkedList/SinglyLinkedList/DeletionFromLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/linear/LinkedList/SinglyLinkedList/DeletionFromLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/dsa/linear/LinkedList/SinglyLinkedList/DeletionOfNodeForGivenPosition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/linear/LinkedList/SinglyLinkedList/DeletionOfNodeForGivenPosition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/dsa/linear/LinkedList/SinglyLinkedList/GetNthNodeInLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/linear/LinkedList/SinglyLinkedList/GetNthNodeInLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/dsa/linear/LinkedList/SinglyLinkedList/IntroduceLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/linear/LinkedList/SinglyLinkedList/IntroduceLinkedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -79,6 +75,7 @@
     "Application.ConvertBinaryNumberLinkedListToInteger.executor": "Run",
     "Application.DeletionFromLinkedList.executor": "Run",
     "Application.DeletionOfNodeForGivenPosition.executor": "Run",
+    "Application.IntroduceLinkedList.executor": "Run",
     "Application.LongestTurbulentSubarray.executor": "Run",
     "Application.SinglyLinkedList.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -120,7 +117,7 @@
       <command value="mvn clean package" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.DeletionOfNodeForGivenPosition">
+  <component name="RunManager" selected="Application.IntroduceLinkedList">
     <configuration name="ConvertBinaryNumberLinkedListToInteger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.dsa.linear.LinkedList.SinglyLinkedList.ConvertBinaryNumberLinkedListToInteger" />
       <module name="PracticeDSA" />
@@ -160,12 +157,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestTurbulentSubarray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.slidingWindow.medium.LongestTurbulentSubarray" />
+    <configuration name="IntroduceLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.dsa.linear.LinkedList.SinglyLinkedList.IntroduceLinkedList" />
       <module name="PracticeDSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.slidingWindow.medium.*" />
+          <option name="PATTERN" value="main.dsa.linear.LinkedList.SinglyLinkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -275,11 +272,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IntroduceLinkedList" />
         <item itemvalue="Application.DeletionOfNodeForGivenPosition" />
         <item itemvalue="Application.DeletionFromLinkedList" />
         <item itemvalue="Application.ConvertBinaryNumberLinkedListToInteger" />
         <item itemvalue="Application.SinglyLinkedList" />
-        <item itemvalue="Application.LongestTurbulentSubarray" />
       </list>
     </recent_temporary>
   </component>
@@ -596,7 +593,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701814733529</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Commit-04/08/2024">
+      <option name="closed" value="true" />
+      <created>1722804540137</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1722804540137</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -624,7 +629,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Commit-20/08/2023" />
     <MESSAGE value="Commit-25/08/2023" />
     <MESSAGE value="Commit-28/08/2023" />
     <MESSAGE value="Commit-29/08/2023" />
@@ -649,7 +653,8 @@
     <MESSAGE value="Commit-01/11/2023" />
     <MESSAGE value="Commit-04/12/2023" />
     <MESSAGE value="Commit-05/12/2023" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit-05/12/2023" />
+    <MESSAGE value="Commit-04/08/2024" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit-04/08/2024" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
