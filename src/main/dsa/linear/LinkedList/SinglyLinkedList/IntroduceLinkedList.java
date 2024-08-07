@@ -144,6 +144,7 @@ public class IntroduceLinkedList {
         introduceLinkedList_1.pushFront(1);
         introduceLinkedList_1.pushFront(3);
         introduceLinkedList_1.append(9);
+        introduceLinkedList_1.append(9);
         introduceLinkedList_1.insertAfter(introduceLinkedList_1.head.next, 10);
 
         System.out.println("\n Create linked list is: ");
