@@ -2,39 +2,59 @@ package main.dsa.linear.LinkedList.SinglyLinkedList;
 
 public class SinglyLinkedList {
 
-    static class Node{
-        int data;
-        Node next;
-    }
+	static class Node {
+		int data;
+		Node next;
 
-    static void printList(Node n)
-    {
-        // Iterate till n reaches null
-        while (n != null) {
-            // Print the data
-            System.out.print(n.data + " ");
-            n = n.next;
-        }
-    }
+		public Node(){}
 
-    public static void main(String[] args) {
-        Node head = null;
-        Node second = null;
-        Node third = null;
+		public Node(int data) {
+			this.data = data;
+		}
+	}
 
-        head = new Node();
-        second = new Node();
-        third = new Node();
+	public static Node push(Node head, int newData) {
+		// Create a new node with the given data
+		Node newNode = new Node(newData);
 
-        head.data = 1;
-        head.next = second;
+		// Make the new node point to the current head
+		newNode.next = head;
 
-        second.data =2;
-        second.next = third;
+		// The new node becomes the new head of the list
+		head = newNode;
 
-        third.data =3;
-        third.next = null;
+		// Return the new head of the list
+		return head;
+	}
 
-        printList(head);
-    }
+
+	static void printList(Node n) {
+		// Iterate till n reaches null
+		while (n != null) {
+			// Print the data
+			System.out.print(n.data + " ");
+			n = n.next;
+		}
+	}
+
+	public static void main(String[] args) {
+		Node head = null;
+		Node second = null;
+		Node third = null;
+
+		head = new Node();
+		second = new Node();
+		third = new Node();
+
+		head.data = 1;
+		head.next = second;
+
+		second.data = 2;
+		second.next = third;
+
+		third.data = 3;
+		third.next = null;
+
+		printList(head);
+	}
 }
