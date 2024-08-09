@@ -9,61 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="697252cc-7674-4df4-b819-341bc29cf007" name="Changes" comment="Commit-06/08/2024">
-      <change afterPath="$PROJECT_DIR$/src/main/dsa/linear/LinkedList/DoublyLinkedList/ReverseADoublyLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/dsa/linear/LinkedList/SinglyLinkedList/AddTwoNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/dsa/linear/LinkedList/SinglyLinkedList/RearrangeOddAndEvenPlaces.java" afterDir="false" />
+    <list default="true" id="697252cc-7674-4df4-b819-341bc29cf007" name="Changes" comment="Commit-08/08/2024">
+      <change afterPath="$PROJECT_DIR$/src/main/dsa/linear/LinkedList/SinglyLinkedList/SortLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PracticeDSA/Test/ConvertSortedArrayToBinarySearchTreeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PracticeDSA/Test/ConvertSortedArrayToBinarySearchTreeTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PracticeDSA/Test/MergeSortedArrayTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PracticeDSA/Test/MergeSortedArrayTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PracticeDSA/Test/PascalTriangleTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PracticeDSA/Test/PascalTriangleTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PracticeDSA/main/Arrray/easy/BuildArrayfromPermutation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PracticeDSA/main/Arrray/easy/ConcatenationofArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PracticeDSA/main/Arrray/easy/ConvertSortedArrayToBinarySearchTree$TreeNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PracticeDSA/main/Arrray/easy/ConvertSortedArrayToBinarySearchTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PracticeDSA/main/Arrray/easy/FinalValueofVariableAfterPerformingOperations.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PracticeDSA/main/Arrray/easy/MergeSortedArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PracticeDSA/main/Arrray/easy/NumberofGoodPairs.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PracticeDSA/main/Arrray/easy/PascalTriangle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PracticeDSA/main/Arrray/easy/PlusOne.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PracticeDSA/main/Arrray/easy/RemoveDuplicatesfromSortedArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PracticeDSA/main/Arrray/easy/RemoveElement.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PracticeDSA/main/Arrray/easy/RunningSumof1dArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PracticeDSA/main/Arrray/easy/SearchInsertPosition.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PracticeDSA/main/Arrray/easy/ShuffleTheArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PracticeDSA/main/Arrray/easy/TwoSum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PracticeDSA/main/LinkedList/CircularLinkedList/CircularLinkedList$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PracticeDSA/main/LinkedList/CircularLinkedList/CircularLinkedList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PracticeDSA/main/LinkedList/DoublyLinkedList/DoublyLinkedList$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PracticeDSA/main/LinkedList/DoublyLinkedList/DoublyLinkedList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PracticeDSA/main/LinkedList/SinglyLinkedList/ConvertBinaryNumberLinkedListToInteger.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PracticeDSA/main/LinkedList/SinglyLinkedList/CountIntOccurenceInLinkedList$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PracticeDSA/main/LinkedList/SinglyLinkedList/CountIntOccurenceInLinkedList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PracticeDSA/main/LinkedList/SinglyLinkedList/DeletionFromLinkedList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PracticeDSA/main/LinkedList/SinglyLinkedList/DeletionOfNodeForGivenPosition$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PracticeDSA/main/LinkedList/SinglyLinkedList/DeletionOfNodeForGivenPosition.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PracticeDSA/main/LinkedList/SinglyLinkedList/DetectLoopInLinkedList$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PracticeDSA/main/LinkedList/SinglyLinkedList/DetectLoopInLinkedList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PracticeDSA/main/LinkedList/SinglyLinkedList/GetMiddleOfLinkedList$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PracticeDSA/main/LinkedList/SinglyLinkedList/GetMiddleOfLinkedList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PracticeDSA/main/LinkedList/SinglyLinkedList/GetNthNodeFromLastInLinkedList$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PracticeDSA/main/LinkedList/SinglyLinkedList/GetNthNodeFromLastInLinkedList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PracticeDSA/main/LinkedList/SinglyLinkedList/GetNthNodeInLinkedList$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PracticeDSA/main/LinkedList/SinglyLinkedList/GetNthNodeInLinkedList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PracticeDSA/main/LinkedList/SinglyLinkedList/IntroduceLinkedList$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PracticeDSA/main/LinkedList/SinglyLinkedList/IntroduceLinkedList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PracticeDSA/main/LinkedList/SinglyLinkedList/LengthOfLinkedList$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PracticeDSA/main/LinkedList/SinglyLinkedList/LengthOfLinkedList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PracticeDSA/main/LinkedList/SinglyLinkedList/Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PracticeDSA/main/LinkedList/SinglyLinkedList/SearchElementInLinkedList$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PracticeDSA/main/LinkedList/SinglyLinkedList/SearchElementInLinkedList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PracticeDSA/main/LinkedList/SinglyLinkedList/SinglyLinkedList$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PracticeDSA/main/LinkedList/SinglyLinkedList/SinglyLinkedList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PracticeDSA/main/Queue/ArrayQueue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PracticeDSA/main/Queue/Queue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PracticeDSA/main/Queue/TestQueue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PracticeDSA/main/searching/binarySearch.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/dsa/linear/LinkedList/SinglyLinkedList/SinglyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/linear/LinkedList/SinglyLinkedList/SinglyLinkedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,6 +95,7 @@
     "Application.RearrangeOddAndEvenPlaces.executor": "Run",
     "Application.ReverseADoublyLinkedList.executor": "Debug",
     "Application.SinglyLinkedList.executor": "Run",
+    "Application.SortLinkedList.executor": "Run",
     "Downloaded.Files.Path.Enabled": "false",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
@@ -190,26 +139,13 @@
       <command value="mvn clean package" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.RearrangeOddAndEvenPlaces">
+  <component name="RunManager" selected="Application.SortLinkedList">
     <configuration name="AddTwoNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.dsa.linear.LinkedList.SinglyLinkedList.AddTwoNumbers" />
       <module name="PracticeDSA" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="main.dsa.linear.LinkedList.SinglyLinkedList.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DoublyLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.dsa.linear.LinkedList.DoublyLinkedList.DoublyLinkedList" />
-      <module name="PracticeDSA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="main.dsa.linear.LinkedList.DoublyLinkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -245,6 +181,19 @@
     </configuration>
     <configuration name="SinglyLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.dsa.linear.LinkedList.SinglyLinkedList.SinglyLinkedList" />
+      <module name="PracticeDSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.dsa.linear.LinkedList.SinglyLinkedList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SortLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.dsa.linear.LinkedList.SinglyLinkedList.SortLinkedList" />
       <module name="PracticeDSA" />
       <extension name="coverage">
         <pattern>
@@ -345,11 +294,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SortLinkedList" />
         <item itemvalue="Application.RearrangeOddAndEvenPlaces" />
         <item itemvalue="Application.AddTwoNumbers" />
         <item itemvalue="Application.SinglyLinkedList" />
         <item itemvalue="Application.ReverseADoublyLinkedList" />
-        <item itemvalue="Application.DoublyLinkedList" />
       </list>
     </recent_temporary>
   </component>
@@ -459,6 +408,7 @@
       <workItem from="1702325538074" duration="4060000" />
       <workItem from="1722974270401" duration="47000" />
       <workItem from="1723137838212" duration="7077000" />
+      <workItem from="1723237033441" duration="2551000" />
     </task>
     <task id="LOCAL-00001" summary="commit-19122022">
       <created>1671408501232</created>
