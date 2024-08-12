@@ -9,8 +9,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="697252cc-7674-4df4-b819-341bc29cf007" name="Changes" comment="Commit-10/08/2024">
-      <change afterPath="$PROJECT_DIR$/src/main/dsa/linear/LinkedList/SinglyLinkedList/CheckIfLinkedListIsPalindrome.java" afterDir="false" />
+    <list default="true" id="697252cc-7674-4df4-b819-341bc29cf007" name="Changes" comment="Commit-11/08/2024">
+      <change afterPath="$PROJECT_DIR$/src/main/dsa/linear/LinkedList/SinglyLinkedList/AddOneToANumberRepresentedAsLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -84,6 +84,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Application.AddOneToANumberRepresentedAsLinkedList.executor": "Run",
     "Application.AddTwoNumbers.executor": "Run",
     "Application.CheckIfLinkedListIsPalindrome.executor": "Run",
     "Application.ConvertBinaryNumberLinkedListToInteger.executor": "Run",
@@ -142,7 +143,20 @@
       <command value="mvn clean package" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.CheckIfLinkedListIsPalindrome">
+  <component name="RunManager" selected="Application.AddOneToANumberRepresentedAsLinkedList">
+    <configuration name="AddOneToANumberRepresentedAsLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.dsa.linear.LinkedList.SinglyLinkedList.AddOneToANumberRepresentedAsLinkedList" />
+      <module name="PracticeDSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.dsa.linear.LinkedList.SinglyLinkedList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CheckIfLinkedListIsPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.dsa.linear.LinkedList.SinglyLinkedList.CheckIfLinkedListIsPalindrome" />
       <module name="PracticeDSA" />
@@ -158,19 +172,6 @@
     </configuration>
     <configuration name="DeleteKthNodeFromEnd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.dsa.linear.LinkedList.SinglyLinkedList.DeleteKthNodeFromEnd" />
-      <module name="PracticeDSA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="main.dsa.linear.LinkedList.SinglyLinkedList.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RearrangeOddAndEvenPlaces" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.dsa.linear.LinkedList.SinglyLinkedList.RearrangeOddAndEvenPlaces" />
       <module name="PracticeDSA" />
       <extension name="coverage">
         <pattern>
@@ -297,11 +298,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AddOneToANumberRepresentedAsLinkedList" />
         <item itemvalue="Application.CheckIfLinkedListIsPalindrome" />
         <item itemvalue="Application.ReverseLinkedList" />
         <item itemvalue="Application.DeleteKthNodeFromEnd" />
         <item itemvalue="Application.SortLinkedList" />
-        <item itemvalue="Application.RearrangeOddAndEvenPlaces" />
       </list>
     </recent_temporary>
   </component>
@@ -414,7 +415,9 @@
       <workItem from="1723237033441" duration="2612000" />
       <workItem from="1723288218744" duration="3796000" />
       <workItem from="1723378634247" duration="8000" />
-      <workItem from="1723400791351" duration="1363000" />
+      <workItem from="1723400791351" duration="1991000" />
+      <workItem from="1723448796405" duration="53000" />
+      <workItem from="1723488553800" duration="2373000" />
     </task>
     <task id="LOCAL-00001" summary="commit-19122022">
       <created>1671408501232</created>
@@ -663,7 +666,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723291959228</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Commit-11/08/2024">
+      <option name="closed" value="true" />
+      <created>1723407846204</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1723407846204</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -691,7 +702,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Commit-30/08/2023" />
     <MESSAGE value="Commit-90/09/2023" />
     <MESSAGE value="Commit-13/09/2023" />
     <MESSAGE value="Commit-14/09/2023" />
@@ -716,7 +726,8 @@
     <MESSAGE value="Commit-06/08/2024" />
     <MESSAGE value="Commit-09/08/2024" />
     <MESSAGE value="Commit-10/08/2024" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit-10/08/2024" />
+    <MESSAGE value="Commit-11/08/2024" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit-11/08/2024" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
