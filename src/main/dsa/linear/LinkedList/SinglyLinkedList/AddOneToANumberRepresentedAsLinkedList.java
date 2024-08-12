@@ -60,16 +60,15 @@ public class AddOneToANumberRepresentedAsLinkedList extends SinglyLinkedList {
 	private static int helper(Node head) {
 		if (head == null)
 			return 1;
-		else {
-			int carry = helper(head.next);
-			head.data = carry + head.data;
 
-			if (head.data < 10) {
-				return 0;
-			}
-			head.data = 0;
-			return 1;
+		int carry = helper(head.next);
+		head.data = carry + head.data;
+
+		if (head.data < 10) {
+			return 0;
 		}
+		head.data = 0;
+		return 1;
 
 	}
 
