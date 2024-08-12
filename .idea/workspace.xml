@@ -9,9 +9,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="697252cc-7674-4df4-b819-341bc29cf007" name="Changes" comment="Commit-11/08/2024">
-      <change afterPath="$PROJECT_DIR$/src/main/dsa/linear/LinkedList/SinglyLinkedList/AddOneToANumberRepresentedAsLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="697252cc-7674-4df4-b819-341bc29cf007" name="Changes" comment="Commit-12/08/2024">
+      <change beforePath="$PROJECT_DIR$/src/main/dsa/linear/LinkedList/SinglyLinkedList/AddOneToANumberRepresentedAsLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/linear/LinkedList/SinglyLinkedList/AddOneToANumberRepresentedAsLinkedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -417,7 +416,7 @@
       <workItem from="1723378634247" duration="8000" />
       <workItem from="1723400791351" duration="1991000" />
       <workItem from="1723448796405" duration="53000" />
-      <workItem from="1723488553800" duration="2373000" />
+      <workItem from="1723488553800" duration="2687000" />
     </task>
     <task id="LOCAL-00001" summary="commit-19122022">
       <created>1671408501232</created>
@@ -674,7 +673,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723407846204</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Commit-12/08/2024">
+      <option name="closed" value="true" />
+      <created>1723491192487</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1723491192487</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -702,7 +709,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Commit-90/09/2023" />
     <MESSAGE value="Commit-13/09/2023" />
     <MESSAGE value="Commit-14/09/2023" />
     <MESSAGE value="Commit-16/09/2023" />
@@ -727,7 +733,8 @@
     <MESSAGE value="Commit-09/08/2024" />
     <MESSAGE value="Commit-10/08/2024" />
     <MESSAGE value="Commit-11/08/2024" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit-11/08/2024" />
+    <MESSAGE value="Commit-12/08/2024" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit-12/08/2024" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
