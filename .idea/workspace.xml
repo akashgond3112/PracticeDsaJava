@@ -10,7 +10,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="697252cc-7674-4df4-b819-341bc29cf007" name="Changes" comment="Commit-12/08/2024">
-      <change beforePath="$PROJECT_DIR$/src/main/dsa/linear/LinkedList/SinglyLinkedList/AddOneToANumberRepresentedAsLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/linear/LinkedList/SinglyLinkedList/AddOneToANumberRepresentedAsLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/dsa/linear/LinkedList/SinglyLinkedList/IntersectionOfTwoLinkedLists.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/dsa/linear/LinkedList/SinglyLinkedList/MiddleOfLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,8 +94,10 @@
     "Application.DeletionOfNodeForGivenPosition.executor": "Run",
     "Application.DoublyLinkedList (1).executor": "Run",
     "Application.DoublyLinkedList.executor": "Run",
+    "Application.IntersectionOfTwoLinkedLists.executor": "Run",
     "Application.IntroduceLinkedList.executor": "Run",
     "Application.LongestTurbulentSubarray.executor": "Run",
+    "Application.MiddleOfLinkedList.executor": "Run",
     "Application.RearrangeOddAndEvenPlaces.executor": "Run",
     "Application.ReverseADoublyLinkedList.executor": "Debug",
     "Application.ReverseLinkedList.executor": "Run",
@@ -142,7 +146,7 @@
       <command value="mvn clean package" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.AddOneToANumberRepresentedAsLinkedList">
+  <component name="RunManager" selected="Application.MiddleOfLinkedList">
     <configuration name="AddOneToANumberRepresentedAsLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.dsa.linear.LinkedList.SinglyLinkedList.AddOneToANumberRepresentedAsLinkedList" />
       <module name="PracticeDSA" />
@@ -169,8 +173,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DeleteKthNodeFromEnd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.dsa.linear.LinkedList.SinglyLinkedList.DeleteKthNodeFromEnd" />
+    <configuration name="IntersectionOfTwoLinkedLists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.dsa.linear.LinkedList.SinglyLinkedList.IntersectionOfTwoLinkedLists" />
+      <module name="PracticeDSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.dsa.linear.LinkedList.SinglyLinkedList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MiddleOfLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.dsa.linear.LinkedList.SinglyLinkedList.MiddleOfLinkedList" />
       <module name="PracticeDSA" />
       <extension name="coverage">
         <pattern>
@@ -184,19 +201,6 @@
     </configuration>
     <configuration name="ReverseLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.dsa.linear.LinkedList.SinglyLinkedList.ReverseLinkedList" />
-      <module name="PracticeDSA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="main.dsa.linear.LinkedList.SinglyLinkedList.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SortLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.dsa.linear.LinkedList.SinglyLinkedList.SortLinkedList" />
       <module name="PracticeDSA" />
       <extension name="coverage">
         <pattern>
@@ -297,11 +301,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MiddleOfLinkedList" />
+        <item itemvalue="Application.IntersectionOfTwoLinkedLists" />
         <item itemvalue="Application.AddOneToANumberRepresentedAsLinkedList" />
         <item itemvalue="Application.CheckIfLinkedListIsPalindrome" />
         <item itemvalue="Application.ReverseLinkedList" />
-        <item itemvalue="Application.DeleteKthNodeFromEnd" />
-        <item itemvalue="Application.SortLinkedList" />
       </list>
     </recent_temporary>
   </component>
@@ -416,7 +420,9 @@
       <workItem from="1723378634247" duration="8000" />
       <workItem from="1723400791351" duration="1991000" />
       <workItem from="1723448796405" duration="53000" />
-      <workItem from="1723488553800" duration="2687000" />
+      <workItem from="1723488553800" duration="3312000" />
+      <workItem from="1723536696336" duration="12000" />
+      <workItem from="1723567362762" duration="6031000" />
     </task>
     <task id="LOCAL-00001" summary="commit-19122022">
       <created>1671408501232</created>
@@ -681,7 +687,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723491192487</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Commit-12/08/2024">
+      <option name="closed" value="true" />
+      <created>1723497798332</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1723497798332</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
