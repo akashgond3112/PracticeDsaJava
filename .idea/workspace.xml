@@ -9,10 +9,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="697252cc-7674-4df4-b819-341bc29cf007" name="Changes" comment="Commit-12/08/2024">
-      <change afterPath="$PROJECT_DIR$/src/main/dsa/linear/LinkedList/SinglyLinkedList/IntersectionOfTwoLinkedLists.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/dsa/linear/LinkedList/SinglyLinkedList/MiddleOfLinkedList.java" afterDir="false" />
+    <list default="true" id="697252cc-7674-4df4-b819-341bc29cf007" name="Changes" comment="Commit-13/08/2024">
+      <change afterPath="$PROJECT_DIR$/src/main/dsa/linear/LinkedList/SinglyLinkedList/CycleDetectionInASinglyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/dsa/linear/LinkedList/SinglyLinkedList/DeleteMiddleNodeFromLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/dsa/linear/LinkedList/SinglyLinkedList/LengthOfLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/linear/LinkedList/SinglyLinkedList/LengthOfLinkedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,13 +90,17 @@
     "Application.AddTwoNumbers.executor": "Run",
     "Application.CheckIfLinkedListIsPalindrome.executor": "Run",
     "Application.ConvertBinaryNumberLinkedListToInteger.executor": "Run",
+    "Application.CycleDetectionInASinglyLinkedList.executor": "Run",
     "Application.DeleteKthNodeFromEnd.executor": "Run",
+    "Application.DeleteMiddleNodeFromLinkedList.executor": "Run",
     "Application.DeletionFromLinkedList.executor": "Run",
     "Application.DeletionOfNodeForGivenPosition.executor": "Run",
+    "Application.DetectLoopInLinkedList.executor": "Run",
     "Application.DoublyLinkedList (1).executor": "Run",
     "Application.DoublyLinkedList.executor": "Run",
     "Application.IntersectionOfTwoLinkedLists.executor": "Run",
     "Application.IntroduceLinkedList.executor": "Run",
+    "Application.LengthOfLinkedList.executor": "Run",
     "Application.LongestTurbulentSubarray.executor": "Run",
     "Application.MiddleOfLinkedList.executor": "Run",
     "Application.RearrangeOddAndEvenPlaces.executor": "Run",
@@ -146,9 +151,9 @@
       <command value="mvn clean package" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.MiddleOfLinkedList">
-    <configuration name="AddOneToANumberRepresentedAsLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.dsa.linear.LinkedList.SinglyLinkedList.AddOneToANumberRepresentedAsLinkedList" />
+  <component name="RunManager" selected="Application.DeleteMiddleNodeFromLinkedList">
+    <configuration name="CycleDetectionInASinglyLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.dsa.linear.LinkedList.SinglyLinkedList.CycleDetectionInASinglyLinkedList" />
       <module name="PracticeDSA" />
       <extension name="coverage">
         <pattern>
@@ -160,8 +165,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CheckIfLinkedListIsPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.dsa.linear.LinkedList.SinglyLinkedList.CheckIfLinkedListIsPalindrome" />
+    <configuration name="DeleteMiddleNodeFromLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.dsa.linear.LinkedList.SinglyLinkedList.DeleteMiddleNodeFromLinkedList" />
       <module name="PracticeDSA" />
       <extension name="coverage">
         <pattern>
@@ -173,8 +178,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IntersectionOfTwoLinkedLists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.dsa.linear.LinkedList.SinglyLinkedList.IntersectionOfTwoLinkedLists" />
+    <configuration name="DetectLoopInLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.dsa.linear.LinkedList.SinglyLinkedList.DetectLoopInLinkedList" />
+      <module name="PracticeDSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.dsa.linear.LinkedList.SinglyLinkedList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LengthOfLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.dsa.linear.LinkedList.SinglyLinkedList.LengthOfLinkedList" />
       <module name="PracticeDSA" />
       <extension name="coverage">
         <pattern>
@@ -188,19 +206,6 @@
     </configuration>
     <configuration name="MiddleOfLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.dsa.linear.LinkedList.SinglyLinkedList.MiddleOfLinkedList" />
-      <module name="PracticeDSA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="main.dsa.linear.LinkedList.SinglyLinkedList.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReverseLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.dsa.linear.LinkedList.SinglyLinkedList.ReverseLinkedList" />
       <module name="PracticeDSA" />
       <extension name="coverage">
         <pattern>
@@ -301,11 +306,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DeleteMiddleNodeFromLinkedList" />
+        <item itemvalue="Application.LengthOfLinkedList" />
+        <item itemvalue="Application.CycleDetectionInASinglyLinkedList" />
+        <item itemvalue="Application.DetectLoopInLinkedList" />
         <item itemvalue="Application.MiddleOfLinkedList" />
-        <item itemvalue="Application.IntersectionOfTwoLinkedLists" />
-        <item itemvalue="Application.AddOneToANumberRepresentedAsLinkedList" />
-        <item itemvalue="Application.CheckIfLinkedListIsPalindrome" />
-        <item itemvalue="Application.ReverseLinkedList" />
       </list>
     </recent_temporary>
   </component>
@@ -422,7 +427,9 @@
       <workItem from="1723448796405" duration="53000" />
       <workItem from="1723488553800" duration="3312000" />
       <workItem from="1723536696336" duration="12000" />
-      <workItem from="1723567362762" duration="6031000" />
+      <workItem from="1723567362762" duration="6671000" />
+      <workItem from="1723621388182" duration="31000" />
+      <workItem from="1723651534670" duration="5599000" />
     </task>
     <task id="LOCAL-00001" summary="commit-19122022">
       <created>1671408501232</created>
@@ -695,7 +702,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723497798332</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Commit-13/08/2024">
+      <option name="closed" value="true" />
+      <created>1723582968804</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1723582968804</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -723,7 +738,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Commit-13/09/2023" />
     <MESSAGE value="Commit-14/09/2023" />
     <MESSAGE value="Commit-16/09/2023" />
     <MESSAGE value="Commit-22/09/2023" />
@@ -748,7 +762,8 @@
     <MESSAGE value="Commit-10/08/2024" />
     <MESSAGE value="Commit-11/08/2024" />
     <MESSAGE value="Commit-12/08/2024" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit-12/08/2024" />
+    <MESSAGE value="Commit-13/08/2024" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit-13/08/2024" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
