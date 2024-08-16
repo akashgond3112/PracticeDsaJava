@@ -2,238 +2,252 @@ package main.dsa.linear.LinkedList.DoublyLinkedList;
 
 public class DoublyLinkedList {
 
-    static class Node {
-        int data;
-        Node next;
-        Node prev;
+	static class Node {
+		int data;
+		Node next;
+		Node prev;
 
-        public Node(int data, Node next, Node prev) {
-            this.data = data;
-            this.next = next;
-            this.prev = prev;
-        }
+		public Node(int data, Node next, Node prev) {
+			this.data = data;
+			this.next = next;
+			this.prev = prev;
+		}
 
-        public Node(int data) {
-            this.data = data;
-            this.next = null;
-            this.prev = null;
-        }
+		public Node(int data) {
+			this.data = data;
+			this.next = null;
+			this.prev = null;
+		}
 
-    }
+	}
 
-    static Node push(int[] new_data) {
-        Node new_node = new Node(new_data[0]);
+	static Node push(int[] new_data) {
+		Node new_node = new Node(new_data[0]);
 
-        Node prev = new_node;
-        for (int i = 1; i < new_data.length; i++) {
-            Node temp = new Node(new_data[i], null, prev);
-            prev.next = temp;
-            prev = temp;
-        }
-        return new_node;
-    }
+		Node prev = new_node;
+		for (int i = 1; i < new_data.length; i++) {
+			Node temp = new Node(new_data[i], null, prev);
+			prev.next = temp;
+			prev = temp;
+		}
+		return new_node;
+	}
 
-    static Node deleteHead(Node head) {
-        if (head == null || head.next == null) {
-            return null;
-        }
+	static Node deleteHead(Node head) {
+		if (head == null || head.next == null) {
+			return null;
+		}
 
-        Node prev = head;
-        head = head.next;
-        head.prev = null;
-        prev.next = null;
-        return head;
-    }
+		Node prev = head;
+		head = head.next;
+		head.prev = null;
+		prev.next = null;
+		return head;
+	}
 
-    static Node deleteTail(Node head) {
-        if (head == null || head.next == null) {
-            return null;
-        }
+	static Node deleteTail(Node head) {
+		if (head == null || head.next == null) {
+			return null;
+		}
 
-        Node tail = head;
+		Node tail = head;
 
-        while (tail.next != null) {
-            tail = tail.next;
-        }
+		while (tail.next != null) {
+			tail = tail.next;
+		}
 
-        Node prev = tail.prev;
-        tail.prev = null;
-        prev.next = null;
-        return head;
-    }
+		Node prev = tail.prev;
+		tail.prev = null;
+		prev.next = null;
+		return head;
+	}
 
-    static Node deleteKth(Node head, int k) {
-        if (head == null || head.next == null || k == 0) {
-            return head;
-        }
+	static Node getTail(Node head) {
+		if (head == null || head.next == null) {
+			return null;
+		}
 
-        Node temp = head;
-        int count = 0;
-        while (temp != null) {
-            count++;
-            if (count == k) break;
-            temp = temp.next;
-        }
+		Node tail = head;
 
-        Node prev = temp.prev;
-        Node next = temp.next;
+		while (tail.next != null) {
+			tail = tail.next;
+		}
+		return tail;
+	}
 
-        if (prev == null && next == null) {
-            return null;
-        } else if (temp.prev == null) {
-            deleteHead(temp);
-        } else if (temp.next == null) {
-            deleteTail(temp);
-        } else {
-            prev.next = next;
-            next.prev = prev;
+	static Node deleteKth(Node head, int k) {
+		if (head == null || head.next == null || k == 0) {
+			return head;
+		}
 
-            temp.next = null;
-            temp.prev = null;
-        }
-        return head;
-    }
+		Node temp = head;
+		int count = 0;
+		while (temp != null) {
+			count++;
+			if (count == k)
+				break;
+			temp = temp.next;
+		}
 
-    static void deleteNode(Node temp) {
-        Node prev = temp.prev;
-        Node next = temp.next;
+		Node prev = temp.prev;
+		Node next = temp.next;
 
-        if (next == null) {
-            prev.next = null;
-            temp.prev = null;
-            return;
-        } else {
-            prev.next = next;
-            next.prev = prev;
+		if (prev == null && next == null) {
+			return null;
+		} else if (temp.prev == null) {
+			deleteHead(temp);
+		} else if (temp.next == null) {
+			deleteTail(temp);
+		} else {
+			prev.next = next;
+			next.prev = prev;
 
-            temp.next = null;
-            temp.prev = null;
-        }
-    }
+			temp.next = null;
+			temp.prev = null;
+		}
+		return head;
+	}
 
-    static void printList(Node node) {
-        Node last = null;
+	static void deleteNode(Node temp) {
+		Node prev = temp.prev;
+		Node next = temp.next;
 
-        System.out.print("\n Traversal in forwards \n");
+		if (next == null) {
+			prev.next = null;
+			temp.prev = null;
+			return;
+		} else {
+			prev.next = next;
+			next.prev = prev;
 
-        while (node != null) {
-            System.out.print(" " + node.data + " ");
-            last = node;
-            node = node.next;
-        }
-        System.out.print("\n Traversal in backwards \n");
+			temp.next = null;
+			temp.prev = null;
+		}
+	}
 
-        while (last != null) {
-            System.out.print(" " + last.data + " ");
-            last = last.prev;
-        }
-    }
+	static void printList(Node node) {
+		Node last = null;
 
-    static Node insertAtHead(Node head, int data) {
+		System.out.print("\n Traversal in forwards \n");
 
-        if (head == null || head.next == null) {
-            Node new_node = new Node(data);
-            new_node.next = null;
-            new_node.prev = null;
-            return new_node;
-        }
-        Node new_node = new Node(data, head, null);
-        head.prev = new_node;
-        new_node.next = head;
-        return new_node;
-    }
+		while (node != null) {
+			System.out.print(" " + node.data + " ");
+			last = node;
+			node = node.next;
+		}
+		System.out.print("\n Traversal in backwards \n");
 
-    static Node insertAtTail(Node head, int data) {
-        if (head == null || head.next == null) {
-            Node new_node = new Node(data);
-            new_node.next = null;
-            new_node.prev = null;
-            return new_node;
-        }
+		while (last != null) {
+			System.out.print(" " + last.data + " ");
+			last = last.prev;
+		}
+	}
 
-        Node tail = head;
+	static Node insertAtHead(Node head, int data) {
 
-        while (tail.next != null) {
-            tail = tail.next;
-        }
-        Node new_node = new Node(data);
-        tail.next = new_node;
-        new_node.prev = tail;
-        new_node.next = null;
+		if (head == null || head.next == null) {
+			Node new_node = new Node(data);
+			new_node.next = null;
+			new_node.prev = null;
+			return new_node;
+		}
+		Node new_node = new Node(data, head, null);
+		head.prev = new_node;
+		new_node.next = head;
+		return new_node;
+	}
 
-        return head;
-    }
+	static Node insertAtTail(Node head, int data) {
+		if (head == null || head.next == null) {
+			Node new_node = new Node(data);
+			new_node.next = null;
+			new_node.prev = null;
+			return new_node;
+		}
 
-    static Node insertAtKth(Node head, int k, int data) {
+		Node tail = head;
 
-        if (k == 1) {
-            return insertAtHead(head, data);
-        }
+		while (tail.next != null) {
+			tail = tail.next;
+		}
+		Node new_node = new Node(data);
+		tail.next = new_node;
+		new_node.prev = tail;
+		new_node.next = null;
 
-        Node temp = head;
-        int count = 0;
-        while (temp != null) {
-            if (count == k) {
-                break;
-            }
-            count++;
-            temp = temp.next;
-        }
+		return head;
+	}
 
-        Node prev = temp.prev;
+	static Node insertAtKth(Node head, int k, int data) {
 
-        Node new_node = new Node(data, temp, prev);
-        prev.next = new_node;
-        temp.prev = new_node;
-        return head;
-    }
+		if (k == 1) {
+			return insertAtHead(head, data);
+		}
 
-    static void insertAtNode(Node temp, int data) {
-        Node prev = temp.prev;
+		Node temp = head;
+		int count = 0;
+		while (temp != null) {
+			if (count == k) {
+				break;
+			}
+			count++;
+			temp = temp.next;
+		}
 
-        Node new_node = new Node(data, temp, prev);
-        prev.next = new_node;
-        temp.prev = new_node;
-    }
+		Node prev = temp.prev;
 
-    public static void main(String[] args) {
+		Node new_node = new Node(data, temp, prev);
+		prev.next = new_node;
+		temp.prev = new_node;
+		return head;
+	}
 
-        int[] data = {1, 2, 3, 4, 5, 6, 7, 8, 9};
-        Node head = push(data);
-        printList(head);
+	static void insertAtNode(Node temp, int data) {
+		Node prev = temp.prev;
 
-        System.out.print("\n Delete Head \n");
-        head = deleteHead(head);
-        printList(head);
+		Node new_node = new Node(data, temp, prev);
+		prev.next = new_node;
+		temp.prev = new_node;
+	}
 
-        System.out.print("\n Delete Tail \n");
-        head = deleteTail(head);
-        printList(head);
+	public static void main(String[] args) {
 
-        System.out.print("\n Delete Kth element \n");
-        head = deleteKth(head, 2);
-        printList(head);
+		int[] data = { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
+		Node head = push(data);
+		printList(head);
 
-        System.out.print("\n Delete Kth element \n");
-        deleteNode(head.next.next);
-        printList(head);
+		System.out.print("\n Delete Head \n");
+		head = deleteHead(head);
+		printList(head);
 
-        System.out.print("\n Insert at head \n");
-        head = insertAtHead(head, 100);
-        printList(head);
+		System.out.print("\n Delete Tail \n");
+		head = deleteTail(head);
+		printList(head);
 
-        System.out.print("\n Insert at tail \n");
-        head = insertAtTail(head, 200);
-        printList(head);
+		System.out.print("\n Delete Kth element \n");
+		head = deleteKth(head, 2);
+		printList(head);
 
-        System.out.print("\n Insert at kth \n");
-        head = insertAtKth(head, 4, 500);
-        printList(head);
+		System.out.print("\n Delete Kth element \n");
+		deleteNode(head.next.next);
+		printList(head);
 
-        System.out.print("\n Insert at node \n");
-        insertAtNode(head.next, 600);
-        printList(head);
-    }
+		System.out.print("\n Insert at head \n");
+		head = insertAtHead(head, 100);
+		printList(head);
+
+		System.out.print("\n Insert at tail \n");
+		head = insertAtTail(head, 200);
+		printList(head);
+
+		System.out.print("\n Insert at kth \n");
+		head = insertAtKth(head, 4, 500);
+		printList(head);
+
+		System.out.print("\n Insert at node \n");
+		insertAtNode(head.next, 600);
+		printList(head);
+	}
 
 
 }
