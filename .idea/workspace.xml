@@ -9,11 +9,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="697252cc-7674-4df4-b819-341bc29cf007" name="Changes" comment="Commit-15/08/2024">
-      <change afterPath="$PROJECT_DIR$/src/main/dsa/linear/LinkedList/DoublyLinkedList/DeleteAllOccurrencesOfAGivenKeyInADoublyLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/dsa/linear/LinkedList/DoublyLinkedList/FindPairsWithGivenSumInDoublyLinkedList.java" afterDir="false" />
+    <list default="true" id="697252cc-7674-4df4-b819-341bc29cf007" name="Changes" comment="Commit-16/08/2024">
+      <change afterPath="$PROJECT_DIR$/src/main/dsa/linear/LinkedList/DoublyLinkedList/RemoveDuplicatesFromASortedDoublyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/dsa/linear/LinkedList/SinglyLinkedList/ReverseListInKGroups.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/dsa/linear/LinkedList/DoublyLinkedList/DoublyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/linear/LinkedList/DoublyLinkedList/DoublyLinkedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +98,7 @@
     "Application.DetectLoopInLinkedList.executor": "Run",
     "Application.DoublyLinkedList (1).executor": "Run",
     "Application.DoublyLinkedList.executor": "Run",
-    "Application.FindPairsWithGivenSumInDoublyLinkedList.executor": "Debug",
+    "Application.FindPairsWithGivenSumInDoublyLinkedList.executor": "Run",
     "Application.IntersectionOfTwoLinkedLists.executor": "Run",
     "Application.IntroduceLinkedList.executor": "Run",
     "Application.LengthOfLinkedList.executor": "Run",
@@ -107,8 +106,10 @@
     "Application.LongestTurbulentSubarray.executor": "Run",
     "Application.MiddleOfLinkedList.executor": "Run",
     "Application.RearrangeOddAndEvenPlaces.executor": "Run",
+    "Application.RemoveDuplicatesFromASortedDoublyLinkedList.executor": "Debug",
     "Application.ReverseADoublyLinkedList.executor": "Debug",
     "Application.ReverseLinkedList.executor": "Run",
+    "Application.ReverseListInKGroups.executor": "Run",
     "Application.SinglyLinkedList.executor": "Run",
     "Application.SortLinkedList.executor": "Run",
     "Downloaded.Files.Path.Enabled": "false",
@@ -154,26 +155,13 @@
       <command value="mvn clean package" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.FindPairsWithGivenSumInDoublyLinkedList">
+  <component name="RunManager" selected="Application.ReverseListInKGroups">
     <configuration name="DeleteAllOccurrencesOfAGivenKeyInADoublyLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.dsa.linear.LinkedList.DoublyLinkedList.DeleteAllOccurrencesOfAGivenKeyInADoublyLinkedList" />
       <module name="PracticeDSA" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="main.dsa.linear.LinkedList.DoublyLinkedList.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DeleteMiddleNodeFromLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.dsa.linear.LinkedList.SinglyLinkedList.DeleteMiddleNodeFromLinkedList" />
-      <module name="PracticeDSA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="main.dsa.linear.LinkedList.SinglyLinkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -194,8 +182,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LengthOfLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.dsa.linear.LinkedList.SinglyLinkedList.LengthOfLinkedList" />
+    <configuration name="LinkedListCycleII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.dsa.linear.LinkedList.SinglyLinkedList.LinkedListCycleII" />
       <module name="PracticeDSA" />
       <extension name="coverage">
         <pattern>
@@ -207,8 +195,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedListCycleII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.dsa.linear.LinkedList.SinglyLinkedList.LinkedListCycleII" />
+    <configuration name="RemoveDuplicatesFromASortedDoublyLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.dsa.linear.LinkedList.DoublyLinkedList.RemoveDuplicatesFromASortedDoublyLinkedList" />
+      <module name="PracticeDSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.dsa.linear.LinkedList.DoublyLinkedList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReverseListInKGroups" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.dsa.linear.LinkedList.SinglyLinkedList.ReverseListInKGroups" />
       <module name="PracticeDSA" />
       <extension name="coverage">
         <pattern>
@@ -309,11 +310,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReverseListInKGroups" />
+        <item itemvalue="Application.RemoveDuplicatesFromASortedDoublyLinkedList" />
         <item itemvalue="Application.FindPairsWithGivenSumInDoublyLinkedList" />
         <item itemvalue="Application.DeleteAllOccurrencesOfAGivenKeyInADoublyLinkedList" />
         <item itemvalue="Application.LinkedListCycleII" />
-        <item itemvalue="Application.DeleteMiddleNodeFromLinkedList" />
-        <item itemvalue="Application.LengthOfLinkedList" />
       </list>
     </recent_temporary>
   </component>
@@ -436,7 +437,8 @@
       <workItem from="1723708511726" duration="137000" />
       <workItem from="1723749197753" duration="4932000" />
       <workItem from="1723795345649" duration="30000" />
-      <workItem from="1723831547998" duration="3543000" />
+      <workItem from="1723831547998" duration="4800000" />
+      <workItem from="1723917727241" duration="4151000" />
     </task>
     <task id="LOCAL-00001" summary="commit-19122022">
       <created>1671408501232</created>
@@ -733,7 +735,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723757120611</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="Commit-16/08/2024">
+      <option name="closed" value="true" />
+      <created>1723844081390</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1723844081390</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -761,7 +771,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Commit-22/09/2023" />
     <MESSAGE value="Commit-23/09/2023" />
     <MESSAGE value="Commit-24/09/2023" />
     <MESSAGE value="Commit-25/09/2023" />
@@ -786,7 +795,8 @@
     <MESSAGE value="Commit-13/08/2024" />
     <MESSAGE value="Commit-14/08/2024" />
     <MESSAGE value="Commit-15/08/2024" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit-15/08/2024" />
+    <MESSAGE value="Commit-16/08/2024" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit-16/08/2024" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -913,6 +923,11 @@
           <url>file://$PROJECT_DIR$/src/main/dsa/linear/LinkedList/DoublyLinkedList/FindPairsWithGivenSumInDoublyLinkedList.java</url>
           <line>93</line>
           <option name="timeStamp" value="100" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/dsa/linear/LinkedList/DoublyLinkedList/RemoveDuplicatesFromASortedDoublyLinkedList.java</url>
+          <line>75</line>
+          <option name="timeStamp" value="101" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
