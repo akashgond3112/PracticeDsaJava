@@ -9,7 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="697252cc-7674-4df4-b819-341bc29cf007" name="Changes" comment="Commit-17/08/2024">
+    <list default="true" id="697252cc-7674-4df4-b819-341bc29cf007" name="Changes" comment="Commit-18/08/2024">
+      <change afterPath="$PROJECT_DIR$/src/main/dsa/linear/LinkedList/SinglyLinkedList/MergeTwoSortedLinkedLists.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/dsa/linear/LinkedList/SinglyLinkedList/RotateLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -102,12 +104,14 @@
     "Application.LengthOfLinkedList.executor": "Run",
     "Application.LinkedListCycleII.executor": "Run",
     "Application.LongestTurbulentSubarray.executor": "Run",
+    "Application.MergeTwoSortedLinkedLists.executor": "Run",
     "Application.MiddleOfLinkedList.executor": "Run",
     "Application.RearrangeOddAndEvenPlaces.executor": "Run",
     "Application.RemoveDuplicatesFromASortedDoublyLinkedList.executor": "Debug",
     "Application.ReverseADoublyLinkedList.executor": "Debug",
     "Application.ReverseLinkedList.executor": "Run",
     "Application.ReverseListInKGroups.executor": "Run",
+    "Application.RotateLinkedList.executor": "Run",
     "Application.SinglyLinkedList.executor": "Run",
     "Application.SortLinkedList.executor": "Run",
     "Downloaded.Files.Path.Enabled": "false",
@@ -153,20 +157,7 @@
       <command value="mvn clean package" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.ReverseListInKGroups">
-    <configuration name="DeleteAllOccurrencesOfAGivenKeyInADoublyLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.dsa.linear.LinkedList.DoublyLinkedList.DeleteAllOccurrencesOfAGivenKeyInADoublyLinkedList" />
-      <module name="PracticeDSA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="main.dsa.linear.LinkedList.DoublyLinkedList.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.MergeTwoSortedLinkedLists">
     <configuration name="FindPairsWithGivenSumInDoublyLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.dsa.linear.LinkedList.DoublyLinkedList.FindPairsWithGivenSumInDoublyLinkedList" />
       <module name="PracticeDSA" />
@@ -180,8 +171,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedListCycleII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.dsa.linear.LinkedList.SinglyLinkedList.LinkedListCycleII" />
+    <configuration name="MergeTwoSortedLinkedLists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.dsa.linear.LinkedList.SinglyLinkedList.MergeTwoSortedLinkedLists" />
       <module name="PracticeDSA" />
       <extension name="coverage">
         <pattern>
@@ -208,6 +199,19 @@
     </configuration>
     <configuration name="ReverseListInKGroups" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.dsa.linear.LinkedList.SinglyLinkedList.ReverseListInKGroups" />
+      <module name="PracticeDSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.dsa.linear.LinkedList.SinglyLinkedList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RotateLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.dsa.linear.LinkedList.SinglyLinkedList.RotateLinkedList" />
       <module name="PracticeDSA" />
       <extension name="coverage">
         <pattern>
@@ -308,11 +312,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MergeTwoSortedLinkedLists" />
+        <item itemvalue="Application.RotateLinkedList" />
         <item itemvalue="Application.ReverseListInKGroups" />
         <item itemvalue="Application.RemoveDuplicatesFromASortedDoublyLinkedList" />
         <item itemvalue="Application.FindPairsWithGivenSumInDoublyLinkedList" />
-        <item itemvalue="Application.DeleteAllOccurrencesOfAGivenKeyInADoublyLinkedList" />
-        <item itemvalue="Application.LinkedListCycleII" />
       </list>
     </recent_temporary>
   </component>
@@ -437,6 +441,9 @@
       <workItem from="1723795345649" duration="30000" />
       <workItem from="1723831547998" duration="4800000" />
       <workItem from="1723917727241" duration="5959000" />
+      <workItem from="1724015941971" duration="29000" />
+      <workItem from="1724053601203" duration="8000" />
+      <workItem from="1724090011464" duration="3605000" />
     </task>
     <task id="LOCAL-00001" summary="commit-19122022">
       <created>1671408501232</created>
@@ -749,7 +756,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723929152216</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="Commit-18/08/2024">
+      <option name="closed" value="true" />
+      <created>1724015963285</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1724015963285</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -777,7 +792,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Commit-24/09/2023" />
     <MESSAGE value="Commit-25/09/2023" />
     <MESSAGE value="Commit-26/09/2023" />
     <MESSAGE value="Commit-27/09/2023" />
@@ -802,7 +816,8 @@
     <MESSAGE value="Commit-15/08/2024" />
     <MESSAGE value="Commit-16/08/2024" />
     <MESSAGE value="Commit-17/08/2024" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit-17/08/2024" />
+    <MESSAGE value="Commit-18/08/2024" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit-18/08/2024" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
