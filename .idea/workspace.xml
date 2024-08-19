@@ -9,7 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="697252cc-7674-4df4-b819-341bc29cf007" name="Changes" comment="Commit-18/08/2024">
+    <list default="true" id="697252cc-7674-4df4-b819-341bc29cf007" name="Changes" comment="Commit-19/08/2024">
       <change afterPath="$PROJECT_DIR$/src/main/dsa/linear/LinkedList/SinglyLinkedList/MergeTwoSortedLinkedLists.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/dsa/linear/LinkedList/SinglyLinkedList/RotateLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -443,7 +443,7 @@
       <workItem from="1723917727241" duration="5959000" />
       <workItem from="1724015941971" duration="29000" />
       <workItem from="1724053601203" duration="8000" />
-      <workItem from="1724090011464" duration="3605000" />
+      <workItem from="1724090011464" duration="5263000" />
     </task>
     <task id="LOCAL-00001" summary="commit-19122022">
       <created>1671408501232</created>
@@ -764,7 +764,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724015963285</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="Commit-19/08/2024">
+      <option name="closed" value="true" />
+      <created>1724093786299</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1724093786299</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -792,7 +800,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Commit-25/09/2023" />
     <MESSAGE value="Commit-26/09/2023" />
     <MESSAGE value="Commit-27/09/2023" />
     <MESSAGE value="Commit-28/09/2023" />
@@ -817,7 +824,8 @@
     <MESSAGE value="Commit-16/08/2024" />
     <MESSAGE value="Commit-17/08/2024" />
     <MESSAGE value="Commit-18/08/2024" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit-18/08/2024" />
+    <MESSAGE value="Commit-19/08/2024" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit-19/08/2024" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
