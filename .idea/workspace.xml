@@ -10,8 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="697252cc-7674-4df4-b819-341bc29cf007" name="Changes" comment="Commit-19/08/2024">
-      <change afterPath="$PROJECT_DIR$/src/main/dsa/linear/LinkedList/SinglyLinkedList/MergeTwoSortedLinkedLists.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/dsa/linear/LinkedList/SinglyLinkedList/RotateLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/dsa/linear/LinkedList/SinglyLinkedList/FlattenALinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -99,6 +98,7 @@
     "Application.DoublyLinkedList (1).executor": "Run",
     "Application.DoublyLinkedList.executor": "Run",
     "Application.FindPairsWithGivenSumInDoublyLinkedList.executor": "Run",
+    "Application.FlattenALinkedList.executor": "Debug",
     "Application.IntersectionOfTwoLinkedLists.executor": "Run",
     "Application.IntroduceLinkedList.executor": "Run",
     "Application.LengthOfLinkedList.executor": "Run",
@@ -157,13 +157,13 @@
       <command value="mvn clean package" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.MergeTwoSortedLinkedLists">
-    <configuration name="FindPairsWithGivenSumInDoublyLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.dsa.linear.LinkedList.DoublyLinkedList.FindPairsWithGivenSumInDoublyLinkedList" />
+  <component name="RunManager" selected="Application.FlattenALinkedList">
+    <configuration name="FlattenALinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.dsa.linear.LinkedList.SinglyLinkedList.FlattenALinkedList" />
       <module name="PracticeDSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.dsa.linear.LinkedList.DoublyLinkedList.*" />
+          <option name="PATTERN" value="main.dsa.linear.LinkedList.SinglyLinkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -312,18 +312,18 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FlattenALinkedList" />
         <item itemvalue="Application.MergeTwoSortedLinkedLists" />
         <item itemvalue="Application.RotateLinkedList" />
         <item itemvalue="Application.ReverseListInKGroups" />
         <item itemvalue="Application.RemoveDuplicatesFromASortedDoublyLinkedList" />
-        <item itemvalue="Application.FindPairsWithGivenSumInDoublyLinkedList" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-b114ca120d71-intellij.indexing.shared.core-IU-242.20224.387" />
+        <option value="bundled-jdk-9823dce3aa75-b114ca120d71-intellij.indexing.shared.core-IU-242.20224.419" />
       </set>
     </attachedChunks>
   </component>
@@ -444,6 +444,9 @@
       <workItem from="1724015941971" duration="29000" />
       <workItem from="1724053601203" duration="8000" />
       <workItem from="1724090011464" duration="5263000" />
+      <workItem from="1724099313275" duration="18000" />
+      <workItem from="1724226012479" duration="18000" />
+      <workItem from="1724256679965" duration="6616000" />
     </task>
     <task id="LOCAL-00001" summary="commit-19122022">
       <created>1671408501232</created>
@@ -772,7 +775,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724093786299</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="Commit-19/08/2024">
+      <option name="closed" value="true" />
+      <created>1724099322132</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1724099322132</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
