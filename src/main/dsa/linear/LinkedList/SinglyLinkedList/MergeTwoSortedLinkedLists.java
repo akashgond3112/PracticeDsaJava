@@ -2,7 +2,7 @@ package main.dsa.linear.LinkedList.SinglyLinkedList;
 
 public class MergeTwoSortedLinkedLists extends SinglyLinkedList {
 
-	public static Node sortTwoLists(Node first, Node second) {
+	public static Node mergerTwoLSorts(Node first, Node second) {
 		// Write your code here.
 		if (first == null || second == null) {
 			return first;
@@ -56,6 +56,6 @@ public class MergeTwoSortedLinkedLists extends SinglyLinkedList {
 		System.out.println();
 		printList(hea2);
 		System.out.println();
-		printList(sortTwoLists(head, hea2));
+		printList(mergerTwoLSorts(head, hea2));
 	}
 }
