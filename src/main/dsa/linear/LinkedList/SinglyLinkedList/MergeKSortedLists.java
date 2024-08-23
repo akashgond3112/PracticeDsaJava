@@ -1,14 +1,11 @@
 package main.dsa.linear.LinkedList.SinglyLinkedList;
 
-import main.dsa.nonlinear.tree.binary.search.learning.MinimiseMaximumDistanceBetweenGasStations;
-
 import java.util.ArrayList;
 import java.util.Collections;
-import java.util.Comparator;
 import java.util.List;
 import java.util.PriorityQueue;
 
-import static main.dsa.linear.LinkedList.SinglyLinkedList.MergeTwoSortedLinkedLists.sortTwoLists;
+import static main.dsa.linear.LinkedList.SinglyLinkedList.MergeTwoSortedLinkedLists.mergerTwoLSorts;
 
 public class MergeKSortedLists extends SinglyLinkedList {
 
@@ -61,7 +58,7 @@ public class MergeKSortedLists extends SinglyLinkedList {
 
 		for (int i = 1; i < list.size(); i++) {
 			Node tmp = list.get(i);
-			head = sortTwoLists(head, tmp);
+			head = mergerTwoLSorts(head, tmp);
 
 		}
 		return head;
