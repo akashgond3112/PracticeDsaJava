@@ -9,11 +9,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="697252cc-7674-4df4-b819-341bc29cf007" name="Changes" comment="Commit-22/08/2024">
-      <change afterPath="$PROJECT_DIR$/src/main/dsa/linear/LinkedList/SinglyLinkedList/SortLinkedListII.java" afterDir="false" />
+    <list default="true" id="697252cc-7674-4df4-b819-341bc29cf007" name="Changes" comment="Commit-23/08/2024">
+      <change afterPath="$PROJECT_DIR$/src/main/dsa/linear/LinkedList/SinglyLinkedList/CloneALinkedListWithRandomPointers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/recursion/backtracking/findSubsequenceOfGivenKSum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/dsa/linear/LinkedList/SinglyLinkedList/MergeKSortedLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/linear/LinkedList/SinglyLinkedList/MergeKSortedLists.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/dsa/linear/LinkedList/SinglyLinkedList/MergeTwoSortedLinkedLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/linear/LinkedList/SinglyLinkedList/MergeTwoSortedLinkedLists.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,6 +88,7 @@
     "Application.AddOneToANumberRepresentedAsLinkedList.executor": "Run",
     "Application.AddTwoNumbers.executor": "Run",
     "Application.CheckIfLinkedListIsPalindrome.executor": "Run",
+    "Application.CloneALinkedListWithRandomPointers.executor": "Run",
     "Application.ConvertBinaryNumberLinkedListToInteger.executor": "Run",
     "Application.CycleDetectionInASinglyLinkedList.executor": "Run",
     "Application.DeleteAllOccurrencesOfAGivenKeyInADoublyLinkedList.executor": "Run",
@@ -118,6 +118,7 @@
     "Application.SinglyLinkedList.executor": "Run",
     "Application.SortLinkedList.executor": "Run",
     "Application.SortLinkedListII.executor": "Run",
+    "Application.findSubsequenceOfGivenKSum.executor": "Run",
     "Downloaded.Files.Path.Enabled": "false",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
@@ -161,7 +162,20 @@
       <command value="mvn clean package" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.SortLinkedListII">
+  <component name="RunManager" selected="Application.findSubsequenceOfGivenKSum">
+    <configuration name="CloneALinkedListWithRandomPointers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.dsa.linear.LinkedList.SinglyLinkedList.CloneALinkedListWithRandomPointers" />
+      <module name="PracticeDSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.dsa.linear.LinkedList.SinglyLinkedList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FlattenALinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.dsa.linear.LinkedList.SinglyLinkedList.FlattenALinkedList" />
       <module name="PracticeDSA" />
@@ -188,38 +202,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeTwoSortedLinkedLists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.dsa.linear.LinkedList.SinglyLinkedList.MergeTwoSortedLinkedLists" />
-      <module name="PracticeDSA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="main.dsa.linear.LinkedList.SinglyLinkedList.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RotateLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.dsa.linear.LinkedList.SinglyLinkedList.RotateLinkedList" />
-      <module name="PracticeDSA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="main.dsa.linear.LinkedList.SinglyLinkedList.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SortLinkedListII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.dsa.linear.LinkedList.SinglyLinkedList.SortLinkedListII" />
       <module name="PracticeDSA" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="main.dsa.linear.LinkedList.SinglyLinkedList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="findSubsequenceOfGivenKSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.recursion.backtracking.findSubsequenceOfGivenKSum" />
+      <module name="PracticeDSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.recursion.backtracking.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -316,11 +317,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.findSubsequenceOfGivenKSum" />
+        <item itemvalue="Application.CloneALinkedListWithRandomPointers" />
         <item itemvalue="Application.SortLinkedListII" />
         <item itemvalue="Application.MergeKSortedLists" />
         <item itemvalue="Application.FlattenALinkedList" />
-        <item itemvalue="Application.MergeTwoSortedLinkedLists" />
-        <item itemvalue="Application.RotateLinkedList" />
       </list>
     </recent_temporary>
   </component>
@@ -453,7 +454,10 @@
       <workItem from="1724256679965" duration="6697000" />
       <workItem from="1724352762626" duration="4398000" />
       <workItem from="1724398514068" duration="16000" />
-      <workItem from="1724436203666" duration="2229000" />
+      <workItem from="1724436203666" duration="3240000" />
+      <workItem from="1724495406194" duration="606000" />
+      <workItem from="1724524395989" duration="4944000" />
+      <workItem from="1724947025027" duration="3904000" />
     </task>
     <task id="LOCAL-00001" summary="commit-19122022">
       <created>1671408501232</created>
@@ -806,7 +810,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724361215612</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="Commit-23/08/2024">
+      <option name="closed" value="true" />
+      <created>1724444724664</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1724444724664</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -834,7 +846,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Commit-28/09/2023" />
     <MESSAGE value="Commit-02/10/2023" />
     <MESSAGE value="Commit-03/10/2023" />
     <MESSAGE value="Commit-17/10/2023" />
@@ -859,7 +870,8 @@
     <MESSAGE value="Commit-19/08/2024" />
     <MESSAGE value="Commit-21/08/2024" />
     <MESSAGE value="Commit-22/08/2024" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit-22/08/2024" />
+    <MESSAGE value="Commit-23/08/2024" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit-23/08/2024" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
