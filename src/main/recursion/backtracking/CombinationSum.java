@@ -48,9 +48,6 @@ public class CombinationSum {
 			findCombinationSumII(i + 1, nums, targetSum - arr[j], res, arr, n);
 			nums.remove(nums.size() - 1);
 		}
-		//		// Do not pick the current element
-		//		findCombinationSumII(i + 1, nums, targetSum, res, arr, n);
-
 	}
 
 	public static List<List<Integer>> getCombinationSumII(int[] arr, int target, int n, ArrayList<Integer> nums) {
