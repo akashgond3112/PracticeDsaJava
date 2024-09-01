@@ -9,9 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="697252cc-7674-4df4-b819-341bc29cf007" name="Changes" comment="Commit-29/08/2024">
-      <change afterPath="$PROJECT_DIR$/src/main/recursion/backtracking/CombinationSum.java" afterDir="false" />
+    <list default="true" id="697252cc-7674-4df4-b819-341bc29cf007" name="Changes" comment="Commit-30/08/2024">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/recursion/backtracking/CombinationSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/recursion/backtracking/CombinationSum.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,71 +81,71 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Application.AddOneToANumberRepresentedAsLinkedList.executor": "Run",
-    "Application.AddTwoNumbers.executor": "Run",
-    "Application.CheckIfLinkedListIsPalindrome.executor": "Run",
-    "Application.CloneALinkedListWithRandomPointers.executor": "Run",
-    "Application.CombinationSum.executor": "Run",
-    "Application.ConvertBinaryNumberLinkedListToInteger.executor": "Run",
-    "Application.CycleDetectionInASinglyLinkedList.executor": "Run",
-    "Application.DeleteAllOccurrencesOfAGivenKeyInADoublyLinkedList.executor": "Run",
-    "Application.DeleteKthNodeFromEnd.executor": "Run",
-    "Application.DeleteMiddleNodeFromLinkedList.executor": "Run",
-    "Application.DeletionFromLinkedList.executor": "Run",
-    "Application.DeletionOfNodeForGivenPosition.executor": "Run",
-    "Application.DetectLoopInLinkedList.executor": "Run",
-    "Application.DoublyLinkedList (1).executor": "Run",
-    "Application.DoublyLinkedList.executor": "Run",
-    "Application.FindPairsWithGivenSumInDoublyLinkedList.executor": "Run",
-    "Application.FlattenALinkedList.executor": "Debug",
-    "Application.IntersectionOfTwoLinkedLists.executor": "Run",
-    "Application.IntroduceLinkedList.executor": "Run",
-    "Application.LengthOfLinkedList.executor": "Run",
-    "Application.LinkedListCycleII.executor": "Run",
-    "Application.LongestTurbulentSubarray.executor": "Run",
-    "Application.MergeKSortedLists.executor": "Run",
-    "Application.MergeTwoSortedLinkedLists.executor": "Run",
-    "Application.MiddleOfLinkedList.executor": "Run",
-    "Application.RearrangeOddAndEvenPlaces.executor": "Run",
-    "Application.RemoveDuplicatesFromASortedDoublyLinkedList.executor": "Debug",
-    "Application.ReverseADoublyLinkedList.executor": "Debug",
-    "Application.ReverseLinkedList.executor": "Run",
-    "Application.ReverseListInKGroups.executor": "Run",
-    "Application.RotateLinkedList.executor": "Run",
-    "Application.SinglyLinkedList.executor": "Run",
-    "Application.SortLinkedList.executor": "Run",
-    "Application.SortLinkedListII.executor": "Run",
-    "Application.findSubsequenceOfGivenKSum.executor": "Run",
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "create.test.in.the.same.root": "true",
-    "extract.method.default.visibility": "private",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/agond/IdeaProjects/Perosnal/PracticeDsaJava",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.keymap",
-    "spring.configuration.checksum": "659476cf04b5790abb125addbde5977f",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Application.AddOneToANumberRepresentedAsLinkedList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AddTwoNumbers.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CheckIfLinkedListIsPalindrome.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CloneALinkedListWithRandomPointers.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CombinationSum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ConvertBinaryNumberLinkedListToInteger.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CycleDetectionInASinglyLinkedList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DeleteAllOccurrencesOfAGivenKeyInADoublyLinkedList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DeleteKthNodeFromEnd.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DeleteMiddleNodeFromLinkedList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DeletionFromLinkedList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DeletionOfNodeForGivenPosition.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DetectLoopInLinkedList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DoublyLinkedList (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.DoublyLinkedList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FindPairsWithGivenSumInDoublyLinkedList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FlattenALinkedList.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.IntersectionOfTwoLinkedLists.executor&quot;: &quot;Run&quot;,
+    &quot;Application.IntroduceLinkedList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LengthOfLinkedList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LinkedListCycleII.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LongestTurbulentSubarray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MergeKSortedLists.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MergeTwoSortedLinkedLists.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MiddleOfLinkedList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RearrangeOddAndEvenPlaces.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RemoveDuplicatesFromASortedDoublyLinkedList.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.ReverseADoublyLinkedList.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.ReverseLinkedList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReverseListInKGroups.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RotateLinkedList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SinglyLinkedList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SortLinkedList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SortLinkedListII.executor&quot;: &quot;Run&quot;,
+    &quot;Application.findSubsequenceOfGivenKSum.executor&quot;: &quot;Run&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
+    &quot;extract.method.default.visibility&quot;: &quot;private&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/agond/IdeaProjects/Perosnal/PracticeDsaJava&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;659476cf04b5790abb125addbde5977f&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -461,7 +461,8 @@
       <workItem from="1725004893988" duration="48000" />
       <workItem from="1725004949906" duration="68000" />
       <workItem from="1725005023437" duration="21000" />
-      <workItem from="1725039546337" duration="4695000" />
+      <workItem from="1725039546337" duration="5997000" />
+      <workItem from="1725219959853" duration="126000" />
     </task>
     <task id="LOCAL-00001" summary="commit-19122022">
       <created>1671408501232</created>
@@ -830,7 +831,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724963711662</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="Commit-30/08/2024">
+      <option name="closed" value="true" />
+      <created>1725051107225</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1725051107225</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -858,7 +867,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Commit-03/10/2023" />
     <MESSAGE value="Commit-17/10/2023" />
     <MESSAGE value="Commit-19/10/2023" />
     <MESSAGE value="Commit-24/10/2023" />
@@ -883,7 +891,8 @@
     <MESSAGE value="Commit-22/08/2024" />
     <MESSAGE value="Commit-23/08/2024" />
     <MESSAGE value="Commit-29/08/2024" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit-29/08/2024" />
+    <MESSAGE value="Commit-30/08/2024" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit-30/08/2024" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
