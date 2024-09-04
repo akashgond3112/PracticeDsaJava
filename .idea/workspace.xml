@@ -9,9 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="697252cc-7674-4df4-b819-341bc29cf007" name="Changes" comment="Commit-03/09/2024">
-      <change afterPath="$PROJECT_DIR$/src/main/recursion/backtracking/FIndNQueens.java" afterDir="false" />
+    <list default="true" id="697252cc-7674-4df4-b819-341bc29cf007" name="Changes" comment="Commit-04/09/2024">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/recursion/backtracking/FIndNQueens.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/recursion/backtracking/FIndNQueens.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -457,7 +457,7 @@
       <workItem from="1725219959853" duration="144000" />
       <workItem from="1725261953628" duration="7000" />
       <workItem from="1725296256050" duration="4004000" />
-      <workItem from="1725387600042" duration="13148000" />
+      <workItem from="1725387600042" duration="15220000" />
     </task>
     <task id="LOCAL-00001" summary="commit-19122022">
       <created>1671408501232</created>
@@ -465,14 +465,6 @@
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
       <updated>1671408501232</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Commit-25/08/2023">
-      <option name="closed" value="true" />
-      <created>1693000623889</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1693000623889</updated>
     </task>
     <task id="LOCAL-00004" summary="Commit-28/08/2023">
       <option name="closed" value="true" />
@@ -850,7 +842,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725397409834</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="Commit-04/09/2024">
+      <option name="closed" value="true" />
+      <created>1725475345896</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1725475345896</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -878,7 +878,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Commit-25/10/2023" />
     <MESSAGE value="Commit-01/11/2023" />
     <MESSAGE value="Commit-04/12/2023" />
     <MESSAGE value="Commit-05/12/2023" />
@@ -903,7 +902,8 @@
     <MESSAGE value="Commit-01/09/2024" />
     <MESSAGE value="Commit-02/09/2024" />
     <MESSAGE value="Commit-03/09/2024" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit-03/09/2024" />
+    <MESSAGE value="Commit-04/09/2024" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit-04/09/2024" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

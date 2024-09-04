@@ -6,16 +6,6 @@ import java.util.List;
 
 public class FIndNQueens {
 
-	public static List<List<String>> solveNQueens(int n) {
-		char[][] board = new char[n][n];
-		for (int i = 0; i < n; i++)
-			for (int j = 0; j < n; j++)
-				board[i][j] = '.';
-		List<List<String>> res = new ArrayList<List<String>>();
-		dfs(0, board, res);
-		return res;
-	}
-
 	static boolean validate(char[][] board, int row, int col) {
 		int duprow = row;
 		int dupcol = col;
@@ -44,7 +34,7 @@ public class FIndNQueens {
 		return true;
 	}
 
-	static void dfs(int col, char[][] board, List<List<String>> res) {
+	static void solve(int col, char[][] board, List<List<String>> res) {
 		if (col == board.length) {
 			res.add(construct(board));
 			return;
@@ -53,10 +43,20 @@ public class FIndNQueens {
 		for (int row = 0; row < board.length; row++) {
 			if (validate(board, row, col)) {
 				board[row][col] = 'Q';
-				dfs(col + 1, board, res);
+				solve(col + 1, board, res);
 				board[row][col] = '.';
 			}
 		}
+	}
+
+	public static List<List<String>> solveNQueens(int n) {
+		char[][] board = new char[n][n];
+		for (int i = 0; i < n; i++)
+			for (int j = 0; j < n; j++)
+				board[i][j] = '.';
+		List<List<String>> res = new ArrayList<>();
+		solve(0, board, res);
+		return res;
 	}
 
 
@@ -75,17 +75,17 @@ public class FIndNQueens {
 		for (int i = 0; i < n; i++)
 			for (int j = 0; j < n; j++)
 				board[i][j] = '.';
-		List<List<String>> res = new ArrayList<List<String>>();
-		int leftRow[] = new int[n];
-		int upperDiagonal[] = new int[2 * n - 1];
-		int lowerDiagonal[] = new int[2 * n - 1];
+		List<List<String>> res = new ArrayList<>();
+		int[] leftRow = new int[n];
+		int[] upperDiagonal = new int[2 * n - 1];
+		int[] lowerDiagonal = new int[2 * n - 1];
 		solveII(0, board, res, leftRow, lowerDiagonal, upperDiagonal);
 		return res;
 	}
 
 
-	static void solveII(int col, char[][] board, List<List<String>> res, int leftRow[], int lowerDiagonal[],
-			int upperDiagonal[]) {
+	static void solveII(int col, char[][] board, List<List<String>> res, int[] leftRow, int[] lowerDiagonal,
+			int[] upperDiagonal) {
 		if (col == board.length) {
 			res.add(construct(board));
 			return;
@@ -106,7 +106,7 @@ public class FIndNQueens {
 		}
 	}
 
-	public static void main(String args[]) {
+	public static void main(String[] args) {
 		int N = 4;
 		List<List<String>> queen = solveNQueens(N);
 		int i = 1;
