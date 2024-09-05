@@ -10,8 +10,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="697252cc-7674-4df4-b819-341bc29cf007" name="Changes" comment="Commit-04/09/2024">
+      <change afterPath="$PROJECT_DIR$/src/main/recursion/backtracking/MColouringProblem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/recursion/backtracking/SudokoSolver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/recursion/backtracking/FIndNQueens.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/recursion/backtracking/FIndNQueens.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,6 +103,7 @@
     "Application.LengthOfLinkedList.executor": "Run",
     "Application.LinkedListCycleII.executor": "Run",
     "Application.LongestTurbulentSubarray.executor": "Run",
+    "Application.MColouringProblem.executor": "Run",
     "Application.MergeKSortedLists.executor": "Run",
     "Application.MergeTwoSortedLinkedLists.executor": "Run",
     "Application.MiddleOfLinkedList.executor": "Run",
@@ -116,6 +118,7 @@
     "Application.SortLinkedList.executor": "Run",
     "Application.SortLinkedListII.executor": "Run",
     "Application.SubsetSumIAndII.executor": "Run",
+    "Application.SudokoSolver.executor": "Run",
     "Application.findSubsequenceOfGivenKSum.executor": "Run",
     "Downloaded.Files.Path.Enabled": "false",
     "Repository.Attach.Annotations": "false",
@@ -160,9 +163,9 @@
       <command value="mvn clean package" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.FIndNQueens">
-    <configuration name="CombinationSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.recursion.backtracking.CombinationSum" />
+  <component name="RunManager" selected="Application.MColouringProblem">
+    <configuration name="FIndNQueens" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.recursion.backtracking.FIndNQueens" />
       <module name="PracticeDSA" />
       <extension name="coverage">
         <pattern>
@@ -174,8 +177,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FIndNQueens" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.recursion.backtracking.FIndNQueens" />
+    <configuration name="MColouringProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.recursion.backtracking.MColouringProblem" />
       <module name="PracticeDSA" />
       <extension name="coverage">
         <pattern>
@@ -213,8 +216,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="findSubsequenceOfGivenKSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.recursion.backtracking.findSubsequenceOfGivenKSum" />
+    <configuration name="SudokoSolver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.recursion.backtracking.SudokoSolver" />
       <module name="PracticeDSA" />
       <extension name="coverage">
         <pattern>
@@ -309,11 +312,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MColouringProblem" />
+        <item itemvalue="Application.SudokoSolver" />
         <item itemvalue="Application.FIndNQueens" />
         <item itemvalue="Application.PermutationOfStringArray" />
         <item itemvalue="Application.SubsetSumIAndII" />
-        <item itemvalue="Application.CombinationSum" />
-        <item itemvalue="Application.findSubsequenceOfGivenKSum" />
       </list>
     </recent_temporary>
   </component>
@@ -457,7 +460,9 @@
       <workItem from="1725219959853" duration="144000" />
       <workItem from="1725261953628" duration="7000" />
       <workItem from="1725296256050" duration="4004000" />
-      <workItem from="1725387600042" duration="15220000" />
+      <workItem from="1725387600042" duration="17042000" />
+      <workItem from="1725543299355" duration="7000" />
+      <workItem from="1725558025397" duration="3696000" />
     </task>
     <task id="LOCAL-00001" summary="commit-19122022">
       <created>1671408501232</created>
@@ -465,14 +470,6 @@
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
       <updated>1671408501232</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Commit-28/08/2023">
-      <option name="closed" value="true" />
-      <created>1693260129275</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1693260129276</updated>
     </task>
     <task id="LOCAL-00005" summary="Commit-29/08/2023">
       <option name="closed" value="true" />
@@ -850,7 +847,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725475345896</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="Commit-04/09/2024">
+      <option name="closed" value="true" />
+      <created>1725481984504</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1725481984504</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
