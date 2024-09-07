@@ -9,8 +9,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="697252cc-7674-4df4-b819-341bc29cf007" name="Changes" comment="Commit-05/09/2024">
-      <change afterPath="$PROJECT_DIR$/src/main/recursion/backtracking/PalindromePartitioning.java" afterDir="false" />
+    <list default="true" id="697252cc-7674-4df4-b819-341bc29cf007" name="Changes" comment="Commit-06/09/2024">
+      <change afterPath="$PROJECT_DIR$/src/main/recursion/backtracking/RatInAMazeProblemI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -108,6 +108,7 @@
     "Application.MiddleOfLinkedList.executor": "Run",
     "Application.PalindromePartitioning.executor": "Run",
     "Application.PermutationOfStringArray.executor": "Run",
+    "Application.RatInAMazeProblemI.executor": "Run",
     "Application.RearrangeOddAndEvenPlaces.executor": "Run",
     "Application.RemoveDuplicatesFromASortedDoublyLinkedList.executor": "Debug",
     "Application.ReverseADoublyLinkedList.executor": "Debug",
@@ -163,7 +164,7 @@
       <command value="mvn clean package" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.PalindromePartitioning">
+  <component name="RunManager" selected="Application.RatInAMazeProblemI">
     <configuration name="FIndNQueens" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.recursion.backtracking.FIndNQueens" />
       <module name="PracticeDSA" />
@@ -203,8 +204,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PermutationOfStringArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.recursion.backtracking.PermutationOfStringArray" />
+    <configuration name="RatInAMazeProblemI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.recursion.backtracking.RatInAMazeProblemI" />
       <module name="PracticeDSA" />
       <extension name="coverage">
         <pattern>
@@ -312,11 +313,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RatInAMazeProblemI" />
         <item itemvalue="Application.PalindromePartitioning" />
         <item itemvalue="Application.MColouringProblem" />
         <item itemvalue="Application.SudokoSolver" />
         <item itemvalue="Application.FIndNQueens" />
-        <item itemvalue="Application.PermutationOfStringArray" />
       </list>
     </recent_temporary>
   </component>
@@ -463,7 +464,8 @@
       <workItem from="1725387600042" duration="17042000" />
       <workItem from="1725543299355" duration="7000" />
       <workItem from="1725558025397" duration="4701000" />
-      <workItem from="1725646515442" duration="2022000" />
+      <workItem from="1725646515442" duration="2904000" />
+      <workItem from="1725707671031" duration="2815000" />
     </task>
     <task id="LOCAL-00001" summary="commit-19122022">
       <created>1671408501232</created>
@@ -471,14 +473,6 @@
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
       <updated>1671408501232</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Commit-30/08/2023">
-      <option name="closed" value="true" />
-      <created>1693434081303</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1693434081303</updated>
     </task>
     <task id="LOCAL-00007" summary="Commit-90/09/2023">
       <option name="closed" value="true" />
@@ -856,7 +850,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725562260165</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="Commit-06/09/2024">
+      <option name="closed" value="true" />
+      <created>1725649538703</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1725649538704</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -884,7 +886,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Commit-04/12/2023" />
     <MESSAGE value="Commit-05/12/2023" />
     <MESSAGE value="Commit-04/08/2024" />
     <MESSAGE value="Commit-06/08/2024" />
@@ -909,7 +910,8 @@
     <MESSAGE value="Commit-03/09/2024" />
     <MESSAGE value="Commit-04/09/2024" />
     <MESSAGE value="Commit-05/09/2024" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit-05/09/2024" />
+    <MESSAGE value="Commit-06/09/2024" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit-06/09/2024" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1046,6 +1048,21 @@
           <url>file://$PROJECT_DIR$/src/main/recursion/backtracking/PermutationOfStringArray.java</url>
           <line>60</line>
           <option name="timeStamp" value="102" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/recursion/backtracking/RatInAMazeProblemI.java</url>
+          <line>101</line>
+          <option name="timeStamp" value="103" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/recursion/backtracking/RatInAMazeProblemI.java</url>
+          <line>99</line>
+          <option name="timeStamp" value="104" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/recursion/backtracking/RatInAMazeProblemI.java</url>
+          <line>98</line>
+          <option name="timeStamp" value="105" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
