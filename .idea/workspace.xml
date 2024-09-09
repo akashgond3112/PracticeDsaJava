@@ -9,10 +9,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="697252cc-7674-4df4-b819-341bc29cf007" name="Changes" comment="Commit-07/09/2024">
-      <change afterPath="$PROJECT_DIR$/src/main/dynamic/programming/Fibonnaci.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/recursion/backtracking/hard/PermutationSequence.java" afterDir="false" />
+    <list default="true" id="697252cc-7674-4df4-b819-341bc29cf007" name="Changes" comment="Commit-08/09/2024">
+      <change afterPath="$PROJECT_DIR$/src/main/dynamic/programming/CountWaysToReachTheNthStairs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/dynamic/programming/FrogJump.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/dynamic/programming/Fibonnaci.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dynamic/programming/Fibonnaci.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,6 +100,7 @@
     "Application.Fibonnaci.executor": "Run",
     "Application.FindPairsWithGivenSumInDoublyLinkedList.executor": "Run",
     "Application.FlattenALinkedList.executor": "Debug",
+    "Application.FrogJump.executor": "Run",
     "Application.IntersectionOfTwoLinkedLists.executor": "Run",
     "Application.IntroduceLinkedList.executor": "Run",
     "Application.LengthOfLinkedList.executor": "Run",
@@ -167,7 +169,7 @@
       <command value="mvn clean package" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.Fibonnaci">
+  <component name="RunManager" selected="Application.FrogJump">
     <configuration name="Fibonnaci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.dynamic.programming.Fibonnaci" />
       <module name="PracticeDSA" />
@@ -181,12 +183,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MColouringProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.recursion.backtracking.MColouringProblem" />
+    <configuration name="FrogJump" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.dynamic.programming.FrogJump" />
       <module name="PracticeDSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.recursion.backtracking.*" />
+          <option name="PATTERN" value="main.dynamic.programming.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -316,11 +318,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FrogJump" />
         <item itemvalue="Application.Fibonnaci" />
         <item itemvalue="Application.PermutationSequence" />
         <item itemvalue="Application.RatInAMazeProblemI" />
         <item itemvalue="Application.PalindromePartitioning" />
-        <item itemvalue="Application.MColouringProblem" />
       </list>
     </recent_temporary>
   </component>
@@ -469,6 +471,9 @@
       <workItem from="1725558025397" duration="4701000" />
       <workItem from="1725646515442" duration="2904000" />
       <workItem from="1725707671031" duration="9334000" />
+      <workItem from="1725791018955" duration="19000" />
+      <workItem from="1725867206283" duration="268000" />
+      <workItem from="1725905154854" duration="3335000" />
     </task>
     <task id="LOCAL-00001" summary="commit-19122022">
       <created>1671408501232</created>
@@ -476,14 +481,6 @@
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
       <updated>1671408501232</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Commit-13/09/2023">
-      <option name="closed" value="true" />
-      <created>1694642660620</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1694642660620</updated>
     </task>
     <task id="LOCAL-00009" summary="Commit-14/09/2023">
       <option name="closed" value="true" />
@@ -861,7 +858,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725713310985</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="Commit-08/09/2024">
+      <option name="closed" value="true" />
+      <created>1725791029100</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1725791029100</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -889,7 +894,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Commit-04/08/2024" />
     <MESSAGE value="Commit-06/08/2024" />
     <MESSAGE value="Commit-09/08/2024" />
     <MESSAGE value="Commit-10/08/2024" />
@@ -914,7 +918,8 @@
     <MESSAGE value="Commit-05/09/2024" />
     <MESSAGE value="Commit-06/09/2024" />
     <MESSAGE value="Commit-07/09/2024" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit-07/09/2024" />
+    <MESSAGE value="Commit-08/09/2024" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit-08/09/2024" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
