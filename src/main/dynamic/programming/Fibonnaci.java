@@ -35,7 +35,7 @@ public class Fibonnaci {
 		return memoize(n, dp);
 	}
 
-	private static int memoize(int n, int[] dp) {
+	static int memoize(int n, int[] dp) {
 		if (n <= 1)
 			return n; // Base case
 		if (dp[n] != 0)
