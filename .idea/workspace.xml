@@ -9,11 +9,59 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="697252cc-7674-4df4-b819-341bc29cf007" name="Changes" comment="Commit-08/09/2024">
-      <change afterPath="$PROJECT_DIR$/src/main/dynamic/programming/CountWaysToReachTheNthStairs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/dynamic/programming/FrogJump.java" afterDir="false" />
+    <list default="true" id="697252cc-7674-4df4-b819-341bc29cf007" name="Changes" comment="Commit-09/09/2024">
+      <change afterPath="$PROJECT_DIR$/src/main/dynamic/programming/FrogJumpII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/dynamic/programming/MaximumSumOfNonAdjacentElements.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/dynamic/programming/Fibonnaci.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dynamic/programming/Fibonnaci.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PracticeDSA/Test/ConvertSortedArrayToBinarySearchTreeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PracticeDSA/Test/ConvertSortedArrayToBinarySearchTreeTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PracticeDSA/Test/MergeSortedArrayTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PracticeDSA/Test/MergeSortedArrayTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PracticeDSA/Test/PascalTriangleTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PracticeDSA/Test/PascalTriangleTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PracticeDSA/main/Arrray/easy/BuildArrayfromPermutation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PracticeDSA/main/Arrray/easy/ConcatenationofArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PracticeDSA/main/Arrray/easy/ConvertSortedArrayToBinarySearchTree$TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PracticeDSA/main/Arrray/easy/ConvertSortedArrayToBinarySearchTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PracticeDSA/main/Arrray/easy/FinalValueofVariableAfterPerformingOperations.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PracticeDSA/main/Arrray/easy/MergeSortedArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PracticeDSA/main/Arrray/easy/NumberofGoodPairs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PracticeDSA/main/Arrray/easy/PascalTriangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PracticeDSA/main/Arrray/easy/PlusOne.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PracticeDSA/main/Arrray/easy/RemoveDuplicatesfromSortedArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PracticeDSA/main/Arrray/easy/RemoveElement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PracticeDSA/main/Arrray/easy/RunningSumof1dArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PracticeDSA/main/Arrray/easy/SearchInsertPosition.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PracticeDSA/main/Arrray/easy/ShuffleTheArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PracticeDSA/main/Arrray/easy/TwoSum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PracticeDSA/main/LinkedList/CircularLinkedList/CircularLinkedList$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PracticeDSA/main/LinkedList/CircularLinkedList/CircularLinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PracticeDSA/main/LinkedList/DoublyLinkedList/DoublyLinkedList$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PracticeDSA/main/LinkedList/DoublyLinkedList/DoublyLinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PracticeDSA/main/LinkedList/SinglyLinkedList/ConvertBinaryNumberLinkedListToInteger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PracticeDSA/main/LinkedList/SinglyLinkedList/CountIntOccurenceInLinkedList$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PracticeDSA/main/LinkedList/SinglyLinkedList/CountIntOccurenceInLinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PracticeDSA/main/LinkedList/SinglyLinkedList/DeletionFromLinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PracticeDSA/main/LinkedList/SinglyLinkedList/DeletionOfNodeForGivenPosition$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PracticeDSA/main/LinkedList/SinglyLinkedList/DeletionOfNodeForGivenPosition.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PracticeDSA/main/LinkedList/SinglyLinkedList/DetectLoopInLinkedList$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PracticeDSA/main/LinkedList/SinglyLinkedList/DetectLoopInLinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PracticeDSA/main/LinkedList/SinglyLinkedList/GetMiddleOfLinkedList$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PracticeDSA/main/LinkedList/SinglyLinkedList/GetMiddleOfLinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PracticeDSA/main/LinkedList/SinglyLinkedList/GetNthNodeFromLastInLinkedList$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PracticeDSA/main/LinkedList/SinglyLinkedList/GetNthNodeFromLastInLinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PracticeDSA/main/LinkedList/SinglyLinkedList/GetNthNodeInLinkedList$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PracticeDSA/main/LinkedList/SinglyLinkedList/GetNthNodeInLinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PracticeDSA/main/LinkedList/SinglyLinkedList/IntroduceLinkedList$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PracticeDSA/main/LinkedList/SinglyLinkedList/IntroduceLinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PracticeDSA/main/LinkedList/SinglyLinkedList/LengthOfLinkedList$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PracticeDSA/main/LinkedList/SinglyLinkedList/LengthOfLinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PracticeDSA/main/LinkedList/SinglyLinkedList/Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PracticeDSA/main/LinkedList/SinglyLinkedList/SearchElementInLinkedList$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PracticeDSA/main/LinkedList/SinglyLinkedList/SearchElementInLinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PracticeDSA/main/LinkedList/SinglyLinkedList/SinglyLinkedList$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PracticeDSA/main/LinkedList/SinglyLinkedList/SinglyLinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PracticeDSA/main/Queue/ArrayQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PracticeDSA/main/Queue/Queue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PracticeDSA/main/Queue/TestQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PracticeDSA/main/searching/binarySearch.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,12 +149,14 @@
     "Application.FindPairsWithGivenSumInDoublyLinkedList.executor": "Run",
     "Application.FlattenALinkedList.executor": "Debug",
     "Application.FrogJump.executor": "Run",
+    "Application.FrogJumpII.executor": "Run",
     "Application.IntersectionOfTwoLinkedLists.executor": "Run",
     "Application.IntroduceLinkedList.executor": "Run",
     "Application.LengthOfLinkedList.executor": "Run",
     "Application.LinkedListCycleII.executor": "Run",
     "Application.LongestTurbulentSubarray.executor": "Run",
     "Application.MColouringProblem.executor": "Run",
+    "Application.MaximumSumOfNonAdjacentElements.executor": "Run",
     "Application.MergeKSortedLists.executor": "Run",
     "Application.MergeTwoSortedLinkedLists.executor": "Run",
     "Application.MiddleOfLinkedList.executor": "Run",
@@ -169,7 +219,7 @@
       <command value="mvn clean package" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.FrogJump">
+  <component name="RunManager" selected="Application.MaximumSumOfNonAdjacentElements">
     <configuration name="Fibonnaci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.dynamic.programming.Fibonnaci" />
       <module name="PracticeDSA" />
@@ -196,12 +246,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PalindromePartitioning" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.recursion.backtracking.PalindromePartitioning" />
+    <configuration name="FrogJumpII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.dynamic.programming.FrogJumpII" />
       <module name="PracticeDSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.recursion.backtracking.*" />
+          <option name="PATTERN" value="main.dynamic.programming.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MaximumSumOfNonAdjacentElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.dynamic.programming.MaximumSumOfNonAdjacentElements" />
+      <module name="PracticeDSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.dynamic.programming.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -215,19 +278,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="main.recursion.backtracking.hard.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RatInAMazeProblemI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.recursion.backtracking.RatInAMazeProblemI" />
-      <module name="PracticeDSA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="main.recursion.backtracking.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -318,11 +368,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaximumSumOfNonAdjacentElements" />
+        <item itemvalue="Application.FrogJumpII" />
         <item itemvalue="Application.FrogJump" />
         <item itemvalue="Application.Fibonnaci" />
         <item itemvalue="Application.PermutationSequence" />
-        <item itemvalue="Application.RatInAMazeProblemI" />
-        <item itemvalue="Application.PalindromePartitioning" />
       </list>
     </recent_temporary>
   </component>
@@ -473,7 +523,9 @@
       <workItem from="1725707671031" duration="9334000" />
       <workItem from="1725791018955" duration="19000" />
       <workItem from="1725867206283" duration="268000" />
-      <workItem from="1725905154854" duration="3335000" />
+      <workItem from="1725905154854" duration="6476000" />
+      <workItem from="1725966698615" duration="96000" />
+      <workItem from="1725992656185" duration="3500000" />
     </task>
     <task id="LOCAL-00001" summary="commit-19122022">
       <created>1671408501232</created>
@@ -481,14 +533,6 @@
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
       <updated>1671408501232</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Commit-14/09/2023">
-      <option name="closed" value="true" />
-      <created>1694728200913</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1694728200913</updated>
     </task>
     <task id="LOCAL-00010" summary="Commit-16/09/2023">
       <option name="closed" value="true" />
@@ -866,7 +910,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725791029100</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="Commit-09/09/2024">
+      <option name="closed" value="true" />
+      <created>1725909872996</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1725909872997</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -894,7 +946,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Commit-06/08/2024" />
     <MESSAGE value="Commit-09/08/2024" />
     <MESSAGE value="Commit-10/08/2024" />
     <MESSAGE value="Commit-11/08/2024" />
@@ -919,7 +970,8 @@
     <MESSAGE value="Commit-06/09/2024" />
     <MESSAGE value="Commit-07/09/2024" />
     <MESSAGE value="Commit-08/09/2024" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit-08/09/2024" />
+    <MESSAGE value="Commit-09/09/2024" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit-09/09/2024" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
