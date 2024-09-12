@@ -9,10 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="697252cc-7674-4df4-b819-341bc29cf007" name="Changes" comment="Commit-10/09/2024">
-      <change afterPath="$PROJECT_DIR$/src/main/dynamic/programming/MinimumPathSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/dynamic/programming/UniquePaths.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/dynamic/programming/UniquePathsII.java" afterDir="false" />
+    <list default="true" id="697252cc-7674-4df4-b819-341bc29cf007" name="Changes" comment="Commit-11/09/2024">
+      <change afterPath="$PROJECT_DIR$/src/main/dynamic/programming/MaximumPathSumInTheMatrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/dynamic/programming/Triangle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -109,6 +108,7 @@
     "Application.LinkedListCycleII.executor": "Run",
     "Application.LongestTurbulentSubarray.executor": "Run",
     "Application.MColouringProblem.executor": "Run",
+    "Application.MaximumPathSumInTheMatrix.executor": "Run",
     "Application.MaximumSumOfNonAdjacentElements.executor": "Run",
     "Application.MergeKSortedLists.executor": "Run",
     "Application.MergeTwoSortedLinkedLists.executor": "Run",
@@ -130,6 +130,7 @@
     "Application.SortLinkedListII.executor": "Run",
     "Application.SubsetSumIAndII.executor": "Run",
     "Application.SudokoSolver.executor": "Run",
+    "Application.Triangle.executor": "Run",
     "Application.UniquePaths.executor": "Run",
     "Application.UniquePathsII.executor": "Run",
     "Application.findSubsequenceOfGivenKSum.executor": "Run",
@@ -176,7 +177,20 @@
       <command value="mvn clean package" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.MinimumPathSum">
+  <component name="RunManager" selected="Application.MaximumPathSumInTheMatrix">
+    <configuration name="MaximumPathSumInTheMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.dynamic.programming.MaximumPathSumInTheMatrix" />
+      <module name="PracticeDSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.dynamic.programming.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MaximumSumOfNonAdjacentElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.dynamic.programming.MaximumSumOfNonAdjacentElements" />
       <module name="PracticeDSA" />
@@ -203,8 +217,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NinjasTraining" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.dynamic.programming.NinjasTraining" />
+    <configuration name="Triangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.dynamic.programming.Triangle" />
       <module name="PracticeDSA" />
       <extension name="coverage">
         <pattern>
@@ -218,19 +232,6 @@
     </configuration>
     <configuration name="UniquePaths" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.dynamic.programming.UniquePaths" />
-      <module name="PracticeDSA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="main.dynamic.programming.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UniquePathsII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.dynamic.programming.UniquePathsII" />
       <module name="PracticeDSA" />
       <extension name="coverage">
         <pattern>
@@ -325,11 +326,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaximumPathSumInTheMatrix" />
+        <item itemvalue="Application.Triangle" />
         <item itemvalue="Application.MinimumPathSum" />
         <item itemvalue="Application.UniquePaths" />
         <item itemvalue="Application.MaximumSumOfNonAdjacentElements" />
-        <item itemvalue="Application.UniquePathsII" />
-        <item itemvalue="Application.NinjasTraining" />
       </list>
     </recent_temporary>
   </component>
@@ -484,7 +485,8 @@
       <workItem from="1725966698615" duration="96000" />
       <workItem from="1725992656185" duration="9595000" />
       <workItem from="1726041684773" duration="6000" />
-      <workItem from="1726057254467" duration="12824000" />
+      <workItem from="1726057254467" duration="16451000" />
+      <workItem from="1726134191883" duration="5142000" />
     </task>
     <task id="LOCAL-00001" summary="commit-19122022">
       <created>1671408501232</created>
@@ -492,14 +494,6 @@
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
       <updated>1671408501232</updated>
-    </task>
-    <task id="LOCAL-00013" summary="Commit-23/09/2023">
-      <option name="closed" value="true" />
-      <created>1695508226245</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1695508226245</updated>
     </task>
     <task id="LOCAL-00014" summary="Commit-24/09/2023">
       <option name="closed" value="true" />
@@ -877,7 +871,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726005208079</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="Commit-11/09/2024">
+      <option name="closed" value="true" />
+      <created>1726076315210</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1726076315211</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -905,7 +907,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Commit-11/08/2024" />
     <MESSAGE value="Commit-12/08/2024" />
     <MESSAGE value="Commit-13/08/2024" />
     <MESSAGE value="Commit-14/08/2024" />
@@ -930,7 +931,8 @@
     <MESSAGE value="Commit-09/09/2024" />
     <MESSAGE value="Commit-q0/09/2024" />
     <MESSAGE value="Commit-10/09/2024" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit-10/09/2024" />
+    <MESSAGE value="Commit-11/09/2024" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit-11/09/2024" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
