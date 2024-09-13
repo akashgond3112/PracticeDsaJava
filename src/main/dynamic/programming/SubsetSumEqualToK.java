@@ -59,7 +59,8 @@ public class SubsetSumEqualToK {
 
 		boolean[] prev = new boolean[k + 1];
 
-		prev[0] = true;
+		if (arr[0] <= k)
+			prev[0] = true;
 
 		// Initialize the first column of the DP table
 		if (arr[0] <= k) {
@@ -96,7 +97,8 @@ public class SubsetSumEqualToK {
 			dp[i][0] = true;
 		}
 
-		dp[0][arr[0]] = true;
+		if (arr[0] <= k)
+			dp[0][arr[0]] = true;
 
 		for (int i = 1; i < n; i++) {
 			for (int j = 1; j <= k; j++) {
@@ -128,12 +130,12 @@ public class SubsetSumEqualToK {
 		if (dp[n][k] != -1)
 			return false;
 
-		boolean notTake = subsetSumToK(n - 1, k, arr);
+		boolean notTake = subsetSumToKUsingMemo(n - 1, k, arr, dp);
 
 		boolean take = false;
 
 		if (k >= arr[n]) {
-			take = subsetSumToK(n - 1, k - arr[n], arr);
+			take = subsetSumToKUsingMemo(n - 1, k - arr[n], arr, dp);
 		}
 
 		dp[n][k] = k;
