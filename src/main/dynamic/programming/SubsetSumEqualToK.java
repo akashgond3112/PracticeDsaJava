@@ -173,7 +173,7 @@ public class SubsetSumEqualToK {
 			Arrays.fill(row, -1);
 
 		System.out.println(subsetSumToKUsingMemo(n - 1, k, arr, dp));
-		System.out.println(subsetSumToKUsingTabular(n - 1, k, arr));
-		System.out.println(subsetSumToKUsingTabularSpaceOptimal(n - 1, k, arr));
+		System.out.println(subsetSumToKUsingTabular(n, k, arr));
+		System.out.println(subsetSumToKUsingTabularSpaceOptimal(n, k, arr));
 	}
 }
