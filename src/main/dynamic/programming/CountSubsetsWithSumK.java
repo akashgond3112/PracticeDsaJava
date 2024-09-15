@@ -64,37 +64,37 @@ public class CountSubsetsWithSumK {
 
 	public static int findWaysUsingTabularSpaceOptimal(int[] num, int n, int k) {
 		// Create a 2D DP array to store the number of ways to achieve each target sum
-		int[][] dp = new int[n][k + 1];
+		int[] prev = new int[k + 1];
 
-		// Initialize the first row of the DP array
-		for (int i = 0; i < n; i++) {
-			dp[i][0] = 1;
-		}
+		// Initialize the first element of the array
+		prev[0] = 1;
 
-		// Initialize the first column of the DP array
+		// Initialize the array for the first column
 		if (num[0] <= k) {
-			dp[0][num[0]] = 1;
+			prev[num[0]] = 1;
 		}
 
 		// Fill in the DP array using bottom-up dynamic programming
 		for (int ind = 1; ind < n; ind++) {
+			int[] curr = new int[k + 1];
+			curr[0] = 1;
 			for (int target = 1; target <= k; target++) {
 				// Calculate the number of ways when the current element is not taken
-				int notTaken = dp[ind - 1][target];
+				int notTaken = prev[target];
 
 				// Calculate the number of ways when the current element is taken
 				int taken = 0;
 				if (num[ind] <= target) {
-					taken = dp[ind - 1][target - num[ind]];
+					taken = prev[target - num[ind]];
 				}
 
 				// Update the DP array for the current element and target sum
-				dp[ind][target] = notTaken + taken;
+				curr[target] = notTaken + taken;
 			}
+			prev = curr;
 		}
-
 		// The result is stored in the last cell of the DP array
-		return dp[n - 1][k];
+		return prev[k];
 	}
 
 
@@ -152,10 +152,10 @@ public class CountSubsetsWithSumK {
 		// 1. Include the current element in subset 1
 		int include = 0;
 		if (totalSum >= arr[n])
-			include = findWays(arr, n - 1, totalSum - arr[n]);
+			include = findWaysUsingMemo(arr, n - 1, totalSum - arr[n], dp);
 
 		// 2. Exclude the current element from subset 1 (so it's in subset 2)
-		int exclude = findWays(arr, n - 1, totalSum);
+		int exclude = findWaysUsingMemo(arr, n - 1, totalSum, dp);
 
 		// Return the count of the two possibilities
 		dp[n][totalSum] = include + exclude;
@@ -199,6 +199,7 @@ public class CountSubsetsWithSumK {
 		System.out.println(findWaysUsingMemo(arr, n - 1, k, dp));
 
 		System.out.println(findWaysUsingTabular(arr, n, k));
+		System.out.println(findWaysUsingTabularSpaceOptimal(arr, n, k));
 
 
 	}

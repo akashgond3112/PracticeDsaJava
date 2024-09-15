@@ -9,12 +9,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="697252cc-7674-4df4-b819-341bc29cf007" name="Changes" comment="Commit-13/09/2024">
-      <change afterPath="$PROJECT_DIR$/src/main/dynamic/programming/ArrayPartitionWithMinimumDifference.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/dynamic/programming/CountSubsetsWithSumK.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/dynamic/programming/PartitionEqualSubsetSum.java" afterDir="false" />
+    <list default="true" id="697252cc-7674-4df4-b819-341bc29cf007" name="Changes" comment="Commit-14/09/2024">
+      <change afterPath="$PROJECT_DIR$/src/main/dynamic/programming/Knapsack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/dynamic/programming/MinimumElementsOrCoinChange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/dynamic/programming/PartitionsWithGivenDifference.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/dynamic/programming/SubsetSumEqualToK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dynamic/programming/SubsetSumEqualToK.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/dynamic/programming/CountSubsetsWithSumK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dynamic/programming/CountSubsetsWithSumK.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,6 +109,7 @@
     "Application.HouseRobberII.executor": "Run",
     "Application.IntersectionOfTwoLinkedLists.executor": "Run",
     "Application.IntroduceLinkedList.executor": "Run",
+    "Application.Knapsack.executor": "Run",
     "Application.LengthOfLinkedList.executor": "Run",
     "Application.LinkedListCycleII.executor": "Run",
     "Application.LongestTurbulentSubarray.executor": "Run",
@@ -118,10 +119,12 @@
     "Application.MergeKSortedLists.executor": "Run",
     "Application.MergeTwoSortedLinkedLists.executor": "Run",
     "Application.MiddleOfLinkedList.executor": "Run",
+    "Application.MinimumElementsOrCoinChange.executor": "Run",
     "Application.MinimumPathSum.executor": "Run",
     "Application.NinjasTraining.executor": "Run",
     "Application.PalindromePartitioning.executor": "Run",
     "Application.PartitionEqualSubsetSum.executor": "Run",
+    "Application.PartitionsWithGivenDifference.executor": "Run",
     "Application.PermutationOfStringArray.executor": "Run",
     "Application.PermutationSequence.executor": "Run",
     "Application.RatInAMazeProblemI.executor": "Run",
@@ -184,33 +187,7 @@
       <command value="mvn clean package" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.SubsetSumEqualToK">
-    <configuration name="ArrayPartitionWithMinimumDifference" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.dynamic.programming.ArrayPartitionWithMinimumDifference" />
-      <module name="PracticeDSA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="main.dynamic.programming.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ChocolatePickup" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.dynamic.programming.ChocolatePickup" />
-      <module name="PracticeDSA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="main.dynamic.programming.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.MinimumElementsOrCoinChange">
     <configuration name="CountSubsetsWithSumK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.dynamic.programming.CountSubsetsWithSumK" />
       <module name="PracticeDSA" />
@@ -224,8 +201,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PartitionEqualSubsetSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.dynamic.programming.PartitionEqualSubsetSum" />
+    <configuration name="Knapsack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.dynamic.programming.Knapsack" />
+      <module name="PracticeDSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.dynamic.programming.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MinimumElementsOrCoinChange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.dynamic.programming.MinimumElementsOrCoinChange" />
+      <module name="PracticeDSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.dynamic.programming.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PartitionsWithGivenDifference" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.dynamic.programming.PartitionsWithGivenDifference" />
       <module name="PracticeDSA" />
       <extension name="coverage">
         <pattern>
@@ -333,11 +336,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SubsetSumEqualToK" />
+        <item itemvalue="Application.MinimumElementsOrCoinChange" />
+        <item itemvalue="Application.Knapsack" />
+        <item itemvalue="Application.PartitionsWithGivenDifference" />
         <item itemvalue="Application.CountSubsetsWithSumK" />
-        <item itemvalue="Application.ArrayPartitionWithMinimumDifference" />
-        <item itemvalue="Application.PartitionEqualSubsetSum" />
-        <item itemvalue="Application.ChocolatePickup" />
+        <item itemvalue="Application.SubsetSumEqualToK" />
       </list>
     </recent_temporary>
   </component>
@@ -494,7 +497,7 @@
       <workItem from="1726041684773" duration="6000" />
       <workItem from="1726057254467" duration="16451000" />
       <workItem from="1726134191883" duration="13178000" />
-      <workItem from="1726231397615" duration="14008000" />
+      <workItem from="1726231397615" duration="28228000" />
     </task>
     <task id="LOCAL-00001" summary="commit-19122022">
       <created>1671408501232</created>
@@ -502,14 +505,6 @@
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
       <updated>1671408501232</updated>
-    </task>
-    <task id="LOCAL-00017" summary="Commit-27/09/2023">
-      <option name="closed" value="true" />
-      <created>1695847799619</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1695847799619</updated>
     </task>
     <task id="LOCAL-00018" summary="Commit-28/09/2023">
       <option name="closed" value="true" />
@@ -887,7 +882,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726248476037</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="Commit-14/09/2024">
+      <option name="closed" value="true" />
+      <created>1726315595790</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1726315595790</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -915,7 +918,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Commit-14/08/2024" />
     <MESSAGE value="Commit-15/08/2024" />
     <MESSAGE value="Commit-16/08/2024" />
     <MESSAGE value="Commit-17/08/2024" />
@@ -940,7 +942,8 @@
     <MESSAGE value="Commit-11/09/2024" />
     <MESSAGE value="Commit-12/09/2024" />
     <MESSAGE value="Commit-13/09/2024" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit-13/09/2024" />
+    <MESSAGE value="Commit-14/09/2024" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit-14/09/2024" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
