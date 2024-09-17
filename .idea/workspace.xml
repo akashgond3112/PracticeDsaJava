@@ -9,9 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="697252cc-7674-4df4-b819-341bc29cf007" name="Changes" comment="Commit-15/09/2024">
-      <change afterPath="$PROJECT_DIR$/src/main/dynamic/programming/TargetSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/dynamic/programming/WaysToMakeCoinChange.java" afterDir="false" />
+    <list default="true" id="697252cc-7674-4df4-b819-341bc29cf007" name="Changes" comment="Commit-16/09/2024">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -497,7 +495,7 @@
       <workItem from="1726134191883" duration="13178000" />
       <workItem from="1726231397615" duration="28852000" />
       <workItem from="1726471106878" duration="6000" />
-      <workItem from="1726509911766" duration="1207000" />
+      <workItem from="1726509911766" duration="3394000" />
     </task>
     <task id="LOCAL-00001" summary="commit-19122022">
       <created>1671408501232</created>
@@ -505,14 +503,6 @@
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
       <updated>1671408501232</updated>
-    </task>
-    <task id="LOCAL-00019" summary="Commit-02/10/2023">
-      <option name="closed" value="true" />
-      <created>1696280514650</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1696280514650</updated>
     </task>
     <task id="LOCAL-00020" summary="Commit-03/10/2023">
       <option name="closed" value="true" />
@@ -890,7 +880,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726409192992</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="Commit-16/09/2024">
+      <option name="closed" value="true" />
+      <created>1726511162100</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1726511162101</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -918,7 +916,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Commit-16/08/2024" />
     <MESSAGE value="Commit-17/08/2024" />
     <MESSAGE value="Commit-18/08/2024" />
     <MESSAGE value="Commit-19/08/2024" />
@@ -943,7 +940,8 @@
     <MESSAGE value="Commit-13/09/2024" />
     <MESSAGE value="Commit-14/09/2024" />
     <MESSAGE value="Commit-15/09/2024" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit-15/09/2024" />
+    <MESSAGE value="Commit-16/09/2024" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit-16/09/2024" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
