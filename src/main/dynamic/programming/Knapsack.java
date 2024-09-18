@@ -64,6 +64,7 @@ public class Knapsack {
 
 		// Array to store the results of the previous row (previous item)
 		int[] prev = new int[maxWeight + 1];
+		int[] current = new int[maxWeight + 1];  // Current row
 
 		// Initialize the prev array for the first item
 		for (int w = 0; w <= maxWeight; w++) {
@@ -74,7 +75,6 @@ public class Knapsack {
 
 		// Loop through all items starting from the second one
 		for (int i = 1; i < n; i++) {
-			int[] current = new int[maxWeight + 1];  // Current row
 
 			for (int j = 0; j <= maxWeight; j++) {
 				// 1. Exclude the current item
@@ -83,7 +83,7 @@ public class Knapsack {
 				// 2. Include the current item (if it fits within the weight limit)
 				int include = 0;
 				if (weight[i] <= j) {
-					include = value[i] + prev[j - weight[i]];
+					include = value[i] + current[j - weight[i]];
 				}
 
 				// Update the current DP value

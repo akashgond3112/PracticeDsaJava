@@ -9,8 +9,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="697252cc-7674-4df4-b819-341bc29cf007" name="Changes" comment="Commit-16/09/2024">
+    <list default="true" id="697252cc-7674-4df4-b819-341bc29cf007" name="Changes" comment="Commit-17/09/2024">
+      <change afterPath="$PROJECT_DIR$/src/main/dynamic/programming/KnapsackUnbounded.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/dynamic/programming/RodCuttingProblem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/dynamic/programming/Knapsack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dynamic/programming/Knapsack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/dynamic/programming/WaysToMakeCoinChange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dynamic/programming/WaysToMakeCoinChange.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,98 +79,101 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Application.AddOneToANumberRepresentedAsLinkedList.executor&quot;: &quot;Run&quot;,
-    &quot;Application.AddTwoNumbers.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ArrayPartitionWithMinimumDifference.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CheckIfLinkedListIsPalindrome.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ChocolatePickup.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CloneALinkedListWithRandomPointers.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CombinationSum.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ConvertBinaryNumberLinkedListToInteger.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CountSubsetsWithSumK.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CycleDetectionInASinglyLinkedList.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DeleteAllOccurrencesOfAGivenKeyInADoublyLinkedList.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DeleteKthNodeFromEnd.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DeleteMiddleNodeFromLinkedList.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DeletionFromLinkedList.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DeletionOfNodeForGivenPosition.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DetectLoopInLinkedList.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DoublyLinkedList (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.DoublyLinkedList.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FIndNQueens.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Fibonnaci.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FindPairsWithGivenSumInDoublyLinkedList.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FlattenALinkedList.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.FrogJump.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FrogJumpII.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HouseRobberII.executor&quot;: &quot;Run&quot;,
-    &quot;Application.IntersectionOfTwoLinkedLists.executor&quot;: &quot;Run&quot;,
-    &quot;Application.IntroduceLinkedList.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Knapsack.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LengthOfLinkedList.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LinkedListCycleII.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LongestTurbulentSubarray.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MColouringProblem.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MaximumPathSumInTheMatrix.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MaximumSumOfNonAdjacentElements.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MergeKSortedLists.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MergeTwoSortedLinkedLists.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MiddleOfLinkedList.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MinimumElementsOrCoinChange.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MinimumPathSum.executor&quot;: &quot;Run&quot;,
-    &quot;Application.NinjasTraining.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PalindromePartitioning.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PartitionEqualSubsetSum.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PartitionsWithGivenDifference.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PermutationOfStringArray.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PermutationSequence.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RatInAMazeProblemI.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RearrangeOddAndEvenPlaces.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RemoveDuplicatesFromASortedDoublyLinkedList.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.ReverseADoublyLinkedList.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.ReverseLinkedList.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ReverseListInKGroups.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RotateLinkedList.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SinglyLinkedList.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SortLinkedList.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SortLinkedListII.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SubsetSumEqualToK.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SubsetSumIAndII.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SudokoSolver.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Triangle.executor&quot;: &quot;Run&quot;,
-    &quot;Application.UniquePaths.executor&quot;: &quot;Run&quot;,
-    &quot;Application.UniquePathsII.executor&quot;: &quot;Run&quot;,
-    &quot;Application.findSubsequenceOfGivenKSum.executor&quot;: &quot;Run&quot;,
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
-    &quot;extract.method.default.visibility&quot;: &quot;private&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/agond/IdeaProjects/Perosnal/PracticeDsaJava&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;659476cf04b5790abb125addbde5977f&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Application.AddOneToANumberRepresentedAsLinkedList.executor": "Run",
+    "Application.AddTwoNumbers.executor": "Run",
+    "Application.ArrayPartitionWithMinimumDifference.executor": "Run",
+    "Application.CheckIfLinkedListIsPalindrome.executor": "Run",
+    "Application.ChocolatePickup.executor": "Run",
+    "Application.CloneALinkedListWithRandomPointers.executor": "Run",
+    "Application.CombinationSum.executor": "Run",
+    "Application.ConvertBinaryNumberLinkedListToInteger.executor": "Run",
+    "Application.CountSubsetsWithSumK.executor": "Run",
+    "Application.CycleDetectionInASinglyLinkedList.executor": "Run",
+    "Application.DeleteAllOccurrencesOfAGivenKeyInADoublyLinkedList.executor": "Run",
+    "Application.DeleteKthNodeFromEnd.executor": "Run",
+    "Application.DeleteMiddleNodeFromLinkedList.executor": "Run",
+    "Application.DeletionFromLinkedList.executor": "Run",
+    "Application.DeletionOfNodeForGivenPosition.executor": "Run",
+    "Application.DetectLoopInLinkedList.executor": "Run",
+    "Application.DoublyLinkedList (1).executor": "Run",
+    "Application.DoublyLinkedList.executor": "Run",
+    "Application.FIndNQueens.executor": "Run",
+    "Application.Fibonnaci.executor": "Run",
+    "Application.FindPairsWithGivenSumInDoublyLinkedList.executor": "Run",
+    "Application.FlattenALinkedList.executor": "Debug",
+    "Application.FrogJump.executor": "Run",
+    "Application.FrogJumpII.executor": "Run",
+    "Application.HouseRobberII.executor": "Run",
+    "Application.IntersectionOfTwoLinkedLists.executor": "Run",
+    "Application.IntroduceLinkedList.executor": "Run",
+    "Application.Knapsack.executor": "Run",
+    "Application.KnapsackUnbounded.executor": "Run",
+    "Application.LengthOfLinkedList.executor": "Run",
+    "Application.LinkedListCycleII.executor": "Run",
+    "Application.LongestTurbulentSubarray.executor": "Run",
+    "Application.MColouringProblem.executor": "Run",
+    "Application.MaximumPathSumInTheMatrix.executor": "Run",
+    "Application.MaximumSumOfNonAdjacentElements.executor": "Run",
+    "Application.MergeKSortedLists.executor": "Run",
+    "Application.MergeTwoSortedLinkedLists.executor": "Run",
+    "Application.MiddleOfLinkedList.executor": "Run",
+    "Application.MinimumElementsOrCoinChange.executor": "Run",
+    "Application.MinimumPathSum.executor": "Run",
+    "Application.NinjasTraining.executor": "Run",
+    "Application.PalindromePartitioning.executor": "Run",
+    "Application.PartitionEqualSubsetSum.executor": "Run",
+    "Application.PartitionsWithGivenDifference.executor": "Run",
+    "Application.PermutationOfStringArray.executor": "Run",
+    "Application.PermutationSequence.executor": "Run",
+    "Application.RatInAMazeProblemI.executor": "Run",
+    "Application.RearrangeOddAndEvenPlaces.executor": "Run",
+    "Application.RemoveDuplicatesFromASortedDoublyLinkedList.executor": "Debug",
+    "Application.ReverseADoublyLinkedList.executor": "Debug",
+    "Application.ReverseLinkedList.executor": "Run",
+    "Application.ReverseListInKGroups.executor": "Run",
+    "Application.RodCuttingProblem.executor": "Run",
+    "Application.RotateLinkedList.executor": "Run",
+    "Application.SinglyLinkedList.executor": "Run",
+    "Application.SortLinkedList.executor": "Run",
+    "Application.SortLinkedListII.executor": "Run",
+    "Application.SubsetSumEqualToK.executor": "Run",
+    "Application.SubsetSumIAndII.executor": "Run",
+    "Application.SudokoSolver.executor": "Run",
+    "Application.Triangle.executor": "Run",
+    "Application.UniquePaths.executor": "Run",
+    "Application.UniquePathsII.executor": "Run",
+    "Application.WaysToMakeCoinChange.executor": "Run",
+    "Application.findSubsequenceOfGivenKSum.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "create.test.in.the.same.root": "true",
+    "extract.method.default.visibility": "private",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/agond/IdeaProjects/Perosnal/PracticeDsaJava",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.keymap",
+    "spring.configuration.checksum": "659476cf04b5790abb125addbde5977f",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -183,9 +190,9 @@
       <command value="mvn clean package" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.MinimumElementsOrCoinChange">
-    <configuration name="CountSubsetsWithSumK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.dynamic.programming.CountSubsetsWithSumK" />
+  <component name="RunManager" selected="Application.RodCuttingProblem">
+    <configuration name="Knapsack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.dynamic.programming.Knapsack" />
       <module name="PracticeDSA" />
       <extension name="coverage">
         <pattern>
@@ -197,8 +204,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Knapsack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.dynamic.programming.Knapsack" />
+    <configuration name="KnapsackUnbounded" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.dynamic.programming.KnapsackUnbounded" />
       <module name="PracticeDSA" />
       <extension name="coverage">
         <pattern>
@@ -223,8 +230,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PartitionsWithGivenDifference" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.dynamic.programming.PartitionsWithGivenDifference" />
+    <configuration name="RodCuttingProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.dynamic.programming.RodCuttingProblem" />
       <module name="PracticeDSA" />
       <extension name="coverage">
         <pattern>
@@ -236,8 +243,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SubsetSumEqualToK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.dynamic.programming.SubsetSumEqualToK" />
+    <configuration name="WaysToMakeCoinChange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.dynamic.programming.WaysToMakeCoinChange" />
       <module name="PracticeDSA" />
       <extension name="coverage">
         <pattern>
@@ -332,11 +339,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MinimumElementsOrCoinChange" />
+        <item itemvalue="Application.RodCuttingProblem" />
+        <item itemvalue="Application.KnapsackUnbounded" />
         <item itemvalue="Application.Knapsack" />
-        <item itemvalue="Application.PartitionsWithGivenDifference" />
-        <item itemvalue="Application.CountSubsetsWithSumK" />
-        <item itemvalue="Application.SubsetSumEqualToK" />
+        <item itemvalue="Application.WaysToMakeCoinChange" />
+        <item itemvalue="Application.MinimumElementsOrCoinChange" />
       </list>
     </recent_temporary>
   </component>
@@ -344,6 +351,7 @@
     <attachedChunks>
       <set>
         <option value="bundled-jdk-9823dce3aa75-b114ca120d71-intellij.indexing.shared.core-IU-242.21829.142" />
+        <option value="bundled-js-predefined-d6986cc7102b-7c0b70fcd90d-JavaScript-IU-242.21829.142" />
       </set>
     </attachedChunks>
   </component>
@@ -496,6 +504,9 @@
       <workItem from="1726231397615" duration="28852000" />
       <workItem from="1726471106878" duration="6000" />
       <workItem from="1726509911766" duration="3394000" />
+      <workItem from="1726604789352" duration="25000" />
+      <workItem from="1726653710980" duration="6000" />
+      <workItem from="1726668558920" duration="10724000" />
     </task>
     <task id="LOCAL-00001" summary="commit-19122022">
       <created>1671408501232</created>
@@ -503,14 +514,6 @@
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
       <updated>1671408501232</updated>
-    </task>
-    <task id="LOCAL-00020" summary="Commit-03/10/2023">
-      <option name="closed" value="true" />
-      <created>1696366911819</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1696366911819</updated>
     </task>
     <task id="LOCAL-00021" summary="Commit-17/10/2023">
       <option name="closed" value="true" />
@@ -888,7 +891,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726511162101</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="Commit-17/09/2024">
+      <option name="closed" value="true" />
+      <created>1726604807295</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1726604807296</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -916,7 +927,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Commit-17/08/2024" />
     <MESSAGE value="Commit-18/08/2024" />
     <MESSAGE value="Commit-19/08/2024" />
     <MESSAGE value="Commit-21/08/2024" />
@@ -941,7 +951,8 @@
     <MESSAGE value="Commit-14/09/2024" />
     <MESSAGE value="Commit-15/09/2024" />
     <MESSAGE value="Commit-16/09/2024" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit-16/09/2024" />
+    <MESSAGE value="Commit-17/09/2024" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit-17/09/2024" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
