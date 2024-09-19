@@ -1,4 +1,4 @@
-package main.dynamic.programming;
+package main.dynamic.programming.subsequence;
 
 import java.util.Arrays;
 

@@ -1,4 +1,4 @@
-package main.dynamic.programming;
+package main.dynamic.programming.grid;
 
 import java.util.ArrayList;
 import java.util.Arrays;

@@ -1,8 +1,6 @@
-package main.dynamic.programming;
+package main.dynamic.programming.subsequence;
 
-import java.util.Arrays;
-
-import static main.dynamic.programming.SubsetSumEqualToK.subsetSumToK;
+import static main.dynamic.programming.subsequence.SubsetSumEqualToK.subsetSumToK;
 
 /*
 Problem statement
