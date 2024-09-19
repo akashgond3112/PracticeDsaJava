@@ -1,4 +1,4 @@
-package main.dynamic.programming;
+package main.dynamic.programming.grid;
 
 /*
 Problem statement
