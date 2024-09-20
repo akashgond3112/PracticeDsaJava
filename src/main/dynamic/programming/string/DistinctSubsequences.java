@@ -68,6 +68,24 @@ Time Limit: 1 sec.
 */
 public class DistinctSubsequences {
 
+	public static int distinctSubsequencesUsingTabularSpaceOptimalMore(String s1, String s2, int i, int j) {
+		int[] prev = new int[i + 1];
+
+		// If s2 is an empty string, there is exactly one subsequence of s1 that matches (the empty subsequence)
+		for (int i1 = 0; i1 <= i; i1++) {
+			prev[0] = 1;
+		}
+
+		for (int i1 = 1; i1 <= i; i1++) {
+			for (int j1 = j; j1 >= 1; j1--) {
+				if (s1.charAt(i1 - 1) == s2.charAt(j1 - 1)) {
+					prev[j1] = prev[j1 - 1] + prev[j1];
+				}
+			}
+		}
+		return prev[j];
+	}
+
 	public static int distinctSubsequencesUsingTabularSpaceOptimal(String s1, String s2, int i, int j) {
 		int[] prev = new int[i + 1];
 		int[] curr = new int[j + 1];
@@ -185,6 +203,7 @@ public class DistinctSubsequences {
 		System.out.println(distinctSubsequencesUsingMemo(s1, s2, s1.length() - 1, s2.length() - 1, dp));
 		System.out.println(distinctSubsequencesUsingTabular(s1, s2, s1.length(), s2.length()));
 		System.out.println(distinctSubsequencesUsingTabularSpaceOptimal(s1, s2, s1.length(), s2.length()));
+		System.out.println(distinctSubsequencesUsingTabularSpaceOptimalMore(s1, s2, s1.length(), s2.length()));
 
 	}
 }
