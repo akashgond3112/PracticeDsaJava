@@ -9,12 +9,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="697252cc-7674-4df4-b819-341bc29cf007" name="Changes" comment="Commit-20/09/2024">
-      <change afterPath="$PROJECT_DIR$/src/main/dynamic/programming/string/DistinctSubsequences.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/dynamic/programming/string/MinimumInsertionsToMakeAStringPalindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/dynamic/programming/string/MinimumNumberOfDeletionsAndInsertions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/dynamic/programming/string/ShortestCommonSuperSequence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="697252cc-7674-4df4-b819-341bc29cf007" name="Changes" comment="Commit-21/09/2024">
+      <change beforePath="$PROJECT_DIR$/src/main/dynamic/programming/string/DistinctSubsequences.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dynamic/programming/string/DistinctSubsequences.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -517,7 +513,7 @@
       <workItem from="1726747004514" duration="1258000" />
       <workItem from="1726766834755" duration="7553000" />
       <workItem from="1726819746317" duration="10000" />
-      <workItem from="1726848627262" duration="8338000" />
+      <workItem from="1726848627262" duration="8539000" />
     </task>
     <task id="LOCAL-00001" summary="commit-19122022">
       <created>1671408501232</created>
@@ -525,14 +521,6 @@
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
       <updated>1671408501232</updated>
-    </task>
-    <task id="LOCAL-00023" summary="Commit-24/10/2023">
-      <option name="closed" value="true" />
-      <created>1698173806883</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1698173806883</updated>
     </task>
     <task id="LOCAL-00024" summary="Commit-25/10/2023">
       <option name="closed" value="true" />
@@ -910,7 +898,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726781707974</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="Commit-21/09/2024">
+      <option name="closed" value="true" />
+      <created>1726859431482</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1726859431483</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -938,7 +934,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Commit-21/08/2024" />
     <MESSAGE value="Commit-22/08/2024" />
     <MESSAGE value="Commit-23/08/2024" />
     <MESSAGE value="Commit-29/08/2024" />
@@ -963,7 +958,8 @@
     <MESSAGE value="Commit-17/09/2024" />
     <MESSAGE value="Commit-18/09/2024" />
     <MESSAGE value="Commit-20/09/2024" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit-20/09/2024" />
+    <MESSAGE value="Commit-21/09/2024" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit-21/09/2024" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
