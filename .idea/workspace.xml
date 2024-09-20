@@ -9,27 +9,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="697252cc-7674-4df4-b819-341bc29cf007" name="Changes" comment="Commit-18/09/2024">
-      <change afterPath="$PROJECT_DIR$/src/main/dynamic/programming/string/LongestCommonSubsequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/dynamic/programming/string/LongestCommonSubstring.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/dynamic/programming/string/LongestPalindromeSubsequence.java" afterDir="false" />
+    <list default="true" id="697252cc-7674-4df4-b819-341bc29cf007" name="Changes" comment="Commit-20/09/2024">
+      <change afterPath="$PROJECT_DIR$/src/main/dynamic/programming/string/DistinctSubsequences.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/dynamic/programming/string/MinimumInsertionsToMakeAStringPalindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/dynamic/programming/string/MinimumNumberOfDeletionsAndInsertions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/dynamic/programming/string/ShortestCommonSuperSequence.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/dynamic/programming/CountSubsetsWithSumK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dynamic/programming/subsequence/CountSubsetsWithSumK.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/dynamic/programming/Knapsack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dynamic/programming/subsequence/Knapsack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/dynamic/programming/KnapsackUnbounded.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dynamic/programming/subsequence/KnapsackUnbounded.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/dynamic/programming/MaximumPathSumInTheMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dynamic/programming/grid/MaximumPathSumInTheMatrix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/dynamic/programming/MinimumElementsOrCoinChange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dynamic/programming/subsequence/MinimumElementsOrCoinChange.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/dynamic/programming/MinimumPathSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dynamic/programming/grid/MinimumPathSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/dynamic/programming/NinjasTraining.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dynamic/programming/grid/NinjasTraining.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/dynamic/programming/PartitionEqualSubsetSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dynamic/programming/subsequence/PartitionEqualSubsetSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/dynamic/programming/PartitionsWithGivenDifference.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dynamic/programming/subsequence/PartitionsWithGivenDifference.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/dynamic/programming/RodCuttingProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dynamic/programming/subsequence/RodCuttingProblem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/dynamic/programming/SubsetSumEqualToK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dynamic/programming/subsequence/SubsetSumEqualToK.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/dynamic/programming/TargetSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dynamic/programming/subsequence/TargetSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/dynamic/programming/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dynamic/programming/grid/Triangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/dynamic/programming/UniquePaths.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dynamic/programming/grid/UniquePaths.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/dynamic/programming/UniquePathsII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dynamic/programming/grid/UniquePathsII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/dynamic/programming/WaysToMakeCoinChange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dynamic/programming/subsequence/WaysToMakeCoinChange.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,6 +98,7 @@
     "Application.DeletionFromLinkedList.executor": "Run",
     "Application.DeletionOfNodeForGivenPosition.executor": "Run",
     "Application.DetectLoopInLinkedList.executor": "Run",
+    "Application.DistinctSubsequences.executor": "Run",
     "Application.DoublyLinkedList (1).executor": "Run",
     "Application.DoublyLinkedList.executor": "Run",
     "Application.FIndNQueens.executor": "Run",
@@ -130,6 +116,7 @@
     "Application.LinkedListCycleII.executor": "Run",
     "Application.LongestCommonSubsequence.executor": "Run",
     "Application.LongestCommonSubstring.executor": "Run",
+    "Application.LongestPalindromeSubsequence.executor": "Run",
     "Application.LongestTurbulentSubarray.executor": "Run",
     "Application.MColouringProblem.executor": "Run",
     "Application.MaximumPathSumInTheMatrix.executor": "Run",
@@ -138,6 +125,8 @@
     "Application.MergeTwoSortedLinkedLists.executor": "Run",
     "Application.MiddleOfLinkedList.executor": "Run",
     "Application.MinimumElementsOrCoinChange.executor": "Run",
+    "Application.MinimumInsertionsToMakeAStringPalindrome.executor": "Run",
+    "Application.MinimumNumberOfDeletionsAndInsertions.executor": "Run",
     "Application.MinimumPathSum.executor": "Run",
     "Application.NinjasTraining.executor": "Run",
     "Application.PalindromePartitioning.executor": "Run",
@@ -153,6 +142,7 @@
     "Application.ReverseListInKGroups.executor": "Run",
     "Application.RodCuttingProblem.executor": "Run",
     "Application.RotateLinkedList.executor": "Run",
+    "Application.ShortestCommonSuperSequence.executor": "Run",
     "Application.SinglyLinkedList.executor": "Run",
     "Application.SortLinkedList.executor": "Run",
     "Application.SortLinkedListII.executor": "Run",
@@ -207,35 +197,9 @@
       <command value="mvn clean package" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.LongestPalindromeSubsequence">
-    <configuration name="KnapsackUnbounded" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.dynamic.programming.subsequence.KnapsackUnbounded" />
-      <module name="PracticeDSA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="main.dynamic.programming.subsequence.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LongestCommonSubsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.dynamic.programming.string.LongestCommonSubsequence" />
-      <module name="PracticeDSA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="main.dynamic.programming.string.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LongestCommonSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.dynamic.programming.string.LongestCommonSubstring" />
+  <component name="RunManager" selected="Application.DistinctSubsequences">
+    <configuration name="DistinctSubsequences" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.dynamic.programming.string.DistinctSubsequences" />
       <module name="PracticeDSA" />
       <extension name="coverage">
         <pattern>
@@ -260,12 +224,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RodCuttingProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.dynamic.programming.subsequence.RodCuttingProblem" />
+    <configuration name="MinimumInsertionsToMakeAStringPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.dynamic.programming.string.MinimumInsertionsToMakeAStringPalindrome" />
       <module name="PracticeDSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.dynamic.programming.subsequence.*" />
+          <option name="PATTERN" value="main.dynamic.programming.string.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MinimumNumberOfDeletionsAndInsertions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.dynamic.programming.string.MinimumNumberOfDeletionsAndInsertions" />
+      <module name="PracticeDSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.dynamic.programming.string.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShortestCommonSuperSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.dynamic.programming.string.ShortestCommonSuperSequence" />
+      <module name="PracticeDSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.dynamic.programming.string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -356,19 +346,19 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DistinctSubsequences" />
+        <item itemvalue="Application.ShortestCommonSuperSequence" />
+        <item itemvalue="Application.MinimumNumberOfDeletionsAndInsertions" />
+        <item itemvalue="Application.MinimumInsertionsToMakeAStringPalindrome" />
         <item itemvalue="Application.LongestPalindromeSubsequence" />
-        <item itemvalue="Application.LongestCommonSubsequence" />
-        <item itemvalue="Application.LongestCommonSubstring" />
-        <item itemvalue="Application.RodCuttingProblem" />
-        <item itemvalue="Application.KnapsackUnbounded" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-b114ca120d71-intellij.indexing.shared.core-IU-242.21829.142" />
-        <option value="bundled-js-predefined-d6986cc7102b-7c0b70fcd90d-JavaScript-IU-242.21829.142" />
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.22855.74" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.22855.74" />
       </set>
     </attachedChunks>
   </component>
@@ -525,7 +515,9 @@
       <workItem from="1726653710980" duration="6000" />
       <workItem from="1726668558920" duration="12479000" />
       <workItem from="1726747004514" duration="1258000" />
-      <workItem from="1726766834755" duration="7436000" />
+      <workItem from="1726766834755" duration="7553000" />
+      <workItem from="1726819746317" duration="10000" />
+      <workItem from="1726848627262" duration="8338000" />
     </task>
     <task id="LOCAL-00001" summary="commit-19122022">
       <created>1671408501232</created>
@@ -533,14 +525,6 @@
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
       <updated>1671408501232</updated>
-    </task>
-    <task id="LOCAL-00022" summary="Commit-19/10/2023">
-      <option name="closed" value="true" />
-      <created>1697736320313</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1697736320313</updated>
     </task>
     <task id="LOCAL-00023" summary="Commit-24/10/2023">
       <option name="closed" value="true" />
@@ -918,7 +902,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726681941618</updated>
     </task>
-    <option name="localTasksCounter" value="70" />
+    <task id="LOCAL-00070" summary="Commit-20/09/2024">
+      <option name="closed" value="true" />
+      <created>1726781707973</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1726781707974</updated>
+    </task>
+    <option name="localTasksCounter" value="71" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -946,7 +938,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Commit-19/08/2024" />
     <MESSAGE value="Commit-21/08/2024" />
     <MESSAGE value="Commit-22/08/2024" />
     <MESSAGE value="Commit-23/08/2024" />
@@ -971,7 +962,8 @@
     <MESSAGE value="Commit-16/09/2024" />
     <MESSAGE value="Commit-17/09/2024" />
     <MESSAGE value="Commit-18/09/2024" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit-18/09/2024" />
+    <MESSAGE value="Commit-20/09/2024" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit-20/09/2024" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
