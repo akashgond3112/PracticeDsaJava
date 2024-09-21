@@ -10,7 +10,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="697252cc-7674-4df4-b819-341bc29cf007" name="Changes" comment="Commit-21/09/2024">
-      <change beforePath="$PROJECT_DIR$/src/main/dynamic/programming/string/DistinctSubsequences.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dynamic/programming/string/DistinctSubsequences.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/dynamic/programming/string/EditDistance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/dynamic/programming/string/WildcardPatternMatching.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,6 +99,7 @@
     "Application.DistinctSubsequences.executor": "Run",
     "Application.DoublyLinkedList (1).executor": "Run",
     "Application.DoublyLinkedList.executor": "Run",
+    "Application.EditDistance.executor": "Run",
     "Application.FIndNQueens.executor": "Run",
     "Application.Fibonnaci.executor": "Run",
     "Application.FindPairsWithGivenSumInDoublyLinkedList.executor": "Run",
@@ -149,6 +152,7 @@
     "Application.UniquePaths.executor": "Run",
     "Application.UniquePathsII.executor": "Run",
     "Application.WaysToMakeCoinChange.executor": "Run",
+    "Application.WildcardPatternMatching.executor": "Run",
     "Application.findSubsequenceOfGivenKSum.executor": "Run",
     "Downloaded.Files.Path.Enabled": "false",
     "Repository.Attach.Annotations": "false",
@@ -193,7 +197,7 @@
       <command value="mvn clean package" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.DistinctSubsequences">
+  <component name="RunManager" selected="Application.WildcardPatternMatching">
     <configuration name="DistinctSubsequences" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.dynamic.programming.string.DistinctSubsequences" />
       <module name="PracticeDSA" />
@@ -207,21 +211,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestPalindromeSubsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.dynamic.programming.string.LongestPalindromeSubsequence" />
-      <module name="PracticeDSA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="main.dynamic.programming.string.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MinimumInsertionsToMakeAStringPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.dynamic.programming.string.MinimumInsertionsToMakeAStringPalindrome" />
+    <configuration name="EditDistance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.dynamic.programming.string.EditDistance" />
       <module name="PracticeDSA" />
       <extension name="coverage">
         <pattern>
@@ -248,6 +239,19 @@
     </configuration>
     <configuration name="ShortestCommonSuperSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.dynamic.programming.string.ShortestCommonSuperSequence" />
+      <module name="PracticeDSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.dynamic.programming.string.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WildcardPatternMatching" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.dynamic.programming.string.WildcardPatternMatching" />
       <module name="PracticeDSA" />
       <extension name="coverage">
         <pattern>
@@ -342,11 +346,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WildcardPatternMatching" />
+        <item itemvalue="Application.EditDistance" />
         <item itemvalue="Application.DistinctSubsequences" />
         <item itemvalue="Application.ShortestCommonSuperSequence" />
         <item itemvalue="Application.MinimumNumberOfDeletionsAndInsertions" />
-        <item itemvalue="Application.MinimumInsertionsToMakeAStringPalindrome" />
-        <item itemvalue="Application.LongestPalindromeSubsequence" />
       </list>
     </recent_temporary>
   </component>
@@ -513,7 +517,8 @@
       <workItem from="1726747004514" duration="1258000" />
       <workItem from="1726766834755" duration="7553000" />
       <workItem from="1726819746317" duration="10000" />
-      <workItem from="1726848627262" duration="8539000" />
+      <workItem from="1726848627262" duration="9361000" />
+      <workItem from="1726914868346" duration="7797000" />
     </task>
     <task id="LOCAL-00001" summary="commit-19122022">
       <created>1671408501232</created>
@@ -521,14 +526,6 @@
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
       <updated>1671408501232</updated>
-    </task>
-    <task id="LOCAL-00024" summary="Commit-25/10/2023">
-      <option name="closed" value="true" />
-      <created>1698261303876</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1698261303876</updated>
     </task>
     <task id="LOCAL-00025" summary="Commit-01/11/2023">
       <option name="closed" value="true" />
@@ -906,7 +903,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726859431483</updated>
     </task>
-    <option name="localTasksCounter" value="72" />
+    <task id="LOCAL-00072" summary="Commit-21/09/2024">
+      <option name="closed" value="true" />
+      <created>1726859805145</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1726859805145</updated>
+    </task>
+    <option name="localTasksCounter" value="73" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
