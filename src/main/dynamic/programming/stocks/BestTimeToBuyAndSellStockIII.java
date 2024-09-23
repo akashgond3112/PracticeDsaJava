@@ -55,6 +55,32 @@ Time Limit: 1 sec.
 */
 public class BestTimeToBuyAndSellStockIII {
 
+	public static int maxProfitUsingRecursionUsingTabularSpaceOptimalMore(int[] values, int maxTransaction) {
+		int n = values.length;
+		int[][] dp = new int[2][maxTransaction + 1];
+
+		// Start iterating from the last day to the first day
+		for (int i = n - 1; i >= 0; i--) {
+			int[][] newDp = new int[2][maxTransaction + 1]; // This array will hold the results for the current day
+			for (int transactions = 1; transactions <= maxTransaction; transactions++) {
+				// Option to buy (transactions % 2 == 1) or skip
+				if (transactions % 2 == 1) {
+					int take = -values[i] + dp[1][transactions];
+					int notTake = dp[0][transactions];
+					newDp[0][transactions] = Math.max(take, notTake);
+				} else { // Option to sell (transactions % 2 == 0) or hold
+					int sell = values[i] + dp[0][transactions - 1];
+					int notSell = dp[1][transactions];
+					newDp[1][transactions] = Math.max(sell, notSell);
+				}
+			}
+			dp = newDp; // Move to the next day
+		}
+
+		// The answer will be in dp[0][maxTransaction] (starting with the first day and the option to buy)
+		return dp[0][maxTransaction];
+	}
+
 	public static int maxProfitUsingRecursionUsingTabularSpaceOptimal(int[] values, int maxTransaction) {
 		int n = values.length;
 		int[][] after = new int[2][maxTransaction + 1];
@@ -184,5 +210,8 @@ public class BestTimeToBuyAndSellStockIII {
 		System.out.println(maxProfitUsingRecursionUsingMemo(values, 0, 2, 0, dp));
 		System.out.println(maxProfitUsingRecursionUsingTabular(values, 2));
 		System.out.println(maxProfitUsingRecursionUsingTabularSpaceOptimal(values, 2));
+
+		System.out.println(maxProfitUsingRecursionUsingTabularSpaceOptimalMore(values, 4));
+
 	}
 }
