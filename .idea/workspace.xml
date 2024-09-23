@@ -9,11 +9,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="697252cc-7674-4df4-b819-341bc29cf007" name="Changes" comment="Commit-21/09/2024">
-      <change afterPath="$PROJECT_DIR$/src/main/dynamic/programming/stocks/BestTimeToBuyAndSellStock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/dynamic/programming/stocks/BestTimeToBuyAndSellStockII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/dynamic/programming/stocks/BestTimeToBuyAndSellStockIII.java" afterDir="false" />
+    <list default="true" id="697252cc-7674-4df4-b819-341bc29cf007" name="Changes" comment="Commit-22/09/2024">
+      <change afterPath="$PROJECT_DIR$/src/main/dynamic/programming/stocks/BestTimeToBuyAndSellStockIV.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/dynamic/programming/stocks/BestTimeToBuyAndSellStockWithCooldown.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/dynamic/programming/stocks/BestTimeToBuyAndSellStockWithTransactionFee.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/dynamic/programming/stocks/BestTimeToBuyAndSellStockIII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dynamic/programming/stocks/BestTimeToBuyAndSellStockIII.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,6 +88,8 @@
     "Application.BestTimeToBuyAndSellStock.executor": "Run",
     "Application.BestTimeToBuyAndSellStockII.executor": "Run",
     "Application.BestTimeToBuyAndSellStockIII.executor": "Run",
+    "Application.BestTimeToBuyAndSellStockIV.executor": "Run",
+    "Application.BestTimeToBuyAndSellStockWithCooldown.executor": "Run",
     "Application.CheckIfLinkedListIsPalindrome.executor": "Run",
     "Application.ChocolatePickup.executor": "Run",
     "Application.CloneALinkedListWithRandomPointers.executor": "Run",
@@ -201,20 +204,7 @@
       <command value="mvn clean package" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.BestTimeToBuyAndSellStockIII">
-    <configuration name="BestTimeToBuyAndSellStock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.dynamic.programming.stocks.BestTimeToBuyAndSellStock" />
-      <module name="PracticeDSA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="main.dynamic.programming.stocks.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.BestTimeToBuyAndSellStockWithTransactionFee">
     <configuration name="BestTimeToBuyAndSellStockII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.dynamic.programming.stocks.BestTimeToBuyAndSellStockII" />
       <module name="PracticeDSA" />
@@ -241,12 +231,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EditDistance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.dynamic.programming.string.EditDistance" />
+    <configuration name="BestTimeToBuyAndSellStockIV" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.dynamic.programming.stocks.BestTimeToBuyAndSellStockIV" />
       <module name="PracticeDSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.dynamic.programming.string.*" />
+          <option name="PATTERN" value="main.dynamic.programming.stocks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -254,12 +244,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WildcardPatternMatching" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.dynamic.programming.string.WildcardPatternMatching" />
+    <configuration name="BestTimeToBuyAndSellStockWithCooldown" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.dynamic.programming.stocks.BestTimeToBuyAndSellStockWithCooldown" />
       <module name="PracticeDSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.dynamic.programming.string.*" />
+          <option name="PATTERN" value="main.dynamic.programming.stocks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BestTimeToBuyAndSellStockWithTransactionFee" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.dynamic.programming.stocks.BestTimeToBuyAndSellStockWithTransactionFee" />
+      <module name="PracticeDSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.dynamic.programming.stocks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -350,11 +353,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BestTimeToBuyAndSellStockWithTransactionFee" />
+        <item itemvalue="Application.BestTimeToBuyAndSellStockWithCooldown" />
+        <item itemvalue="Application.BestTimeToBuyAndSellStockIV" />
         <item itemvalue="Application.BestTimeToBuyAndSellStockIII" />
         <item itemvalue="Application.BestTimeToBuyAndSellStockII" />
-        <item itemvalue="Application.BestTimeToBuyAndSellStock" />
-        <item itemvalue="Application.WildcardPatternMatching" />
-        <item itemvalue="Application.EditDistance" />
       </list>
     </recent_temporary>
   </component>
@@ -522,7 +525,9 @@
       <workItem from="1726766834755" duration="7553000" />
       <workItem from="1726819746317" duration="10000" />
       <workItem from="1726848627262" duration="9361000" />
-      <workItem from="1726914868346" duration="20755000" />
+      <workItem from="1726914868346" duration="22271000" />
+      <workItem from="1727078868350" duration="8000" />
+      <workItem from="1727111320994" duration="4692000" />
     </task>
     <task id="LOCAL-00001" summary="commit-19122022">
       <created>1671408501232</created>
@@ -530,14 +535,6 @@
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
       <updated>1671408501232</updated>
-    </task>
-    <task id="LOCAL-00026" summary="Commit-04/12/2023">
-      <option name="closed" value="true" />
-      <created>1701727567586</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1701727567586</updated>
     </task>
     <task id="LOCAL-00027" summary="Commit-05/12/2023">
       <option name="closed" value="true" />
@@ -915,7 +912,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726931779198</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="Commit-22/09/2024">
+      <option name="closed" value="true" />
+      <created>1727033097449</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1727033097449</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -943,7 +948,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Commit-22/08/2024" />
     <MESSAGE value="Commit-23/08/2024" />
     <MESSAGE value="Commit-29/08/2024" />
     <MESSAGE value="Commit-30/08/2024" />
@@ -968,7 +972,8 @@
     <MESSAGE value="Commit-18/09/2024" />
     <MESSAGE value="Commit-20/09/2024" />
     <MESSAGE value="Commit-21/09/2024" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit-21/09/2024" />
+    <MESSAGE value="Commit-22/09/2024" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit-22/09/2024" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
