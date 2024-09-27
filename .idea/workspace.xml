@@ -9,10 +9,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="697252cc-7674-4df4-b819-341bc29cf007" name="Changes" comment="Commit-25/09/2024">
-      <change afterPath="$PROJECT_DIR$/src/main/dynamic/programming/partition/CostToCutAChocolate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/dynamic/programming/partition/MatrixChainMultiplication.java" afterDir="false" />
+    <list default="true" id="697252cc-7674-4df4-b819-341bc29cf007" name="Changes" comment="Commit-26/09/2024">
+      <change afterPath="$PROJECT_DIR$/src/main/dynamic/programming/partition/BooleanEvaluation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/dynamic/programming/partition/BurstingBalloons.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/dynamic/programming/partition/PalindromePartitioningII.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/two_pointers/easy/ValidPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/two_pointers/easy/ValidPalindrome.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,6 +91,8 @@
     "Application.BestTimeToBuyAndSellStockIV.executor": "Run",
     "Application.BestTimeToBuyAndSellStockWithCooldown.executor": "Run",
     "Application.BestTimeToBuyAndSellStockWithTransactionFee.executor": "Run",
+    "Application.BooleanEvaluation.executor": "Run",
+    "Application.BurstingBalloons.executor": "Run",
     "Application.CheckIfLinkedListIsPalindrome.executor": "Run",
     "Application.ChocolatePickup.executor": "Run",
     "Application.CloneALinkedListWithRandomPointers.executor": "Run",
@@ -141,6 +145,7 @@
     "Application.NinjasTraining.executor": "Run",
     "Application.NumberOfLongestIncreasingSubsequence.executor": "Run",
     "Application.PalindromePartitioning.executor": "Run",
+    "Application.PalindromePartitioningII.executor": "Run",
     "Application.PartitionEqualSubsetSum.executor": "Run",
     "Application.PartitionsWithGivenDifference.executor": "Run",
     "Application.PermutationOfStringArray.executor": "Run",
@@ -209,9 +214,9 @@
       <command value="mvn clean package" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.CostToCutAChocolate">
-    <configuration name="CostToCutAChocolate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.dynamic.programming.partition.CostToCutAChocolate" />
+  <component name="RunManager" selected="Application.PalindromePartitioningII">
+    <configuration name="BooleanEvaluation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.dynamic.programming.partition.BooleanEvaluation" />
       <module name="PracticeDSA" />
       <extension name="coverage">
         <pattern>
@@ -223,12 +228,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestBitonicSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.dynamic.programming.lis.LongestBitonicSequence" />
+    <configuration name="BurstingBalloons" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.dynamic.programming.partition.BurstingBalloons" />
       <module name="PracticeDSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.dynamic.programming.lis.*" />
+          <option name="PATTERN" value="main.dynamic.programming.partition.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -236,12 +241,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestStringChain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.dynamic.programming.lis.LongestStringChain" />
+    <configuration name="CostToCutAChocolate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.dynamic.programming.partition.CostToCutAChocolate" />
       <module name="PracticeDSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.dynamic.programming.lis.*" />
+          <option name="PATTERN" value="main.dynamic.programming.partition.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -262,12 +267,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumberOfLongestIncreasingSubsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.dynamic.programming.lis.NumberOfLongestIncreasingSubsequence" />
+    <configuration name="PalindromePartitioningII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.dynamic.programming.partition.PalindromePartitioningII" />
       <module name="PracticeDSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.dynamic.programming.lis.*" />
+          <option name="PATTERN" value="main.dynamic.programming.partition.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -358,11 +363,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PalindromePartitioningII" />
+        <item itemvalue="Application.BooleanEvaluation" />
+        <item itemvalue="Application.BurstingBalloons" />
         <item itemvalue="Application.CostToCutAChocolate" />
         <item itemvalue="Application.MatrixChainMultiplication" />
-        <item itemvalue="Application.NumberOfLongestIncreasingSubsequence" />
-        <item itemvalue="Application.LongestBitonicSequence" />
-        <item itemvalue="Application.LongestStringChain" />
       </list>
     </recent_temporary>
   </component>
@@ -537,7 +542,9 @@
       <workItem from="1727198968926" duration="5951000" />
       <workItem from="1727252776875" duration="22000" />
       <workItem from="1727265767492" duration="11654000" />
-      <workItem from="1727360778675" duration="8536000" />
+      <workItem from="1727360778675" duration="8741000" />
+      <workItem from="1727448193441" duration="4570000" />
+      <workItem from="1727459165784" duration="6104000" />
     </task>
     <task id="LOCAL-00001" summary="commit-19122022">
       <created>1671408501232</created>
@@ -545,14 +552,6 @@
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
       <updated>1671408501232</updated>
-    </task>
-    <task id="LOCAL-00030" summary="Commit-09/08/2024">
-      <option name="closed" value="true" />
-      <created>1723239836402</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1723239836402</updated>
     </task>
     <task id="LOCAL-00031" summary="Commit-10/08/2024">
       <option name="closed" value="true" />
@@ -930,7 +929,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727271095571</updated>
     </task>
-    <option name="localTasksCounter" value="78" />
+    <task id="LOCAL-00078" summary="Commit-26/09/2024">
+      <option name="closed" value="true" />
+      <created>1727377603004</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1727377603005</updated>
+    </task>
+    <option name="localTasksCounter" value="79" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -958,7 +965,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Commit-01/09/2024" />
     <MESSAGE value="Commit-02/09/2024" />
     <MESSAGE value="Commit-03/09/2024" />
     <MESSAGE value="Commit-04/09/2024" />
@@ -983,7 +989,8 @@
     <MESSAGE value="Commit-23/09/2024" />
     <MESSAGE value="Commit-24/09/2024" />
     <MESSAGE value="Commit-25/09/2024" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit-25/09/2024" />
+    <MESSAGE value="Commit-26/09/2024" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit-26/09/2024" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

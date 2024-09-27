@@ -46,7 +46,7 @@ public class ValidPalindrome {
 		}
 
 		// Edge case: If the cleaned string is empty
-		if (cleaned.length() == 0) {
+		if (cleaned.isEmpty()) {
 			return true;
 		}
 
