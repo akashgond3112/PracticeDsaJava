@@ -9,10 +9,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="697252cc-7674-4df4-b819-341bc29cf007" name="Changes" comment="Commit-27/09/2024">
-      <change afterPath="$PROJECT_DIR$/src/main/dynamic/programming/partition/CountSquareSubMatricesWithAllOnes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/dynamic/programming/partition/MaximumSizeRectangleSubMatrixWithAllOnes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/dynamic/programming/partition/PartitionArrayForMaximumSum.java" afterDir="false" />
+    <list default="true" id="697252cc-7674-4df4-b819-341bc29cf007" name="Changes" comment="Commit-28/09/2024">
+      <change afterPath="$PROJECT_DIR$/src/main/dsa/linear/Array/learning/CheckSortedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/dsa/linear/Array/learning/LargestElementInTheArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/dsa/linear/Array/learning/RemoveDuplicatesFromSortedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/dsa/linear/Array/learning/SecondLargestNumber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -93,6 +94,7 @@
     "Application.BooleanEvaluation.executor": "Run",
     "Application.BurstingBalloons.executor": "Run",
     "Application.CheckIfLinkedListIsPalindrome.executor": "Run",
+    "Application.CheckSortedArray.executor": "Run",
     "Application.ChocolatePickup.executor": "Run",
     "Application.CloneALinkedListWithRandomPointers.executor": "Run",
     "Application.CombinationSum.executor": "Run",
@@ -122,6 +124,7 @@
     "Application.IntroduceLinkedList.executor": "Run",
     "Application.Knapsack.executor": "Run",
     "Application.KnapsackUnbounded.executor": "Run",
+    "Application.LargestElementInTheArray.executor": "Run",
     "Application.LengthOfLinkedList.executor": "Run",
     "Application.LinkedListCycleII.executor": "Run",
     "Application.LongestBitonicSequence.executor": "Run",
@@ -155,11 +158,13 @@
     "Application.RatInAMazeProblemI.executor": "Run",
     "Application.RearrangeOddAndEvenPlaces.executor": "Run",
     "Application.RemoveDuplicatesFromASortedDoublyLinkedList.executor": "Debug",
+    "Application.RemoveDuplicatesFromSortedArray.executor": "Run",
     "Application.ReverseADoublyLinkedList.executor": "Debug",
     "Application.ReverseLinkedList.executor": "Run",
     "Application.ReverseListInKGroups.executor": "Run",
     "Application.RodCuttingProblem.executor": "Run",
     "Application.RotateLinkedList.executor": "Run",
+    "Application.SecondLargestNumber.executor": "Run",
     "Application.ShortestCommonSuperSequence.executor": "Run",
     "Application.SinglyLinkedList.executor": "Run",
     "Application.SortLinkedList.executor": "Run",
@@ -216,13 +221,13 @@
       <command value="mvn clean package" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.CountSquareSubMatricesWithAllOnes">
-    <configuration name="BooleanEvaluation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.dynamic.programming.partition.BooleanEvaluation" />
+  <component name="RunManager" selected="Application.RemoveDuplicatesFromSortedArray">
+    <configuration name="CheckSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.dsa.linear.Array.learning.CheckSortedArray" />
       <module name="PracticeDSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.dynamic.programming.partition.*" />
+          <option name="PATTERN" value="main.dsa.linear.Array.learning.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -243,12 +248,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaximumSizeRectangleSubMatrixWithAllOnes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.dynamic.programming.partition.MaximumSizeRectangleSubMatrixWithAllOnes" />
+    <configuration name="LargestElementInTheArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.dsa.linear.Array.learning.LargestElementInTheArray" />
       <module name="PracticeDSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.dynamic.programming.partition.*" />
+          <option name="PATTERN" value="main.dsa.linear.Array.learning.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -256,12 +261,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PalindromePartitioningII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.dynamic.programming.partition.PalindromePartitioningII" />
+    <configuration name="RemoveDuplicatesFromSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.dsa.linear.Array.learning.RemoveDuplicatesFromSortedArray" />
       <module name="PracticeDSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.dynamic.programming.partition.*" />
+          <option name="PATTERN" value="main.dsa.linear.Array.learning.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -269,12 +274,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PartitionArrayForMaximumSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.dynamic.programming.partition.PartitionArrayForMaximumSum" />
+    <configuration name="SecondLargestNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.dsa.linear.Array.learning.SecondLargestNumber" />
       <module name="PracticeDSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.dynamic.programming.partition.*" />
+          <option name="PATTERN" value="main.dsa.linear.Array.learning.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -365,11 +370,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RemoveDuplicatesFromSortedArray" />
+        <item itemvalue="Application.CheckSortedArray" />
+        <item itemvalue="Application.SecondLargestNumber" />
+        <item itemvalue="Application.LargestElementInTheArray" />
         <item itemvalue="Application.CountSquareSubMatricesWithAllOnes" />
-        <item itemvalue="Application.MaximumSizeRectangleSubMatrixWithAllOnes" />
-        <item itemvalue="Application.PartitionArrayForMaximumSum" />
-        <item itemvalue="Application.PalindromePartitioningII" />
-        <item itemvalue="Application.BooleanEvaluation" />
       </list>
     </recent_temporary>
   </component>
@@ -546,7 +551,8 @@
       <workItem from="1727265767492" duration="11654000" />
       <workItem from="1727360778675" duration="8741000" />
       <workItem from="1727448193441" duration="4570000" />
-      <workItem from="1727459165784" duration="11335000" />
+      <workItem from="1727459165784" duration="12654000" />
+      <workItem from="1727715384099" duration="3777000" />
     </task>
     <task id="LOCAL-00001" summary="commit-19122022">
       <created>1671408501232</created>
@@ -554,14 +560,6 @@
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
       <updated>1671408501232</updated>
-    </task>
-    <task id="LOCAL-00032" summary="Commit-11/08/2024">
-      <option name="closed" value="true" />
-      <created>1723407846204</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1723407846204</updated>
     </task>
     <task id="LOCAL-00033" summary="Commit-12/08/2024">
       <option name="closed" value="true" />
@@ -939,7 +937,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727470480531</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <task id="LOCAL-00080" summary="Commit-28/09/2024">
+      <option name="closed" value="true" />
+      <created>1727524698103</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1727524698103</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -967,7 +973,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Commit-03/09/2024" />
     <MESSAGE value="Commit-04/09/2024" />
     <MESSAGE value="Commit-05/09/2024" />
     <MESSAGE value="Commit-06/09/2024" />
@@ -992,7 +997,8 @@
     <MESSAGE value="Commit-25/09/2024" />
     <MESSAGE value="Commit-26/09/2024" />
     <MESSAGE value="Commit-27/09/2024" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit-27/09/2024" />
+    <MESSAGE value="Commit-28/09/2024" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit-28/09/2024" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
