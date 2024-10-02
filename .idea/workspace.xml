@@ -9,13 +9,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="697252cc-7674-4df4-b819-341bc29cf007" name="Changes" comment="Commit-29/09/2024">
-      <change afterPath="$PROJECT_DIR$/src/main/dsa/linear/Array/learning/IntersectionOfTwoSortedArrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/dsa/linear/Array/learning/LeftRotateAnArrayByOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/dsa/linear/Array/learning/LinearSearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/dsa/linear/Array/learning/MergeTwoSortedArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/dsa/linear/Array/learning/MoveZerosToEnd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/dsa/linear/Array/learning/RotateArray.java" afterDir="false" />
+    <list default="true" id="697252cc-7674-4df4-b819-341bc29cf007" name="Changes" comment="Commit-01/09/2024">
+      <change afterPath="$PROJECT_DIR$/src/main/dsa/linear/Array/learning/CountMaximumConsecutiveOnesInTheArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/dsa/linear/Array/learning/FindTheMissingNumberInAnArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/dsa/linear/Array/learning/FindTheNumberThatAppearsOnceAndTheOtherNumbersTwice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -102,6 +99,7 @@
     "Application.CombinationSum.executor": "Run",
     "Application.ConvertBinaryNumberLinkedListToInteger.executor": "Run",
     "Application.CostToCutAChocolate.executor": "Run",
+    "Application.CountMaximumConsecutiveOnesInTheArray.executor": "Run",
     "Application.CountSquareSubMatricesWithAllOnes.executor": "Run",
     "Application.CountSubsetsWithSumK.executor": "Run",
     "Application.CycleDetectionInASinglyLinkedList.executor": "Run",
@@ -118,6 +116,8 @@
     "Application.FIndNQueens.executor": "Run",
     "Application.Fibonnaci.executor": "Run",
     "Application.FindPairsWithGivenSumInDoublyLinkedList.executor": "Run",
+    "Application.FindTheMissingNumberInAnArray.executor": "Run",
+    "Application.FindTheNumberThatAppearsOnceAndTheOtherNumbersTwice.executor": "Run",
     "Application.FlattenALinkedList.executor": "Debug",
     "Application.FrogJump.executor": "Run",
     "Application.FrogJumpII.executor": "Run",
@@ -228,7 +228,46 @@
       <command value="mvn clean package" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.IntersectionOfTwoSortedArrays">
+  <component name="RunManager" selected="Application.FindTheNumberThatAppearsOnceAndTheOtherNumbersTwice">
+    <configuration name="CountMaximumConsecutiveOnesInTheArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.dsa.linear.Array.learning.CountMaximumConsecutiveOnesInTheArray" />
+      <module name="PracticeDSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.dsa.linear.Array.learning.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FindTheMissingNumberInAnArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.dsa.linear.Array.learning.FindTheMissingNumberInAnArray" />
+      <module name="PracticeDSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.dsa.linear.Array.learning.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FindTheNumberThatAppearsOnceAndTheOtherNumbersTwice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.dsa.linear.Array.learning.FindTheNumberThatAppearsOnceAndTheOtherNumbersTwice" />
+      <module name="PracticeDSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.dsa.linear.Array.learning.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="IntersectionOfTwoSortedArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.dsa.linear.Array.learning.IntersectionOfTwoSortedArrays" />
       <module name="PracticeDSA" />
@@ -242,47 +281,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LeftRotateAnArrayByOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.dsa.linear.Array.learning.LeftRotateAnArrayByOne" />
-      <module name="PracticeDSA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="main.dsa.linear.Array.learning.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="LinearSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.dsa.linear.Array.learning.LinearSearch" />
-      <module name="PracticeDSA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="main.dsa.linear.Array.learning.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MoveZerosToEnd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.dsa.linear.Array.learning.MoveZerosToEnd" />
-      <module name="PracticeDSA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="main.dsa.linear.Array.learning.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RotateArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.dsa.linear.Array.learning.RotateArray" />
       <module name="PracticeDSA" />
       <extension name="coverage">
         <pattern>
@@ -377,11 +377,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FindTheNumberThatAppearsOnceAndTheOtherNumbersTwice" />
+        <item itemvalue="Application.CountMaximumConsecutiveOnesInTheArray" />
+        <item itemvalue="Application.FindTheMissingNumberInAnArray" />
         <item itemvalue="Application.IntersectionOfTwoSortedArrays" />
         <item itemvalue="Application.LinearSearch" />
-        <item itemvalue="Application.MoveZerosToEnd" />
-        <item itemvalue="Application.RotateArray" />
-        <item itemvalue="Application.LeftRotateAnArrayByOne" />
       </list>
     </recent_temporary>
   </component>
@@ -562,7 +562,8 @@
       <workItem from="1727715384099" duration="4468000" />
       <workItem from="1727768866270" duration="13000" />
       <workItem from="1727791157189" duration="74000" />
-      <workItem from="1727793220274" duration="5864000" />
+      <workItem from="1727793220274" duration="7142000" />
+      <workItem from="1727883053792" duration="4362000" />
     </task>
     <task id="LOCAL-00001" summary="commit-19122022">
       <created>1671408501232</created>
@@ -570,14 +571,6 @@
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
       <updated>1671408501232</updated>
-    </task>
-    <task id="LOCAL-00034" summary="Commit-12/08/2024">
-      <option name="closed" value="true" />
-      <created>1723497798332</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1723497798332</updated>
     </task>
     <task id="LOCAL-00035" summary="Commit-13/08/2024">
       <option name="closed" value="true" />
@@ -955,7 +948,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727721613846</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL-00082" summary="Commit-01/09/2024">
+      <option name="closed" value="true" />
+      <created>1727810313705</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1727810313706</updated>
+    </task>
+    <option name="localTasksCounter" value="83" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -983,7 +984,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Commit-05/09/2024" />
     <MESSAGE value="Commit-06/09/2024" />
     <MESSAGE value="Commit-07/09/2024" />
     <MESSAGE value="Commit-08/09/2024" />
@@ -1008,7 +1008,8 @@
     <MESSAGE value="Commit-27/09/2024" />
     <MESSAGE value="Commit-28/09/2024" />
     <MESSAGE value="Commit-29/09/2024" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit-29/09/2024" />
+    <MESSAGE value="Commit-01/09/2024" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit-01/09/2024" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
