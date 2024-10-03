@@ -10,9 +10,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="697252cc-7674-4df4-b819-341bc29cf007" name="Changes" comment="Commit-02/09/2024">
-      <change afterPath="$PROJECT_DIR$/src/main/dsa/linear/Array/learning/LongestSubarrayWithSumK.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/dsa/linear/Array/learning/MajorityElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/dsa/linear/Array/learning/MaximumSubarraySum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/dsa/linear/Array/learning/SortAnArrayOf0s1sAnd2s.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/dsa/linear/Array/easy/TwoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/linear/Array/easy/TwoSum.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,9 +141,11 @@
     "Application.LongestSubarrayWithSumK.executor": "Run",
     "Application.LongestTurbulentSubarray.executor": "Run",
     "Application.MColouringProblem.executor": "Run",
+    "Application.MajorityElement.executor": "Run",
     "Application.MatrixChainMultiplication.executor": "Run",
     "Application.MaximumPathSumInTheMatrix.executor": "Run",
     "Application.MaximumSizeRectangleSubMatrixWithAllOnes.executor": "Run",
+    "Application.MaximumSubarraySum.executor": "Run",
     "Application.MaximumSumOfNonAdjacentElements.executor": "Run",
     "Application.MergeKSortedLists.executor": "Run",
     "Application.MergeTwoSortedLinkedLists.executor": "Run",
@@ -174,6 +177,7 @@
     "Application.SecondLargestNumber.executor": "Run",
     "Application.ShortestCommonSuperSequence.executor": "Run",
     "Application.SinglyLinkedList.executor": "Run",
+    "Application.SortAnArrayOf0s1sAnd2s.executor": "Run",
     "Application.SortLinkedList.executor": "Run",
     "Application.SortLinkedListII.executor": "Run",
     "Application.SubsetSumEqualToK.executor": "Run",
@@ -229,48 +233,48 @@
       <command value="mvn clean package" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.TwoSum">
-    <configuration name="CountMaximumConsecutiveOnesInTheArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.dsa.linear.Array.learning.CountMaximumConsecutiveOnesInTheArray" />
-      <module name="PracticeDSA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="main.dsa.linear.Array.learning.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FindTheMissingNumberInAnArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.dsa.linear.Array.learning.FindTheMissingNumberInAnArray" />
-      <module name="PracticeDSA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="main.dsa.linear.Array.learning.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FindTheNumberThatAppearsOnceAndTheOtherNumbersTwice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.dsa.linear.Array.learning.FindTheNumberThatAppearsOnceAndTheOtherNumbersTwice" />
-      <module name="PracticeDSA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="main.dsa.linear.Array.learning.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.MaximumSubarraySum">
     <configuration name="LongestSubarrayWithSumK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.dsa.linear.Array.learning.LongestSubarrayWithSumK" />
+      <module name="PracticeDSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.dsa.linear.Array.learning.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MajorityElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.dsa.linear.Array.learning.MajorityElement" />
+      <module name="PracticeDSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.dsa.linear.Array.learning.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MaximumSubarraySum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.dsa.linear.Array.learning.MaximumSubarraySum" />
+      <module name="PracticeDSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.dsa.linear.Array.learning.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SortAnArrayOf0s1sAnd2s" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.dsa.linear.Array.learning.SortAnArrayOf0s1sAnd2s" />
       <module name="PracticeDSA" />
       <extension name="coverage">
         <pattern>
@@ -378,11 +382,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaximumSubarraySum" />
+        <item itemvalue="Application.MajorityElement" />
+        <item itemvalue="Application.SortAnArrayOf0s1sAnd2s" />
         <item itemvalue="Application.TwoSum" />
         <item itemvalue="Application.LongestSubarrayWithSumK" />
-        <item itemvalue="Application.FindTheNumberThatAppearsOnceAndTheOtherNumbersTwice" />
-        <item itemvalue="Application.CountMaximumConsecutiveOnesInTheArray" />
-        <item itemvalue="Application.FindTheMissingNumberInAnArray" />
       </list>
     </recent_temporary>
   </component>
@@ -564,7 +568,8 @@
       <workItem from="1727768866270" duration="13000" />
       <workItem from="1727791157189" duration="74000" />
       <workItem from="1727793220274" duration="7142000" />
-      <workItem from="1727883053792" duration="7951000" />
+      <workItem from="1727883053792" duration="9947000" />
+      <workItem from="1727975144784" duration="5469000" />
     </task>
     <task id="LOCAL-00001" summary="commit-19122022">
       <created>1671408501232</created>
@@ -572,14 +577,6 @@
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
       <updated>1671408501232</updated>
-    </task>
-    <task id="LOCAL-00036" summary="Commit-14/08/2024">
-      <option name="closed" value="true" />
-      <created>1723662510373</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1723662510373</updated>
     </task>
     <task id="LOCAL-00037" summary="Commit-15/08/2024">
       <option name="closed" value="true" />
@@ -957,7 +954,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727888599935</updated>
     </task>
-    <option name="localTasksCounter" value="84" />
+    <task id="LOCAL-00084" summary="Commit-02/09/2024">
+      <option name="closed" value="true" />
+      <created>1727894074632</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1727894074635</updated>
+    </task>
+    <option name="localTasksCounter" value="85" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
