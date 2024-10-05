@@ -9,10 +9,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="697252cc-7674-4df4-b819-341bc29cf007" name="Changes" comment="Commit-03/09/2024">
-      <change afterPath="$PROJECT_DIR$/src/main/dsa/linear/Array/learning/AlternateNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/dsa/linear/Array/learning/NextGreaterPermutation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/dsa/linear/Array/learning/SuperiorElements.java" afterDir="false" />
+    <list default="true" id="697252cc-7674-4df4-b819-341bc29cf007" name="Changes" comment="Commit-04/09/2024">
+      <change afterPath="$PROJECT_DIR$/src/main/dsa/linear/Array/learning/LongestSuccessiveElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/dsa/linear/Array/learning/RotateTheMatrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/dsa/linear/Array/learning/ZeroMatrix.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -140,6 +140,7 @@
     "Application.LongestPalindromeSubsequence.executor": "Run",
     "Application.LongestStringChain.executor": "Run",
     "Application.LongestSubarrayWithSumK.executor": "Run",
+    "Application.LongestSuccessiveElements.executor": "Run",
     "Application.LongestTurbulentSubarray.executor": "Run",
     "Application.MColouringProblem.executor": "Run",
     "Application.MajorityElement.executor": "Run",
@@ -185,12 +186,15 @@
     "Application.SubsetSumEqualToK.executor": "Run",
     "Application.SubsetSumIAndII.executor": "Run",
     "Application.SudokoSolver.executor": "Run",
+    "Application.SuperiorElements.executor": "Run",
     "Application.Triangle.executor": "Run",
     "Application.TwoSum.executor": "Run",
     "Application.UniquePaths.executor": "Run",
     "Application.UniquePathsII.executor": "Run",
     "Application.WaysToMakeCoinChange.executor": "Run",
     "Application.WildcardPatternMatching.executor": "Run",
+    "Application.ZeroMatrix (1).executor": "Run",
+    "Application.ZeroMatrix.executor": "Run",
     "Application.findSubsequenceOfGivenKSum.executor": "Run",
     "Downloaded.Files.Path.Enabled": "false",
     "Repository.Attach.Annotations": "false",
@@ -235,9 +239,9 @@
       <command value="mvn clean package" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.SuperiorElements">
-    <configuration name="AlternateNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.dsa.linear.Array.learning.AlternateNumbers" />
+  <component name="RunManager" selected="Application.RotateTheMatrix">
+    <configuration name="LongestSuccessiveElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.dsa.linear.Array.learning.LongestSuccessiveElements" />
       <module name="PracticeDSA" />
       <extension name="coverage">
         <pattern>
@@ -249,38 +253,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaximumSubarraySum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.dsa.linear.Array.learning.MaximumSubarraySum" />
+    <configuration name="RotateTheMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.dsa.linear.Array.learning.RotateTheMatrix" />
       <module name="PracticeDSA" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="main.dsa.linear.Array.learning.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NextGreaterPermutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.dsa.linear.Array.learning.NextGreaterPermutation" />
-      <module name="PracticeDSA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="main.dsa.linear.Array.learning.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PermutationOfStringArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.recursion.backtracking.PermutationOfStringArray" />
-      <module name="PracticeDSA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="main.recursion.backtracking.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -290,6 +268,32 @@
     </configuration>
     <configuration name="SuperiorElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.dsa.linear.Array.learning.SuperiorElements" />
+      <module name="PracticeDSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.dsa.linear.Array.learning.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZeroMatrix (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.dsa.linear.Array.learning.ZeroMatrix" />
+      <module name="PracticeDSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.dsa.linear.Array.learning.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZeroMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.dsa.linear.Array.learning.ZeroMatrix" />
       <module name="PracticeDSA" />
       <extension name="coverage">
         <pattern>
@@ -384,11 +388,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RotateTheMatrix" />
+        <item itemvalue="Application.ZeroMatrix" />
+        <item itemvalue="Application.ZeroMatrix (1)" />
+        <item itemvalue="Application.LongestSuccessiveElements" />
         <item itemvalue="Application.SuperiorElements" />
-        <item itemvalue="Application.NextGreaterPermutation" />
-        <item itemvalue="Application.PermutationOfStringArray" />
-        <item itemvalue="Application.AlternateNumbers" />
-        <item itemvalue="Application.MaximumSubarraySum" />
       </list>
     </recent_temporary>
   </component>
@@ -573,7 +577,7 @@
       <workItem from="1727883053792" duration="9947000" />
       <workItem from="1727975144784" duration="6121000" />
       <workItem from="1728033608274" duration="5000" />
-      <workItem from="1728035245687" duration="5282000" />
+      <workItem from="1728035245687" duration="23248000" />
     </task>
     <task id="LOCAL-00001" summary="commit-19122022">
       <created>1671408501232</created>
@@ -581,14 +585,6 @@
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
       <updated>1671408501232</updated>
-    </task>
-    <task id="LOCAL-00038" summary="Commit-16/08/2024">
-      <option name="closed" value="true" />
-      <created>1723844081390</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1723844081390</updated>
     </task>
     <task id="LOCAL-00039" summary="Commit-17/08/2024">
       <option name="closed" value="true" />
@@ -966,7 +962,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727990078637</updated>
     </task>
-    <option name="localTasksCounter" value="86" />
+    <task id="LOCAL-00086" summary="Commit-04/09/2024">
+      <option name="closed" value="true" />
+      <created>1728041100166</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1728041100168</updated>
+    </task>
+    <option name="localTasksCounter" value="87" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -994,7 +998,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Commit-08/09/2024" />
     <MESSAGE value="Commit-09/09/2024" />
     <MESSAGE value="Commit-q0/09/2024" />
     <MESSAGE value="Commit-10/09/2024" />
@@ -1019,7 +1022,8 @@
     <MESSAGE value="Commit-01/09/2024" />
     <MESSAGE value="Commit-02/09/2024" />
     <MESSAGE value="Commit-03/09/2024" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit-03/09/2024" />
+    <MESSAGE value="Commit-04/09/2024" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit-04/09/2024" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1179,12 +1183,6 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="Application">
-        <watch expression="s.length()-10" language="JAVA" />
-        <watch expression="endIndex &lt;= s.length() - 10" language="JAVA" />
-      </configuration>
-    </watches-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
