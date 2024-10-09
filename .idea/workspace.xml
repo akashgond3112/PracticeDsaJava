@@ -9,11 +9,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="697252cc-7674-4df4-b819-341bc29cf007" name="Changes" comment="Commit-07/09/2024">
-      <change afterPath="$PROJECT_DIR$/src/main/dsa/linear/Array/learning/hard/MergeAllOverlappingIntervals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/dsa/linear/Array/learning/hard/MergeTwoSortedArraysWithoutExtraSpace.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/dsa/linear/Array/learning/hard/MissingAndRepeatingNumbers.java" afterDir="false" />
+    <list default="true" id="697252cc-7674-4df4-b819-341bc29cf007" name="Changes" comment="Commit-08/09/2024">
       <change afterPath="$PROJECT_DIR$/src/main/dsa/linear/Array/learning/hard/NumberOfInversions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/dsa/linear/Array/learning/hard/SubarrayWithMaximumProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/dsa/linear/Array/learning/hard/TeamContest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../LLD/Low_level_Design_Problems/GenericProgramming/GenericProgramming.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../LLD/Low_level_Design_Problems/GenericProgramming/GenericProgramming.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../LLD/Low_level_Design_Problems/LLD-Practice/BookMyShow/BookMyShow.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../LLD/Low_level_Design_Problems/LLD-Practice/BookMyShow/BookMyShow.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../LLD/Low_level_Design_Problems/LLD-Practice/DecoratorPattern/DecoratorPattern.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../LLD/Low_level_Design_Problems/LLD-Practice/DecoratorPattern/DecoratorPattern.iml" afterDir="false" />
@@ -188,6 +187,7 @@
     "Application.MoveZerosToEnd.executor": "Run",
     "Application.NextGreaterPermutation.executor": "Run",
     "Application.NinjasTraining.executor": "Run",
+    "Application.NumberOfInversions.executor": "Run",
     "Application.NumberOfLongestIncreasingSubsequence.executor": "Run",
     "Application.PalindromePartitioning.executor": "Run",
     "Application.PalindromePartitioningII.executor": "Run",
@@ -215,6 +215,7 @@
     "Application.SortLinkedList.executor": "Run",
     "Application.SortLinkedListII.executor": "Run",
     "Application.SpiralMatrix.executor": "Run",
+    "Application.SubarrayWithMaximumProduct.executor": "Run",
     "Application.SubarraysWithXOROfK.executor": "Run",
     "Application.SubsetSumEqualToK.executor": "Run",
     "Application.SubsetSumIAndII.executor": "Run",
@@ -273,20 +274,7 @@
       <command value="mvn clean package" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.MissingAndRepeatingNumbers">
-    <configuration name="FourSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.dsa.linear.Array.learning.hard.FourSum" />
-      <module name="PracticeDSA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="main.dsa.linear.Array.learning.hard.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.SubarrayWithMaximumProduct">
     <configuration name="MergeAllOverlappingIntervals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.dsa.linear.Array.learning.hard.MergeAllOverlappingIntervals" />
       <module name="PracticeDSA" />
@@ -326,8 +314,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SubarraysWithXOROfK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.dsa.linear.Array.learning.hard.SubarraysWithXOROfK" />
+    <configuration name="NumberOfInversions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.dsa.linear.Array.learning.hard.NumberOfInversions" />
+      <module name="PracticeDSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.dsa.linear.Array.learning.hard.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SubarrayWithMaximumProduct" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.dsa.linear.Array.learning.hard.SubarrayWithMaximumProduct" />
       <module name="PracticeDSA" />
       <extension name="coverage">
         <pattern>
@@ -422,11 +423,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SubarrayWithMaximumProduct" />
+        <item itemvalue="Application.NumberOfInversions" />
         <item itemvalue="Application.MissingAndRepeatingNumbers" />
         <item itemvalue="Application.MergeTwoSortedArraysWithoutExtraSpace" />
         <item itemvalue="Application.MergeAllOverlappingIntervals" />
-        <item itemvalue="Application.SubarraysWithXOROfK" />
-        <item itemvalue="Application.FourSum" />
       </list>
     </recent_temporary>
   </component>
@@ -615,7 +616,9 @@
       <workItem from="1728289147414" duration="8000" />
       <workItem from="1728307581322" duration="10622000" />
       <workItem from="1728372836046" duration="8000" />
-      <workItem from="1728407081338" duration="7296000" />
+      <workItem from="1728407081338" duration="7562000" />
+      <workItem from="1728470783909" duration="4000" />
+      <workItem from="1728482177720" duration="6039000" />
     </task>
     <task id="LOCAL-00001" summary="commit-19122022">
       <created>1671408501232</created>
@@ -623,14 +626,6 @@
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
       <updated>1671408501232</updated>
-    </task>
-    <task id="LOCAL-00042" summary="Commit-19/08/2024">
-      <option name="closed" value="true" />
-      <created>1724099322132</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1724099322132</updated>
     </task>
     <task id="LOCAL-00043" summary="Commit-21/08/2024">
       <option name="closed" value="true" />
@@ -1008,7 +1003,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728319298354</updated>
     </task>
-    <option name="localTasksCounter" value="90" />
+    <task id="LOCAL-00090" summary="Commit-08/09/2024">
+      <option name="closed" value="true" />
+      <created>1728420202855</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1728420202856</updated>
+    </task>
+    <option name="localTasksCounter" value="91" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1036,7 +1039,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Commit-11/09/2024" />
     <MESSAGE value="Commit-12/09/2024" />
     <MESSAGE value="Commit-13/09/2024" />
     <MESSAGE value="Commit-14/09/2024" />
@@ -1061,7 +1063,8 @@
     <MESSAGE value="Commit-05/09/2024" />
     <MESSAGE value="Commit-06/09/2024" />
     <MESSAGE value="Commit-07/09/2024" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit-07/09/2024" />
+    <MESSAGE value="Commit-08/09/2024" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit-08/09/2024" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
