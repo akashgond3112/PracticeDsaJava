@@ -1,4 +1,4 @@
-package main.dsa.linear.Queue;
+package main.dsa.linear.queue;
 
 public class TestQueue {
     public static void main(String[] args) {
