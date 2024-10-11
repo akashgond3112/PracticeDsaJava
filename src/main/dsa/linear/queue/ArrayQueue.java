@@ -1,4 +1,4 @@
-package main.dsa.linear.Queue;
+package main.dsa.linear.queue;
 
 public class ArrayQueue<E> implements Queue<E> {
     private E[] theArray;
