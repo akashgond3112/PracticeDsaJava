@@ -9,7 +9,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="697252cc-7674-4df4-b819-341bc29cf007" name="Changes" comment="Commit-11/09/2024">
+    <list default="true" id="697252cc-7674-4df4-b819-341bc29cf007" name="Changes" comment="Commit-12/09/2024">
+      <change afterPath="$PROJECT_DIR$/src/main/dsa/linear/stack/NextGreaterElementI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../LLD/Low_level_Design_Problems/GenericProgramming/GenericProgramming.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../LLD/Low_level_Design_Problems/GenericProgramming/GenericProgramming.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../LLD/Low_level_Design_Problems/LLD-Practice/BookMyShow/BookMyShow.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../LLD/Low_level_Design_Problems/LLD-Practice/BookMyShow/BookMyShow.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../LLD/Low_level_Design_Problems/LLD-Practice/DecoratorPattern/DecoratorPattern.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../LLD/Low_level_Design_Problems/LLD-Practice/DecoratorPattern/DecoratorPattern.iml" afterDir="false" />
@@ -623,7 +624,8 @@
       <workItem from="1728556681016" duration="13000" />
       <workItem from="1728579395476" duration="2573000" />
       <workItem from="1728661448115" duration="7812000" />
-      <workItem from="1728740838494" duration="2321000" />
+      <workItem from="1728740838494" duration="2869000" />
+      <workItem from="1728842973221" duration="2444000" />
     </task>
     <task id="LOCAL-00001" summary="commit-19122022">
       <created>1671408501232</created>
@@ -631,14 +633,6 @@
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
       <updated>1671408501232</updated>
-    </task>
-    <task id="LOCAL-00046" summary="Commit-29/08/2024">
-      <option name="closed" value="true" />
-      <created>1724963711662</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1724963711662</updated>
     </task>
     <task id="LOCAL-00047" summary="Commit-30/08/2024">
       <option name="closed" value="true" />
@@ -1016,7 +1010,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728670182287</updated>
     </task>
-    <option name="localTasksCounter" value="94" />
+    <task id="LOCAL-00094" summary="Commit-12/09/2024">
+      <option name="closed" value="true" />
+      <created>1728746240765</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1728746240765</updated>
+    </task>
+    <option name="localTasksCounter" value="95" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1044,7 +1046,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Commit-15/09/2024" />
     <MESSAGE value="Commit-16/09/2024" />
     <MESSAGE value="Commit-17/09/2024" />
     <MESSAGE value="Commit-18/09/2024" />
@@ -1069,7 +1070,8 @@
     <MESSAGE value="Commit-09/09/2024" />
     <MESSAGE value="Commit-10/09/2024" />
     <MESSAGE value="Commit-11/09/2024" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit-11/09/2024" />
+    <MESSAGE value="Commit-12/09/2024" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit-12/09/2024" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
