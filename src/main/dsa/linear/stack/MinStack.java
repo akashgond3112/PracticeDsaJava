@@ -63,7 +63,7 @@ class MinStack {
 		if (stack.isEmpty()) {
 			throw new EmptyStackException();
 		} else {
-			stack.pop().val
+			int val = stack.pop().val;
 		}
 	}
 
