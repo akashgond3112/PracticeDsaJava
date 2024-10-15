@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.Stack;
 
 /**
- * 503. Next Greater Element II Medium Topics Companies Given a circular integer array nums (i.e., the next element of
+ * Next Greater Element II Medium Topics Companies Given a circular integer array nums (i.e., the next element of
  * nums[nums.length - 1] is nums[0]), return the next greater number for every element in nums.
  *
  * The next greater number of a number x is the first greater number to its traversing-order next in the array, which
