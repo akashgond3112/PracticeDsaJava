@@ -9,9 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="697252cc-7674-4df4-b819-341bc29cf007" name="Changes" comment="Commit-15/09/2024">
-      <change afterPath="$PROJECT_DIR$/src/main/dsa/linear/stack/NearestSmallerElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/dsa/linear/stack/TrappingRainWater.java" afterDir="false" />
+    <list default="true" id="697252cc-7674-4df4-b819-341bc29cf007" name="Changes" comment="Commit-16/09/2024">
+      <change afterPath="$PROJECT_DIR$/src/main/dsa/linear/stack/SumOfSubarrayMinimums.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/dsa/linear/stack/SumOfSubarrayRanges.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../LLD/Low_level_Design_Problems/GenericProgramming/GenericProgramming.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../LLD/Low_level_Design_Problems/GenericProgramming/GenericProgramming.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../LLD/Low_level_Design_Problems/LLD-Practice/BookMyShow/BookMyShow.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../LLD/Low_level_Design_Problems/LLD-Practice/BookMyShow/BookMyShow.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../LLD/Low_level_Design_Problems/LLD-Practice/DecoratorPattern/DecoratorPattern.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../LLD/Low_level_Design_Problems/LLD-Practice/DecoratorPattern/DecoratorPattern.iml" afterDir="false" />
@@ -224,8 +224,10 @@
     "Application.SubsetSumEqualToK.executor": "Run",
     "Application.SubsetSumIAndII.executor": "Run",
     "Application.SudokoSolver.executor": "Run",
+    "Application.SumOfSubarrayMinimums.executor": "Run",
     "Application.SuperiorElements.executor": "Run",
     "Application.ThreeSum.executor": "Run",
+    "Application.TrappingRainWater.executor": "Run",
     "Application.Triangle.executor": "Run",
     "Application.TwoSum.executor": "Run",
     "Application.UniquePaths.executor": "Run",
@@ -278,7 +280,7 @@
       <command value="mvn clean package" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.TrappingRainWater">
+  <component name="RunManager" selected="Application.SumOfSubarrayRanges">
     <configuration name="NearestSmallerElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.dsa.linear.stack.NearestSmallerElement" />
       <module name="PracticeDSA" />
@@ -305,12 +307,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PostfixToInfixConversion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.dsa.linear.stack.PostfixToInfixConversion" />
+    <configuration name="SumOfSubarrayMinimums" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.dsa.linear.stack.SumOfSubarrayMinimums" />
       <module name="PracticeDSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.dsa.linear.stack.queue.*" />
+          <option name="PATTERN" value="main.dsa.linear.stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -318,12 +320,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrefixToInfixConversion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.dsa.linear.stack.PrefixToInfixConversion" />
+    <configuration name="SumOfSubarrayRanges" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.dsa.linear.stack.SumOfSubarrayRanges" />
       <module name="PracticeDSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.dsa.linear.stack.queue.*" />
+          <option name="PATTERN" value="main.dsa.linear.stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -427,11 +429,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SumOfSubarrayRanges" />
+        <item itemvalue="Application.SumOfSubarrayMinimums" />
         <item itemvalue="Application.TrappingRainWater" />
         <item itemvalue="Application.NearestSmallerElement" />
         <item itemvalue="Application.NextGreaterElementII" />
-        <item itemvalue="Application.PostfixToInfixConversion" />
-        <item itemvalue="Application.PrefixToInfixConversion" />
       </list>
     </recent_temporary>
   </component>
@@ -631,7 +633,9 @@
       <workItem from="1728913795636" duration="2044000" />
       <workItem from="1729020700927" duration="40000" />
       <workItem from="1729066412596" duration="16000" />
-      <workItem from="1729096382524" duration="3054000" />
+      <workItem from="1729096382524" duration="4041000" />
+      <workItem from="1729152136647" duration="6000" />
+      <workItem from="1729176834697" duration="3885000" />
     </task>
     <task id="LOCAL-00001" summary="commit-19122022">
       <created>1671408501232</created>
@@ -639,14 +643,6 @@
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
       <updated>1671408501232</updated>
-    </task>
-    <task id="LOCAL-00050" summary="Commit-03/09/2024">
-      <option name="closed" value="true" />
-      <created>1725397409833</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1725397409834</updated>
     </task>
     <task id="LOCAL-00051" summary="Commit-04/09/2024">
       <option name="closed" value="true" />
@@ -1024,7 +1020,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729020730336</updated>
     </task>
-    <option name="localTasksCounter" value="98" />
+    <task id="LOCAL-00098" summary="Commit-16/09/2024">
+      <option name="closed" value="true" />
+      <created>1729103792122</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1729103792124</updated>
+    </task>
+    <option name="localTasksCounter" value="99" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1052,7 +1056,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Commit-20/09/2024" />
     <MESSAGE value="Commit-21/09/2024" />
     <MESSAGE value="Commit-22/09/2024" />
     <MESSAGE value="Commit-23/09/2024" />
@@ -1077,7 +1080,8 @@
     <MESSAGE value="Commit-13/09/2024" />
     <MESSAGE value="Commit-14/09/2024" />
     <MESSAGE value="Commit-15/09/2024" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit-15/09/2024" />
+    <MESSAGE value="Commit-16/09/2024" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit-16/09/2024" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
