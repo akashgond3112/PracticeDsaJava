@@ -9,9 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="697252cc-7674-4df4-b819-341bc29cf007" name="Changes" comment="Commit-16/09/2024">
-      <change afterPath="$PROJECT_DIR$/src/main/dsa/linear/stack/SumOfSubarrayMinimums.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/dsa/linear/stack/SumOfSubarrayRanges.java" afterDir="false" />
+    <list default="true" id="697252cc-7674-4df4-b819-341bc29cf007" name="Changes" comment="Commit-17/09/2024">
+      <change afterPath="$PROJECT_DIR$/src/main/dsa/linear/stack/LargestRectangleInHistogram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/dsa/linear/stack/MaximalRectangle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../LLD/Low_level_Design_Problems/GenericProgramming/GenericProgramming.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../LLD/Low_level_Design_Problems/GenericProgramming/GenericProgramming.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../LLD/Low_level_Design_Problems/LLD-Practice/BookMyShow/BookMyShow.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../LLD/Low_level_Design_Problems/LLD-Practice/BookMyShow/BookMyShow.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../LLD/Low_level_Design_Problems/LLD-Practice/DecoratorPattern/DecoratorPattern.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../LLD/Low_level_Design_Problems/LLD-Practice/DecoratorPattern/DecoratorPattern.iml" afterDir="false" />
@@ -36,6 +36,7 @@
       <change beforePath="$PROJECT_DIR$/../LLD/Low_level_Problem_set_2/connect4/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LLD/Low_level_Problem_set_2/connect4/Driver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../LLD/Ride Sharing /Ride-Sharing Application/Ride-Sharing Application.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../LLD/Ride Sharing /Ride-Sharing Application/Ride-Sharing Application.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/dsa/linear/stack/NearestSmallerElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/linear/stack/NearestSmallerElement.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,6 +155,7 @@
     "Application.Knapsack.executor": "Run",
     "Application.KnapsackUnbounded.executor": "Run",
     "Application.LargestElementInTheArray.executor": "Run",
+    "Application.LargestRectangleInHistogram.executor": "Run",
     "Application.LeftRotateAnArrayByOne.executor": "Run",
     "Application.LengthOfLinkedList.executor": "Run",
     "Application.LinearSearch.executor": "Run",
@@ -170,6 +172,7 @@
     "Application.MColouringProblem.executor": "Run",
     "Application.MajorityElement.executor": "Run",
     "Application.MatrixChainMultiplication.executor": "Run",
+    "Application.MaximalRectangle.executor": "Run",
     "Application.MaximumPathSumInTheMatrix.executor": "Run",
     "Application.MaximumSizeRectangleSubMatrixWithAllOnes.executor": "Run",
     "Application.MaximumSubarraySum.executor": "Run",
@@ -185,7 +188,7 @@
     "Application.MinimumPathSum.executor": "Run",
     "Application.MissingAndRepeatingNumbers.executor": "Run",
     "Application.MoveZerosToEnd.executor": "Run",
-    "Application.NearestSmallerElement.executor": "Run",
+    "Application.NearestSmallerElement.executor": "Debug",
     "Application.NextGreaterElementII.executor": "Run",
     "Application.NextGreaterPermutation.executor": "Run",
     "Application.NinjasTraining.executor": "Run",
@@ -225,6 +228,7 @@
     "Application.SubsetSumIAndII.executor": "Run",
     "Application.SudokoSolver.executor": "Run",
     "Application.SumOfSubarrayMinimums.executor": "Run",
+    "Application.SumOfSubarrayRanges.executor": "Run",
     "Application.SuperiorElements.executor": "Run",
     "Application.ThreeSum.executor": "Run",
     "Application.TrappingRainWater.executor": "Run",
@@ -280,9 +284,9 @@
       <command value="mvn clean package" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.SumOfSubarrayRanges">
-    <configuration name="NearestSmallerElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.dsa.linear.stack.NearestSmallerElement" />
+  <component name="RunManager" selected="Application.MaximalRectangle">
+    <configuration name="LargestRectangleInHistogram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.dsa.linear.stack.LargestRectangleInHistogram" />
       <module name="PracticeDSA" />
       <extension name="coverage">
         <pattern>
@@ -294,8 +298,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NextGreaterElementII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.dsa.linear.stack.NextGreaterElementII" />
+    <configuration name="MaximalRectangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.dsa.linear.stack.MaximalRectangle" />
+      <module name="PracticeDSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.dsa.linear.stack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NearestSmallerElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.dsa.linear.stack.NearestSmallerElement" />
       <module name="PracticeDSA" />
       <extension name="coverage">
         <pattern>
@@ -322,19 +339,6 @@
     </configuration>
     <configuration name="SumOfSubarrayRanges" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.dsa.linear.stack.SumOfSubarrayRanges" />
-      <module name="PracticeDSA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="main.dsa.linear.stack.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TrappingRainWater" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.dsa.linear.stack.TrappingRainWater" />
       <module name="PracticeDSA" />
       <extension name="coverage">
         <pattern>
@@ -429,11 +433,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaximalRectangle" />
+        <item itemvalue="Application.LargestRectangleInHistogram" />
+        <item itemvalue="Application.NearestSmallerElement" />
         <item itemvalue="Application.SumOfSubarrayRanges" />
         <item itemvalue="Application.SumOfSubarrayMinimums" />
-        <item itemvalue="Application.TrappingRainWater" />
-        <item itemvalue="Application.NearestSmallerElement" />
-        <item itemvalue="Application.NextGreaterElementII" />
       </list>
     </recent_temporary>
   </component>
@@ -635,7 +639,8 @@
       <workItem from="1729066412596" duration="16000" />
       <workItem from="1729096382524" duration="4041000" />
       <workItem from="1729152136647" duration="6000" />
-      <workItem from="1729176834697" duration="3885000" />
+      <workItem from="1729176834697" duration="5220000" />
+      <workItem from="1729269062363" duration="4189000" />
     </task>
     <task id="LOCAL-00001" summary="commit-19122022">
       <created>1671408501232</created>
@@ -643,14 +648,6 @@
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
       <updated>1671408501232</updated>
-    </task>
-    <task id="LOCAL-00051" summary="Commit-04/09/2024">
-      <option name="closed" value="true" />
-      <created>1725475345896</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1725475345896</updated>
     </task>
     <task id="LOCAL-00052" summary="Commit-04/09/2024">
       <option name="closed" value="true" />
@@ -1028,7 +1025,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729103792124</updated>
     </task>
-    <option name="localTasksCounter" value="99" />
+    <task id="LOCAL-00099" summary="Commit-17/09/2024">
+      <option name="closed" value="true" />
+      <created>1729180778732</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1729180778732</updated>
+    </task>
+    <option name="localTasksCounter" value="100" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1056,7 +1061,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Commit-21/09/2024" />
     <MESSAGE value="Commit-22/09/2024" />
     <MESSAGE value="Commit-23/09/2024" />
     <MESSAGE value="Commit-24/09/2024" />
@@ -1081,7 +1085,8 @@
     <MESSAGE value="Commit-14/09/2024" />
     <MESSAGE value="Commit-15/09/2024" />
     <MESSAGE value="Commit-16/09/2024" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit-16/09/2024" />
+    <MESSAGE value="Commit-17/09/2024" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit-17/09/2024" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
