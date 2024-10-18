@@ -32,6 +32,24 @@ import java.util.Stack;
  */
 public class NearestSmallerElement {
 
+	public int[] nextSmaller(int[] A) {
+
+		int[] res = new int[A.length];
+		Stack<Integer> stack = new Stack<>();
+
+		for (int i = A.length - 1; i >= 0; i--) {
+			// Pop elements from the stack if they are greater than or equal to the current element
+			while (!stack.isEmpty() && stack.peek() >= A[i]) {
+				stack.pop();
+			}
+			// The next smaller element is at the top of the stack, if stack is not empty
+			res[i] = stack.isEmpty() ? -1 : stack.peek();
+			// Push the current element into the stack for further comparisons
+			stack.push(A[i]);
+		}
+		return res;
+	}
+
 	public int[] prevSmaller(int[] A) {
 
 		int[] res = new int[A.length];
@@ -50,5 +68,6 @@ public class NearestSmallerElement {
 	public static void main(String[] args) {
 		NearestSmallerElement nearestSmallerElement = new NearestSmallerElement();
 		System.out.println(Arrays.toString(nearestSmallerElement.prevSmaller(new int[] { 4, 5, 2, 10, 8 })));
+		System.out.println(Arrays.toString(nearestSmallerElement.nextSmaller(new int[] { 4, 5, 2, 10, 8 })));
 	}
 }
