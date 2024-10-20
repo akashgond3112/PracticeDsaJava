@@ -9,9 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="697252cc-7674-4df4-b819-341bc29cf007" name="Changes" comment="Commit-18/09/2024">
-      <change afterPath="$PROJECT_DIR$/src/main/dsa/linear/stack/OnlineStockSpan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/dsa/linear/stack/SlidingWindowMaximum.java" afterDir="false" />
+    <list default="true" id="697252cc-7674-4df4-b819-341bc29cf007" name="Changes" comment="Commit-19/09/2024">
       <change beforePath="$PROJECT_DIR$/../LLD/Low_level_Design_Problems/GenericProgramming/GenericProgramming.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../LLD/Low_level_Design_Problems/GenericProgramming/GenericProgramming.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../LLD/Low_level_Design_Problems/LLD-Practice/BookMyShow/BookMyShow.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../LLD/Low_level_Design_Problems/LLD-Practice/BookMyShow/BookMyShow.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../LLD/Low_level_Design_Problems/LLD-Practice/DecoratorPattern/DecoratorPattern.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../LLD/Low_level_Design_Problems/LLD-Practice/DecoratorPattern/DecoratorPattern.iml" afterDir="false" />
@@ -35,7 +33,6 @@
       <change beforePath="$PROJECT_DIR$/../LLD/Low_level_Problem_set_2/connect4 2/model/YellowBallType.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../LLD/Low_level_Problem_set_2/connect4/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LLD/Low_level_Problem_set_2/connect4/Driver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../LLD/Ride Sharing /Ride-Sharing Application/Ride-Sharing Application.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../LLD/Ride Sharing /Ride-Sharing Application/Ride-Sharing Application.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -642,7 +639,7 @@
       <workItem from="1729152136647" duration="6000" />
       <workItem from="1729176834697" duration="5220000" />
       <workItem from="1729269062363" duration="4385000" />
-      <workItem from="1729355373527" duration="3066000" />
+      <workItem from="1729355373527" duration="3955000" />
     </task>
     <task id="LOCAL-00001" summary="commit-19122022">
       <created>1671408501232</created>
@@ -650,14 +647,6 @@
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
       <updated>1671408501232</updated>
-    </task>
-    <task id="LOCAL-00053" summary="Commit-05/09/2024">
-      <option name="closed" value="true" />
-      <created>1725562260165</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1725562260165</updated>
     </task>
     <task id="LOCAL-00054" summary="Commit-06/09/2024">
       <option name="closed" value="true" />
@@ -1035,7 +1024,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729276564973</updated>
     </task>
-    <option name="localTasksCounter" value="101" />
+    <task id="LOCAL-00101" summary="Commit-19/09/2024">
+      <option name="closed" value="true" />
+      <created>1729358565665</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1729358565666</updated>
+    </task>
+    <option name="localTasksCounter" value="102" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1063,7 +1060,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Commit-23/09/2024" />
     <MESSAGE value="Commit-24/09/2024" />
     <MESSAGE value="Commit-25/09/2024" />
     <MESSAGE value="Commit-26/09/2024" />
@@ -1088,7 +1084,8 @@
     <MESSAGE value="Commit-16/09/2024" />
     <MESSAGE value="Commit-17/09/2024" />
     <MESSAGE value="Commit-18/09/2024" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit-18/09/2024" />
+    <MESSAGE value="Commit-19/09/2024" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit-19/09/2024" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
