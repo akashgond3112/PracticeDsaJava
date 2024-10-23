@@ -114,15 +114,13 @@ public class DoublyLinkedList {
 
 		if (next == null) {
 			prev.next = null;
-			temp.prev = null;
-			return;
 		} else {
 			prev.next = next;
 			next.prev = prev;
 
 			temp.next = null;
-			temp.prev = null;
 		}
+		temp.prev = null;
 	}
 
 	static void printList(Node node) {
