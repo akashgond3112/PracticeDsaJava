@@ -9,8 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="697252cc-7674-4df4-b819-341bc29cf007" name="Changes" comment="Commit-21/09/2024">
-      <change afterPath="$PROJECT_DIR$/src/main/dsa/linear/stack/TheCelebrityProblem.java" afterDir="false" />
+    <list default="true" id="697252cc-7674-4df4-b819-341bc29cf007" name="Changes" comment="Commit-22/09/2024">
+      <change afterPath="$PROJECT_DIR$/src/main/dsa/linear/stack/LFUCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/dsa/linear/stack/LRUCache.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../LLD/Low_level_Design_Problems/GenericProgramming/GenericProgramming.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../LLD/Low_level_Design_Problems/GenericProgramming/GenericProgramming.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../LLD/Low_level_Design_Problems/LLD-Practice/BookMyShow/BookMyShow.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../LLD/Low_level_Design_Problems/LLD-Practice/BookMyShow/BookMyShow.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../LLD/Low_level_Design_Problems/LLD-Practice/DecoratorPattern/DecoratorPattern.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../LLD/Low_level_Design_Problems/LLD-Practice/DecoratorPattern/DecoratorPattern.iml" afterDir="false" />
@@ -35,6 +36,7 @@
       <change beforePath="$PROJECT_DIR$/../LLD/Low_level_Problem_set_2/connect4/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LLD/Low_level_Problem_set_2/connect4/Driver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../LLD/Ride Sharing /Ride-Sharing Application/Ride-Sharing Application.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../LLD/Ride Sharing /Ride-Sharing Application/Ride-Sharing Application.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/dsa/linear/LinkedList/DoublyLinkedList/DoublyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/linear/LinkedList/DoublyLinkedList/DoublyLinkedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,176 +101,177 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Application.AddOneToANumberRepresentedAsLinkedList.executor": "Run",
-    "Application.AddTwoNumbers.executor": "Run",
-    "Application.AlternateNumbers.executor": "Run",
-    "Application.ArrayPartitionWithMinimumDifference.executor": "Run",
-    "Application.BestTimeToBuyAndSellStock.executor": "Run",
-    "Application.BestTimeToBuyAndSellStockII.executor": "Run",
-    "Application.BestTimeToBuyAndSellStockIII.executor": "Run",
-    "Application.BestTimeToBuyAndSellStockIV.executor": "Run",
-    "Application.BestTimeToBuyAndSellStockWithCooldown.executor": "Run",
-    "Application.BestTimeToBuyAndSellStockWithTransactionFee.executor": "Run",
-    "Application.BooleanEvaluation.executor": "Run",
-    "Application.BurstingBalloons.executor": "Run",
-    "Application.CheckIfLinkedListIsPalindrome.executor": "Run",
-    "Application.CheckSortedArray.executor": "Run",
-    "Application.ChocolatePickup.executor": "Run",
-    "Application.CloneALinkedListWithRandomPointers.executor": "Run",
-    "Application.CombinationSum.executor": "Run",
-    "Application.ConvertBinaryNumberLinkedListToInteger.executor": "Run",
-    "Application.CostToCutAChocolate.executor": "Run",
-    "Application.CountAllSubarraysWithGivenSum.executor": "Run",
-    "Application.CountMaximumConsecutiveOnesInTheArray.executor": "Run",
-    "Application.CountSquareSubMatricesWithAllOnes.executor": "Run",
-    "Application.CountSubsetsWithSumK.executor": "Run",
-    "Application.CycleDetectionInASinglyLinkedList.executor": "Run",
-    "Application.DeleteAllOccurrencesOfAGivenKeyInADoublyLinkedList.executor": "Run",
-    "Application.DeleteKthNodeFromEnd.executor": "Run",
-    "Application.DeleteMiddleNodeFromLinkedList.executor": "Run",
-    "Application.DeletionFromLinkedList.executor": "Run",
-    "Application.DeletionOfNodeForGivenPosition.executor": "Run",
-    "Application.DetectLoopInLinkedList.executor": "Run",
-    "Application.DistinctSubsequences.executor": "Run",
-    "Application.DoublyLinkedList (1).executor": "Run",
-    "Application.DoublyLinkedList.executor": "Run",
-    "Application.EditDistance.executor": "Run",
-    "Application.FIndNQueens.executor": "Run",
-    "Application.Fibonnaci.executor": "Run",
-    "Application.FindPairsWithGivenSumInDoublyLinkedList.executor": "Run",
-    "Application.FindTheMissingNumberInAnArray.executor": "Run",
-    "Application.FindTheNumberThatAppearsOnceAndTheOtherNumbersTwice.executor": "Run",
-    "Application.FlattenALinkedList.executor": "Debug",
-    "Application.FourSum.executor": "Run",
-    "Application.FrogJump.executor": "Run",
-    "Application.FrogJumpII.executor": "Run",
-    "Application.HouseRobberII.executor": "Run",
-    "Application.InfixToPostfix.executor": "Run",
-    "Application.IntersectionOfTwoLinkedLists.executor": "Run",
-    "Application.IntersectionOfTwoSortedArrays.executor": "Run",
-    "Application.IntroduceLinkedList.executor": "Run",
-    "Application.Knapsack.executor": "Run",
-    "Application.KnapsackUnbounded.executor": "Run",
-    "Application.LargestElementInTheArray.executor": "Run",
-    "Application.LargestRectangleInHistogram.executor": "Run",
-    "Application.LeftRotateAnArrayByOne.executor": "Run",
-    "Application.LengthOfLinkedList.executor": "Run",
-    "Application.LinearSearch.executor": "Run",
-    "Application.LinkedListCycleII.executor": "Run",
-    "Application.LongestBitonicSequence.executor": "Run",
-    "Application.LongestCommonSubsequence.executor": "Run",
-    "Application.LongestCommonSubstring.executor": "Run",
-    "Application.LongestIncreasingSubsequence.executor": "Run",
-    "Application.LongestPalindromeSubsequence.executor": "Run",
-    "Application.LongestStringChain.executor": "Run",
-    "Application.LongestSubarrayWithSumK.executor": "Run",
-    "Application.LongestSuccessiveElements.executor": "Run",
-    "Application.LongestTurbulentSubarray.executor": "Run",
-    "Application.MColouringProblem.executor": "Run",
-    "Application.MajorityElement.executor": "Run",
-    "Application.MatrixChainMultiplication.executor": "Run",
-    "Application.MaximalRectangle.executor": "Run",
-    "Application.MaximumPathSumInTheMatrix.executor": "Run",
-    "Application.MaximumSizeRectangleSubMatrixWithAllOnes.executor": "Run",
-    "Application.MaximumSubarraySum.executor": "Run",
-    "Application.MaximumSumOfNonAdjacentElements.executor": "Run",
-    "Application.MergeAllOverlappingIntervals.executor": "Run",
-    "Application.MergeKSortedLists.executor": "Run",
-    "Application.MergeTwoSortedArraysWithoutExtraSpace.executor": "Run",
-    "Application.MergeTwoSortedLinkedLists.executor": "Run",
-    "Application.MiddleOfLinkedList.executor": "Run",
-    "Application.MinimumElementsOrCoinChange.executor": "Run",
-    "Application.MinimumInsertionsToMakeAStringPalindrome.executor": "Run",
-    "Application.MinimumNumberOfDeletionsAndInsertions.executor": "Run",
-    "Application.MinimumPathSum.executor": "Run",
-    "Application.MissingAndRepeatingNumbers.executor": "Run",
-    "Application.MoveZerosToEnd.executor": "Run",
-    "Application.NearestSmallerElement.executor": "Debug",
-    "Application.NextGreaterElementII.executor": "Run",
-    "Application.NextGreaterPermutation.executor": "Run",
-    "Application.NinjasTraining.executor": "Run",
-    "Application.NumberOfInversions.executor": "Run",
-    "Application.NumberOfLongestIncreasingSubsequence.executor": "Run",
-    "Application.OnlineStockSpan.executor": "Run",
-    "Application.PalindromePartitioning.executor": "Run",
-    "Application.PalindromePartitioningII.executor": "Run",
-    "Application.PartitionArrayForMaximumSum.executor": "Run",
-    "Application.PartitionEqualSubsetSum.executor": "Run",
-    "Application.PartitionsWithGivenDifference.executor": "Run",
-    "Application.PermutationOfStringArray.executor": "Run",
-    "Application.PermutationSequence.executor": "Run",
-    "Application.PostfixToInfixConversion.executor": "Run",
-    "Application.PrefixToInfixConversion.executor": "Run",
-    "Application.PrintPascalsTriangle.executor": "Run",
-    "Application.RatInAMazeProblemI.executor": "Run",
-    "Application.RearrangeOddAndEvenPlaces.executor": "Run",
-    "Application.RemoveDuplicatesFromASortedDoublyLinkedList.executor": "Debug",
-    "Application.RemoveDuplicatesFromSortedArray.executor": "Run",
-    "Application.ReverseADoublyLinkedList.executor": "Debug",
-    "Application.ReverseLinkedList.executor": "Run",
-    "Application.ReverseListInKGroups.executor": "Run",
-    "Application.RodCuttingProblem.executor": "Run",
-    "Application.RotateArray.executor": "Run",
-    "Application.RotateLinkedList.executor": "Run",
-    "Application.RotateTheMatrix.executor": "Run",
-    "Application.SecondLargestNumber.executor": "Run",
-    "Application.ShortestCommonSuperSequence.executor": "Run",
-    "Application.SinglyLinkedList.executor": "Run",
-    "Application.SlidingWindowMaximum.executor": "Run",
-    "Application.SortAnArrayOf0s1sAnd2s.executor": "Run",
-    "Application.SortLinkedList.executor": "Run",
-    "Application.SortLinkedListII.executor": "Run",
-    "Application.SpiralMatrix.executor": "Run",
-    "Application.SubarrayWithMaximumProduct.executor": "Run",
-    "Application.SubarraysWithXOROfK.executor": "Run",
-    "Application.SubsetSumEqualToK.executor": "Run",
-    "Application.SubsetSumIAndII.executor": "Run",
-    "Application.SudokoSolver.executor": "Run",
-    "Application.SumOfSubarrayMinimums.executor": "Run",
-    "Application.SumOfSubarrayRanges.executor": "Run",
-    "Application.SuperiorElements.executor": "Run",
-    "Application.TheCelebrityProblem.executor": "Run",
-    "Application.ThreeSum.executor": "Run",
-    "Application.TrappingRainWater.executor": "Run",
-    "Application.Triangle.executor": "Run",
-    "Application.TwoSum.executor": "Run",
-    "Application.UniquePaths.executor": "Run",
-    "Application.UniquePathsII.executor": "Run",
-    "Application.WaysToMakeCoinChange.executor": "Run",
-    "Application.WildcardPatternMatching.executor": "Run",
-    "Application.ZeroMatrix (1).executor": "Run",
-    "Application.ZeroMatrix.executor": "Run",
-    "Application.findSubsequenceOfGivenKSum.executor": "Run",
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "create.test.in.the.same.root": "true",
-    "extract.method.default.visibility": "private",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/agond/personal/learning/LLD/StockExchange",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.keymap",
-    "spring.configuration.checksum": "659476cf04b5790abb125addbde5977f",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Application.AddOneToANumberRepresentedAsLinkedList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AddTwoNumbers.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AlternateNumbers.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ArrayPartitionWithMinimumDifference.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BestTimeToBuyAndSellStock.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BestTimeToBuyAndSellStockII.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BestTimeToBuyAndSellStockIII.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BestTimeToBuyAndSellStockIV.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BestTimeToBuyAndSellStockWithCooldown.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BestTimeToBuyAndSellStockWithTransactionFee.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BooleanEvaluation.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BurstingBalloons.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CheckIfLinkedListIsPalindrome.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CheckSortedArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ChocolatePickup.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CloneALinkedListWithRandomPointers.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CombinationSum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ConvertBinaryNumberLinkedListToInteger.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CostToCutAChocolate.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CountAllSubarraysWithGivenSum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CountMaximumConsecutiveOnesInTheArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CountSquareSubMatricesWithAllOnes.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CountSubsetsWithSumK.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CycleDetectionInASinglyLinkedList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DeleteAllOccurrencesOfAGivenKeyInADoublyLinkedList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DeleteKthNodeFromEnd.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DeleteMiddleNodeFromLinkedList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DeletionFromLinkedList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DeletionOfNodeForGivenPosition.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DetectLoopInLinkedList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DistinctSubsequences.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DoublyLinkedList (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.DoublyLinkedList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EditDistance.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FIndNQueens.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Fibonnaci.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FindPairsWithGivenSumInDoublyLinkedList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FindTheMissingNumberInAnArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FindTheNumberThatAppearsOnceAndTheOtherNumbersTwice.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FlattenALinkedList.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.FourSum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FrogJump.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FrogJumpII.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HouseRobberII.executor&quot;: &quot;Run&quot;,
+    &quot;Application.InfixToPostfix.executor&quot;: &quot;Run&quot;,
+    &quot;Application.IntersectionOfTwoLinkedLists.executor&quot;: &quot;Run&quot;,
+    &quot;Application.IntersectionOfTwoSortedArrays.executor&quot;: &quot;Run&quot;,
+    &quot;Application.IntroduceLinkedList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Knapsack.executor&quot;: &quot;Run&quot;,
+    &quot;Application.KnapsackUnbounded.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LRUCache.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LargestElementInTheArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LargestRectangleInHistogram.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LeftRotateAnArrayByOne.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LengthOfLinkedList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LinearSearch.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LinkedListCycleII.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LongestBitonicSequence.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LongestCommonSubsequence.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LongestCommonSubstring.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LongestIncreasingSubsequence.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LongestPalindromeSubsequence.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LongestStringChain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LongestSubarrayWithSumK.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LongestSuccessiveElements.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LongestTurbulentSubarray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MColouringProblem.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MajorityElement.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MatrixChainMultiplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MaximalRectangle.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MaximumPathSumInTheMatrix.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MaximumSizeRectangleSubMatrixWithAllOnes.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MaximumSubarraySum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MaximumSumOfNonAdjacentElements.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MergeAllOverlappingIntervals.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MergeKSortedLists.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MergeTwoSortedArraysWithoutExtraSpace.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MergeTwoSortedLinkedLists.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MiddleOfLinkedList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MinimumElementsOrCoinChange.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MinimumInsertionsToMakeAStringPalindrome.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MinimumNumberOfDeletionsAndInsertions.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MinimumPathSum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MissingAndRepeatingNumbers.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MoveZerosToEnd.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NearestSmallerElement.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.NextGreaterElementII.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NextGreaterPermutation.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NinjasTraining.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NumberOfInversions.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NumberOfLongestIncreasingSubsequence.executor&quot;: &quot;Run&quot;,
+    &quot;Application.OnlineStockSpan.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PalindromePartitioning.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PalindromePartitioningII.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PartitionArrayForMaximumSum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PartitionEqualSubsetSum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PartitionsWithGivenDifference.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PermutationOfStringArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PermutationSequence.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PostfixToInfixConversion.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PrefixToInfixConversion.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PrintPascalsTriangle.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RatInAMazeProblemI.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RearrangeOddAndEvenPlaces.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RemoveDuplicatesFromASortedDoublyLinkedList.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.RemoveDuplicatesFromSortedArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReverseADoublyLinkedList.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.ReverseLinkedList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReverseListInKGroups.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RodCuttingProblem.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RotateArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RotateLinkedList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RotateTheMatrix.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SecondLargestNumber.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ShortestCommonSuperSequence.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SinglyLinkedList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SlidingWindowMaximum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SortAnArrayOf0s1sAnd2s.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SortLinkedList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SortLinkedListII.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SpiralMatrix.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SubarrayWithMaximumProduct.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SubarraysWithXOROfK.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SubsetSumEqualToK.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SubsetSumIAndII.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SudokoSolver.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SumOfSubarrayMinimums.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SumOfSubarrayRanges.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SuperiorElements.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TheCelebrityProblem.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreeSum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TrappingRainWater.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Triangle.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TwoSum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.UniquePaths.executor&quot;: &quot;Run&quot;,
+    &quot;Application.UniquePathsII.executor&quot;: &quot;Run&quot;,
+    &quot;Application.WaysToMakeCoinChange.executor&quot;: &quot;Run&quot;,
+    &quot;Application.WildcardPatternMatching.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ZeroMatrix (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.ZeroMatrix.executor&quot;: &quot;Run&quot;,
+    &quot;Application.findSubsequenceOfGivenKSum.executor&quot;: &quot;Run&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
+    &quot;extract.method.default.visibility&quot;: &quot;private&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/agond/personal/learning/LLD/StockExchange&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;659476cf04b5790abb125addbde5977f&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -285,9 +288,9 @@
       <command value="mvn clean package" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.TheCelebrityProblem">
-    <configuration name="LargestRectangleInHistogram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.dsa.linear.stack.LargestRectangleInHistogram" />
+  <component name="RunManager" selected="Application.LRUCache">
+    <configuration name="LRUCache" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.dsa.linear.stack.LRUCache" />
       <module name="PracticeDSA" />
       <extension name="coverage">
         <pattern>
@@ -434,19 +437,19 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LRUCache" />
         <item itemvalue="Application.TheCelebrityProblem" />
         <item itemvalue="Application.SlidingWindowMaximum" />
         <item itemvalue="Application.OnlineStockSpan" />
         <item itemvalue="Application.MaximalRectangle" />
-        <item itemvalue="Application.LargestRectangleInHistogram" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23339.11" />
-        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23339.11" />
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23726.103" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23726.103" />
       </set>
     </attachedChunks>
   </component>
@@ -646,7 +649,9 @@
       <workItem from="1729497397825" duration="11000" />
       <workItem from="1729537738940" duration="25000" />
       <workItem from="1729582377502" duration="9000" />
-      <workItem from="1729618036403" duration="1905000" />
+      <workItem from="1729618036403" duration="2690000" />
+      <workItem from="1729702746188" duration="1964000" />
+      <workItem from="1729706841998" duration="1360000" />
     </task>
     <task id="LOCAL-00001" summary="commit-19122022">
       <created>1671408501232</created>
@@ -654,14 +659,6 @@
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
       <updated>1671408501232</updated>
-    </task>
-    <task id="LOCAL-00056" summary="Commit-08/09/2024">
-      <option name="closed" value="true" />
-      <created>1725791029100</created>
-      <option name="number" value="00056" />
-      <option name="presentableId" value="LOCAL-00056" />
-      <option name="project" value="LOCAL" />
-      <updated>1725791029100</updated>
     </task>
     <task id="LOCAL-00057" summary="Commit-09/09/2024">
       <option name="closed" value="true" />
@@ -1039,7 +1036,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729537757112</updated>
     </task>
-    <option name="localTasksCounter" value="104" />
+    <task id="LOCAL-00104" summary="Commit-22/09/2024">
+      <option name="closed" value="true" />
+      <created>1729620026479</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1729620026480</updated>
+    </task>
+    <option name="localTasksCounter" value="105" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1067,7 +1072,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Commit-26/09/2024" />
     <MESSAGE value="Commit-27/09/2024" />
     <MESSAGE value="Commit-28/09/2024" />
     <MESSAGE value="Commit-29/09/2024" />
@@ -1092,7 +1096,8 @@
     <MESSAGE value="Commit-19/09/2024" />
     <MESSAGE value="Commit-20/09/2024" />
     <MESSAGE value="Commit-21/09/2024" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit-21/09/2024" />
+    <MESSAGE value="Commit-22/09/2024" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit-22/09/2024" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
