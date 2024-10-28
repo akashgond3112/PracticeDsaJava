@@ -59,6 +59,8 @@ public class MinimumElementsOrCoinChange {
 
 	public static int minimumElementsUsingTabularSpaceOptimal(int num[], int target, int n) {
 
+
+		int k = num.length;
 		int[] prev = new int[target + 1];
 		int[] current = new int[target + 1];
 
