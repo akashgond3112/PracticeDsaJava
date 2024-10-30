@@ -4,6 +4,8 @@ public class TrieNode {
 
 	TrieNode[] children = new TrieNode[26];
 	boolean isEnd;
+	int cntEndWith = 0;
+	int cntPrefix = 0;
 
 	TrieNode() {
 		this.isEnd = false;
@@ -29,5 +31,29 @@ public class TrieNode {
 
 	boolean isEnd() {
 		return this.isEnd;
+	}
+
+	void increasePrefix() {
+		this.cntPrefix++;
+	}
+
+	void increaseEndWith() {
+		this.cntEndWith++;
+	}
+
+	void decreasePrefix() {
+		this.cntPrefix--;
+	}
+
+	void decreaseEndWith() {
+		this.cntEndWith--;
+	}
+
+	int getEndWith() {
+		return this.cntEndWith;
+	}
+
+	int getPrefix() {
+		return this.cntPrefix;
 	}
 }
