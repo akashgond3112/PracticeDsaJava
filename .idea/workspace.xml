@@ -9,8 +9,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="697252cc-7674-4df4-b819-341bc29cf007" name="Changes" comment="Commit-04/10/2024">
-      <change afterPath="$PROJECT_DIR$/src/main/dsa/nonlinear/trie/CountDistinctSubstrings.java" afterDir="false" />
+    <list default="true" id="697252cc-7674-4df4-b819-341bc29cf007" name="Changes" comment="Commit-05/10/2024">
+      <change afterPath="$PROJECT_DIR$/src/main/dsa/nonlinear/trie/MaximumXOR.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../LLD/Low_level_Design_Problems/GenericProgramming/GenericProgramming.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../LLD/Low_level_Design_Problems/GenericProgramming/GenericProgramming.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../LLD/Low_level_Design_Problems/LLD-Practice/BookMyShow/BookMyShow.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../LLD/Low_level_Design_Problems/LLD-Practice/BookMyShow/BookMyShow.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../LLD/Low_level_Design_Problems/LLD-Practice/DecoratorPattern/DecoratorPattern.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../LLD/Low_level_Design_Problems/LLD-Practice/DecoratorPattern/DecoratorPattern.iml" afterDir="false" />
@@ -124,6 +124,7 @@
     &quot;Application.ConvertBinaryNumberLinkedListToInteger.executor&quot;: &quot;Run&quot;,
     &quot;Application.CostToCutAChocolate.executor&quot;: &quot;Run&quot;,
     &quot;Application.CountAllSubarraysWithGivenSum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CountDistinctSubstrings.executor&quot;: &quot;Run&quot;,
     &quot;Application.CountMaximumConsecutiveOnesInTheArray.executor&quot;: &quot;Run&quot;,
     &quot;Application.CountSquareSubMatricesWithAllOnes.executor&quot;: &quot;Run&quot;,
     &quot;Application.CountSubsetsWithSumK.executor&quot;: &quot;Run&quot;,
@@ -291,20 +292,7 @@
       <command value="mvn clean package" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.CountDistinctSubstrings">
-    <configuration name="CoinChange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.dynamic.programming.medium.CoinChange" />
-      <module name="PracticeDSA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="main.dynamic.programming.medium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.MaximumXOR">
     <configuration name="CompleteString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.dsa.nonlinear.trie.CompleteString" />
       <module name="PracticeDSA" />
@@ -320,6 +308,19 @@
     </configuration>
     <configuration name="CountDistinctSubstrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.dsa.nonlinear.trie.CountDistinctSubstrings" />
+      <module name="PracticeDSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.dsa.nonlinear.trie.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MaximumXOR" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.dsa.nonlinear.trie.MaximumXOR" />
       <module name="PracticeDSA" />
       <extension name="coverage">
         <pattern>
@@ -440,11 +441,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaximumXOR" />
         <item itemvalue="Application.CountDistinctSubstrings" />
         <item itemvalue="Application.CompleteString" />
         <item itemvalue="Application.TrieImplementII" />
         <item itemvalue="Application.TrieImplementation" />
-        <item itemvalue="Application.CoinChange" />
       </list>
     </recent_temporary>
   </component>
@@ -664,7 +665,8 @@
       <workItem from="1730472158937" duration="6644000" />
       <workItem from="1730709729490" duration="19000" />
       <workItem from="1730744361251" duration="3373000" />
-      <workItem from="1730832878207" duration="1140000" />
+      <workItem from="1730832878207" duration="1844000" />
+      <workItem from="1730916717914" duration="2139000" />
     </task>
     <task id="LOCAL-00001" summary="commit-19122022">
       <created>1671408501232</created>
@@ -672,14 +674,6 @@
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
       <updated>1671408501232</updated>
-    </task>
-    <task id="LOCAL-00069" summary="Commit-18/09/2024">
-      <option name="closed" value="true" />
-      <created>1726681941615</created>
-      <option name="number" value="00069" />
-      <option name="presentableId" value="LOCAL-00069" />
-      <option name="project" value="LOCAL" />
-      <updated>1726681941618</updated>
     </task>
     <task id="LOCAL-00070" summary="Commit-20/09/2024">
       <option name="closed" value="true" />
@@ -1057,7 +1051,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730746418885</updated>
     </task>
-    <option name="localTasksCounter" value="117" />
+    <task id="LOCAL-00117" summary="Commit-05/10/2024">
+      <option name="closed" value="true" />
+      <created>1730834082218</created>
+      <option name="number" value="00117" />
+      <option name="presentableId" value="LOCAL-00117" />
+      <option name="project" value="LOCAL" />
+      <updated>1730834082219</updated>
+    </task>
+    <option name="localTasksCounter" value="118" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1085,7 +1087,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Commit-10/09/2024" />
     <MESSAGE value="Commit-11/09/2024" />
     <MESSAGE value="Commit-12/09/2024" />
     <MESSAGE value="Commit-13/09/2024" />
@@ -1110,7 +1111,8 @@
     <MESSAGE value="Commit-01/10/2024" />
     <MESSAGE value="Commit-02/10/2024" />
     <MESSAGE value="Commit-04/10/2024" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit-04/10/2024" />
+    <MESSAGE value="Commit-05/10/2024" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit-05/10/2024" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
