@@ -9,8 +9,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="697252cc-7674-4df4-b819-341bc29cf007" name="Changes" comment="Commit-05/10/2024">
-      <change afterPath="$PROJECT_DIR$/src/main/dsa/nonlinear/trie/MaximumXOR.java" afterDir="false" />
+    <list default="true" id="697252cc-7674-4df4-b819-341bc29cf007" name="Changes" comment="Commit-06/10/2024">
+      <change afterPath="$PROJECT_DIR$/src/main/dsa/nonlinear/trie/MaximumXORWithAnElementFromArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../LLD/Low_level_Design_Problems/GenericProgramming/GenericProgramming.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../LLD/Low_level_Design_Problems/GenericProgramming/GenericProgramming.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../LLD/Low_level_Design_Problems/LLD-Practice/BookMyShow/BookMyShow.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../LLD/Low_level_Design_Problems/LLD-Practice/BookMyShow/BookMyShow.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../LLD/Low_level_Design_Problems/LLD-Practice/DecoratorPattern/DecoratorPattern.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../LLD/Low_level_Design_Problems/LLD-Practice/DecoratorPattern/DecoratorPattern.iml" afterDir="false" />
@@ -180,6 +180,7 @@
     &quot;Application.MaximumSizeRectangleSubMatrixWithAllOnes.executor&quot;: &quot;Run&quot;,
     &quot;Application.MaximumSubarraySum.executor&quot;: &quot;Run&quot;,
     &quot;Application.MaximumSumOfNonAdjacentElements.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MaximumXOR.executor&quot;: &quot;Run&quot;,
     &quot;Application.MergeAllOverlappingIntervals.executor&quot;: &quot;Run&quot;,
     &quot;Application.MergeKSortedLists.executor&quot;: &quot;Run&quot;,
     &quot;Application.MergeTwoSortedArraysWithoutExtraSpace.executor&quot;: &quot;Run&quot;,
@@ -666,7 +667,8 @@
       <workItem from="1730709729490" duration="19000" />
       <workItem from="1730744361251" duration="3373000" />
       <workItem from="1730832878207" duration="1844000" />
-      <workItem from="1730916717914" duration="2139000" />
+      <workItem from="1730916717914" duration="4214000" />
+      <workItem from="1731006117831" duration="2444000" />
     </task>
     <task id="LOCAL-00001" summary="commit-19122022">
       <created>1671408501232</created>
@@ -674,14 +676,6 @@
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
       <updated>1671408501232</updated>
-    </task>
-    <task id="LOCAL-00070" summary="Commit-20/09/2024">
-      <option name="closed" value="true" />
-      <created>1726781707973</created>
-      <option name="number" value="00070" />
-      <option name="presentableId" value="LOCAL-00070" />
-      <option name="project" value="LOCAL" />
-      <updated>1726781707974</updated>
     </task>
     <task id="LOCAL-00071" summary="Commit-21/09/2024">
       <option name="closed" value="true" />
@@ -1059,7 +1053,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730834082219</updated>
     </task>
-    <option name="localTasksCounter" value="118" />
+    <task id="LOCAL-00118" summary="Commit-06/10/2024">
+      <option name="closed" value="true" />
+      <created>1730919898452</created>
+      <option name="number" value="00118" />
+      <option name="presentableId" value="LOCAL-00118" />
+      <option name="project" value="LOCAL" />
+      <updated>1730919898452</updated>
+    </task>
+    <option name="localTasksCounter" value="119" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1087,7 +1089,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Commit-11/09/2024" />
     <MESSAGE value="Commit-12/09/2024" />
     <MESSAGE value="Commit-13/09/2024" />
     <MESSAGE value="Commit-14/09/2024" />
@@ -1112,7 +1113,8 @@
     <MESSAGE value="Commit-02/10/2024" />
     <MESSAGE value="Commit-04/10/2024" />
     <MESSAGE value="Commit-05/10/2024" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit-05/10/2024" />
+    <MESSAGE value="Commit-06/10/2024" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit-06/10/2024" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
