@@ -2,49 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../LLD/Low_level_Design_Problems/LowLevel-design-2/.mvn/.mvn.iml" filepath="$PROJECT_DIR$/../LLD/Low_level_Design_Problems/LowLevel-design-2/.mvn/.mvn.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../LLD/Low_level_Design_Problems/LLD-Practice/BookMyShow/BookMyShow.iml" filepath="$PROJECT_DIR$/../LLD/Low_level_Design_Problems/LLD-Practice/BookMyShow/BookMyShow.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../LLD/Low_level_Design_Problems/Bowling-Alley-Machine-Coding-Flipkart/Bowling-Alley-Machine-Coding-Flipkart.iml" filepath="$PROJECT_DIR$/../LLD/Low_level_Design_Problems/Bowling-Alley-Machine-Coding-Flipkart/Bowling-Alley-Machine-Coding-Flipkart.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../LLD/Low_level_Design_Problems/Calculator/Calculator.iml" filepath="$PROJECT_DIR$/../LLD/Low_level_Design_Problems/Calculator/Calculator.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../LLD/Low_level_Design_Problems/Calculator-Alternative/Calculator-Alternative.iml" filepath="$PROJECT_DIR$/../LLD/Low_level_Design_Problems/Calculator-Alternative/Calculator-Alternative.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../LLD/Low_level_Design_Problems/CountryElectionSystem/CountryElectionSystem.iml" filepath="$PROJECT_DIR$/../LLD/Low_level_Design_Problems/CountryElectionSystem/CountryElectionSystem.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../LLD/Low_level_Design_Problems/Coupon/Coupon.iml" filepath="$PROJECT_DIR$/../LLD/Low_level_Design_Problems/Coupon/Coupon.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../LLD/Cricket Match Dashboard/Cricket Match Dashboard.iml" filepath="$PROJECT_DIR$/../LLD/Cricket Match Dashboard/Cricket Match Dashboard.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../LLD/Low_level_Design_Problems/LLD-Practice/DecoratorPattern/DecoratorPattern.iml" filepath="$PROJECT_DIR$/../LLD/Low_level_Design_Problems/LLD-Practice/DecoratorPattern/DecoratorPattern.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../LLD/Ride Sharing /DriverAndRiderApplication/DriverAndRiderApplication.iml" filepath="$PROJECT_DIR$/../LLD/Ride Sharing /DriverAndRiderApplication/DriverAndRiderApplication.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../LLD/Low_level_Design_Problems/LLD-Practice/Elevator/Elevator.iml" filepath="$PROJECT_DIR$/../LLD/Low_level_Design_Problems/LLD-Practice/Elevator/Elevator.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../LLD/Low_level_Design_Problems/Machine_coding_FLIPKART/ErrorFinderApplication/ErrorFinderApplication.iml" filepath="$PROJECT_DIR$/../LLD/Low_level_Design_Problems/Machine_coding_FLIPKART/ErrorFinderApplication/ErrorFinderApplication.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../LLD/Event_calendar_flipkart/Event_calendar_flipkart.iml" filepath="$PROJECT_DIR$/../LLD/Event_calendar_flipkart/Event_calendar_flipkart.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../LLD/Low_level_Design_Problems/LLD-Practice/FlipkartMachineCoding/FlipkartMachineCoding.iml" filepath="$PROJECT_DIR$/../LLD/Low_level_Design_Problems/LLD-Practice/FlipkartMachineCoding/FlipkartMachineCoding.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../LLD/FoodKart/FoodKart.iml" filepath="$PROJECT_DIR$/../LLD/FoodKart/FoodKart.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../LLD/Low_level_Design_Problems/GenericProgramming/GenericProgramming.iml" filepath="$PROJECT_DIR$/../LLD/Low_level_Design_Problems/GenericProgramming/GenericProgramming.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../LLD/Low_level_Design_Problems/Low-Level-Design-1/GenericProgramming/GenericProgramming2.iml" filepath="$PROJECT_DIR$/../LLD/Low_level_Design_Problems/Low-Level-Design-1/GenericProgramming/GenericProgramming2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../LLD/Low_level_Design_Problems/LLD-Practice/LLD-Practice.iml" filepath="$PROJECT_DIR$/../LLD/Low_level_Design_Problems/LLD-Practice/LLD-Practice.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../LLD/Low_level_Design_Problems/Leetcode/Leetcode.iml" filepath="$PROJECT_DIR$/../LLD/Low_level_Design_Problems/Leetcode/Leetcode.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../LLD/Low_level_Design_Problems/Low_level_Design_Problems.iml" filepath="$PROJECT_DIR$/../LLD/Low_level_Design_Problems/Low_level_Design_Problems.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../LLD/Low_level_Problem_set_2/Low_level_Problem_set_2.iml" filepath="$PROJECT_DIR$/../LLD/Low_level_Problem_set_2/Low_level_Problem_set_2.iml" />
       <module fileurl="file://$PROJECT_DIR$/PracticeDSA.iml" filepath="$PROJECT_DIR$/PracticeDSA.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../LLD/PropertyHunt/PropertyHunt.iml" filepath="$PROJECT_DIR$/../LLD/PropertyHunt/PropertyHunt.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../LLD/Ride Sharing /Ride Sharing.iml" filepath="$PROJECT_DIR$/../LLD/Ride Sharing /Ride Sharing.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../LLD/Ride Sharing /Ride-Sharing Application/Ride-Sharing Application.iml" filepath="$PROJECT_DIR$/../LLD/Ride Sharing /Ride-Sharing Application/Ride-Sharing Application.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../LLD/Ride Sharing /RideShare_MachineCoding_Sample/RideShare_MachineCoding_Sample.iml" filepath="$PROJECT_DIR$/../LLD/Ride Sharing /RideShare_MachineCoding_Sample/RideShare_MachineCoding_Sample.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../LLD/StockExchange/StockExchange.iml" filepath="$PROJECT_DIR$/../LLD/StockExchange/StockExchange.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../LLD/Low_level_Problem_set_2/TaskSchedulerLLD/TaskSchedulerLLD.iml" filepath="$PROJECT_DIR$/../LLD/Low_level_Problem_set_2/TaskSchedulerLLD/TaskSchedulerLLD.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../LLD/Ride Sharing /cab_booking_system/cab_booking_system.iml" filepath="$PROJECT_DIR$/../LLD/Ride Sharing /cab_booking_system/cab_booking_system.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../LLD/Low_level_Design_Problems/cricket-scorecard/cricket-scorecard.iml" filepath="$PROJECT_DIR$/../LLD/Low_level_Design_Problems/cricket-scorecard/cricket-scorecard.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../LLD/Low_level_Design_Problems/low-level-design-3/deck-of-cards/deck-of-cards.iml" filepath="$PROJECT_DIR$/../LLD/Low_level_Design_Problems/low-level-design-3/deck-of-cards/deck-of-cards.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../LLD/Low_level_Design_Problems/flipkart-interview-parser/flipkart-interview-parser.iml" filepath="$PROJECT_DIR$/../LLD/Low_level_Design_Problems/flipkart-interview-parser/flipkart-interview-parser.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../LLD/Low_level_Design_Problems/low-level-design-3/food-ordering-system/food-ordering-system.iml" filepath="$PROJECT_DIR$/../LLD/Low_level_Design_Problems/low-level-design-3/food-ordering-system/food-ordering-system.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../interviewcodingpractise-main/interviewcodingpractise-main.iml" filepath="$PROJECT_DIR$/../interviewcodingpractise-main/interviewcodingpractise-main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../LLD/Low_level_Design_Problems/jira-fk/jira-fk.iml" filepath="$PROJECT_DIR$/../LLD/Low_level_Design_Problems/jira-fk/jira-fk.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../LLD/ledger_company_navi/ledger_company_navi.iml" filepath="$PROJECT_DIR$/../LLD/ledger_company_navi/ledger_company_navi.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../LLD/Low_level_Design_Problems/low-level-design-messaging-queue-pub-sub/src/low-level-design-messaging-queue-pub-sub.iml" filepath="$PROJECT_DIR$/../LLD/Low_level_Design_Problems/low-level-design-messaging-queue-pub-sub/src/low-level-design-messaging-queue-pub-sub.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../LLD/Ride Sharing /uber/src/main/main2.iml" filepath="$PROJECT_DIR$/../LLD/Ride Sharing /uber/src/main/main2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../LLD/Ride Sharing /ride-sharing-low-level-design/src/main/main3.iml" filepath="$PROJECT_DIR$/../LLD/Ride Sharing /ride-sharing-low-level-design/src/main/main3.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../LLD/Ride Sharing /ridesharing1/ridesharing1.iml" filepath="$PROJECT_DIR$/../LLD/Ride Sharing /ridesharing1/ridesharing1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../LLD/leetcode-lld-flipkart-coding-blox/src/test/test.iml" filepath="$PROJECT_DIR$/../LLD/leetcode-lld-flipkart-coding-blox/src/test/test.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../LLD/Ride Sharing /ride-sharing-low-level-design/src/test/test2.iml" filepath="$PROJECT_DIR$/../LLD/Ride Sharing /ride-sharing-low-level-design/src/test/test2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../LLD/Ride Sharing /uber/src/test/test3.iml" filepath="$PROJECT_DIR$/../LLD/Ride Sharing /uber/src/test/test3.iml" />
     </modules>
   </component>
 </project>
