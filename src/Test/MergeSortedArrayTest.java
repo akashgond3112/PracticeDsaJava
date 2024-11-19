@@ -1,6 +1,6 @@
 package Test;
 
-import main.two_pointers.easy.MergeSortedArray;
+import main.dsa.two_pointers.easy.MergeSortedArray;
 import org.junit.Test;
 
 
