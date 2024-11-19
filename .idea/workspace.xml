@@ -9,7 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="697252cc-7674-4df4-b819-341bc29cf007" name="Changes" comment="Commit-14/10/2024">
+    <list default="true" id="697252cc-7674-4df4-b819-341bc29cf007" name="Changes" comment="Commit-16/10/2024">
       <change beforePath="$PROJECT_DIR$/../LLD/Cricket Match Dashboard/.idea/misc.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../LLD/Cricket Match Dashboard/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../LLD/Cricket Match Dashboard/.idea/workspace.xml" beforeDir="false" />
@@ -1222,8 +1222,139 @@
       <change beforePath="$PROJECT_DIR$/../LLD/leetcode-lld-flipkart-coding-blox/target/classes/io/hari/demo/service/ContestService.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../LLD/leetcode-lld-flipkart-coding-blox/target/classes/io/hari/demo/service/QuestionService.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../LLD/leetcode-lld-flipkart-coding-blox/target/test-classes/io/hari/demo/DemoApplicationTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/MergeSortedArrayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/MergeSortedArrayTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/dynamic/programming/ArrayPartitionWithMinimumDifference.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/dp/ArrayPartitionWithMinimumDifference.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/dynamic/programming/ChocolatePickup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/dp/ChocolatePickup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/dynamic/programming/CountWaysToReachTheNthStairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/dp/CountWaysToReachTheNthStairs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/dynamic/programming/Fibonnaci.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/dp/Fibonnaci.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/dynamic/programming/FrogJump.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/dp/FrogJump.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/dynamic/programming/FrogJumpII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/dp/FrogJumpII.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/dynamic/programming/HouseRobberII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/dp/HouseRobberII.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/dynamic/programming/MaximumSumOfNonAdjacentElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/dp/MaximumSumOfNonAdjacentElements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/dynamic/programming/grid/MaximumPathSumInTheMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/dp/grid/MaximumPathSumInTheMatrix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/dynamic/programming/grid/MinimumPathSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/dp/grid/MinimumPathSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/dynamic/programming/grid/NinjasTraining.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/dp/grid/NinjasTraining.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/dynamic/programming/grid/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/dp/grid/Triangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/dynamic/programming/grid/UniquePaths.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/dp/grid/UniquePaths.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/dynamic/programming/grid/UniquePathsII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/dp/grid/UniquePathsII.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/dynamic/programming/lis/LongestBitonicSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/dp/lis/LongestBitonicSequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/dynamic/programming/lis/LongestIncreasingSubsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/dp/lis/LongestIncreasingSubsequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/dynamic/programming/lis/LongestStringChain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/dp/lis/LongestStringChain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/dynamic/programming/lis/NumberOfLongestIncreasingSubsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/dp/lis/NumberOfLongestIncreasingSubsequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/dynamic/programming/medium/CoinChange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/dp/medium/CoinChange.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/dynamic/programming/medium/JumpGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/dp/medium/JumpGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/dynamic/programming/medium/JumpGameII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/dp/medium/JumpGameII.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/dynamic/programming/partition/BooleanEvaluation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/dp/partition/BooleanEvaluation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/dynamic/programming/partition/BurstingBalloons.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/dp/partition/BurstingBalloons.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/dynamic/programming/partition/CostToCutAChocolate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/dp/partition/CostToCutAChocolate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/dynamic/programming/partition/CountSquareSubMatricesWithAllOnes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/dp/partition/CountSquareSubMatricesWithAllOnes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/dynamic/programming/partition/MatrixChainMultiplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/dp/partition/MatrixChainMultiplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/dynamic/programming/partition/MaximumSizeRectangleSubMatrixWithAllOnes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/dp/partition/MaximumSizeRectangleSubMatrixWithAllOnes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/dynamic/programming/partition/PalindromePartitioningII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/dp/partition/PalindromePartitioningII.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/dynamic/programming/partition/PartitionArrayForMaximumSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/dp/partition/PartitionArrayForMaximumSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/dynamic/programming/stocks/BestTimeToBuyAndSellStock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/dp/stocks/BestTimeToBuyAndSellStock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/dynamic/programming/stocks/BestTimeToBuyAndSellStockII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/dp/stocks/BestTimeToBuyAndSellStockII.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/dynamic/programming/stocks/BestTimeToBuyAndSellStockIII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/dp/stocks/BestTimeToBuyAndSellStockIII.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/dynamic/programming/stocks/BestTimeToBuyAndSellStockIV.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/dp/stocks/BestTimeToBuyAndSellStockIV.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/dynamic/programming/stocks/BestTimeToBuyAndSellStockWithCooldown.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/dp/stocks/BestTimeToBuyAndSellStockWithCooldown.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/dynamic/programming/stocks/BestTimeToBuyAndSellStockWithTransactionFee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/dp/stocks/BestTimeToBuyAndSellStockWithTransactionFee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/dynamic/programming/string/DistinctSubsequences.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/dp/string/DistinctSubsequences.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/dynamic/programming/string/EditDistance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/dp/string/EditDistance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/dynamic/programming/string/LongestCommonSubsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/dp/string/LongestCommonSubsequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/dynamic/programming/string/LongestCommonSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/dp/string/LongestCommonSubstring.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/dynamic/programming/string/LongestPalindromeSubsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/dp/string/LongestPalindromeSubsequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/dynamic/programming/string/MinimumInsertionsToMakeAStringPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/dp/string/MinimumInsertionsToMakeAStringPalindrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/dynamic/programming/string/MinimumNumberOfDeletionsAndInsertions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/dp/string/MinimumNumberOfDeletionsAndInsertions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/dynamic/programming/string/ShortestCommonSuperSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/dp/string/ShortestCommonSuperSequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/dynamic/programming/string/WildcardPatternMatching.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/dp/string/WildcardPatternMatching.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/dynamic/programming/subsequence/CountSubsetsWithSumK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/dp/subsequence/CountSubsetsWithSumK.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/dynamic/programming/subsequence/Knapsack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/dp/subsequence/Knapsack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/dynamic/programming/subsequence/KnapsackUnbounded.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/dp/subsequence/KnapsackUnbounded.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/dynamic/programming/subsequence/MinimumElementsOrCoinChange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/dp/subsequence/MinimumElementsOrCoinChange.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/dynamic/programming/subsequence/PartitionEqualSubsetSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/dp/subsequence/PartitionEqualSubsetSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/dynamic/programming/subsequence/PartitionsWithGivenDifference.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/dp/subsequence/PartitionsWithGivenDifference.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/dynamic/programming/subsequence/RodCuttingProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/dp/subsequence/RodCuttingProblem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/dynamic/programming/subsequence/SubsetSumEqualToK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/dp/subsequence/SubsetSumEqualToK.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/dynamic/programming/subsequence/TargetSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/dp/subsequence/TargetSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/dynamic/programming/subsequence/WaysToMakeCoinChange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/dp/subsequence/WaysToMakeCoinChange.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/recursion/backtracking/CombinationSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/recursion/CombinationSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/recursion/backtracking/FIndNQueens.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/recursion/FIndNQueens.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/recursion/backtracking/MColouringProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/recursion/MColouringProblem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/recursion/backtracking/PalindromePartitioning.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/recursion/PalindromePartitioning.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/recursion/backtracking/PermutationOfStringArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/recursion/PermutationOfStringArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/recursion/backtracking/RatInAMazeProblemI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/recursion/RatInAMazeProblemI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/recursion/backtracking/SubsetSumIAndII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/recursion/SubsetSumIAndII.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/recursion/backtracking/SudokoSolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/recursion/SudokoSolver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/recursion/backtracking/findSubsequenceOfGivenKSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/recursion/findSubsequenceOfGivenKSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/recursion/backtracking/hard/PermutationSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/recursion/hard/PermutationSequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/recursion/backtracking/medium/AddTwoNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/recursion/medium/AddTwoNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/slidingWindow/easy/ContainsDuplicateTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/slidingWindow/easy/ContainsDuplicateTwo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/slidingWindow/easy/LongestEvenOddSubarrayWithThreshold.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/slidingWindow/easy/LongestEvenOddSubarrayWithThreshold.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/slidingWindow/easy/MaximumAverageSubarrayOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/slidingWindow/easy/MaximumAverageSubarrayOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/slidingWindow/easy/MinimumDifferenceBetweenHighestAndLowestOfKScores.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/slidingWindow/easy/MinimumDifferenceBetweenHighestAndLowestOfKScores.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/slidingWindow/fixedSize/CountOccurenceOfAnagrams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/slidingWindow/fixedSize/CountOccurenceOfAnagrams.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/slidingWindow/fixedSize/FindTheKBeautyOfANumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/slidingWindow/fixedSize/FindTheKBeautyOfANumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/slidingWindow/fixedSize/FirstNegativeIntegerInEveryWindowOfSizeK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/slidingWindow/fixedSize/FirstNegativeIntegerInEveryWindowOfSizeK.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/slidingWindow/fixedSize/MaxMinSubArrayOfSizeK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/slidingWindow/fixedSize/MaxMinSubArrayOfSizeK.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/slidingWindow/fixedSize/MinimumRecolorsToGetKConsecutiveBlackBlocks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/slidingWindow/fixedSize/MinimumRecolorsToGetKConsecutiveBlackBlocks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/slidingWindow/fixedSize/SlidingWindowMaximum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/slidingWindow/fixedSize/SlidingWindowMaximum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/slidingWindow/medium/BinarySubarraysWithSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/slidingWindow/medium/BinarySubarraysWithSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/slidingWindow/medium/ChessPawnMovement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/slidingWindow/medium/ChessPawnMovement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/slidingWindow/medium/CountCompleteSubArraysInAnArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/slidingWindow/medium/CountCompleteSubArraysInAnArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/slidingWindow/medium/CountNumberOfNiceSubArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/slidingWindow/medium/CountNumberOfNiceSubArrays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/slidingWindow/medium/FindAllAnagramsinAString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/slidingWindow/medium/FindAllAnagramsinAString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/slidingWindow/medium/GetEqualSubstringsWithinBudget.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/slidingWindow/medium/GetEqualSubstringsWithinBudget.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/slidingWindow/medium/GrumpyBookstoreOwner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/slidingWindow/medium/GrumpyBookstoreOwner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/slidingWindow/medium/LongestContinuousSubarrayWithAbsoluteDiffLessThanOrEqualToLimit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/slidingWindow/medium/LongestContinuousSubarrayWithAbsoluteDiffLessThanOrEqualToLimit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/slidingWindow/medium/LongestNiceSubarray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/slidingWindow/medium/LongestNiceSubarray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/slidingWindow/medium/LongestRepeatingCharacterReplacement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/slidingWindow/medium/LongestRepeatingCharacterReplacement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/slidingWindow/medium/LongestSubarrayOfOnesAfterDeletingOneElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/slidingWindow/medium/LongestSubarrayOfOnesAfterDeletingOneElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/slidingWindow/medium/LongestSubstringOfAllVowelsInOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/slidingWindow/medium/LongestSubstringOfAllVowelsInOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/slidingWindow/medium/LongestTurbulentSubarray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/slidingWindow/medium/LongestTurbulentSubarray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/slidingWindow/medium/MaxConsecutiveOnesThree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/slidingWindow/medium/MaxConsecutiveOnesThree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/slidingWindow/medium/MaximizeTheConfusionOfAnExam.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/slidingWindow/medium/MaximizeTheConfusionOfAnExam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/slidingWindow/medium/MaximumErasureValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/slidingWindow/medium/MaximumErasureValue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/slidingWindow/medium/MaximumLengthOfRepeatedSubarray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/slidingWindow/medium/MaximumLengthOfRepeatedSubarray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/slidingWindow/medium/MaximumNumberOfOccurrencesOfASubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/slidingWindow/medium/MaximumNumberOfOccurrencesOfASubstring.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/slidingWindow/medium/MaximumNumberOfVowelsInASubstringOfGivenLength.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/slidingWindow/medium/MaximumNumberOfVowelsInASubstringOfGivenLength.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/slidingWindow/medium/MaximumPointsYouCanObtainFromCards.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/slidingWindow/medium/MaximumPointsYouCanObtainFromCards.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/slidingWindow/medium/MaximumSumOfTwoNonOverlappingSubArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/slidingWindow/medium/MaximumSumOfTwoNonOverlappingSubArrays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/slidingWindow/medium/MinimumConsecutiveCardsToPickUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/slidingWindow/medium/MinimumConsecutiveCardsToPickUp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/slidingWindow/medium/MinimumSwapsToGroupAllOnesTogether.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/slidingWindow/medium/MinimumSwapsToGroupAllOnesTogether.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/slidingWindow/medium/NumberOfSubArraysOfSizeKAndAverageGreaterThanOrEqualToThreshold.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/slidingWindow/medium/NumberOfSubArraysOfSizeKAndAverageGreaterThanOrEqualToThreshold.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/slidingWindow/medium/NumberOfSubstringsContainingAllThreeCharacters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/slidingWindow/medium/NumberOfSubstringsContainingAllThreeCharacters.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/slidingWindow/medium/RepeatedDNASequences.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/slidingWindow/medium/RepeatedDNASequences.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/slidingWindow/variableSize/LargestSubarrayOfSumK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/slidingWindow/variableSize/LargestSubarrayOfSumK.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/slidingWindow/variableSize/LongestKUniqueCharactersSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/slidingWindow/variableSize/LongestKUniqueCharactersSubstring.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/slidingWindow/variableSize/LongestSubstringWithoutRepeatingCharacters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/slidingWindow/variableSize/LongestSubstringWithoutRepeatingCharacters.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/slidingWindow/variableSize/MinimumWindowSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/slidingWindow/variableSize/MinimumWindowSubstring.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/slidingWindow/variableSize/PickMaximumNumberOfToys.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/slidingWindow/variableSize/PickMaximumNumberOfToys.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/two_pointers/easy/CheckIfNandItsDoubleExist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/two_pointers/easy/CheckIfNandItsDoubleExist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/two_pointers/easy/FindtheIndexOfTheFirstOccurrenceInAString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/two_pointers/easy/FindtheIndexOfTheFirstOccurrenceInAString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/two_pointers/easy/LinkedListCycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/two_pointers/easy/LinkedListCycle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/two_pointers/easy/LongPressedName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/two_pointers/easy/LongPressedName.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/two_pointers/easy/MaximumEnemyFortsThatCanBeCaptured.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/two_pointers/easy/MaximumEnemyFortsThatCanBeCaptured.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/two_pointers/easy/MergeSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/two_pointers/easy/MergeSortedArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/two_pointers/easy/MiddleOfTheLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/two_pointers/easy/MiddleOfTheLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/two_pointers/easy/RemoveDuplicatesFromSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/two_pointers/easy/RemoveDuplicatesFromSortedArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/two_pointers/easy/RemoveElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/two_pointers/easy/RemoveElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/two_pointers/easy/ValidPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/two_pointers/easy/ValidPalindrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/two_pointers/medium/CompareVersionNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/two_pointers/medium/CompareVersionNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/two_pointers/medium/ContainerWithMostWater.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/two_pointers/medium/ContainerWithMostWater.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/two_pointers/medium/CountTheNumberOfFairPairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/two_pointers/medium/CountTheNumberOfFairPairs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/two_pointers/medium/FindBeautifulIndicesInTheGivenArrayI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/two_pointers/medium/FindBeautifulIndicesInTheGivenArrayI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/two_pointers/medium/FriendsOfAppropriateAges.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/two_pointers/medium/FriendsOfAppropriateAges.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/two_pointers/medium/Heaters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/two_pointers/medium/Heaters.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/two_pointers/medium/LongestPalindromicSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/two_pointers/medium/LongestPalindromicSubstring.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/two_pointers/medium/MakeStringaSubsequenceUsingCyclicIncrements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/two_pointers/medium/MakeStringaSubsequenceUsingCyclicIncrements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/two_pointers/medium/MaximumProductOfWordLengths.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/two_pointers/medium/MaximumProductOfWordLengths.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/two_pointers/medium/MinimumArrayLengthAfterPairRemovals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/two_pointers/medium/MinimumArrayLengthAfterPairRemovals.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/two_pointers/medium/PushDominoes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/two_pointers/medium/PushDominoes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/two_pointers/medium/ReverseWordsInAString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/two_pointers/medium/ReverseWordsInAString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/two_pointers/medium/RotateList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/two_pointers/medium/RotateList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/two_pointers/medium/SentenceSimilarityIII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/two_pointers/medium/SentenceSimilarityIII.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/two_pointers/medium/StringCompression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/two_pointers/medium/StringCompression.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -1459,7 +1590,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Facets&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
@@ -1485,6 +1616,19 @@
   </component>
   <component name="RunManager" selected="Application.CombinationSum">
     <configuration name="CombinationSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.dsa.backtracking.CombinationSum" />
+      <module name="PracticeDSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.dsa.backtracking.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CombinationSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.recursion.backtracking.CombinationSum" />
       <module name="PracticeDSA" />
       <extension name="coverage">
@@ -1499,6 +1643,32 @@
     </configuration>
     <configuration name="CompleteString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.dsa.nonlinear.trie.CompleteString" />
+      <module name="PracticeDSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.dsa.nonlinear.trie.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CompleteString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.dsa.nonlinear.trie.CompleteString" />
+      <module name="PracticeDSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.dsa.nonlinear.trie.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CountDistinctSubstrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.dsa.nonlinear.trie.CountDistinctSubstrings" />
       <module name="PracticeDSA" />
       <extension name="coverage">
         <pattern>
@@ -1536,6 +1706,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MaximumXOR" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.dsa.nonlinear.trie.MaximumXOR" />
+      <module name="PracticeDSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.dsa.nonlinear.trie.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TrieImplementII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.dsa.nonlinear.trie.TrieImplementII" />
       <module name="PracticeDSA" />
@@ -1547,6 +1730,100 @@
       </extension>
       <method v="2">
         <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TrieImplementII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.dsa.nonlinear.trie.TrieImplementII" />
+      <module name="PracticeDSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.dsa.nonlinear.trie.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="spring" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.0.27" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="/usr/lib/jvm/java-1.17.0-openjdk-amd64">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment />
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="bd5276ee-5f74-41e1-8b84-0da02c8b84c0" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="35309" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="springtutorial:war" />
+        </option>
       </method>
     </configuration>
     <configuration name="spring" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.0.27" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="/usr/lib/jvm/java-1.17.0-openjdk-amd64">
@@ -1870,7 +2147,8 @@
       <workItem from="1731619648488" duration="535000" />
       <workItem from="1731620196250" duration="1265000" />
       <workItem from="1731690505168" duration="1560000" />
-      <workItem from="1731692201805" duration="1602000" />
+      <workItem from="1731692201805" duration="2271000" />
+      <workItem from="1731937289919" duration="1709000" />
     </task>
     <task id="LOCAL-00001" summary="commit-19122022">
       <created>1671408501232</created>
@@ -1878,14 +2156,6 @@
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
       <updated>1671408501232</updated>
-    </task>
-    <task id="LOCAL-00077" summary="Commit-25/09/2024">
-      <option name="closed" value="true" />
-      <created>1727271095568</created>
-      <option name="number" value="00077" />
-      <option name="presentableId" value="LOCAL-00077" />
-      <option name="project" value="LOCAL" />
-      <updated>1727271095571</updated>
     </task>
     <task id="LOCAL-00078" summary="Commit-26/09/2024">
       <option name="closed" value="true" />
@@ -2263,7 +2533,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731620691078</updated>
     </task>
-    <option name="localTasksCounter" value="125" />
+    <task id="LOCAL-00125" summary="Commit-16/10/2024">
+      <option name="closed" value="true" />
+      <created>1731790617557</created>
+      <option name="number" value="00125" />
+      <option name="presentableId" value="LOCAL-00125" />
+      <option name="project" value="LOCAL" />
+      <updated>1731790617558</updated>
+    </task>
+    <option name="localTasksCounter" value="126" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -2291,7 +2569,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Commit-18/09/2024" />
     <MESSAGE value="Commit-19/09/2024" />
     <MESSAGE value="Commit-20/09/2024" />
     <MESSAGE value="Commit-21/09/2024" />
@@ -2316,38 +2593,39 @@
     <MESSAGE value="Commit-12/10/2024" />
     <MESSAGE value="Commit-13/10/2024" />
     <MESSAGE value="Commit-14/10/2024" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit-14/10/2024" />
+    <MESSAGE value="Commit-16/10/2024" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit-16/10/2024" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/slidingWindow/fixedSize/FindTheKBeautyOfANumber.java</url>
+          <url>file://$PROJECT_DIR$/src/main/dsa/slidingWindow/fixedSize/FindTheKBeautyOfANumber.java</url>
           <line>16</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/slidingWindow/fixedSize/FindTheKBeautyOfANumber.java</url>
+          <url>file://$PROJECT_DIR$/src/main/dsa/slidingWindow/fixedSize/FindTheKBeautyOfANumber.java</url>
           <line>19</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/slidingWindow/fixedSize/MinimumRecolorsToGetKConsecutiveBlackBlocks.java</url>
+          <url>file://$PROJECT_DIR$/src/main/dsa/slidingWindow/fixedSize/MinimumRecolorsToGetKConsecutiveBlackBlocks.java</url>
           <line>28</line>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/slidingWindow/fixedSize/MinimumRecolorsToGetKConsecutiveBlackBlocks.java</url>
+          <url>file://$PROJECT_DIR$/src/main/dsa/slidingWindow/fixedSize/MinimumRecolorsToGetKConsecutiveBlackBlocks.java</url>
           <line>17</line>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/slidingWindow/fixedSize/MinimumRecolorsToGetKConsecutiveBlackBlocks.java</url>
+          <url>file://$PROJECT_DIR$/src/main/dsa/slidingWindow/fixedSize/MinimumRecolorsToGetKConsecutiveBlackBlocks.java</url>
           <line>12</line>
           <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/slidingWindow/easy/ContainsDuplicateTwo.java</url>
+          <url>file://$PROJECT_DIR$/src/main/dsa/slidingWindow/easy/ContainsDuplicateTwo.java</url>
           <line>50</line>
           <properties>
             <option name="lambda-ordinal" value="-1" />
@@ -2355,82 +2633,82 @@
           <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/slidingWindow/easy/ContainsDuplicateTwo.java</url>
+          <url>file://$PROJECT_DIR$/src/main/dsa/slidingWindow/easy/ContainsDuplicateTwo.java</url>
           <line>51</line>
           <option name="timeStamp" value="17" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/slidingWindow/easy/MaximumAverageSubarrayOne.java</url>
+          <url>file://$PROJECT_DIR$/src/main/dsa/slidingWindow/easy/MaximumAverageSubarrayOne.java</url>
           <line>18</line>
           <option name="timeStamp" value="19" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/slidingWindow/easy/MaximumAverageSubarrayOne.java</url>
+          <url>file://$PROJECT_DIR$/src/main/dsa/slidingWindow/easy/MaximumAverageSubarrayOne.java</url>
           <line>14</line>
           <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/slidingWindow/easy/MaximumAverageSubarrayOne.java</url>
+          <url>file://$PROJECT_DIR$/src/main/dsa/slidingWindow/easy/MaximumAverageSubarrayOne.java</url>
           <line>17</line>
           <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/slidingWindow/medium/NumberOfSubArraysOfSizeKAndAverageGreaterThanOrEqualToThreshold.java</url>
+          <url>file://$PROJECT_DIR$/src/main/dsa/slidingWindow/medium/NumberOfSubArraysOfSizeKAndAverageGreaterThanOrEqualToThreshold.java</url>
           <line>47</line>
           <option name="timeStamp" value="23" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/slidingWindow/medium/MaxConsecutiveOnesThree.java</url>
+          <url>file://$PROJECT_DIR$/src/main/dsa/slidingWindow/medium/MaxConsecutiveOnesThree.java</url>
           <line>61</line>
           <option name="timeStamp" value="51" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/slidingWindow/medium/MaxConsecutiveOnesThree.java</url>
+          <url>file://$PROJECT_DIR$/src/main/dsa/slidingWindow/medium/MaxConsecutiveOnesThree.java</url>
           <line>57</line>
           <option name="timeStamp" value="58" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/slidingWindow/medium/MaxConsecutiveOnesThree.java</url>
+          <url>file://$PROJECT_DIR$/src/main/dsa/slidingWindow/medium/MaxConsecutiveOnesThree.java</url>
           <line>55</line>
           <option name="timeStamp" value="59" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/slidingWindow/medium/GrumpyBookstoreOwner.java</url>
+          <url>file://$PROJECT_DIR$/src/main/dsa/slidingWindow/medium/GrumpyBookstoreOwner.java</url>
           <line>75</line>
           <option name="timeStamp" value="64" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/slidingWindow/medium/LongestRepeatingCharacterReplacement.java</url>
+          <url>file://$PROJECT_DIR$/src/main/dsa/slidingWindow/medium/LongestRepeatingCharacterReplacement.java</url>
           <line>57</line>
           <option name="timeStamp" value="66" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/slidingWindow/medium/MaximumLengthOfRepeatedSubarray.java</url>
+          <url>file://$PROJECT_DIR$/src/main/dsa/slidingWindow/medium/MaximumLengthOfRepeatedSubarray.java</url>
           <line>49</line>
           <option name="timeStamp" value="67" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/slidingWindow/medium/MinimumConsecutiveCardsToPickUp.java</url>
+          <url>file://$PROJECT_DIR$/src/main/dsa/slidingWindow/medium/MinimumConsecutiveCardsToPickUp.java</url>
           <line>67</line>
           <option name="timeStamp" value="69" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/slidingWindow/medium/MinimumConsecutiveCardsToPickUp.java</url>
+          <url>file://$PROJECT_DIR$/src/main/dsa/slidingWindow/medium/MinimumConsecutiveCardsToPickUp.java</url>
           <line>60</line>
           <option name="timeStamp" value="75" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/slidingWindow/fixedSize/CountOccurenceOfAnagrams.java</url>
+          <url>file://$PROJECT_DIR$/src/main/dsa/slidingWindow/fixedSize/CountOccurenceOfAnagrams.java</url>
           <line>60</line>
           <option name="timeStamp" value="82" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/slidingWindow/medium/FindAllAnagramsinAString.java</url>
+          <url>file://$PROJECT_DIR$/src/main/dsa/slidingWindow/medium/FindAllAnagramsinAString.java</url>
           <line>86</line>
           <option name="timeStamp" value="91" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/slidingWindow/medium/FindAllAnagramsinAString.java</url>
+          <url>file://$PROJECT_DIR$/src/main/dsa/slidingWindow/medium/FindAllAnagramsinAString.java</url>
           <line>47</line>
           <option name="timeStamp" value="93" />
         </line-breakpoint>
@@ -2450,27 +2728,27 @@
           <option name="timeStamp" value="101" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/recursion/backtracking/PermutationOfStringArray.java</url>
+          <url>file://$PROJECT_DIR$/src/main/dsa/recursion/PermutationOfStringArray.java</url>
           <line>60</line>
           <option name="timeStamp" value="102" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/recursion/backtracking/RatInAMazeProblemI.java</url>
+          <url>file://$PROJECT_DIR$/src/main/dsa/recursion/RatInAMazeProblemI.java</url>
           <line>101</line>
           <option name="timeStamp" value="103" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/recursion/backtracking/RatInAMazeProblemI.java</url>
+          <url>file://$PROJECT_DIR$/src/main/dsa/recursion/RatInAMazeProblemI.java</url>
           <line>99</line>
           <option name="timeStamp" value="104" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/recursion/backtracking/RatInAMazeProblemI.java</url>
+          <url>file://$PROJECT_DIR$/src/main/dsa/recursion/RatInAMazeProblemI.java</url>
           <line>98</line>
           <option name="timeStamp" value="105" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/dynamic/programming/HouseRobberII.java</url>
+          <url>file://$PROJECT_DIR$/src/main/dsa/dp/HouseRobberII.java</url>
           <line>159</line>
           <option name="timeStamp" value="106" />
         </line-breakpoint>
