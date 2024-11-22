@@ -28,7 +28,7 @@ public class Subsets {
 
 	public static void main(String[] args) {
 		Subsets generator = new Subsets();
-		int[] nums = {1, 2, 3};
+		int[] nums = {1, 2, 2};
 		List<List<Integer>> result = generator.subsets(nums);
 		System.out.println(result);
 	}
