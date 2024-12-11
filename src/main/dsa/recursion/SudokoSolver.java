@@ -51,6 +51,6 @@ public class SudokoSolver {
 	}
 
 	public static void main(String[] args) {
-		solveSudoku(new ArrayList<List<Character>>());
+		solveSudoku(new ArrayList<>());
 	}
 }
