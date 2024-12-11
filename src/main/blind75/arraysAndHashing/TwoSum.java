@@ -1,4 +1,4 @@
-package main.blind75.arraysandhashing;
+package main.blind75.arraysAndHashing;
 
 import java.util.Arrays;
 import java.util.Comparator;
