@@ -45,6 +45,10 @@ Time Limit: 1 sec
 
 public class ThreeSum {
 
+	/**
+	 * Time complexity: O(n^2 ) Space complexity: O(1) or O(n) depending on the sorting
+	 * algorithm.
+	 */
 	public static List<List<Integer>> tripletOptimal(int n, int[] arr) {
 		// Write your code here.
 		Arrays.sort(arr);
@@ -77,6 +81,11 @@ public class ThreeSum {
 		return new ArrayList<>(triplets);
 	}
 
+	/**
+	 * Time complexity: O(n^2 ) Space complexity: O(m)
+	 * Where m is the number of triplets and n is
+	 * the length of the given array.
+	 */
 	public static List<List<Integer>> tripletBetter(int n, int[] arr) {
 		// Write your code here.
 		Set<List<Integer>> triplets = new HashSet<>();
@@ -95,6 +104,11 @@ public class ThreeSum {
 		return new ArrayList<>(triplets);
 	}
 
+	/**
+	 * Time complexity: O(n^3 ) Space complexity: O(m)
+	 * Where m is the number of triplets and n is
+	 * the length of the given array.
+	 */
 	public static List<List<Integer>> tripletBruteForce(int n, int[] arr) {
 		// Write your code here.
 		Set<List<Integer>> triplets = new HashSet<>();
