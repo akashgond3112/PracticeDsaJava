@@ -4,18 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c45016e-0ee9-462c-b980-ce259e1891d2" name="Changes" comment="Commit - 10/12/2024">
-      <change afterPath="$PROJECT_DIR$/src/main/blind75/arraysAndHashing/LongestConsecutiveSequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/blind75/arraysAndHashing/ProductOfArrayExceptSelf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/blind75/arraysAndHashing/ValidSudoku.java" afterDir="false" />
+    <list default="true" id="5c45016e-0ee9-462c-b980-ce259e1891d2" name="Changes" comment="Commit - 11/12/2024">
+      <change afterPath="$PROJECT_DIR$/src/main/blind75/twoPointers/ContainerWithMostWater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/blind75/twoPointers/ThreeSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/blind75/twoPointers/ValidPalindrome.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/blind75/arraysandhashing/ContainsDuplicate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/blind75/arraysAndHashing/ContainsDuplicate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/blind75/arraysandhashing/EncodeAndDecodeStrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/blind75/arraysAndHashing/EncodeAndDecodeStrings.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/blind75/arraysandhashing/GroupAnagrams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/blind75/arraysAndHashing/GroupAnagrams.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/blind75/arraysandhashing/TopKFrequentElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/blind75/arraysAndHashing/TopKFrequentElements.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/blind75/arraysandhashing/TwoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/blind75/arraysAndHashing/TwoSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/blind75/arraysandhashing/ValidAnagram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/blind75/arraysAndHashing/ValidAnagram.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/dsa/recursion/SudokoSolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/recursion/SudokoSolver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/dsa/linear/Array/learning/hard/ThreeSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/linear/Array/learning/hard/ThreeSum.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +94,8 @@
       <workItem from="1733752863671" duration="7000" />
       <workItem from="1733759673999" duration="7209000" />
       <workItem from="1733837697959" duration="75000" />
-      <workItem from="1733925558858" duration="3719000" />
+      <workItem from="1733925558858" duration="4453000" />
+      <workItem from="1734024187193" duration="5368000" />
     </task>
     <task id="LOCAL-00001" summary="Commit - 05/12/2024">
       <option name="closed" value="true" />
@@ -150,7 +145,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733837730949</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Commit - 11/12/2024">
+      <option name="closed" value="true" />
+      <created>1733929539222</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1733929539222</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -163,6 +166,7 @@
     <MESSAGE value="Commit - 08/12/2024" />
     <MESSAGE value="Commit - 09/12/2024" />
     <MESSAGE value="Commit - 10/12/2024" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit - 10/12/2024" />
+    <MESSAGE value="Commit - 11/12/2024" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit - 11/12/2024" />
   </component>
 </project>
