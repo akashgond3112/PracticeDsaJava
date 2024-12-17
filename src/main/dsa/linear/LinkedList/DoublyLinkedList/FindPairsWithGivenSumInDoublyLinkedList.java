@@ -1,6 +1,6 @@
 package main.dsa.linear.LinkedList.DoublyLinkedList;
 
-import main.dsa.nonlinear.tree.binary.Pair;
+import main.dsa.nonlinear.binary.tree.Pair;
 
 import java.util.ArrayList;
 import java.util.List;

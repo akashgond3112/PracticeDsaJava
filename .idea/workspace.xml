@@ -4,14 +4,74 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c45016e-0ee9-462c-b980-ce259e1891d2" name="Changes" comment="Commit - 13/12/2024">
-      <change afterPath="$PROJECT_DIR$/src/main/blind75/binary/search/FindMinimumInRotatedSortedArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/blind75/stack/ValidParentheses.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/blind75/twoPointers/MinimumWindowSubstring.java" afterDir="false" />
+    <list default="true" id="5c45016e-0ee9-462c-b980-ce259e1891d2" name="Changes" comment="Commit - 16/12/2024">
+      <change afterPath="$PROJECT_DIR$/src/main/blind75/binary/search/SearchInRotatedSortedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/blind75/linked/list/MergeTwoSortedLists.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/blind75/linked/list/ReverseLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PracticeDsaJava.iml" beforeDir="false" afterPath="$PROJECT_DIR$/PracticeDsaJava.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/dsa/nonlinear/tree/binary/search/learning/MinInRotatedSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/nonlinear/tree/binary/search/learning/MinInRotatedSortedArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/dsa/slidingWindow/variableSize/MinimumWindowSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/slidingWindow/variableSize/MinimumWindowSubstring.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/dsa/linear/LinkedList/DoublyLinkedList/FindPairsWithGivenSumInDoublyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/linear/LinkedList/DoublyLinkedList/FindPairsWithGivenSumInDoublyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/dsa/linear/LinkedList/SinglyLinkedList/MergeKSortedLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/linear/LinkedList/SinglyLinkedList/MergeKSortedLists.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/dsa/nonlinear/tree/binary/BinaryTreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/nonlinear/binary/tree/BinaryTreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/dsa/nonlinear/tree/binary/BinaryTreePrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/nonlinear/binary/tree/BinaryTreePrinter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/dsa/nonlinear/tree/binary/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/nonlinear/binary/tree/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/dsa/nonlinear/tree/binary/Pair.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/nonlinear/binary/tree/Pair.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/dsa/nonlinear/tree/binary/Tuple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/nonlinear/binary/tree/Tuple.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/dsa/nonlinear/tree/binary/learning/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/nonlinear/binary/tree/learning/BinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/dsa/nonlinear/tree/binary/learning/BottomViewOfBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/nonlinear/binary/tree/learning/BottomViewOfBinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/dsa/nonlinear/tree/binary/learning/BoundaryTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/nonlinear/binary/tree/learning/BoundaryTraversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/dsa/nonlinear/tree/binary/learning/CheckForBalanceBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/nonlinear/binary/tree/learning/CheckForBalanceBinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/dsa/nonlinear/tree/binary/learning/CheckForSymmetricalBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/nonlinear/binary/tree/learning/CheckForSymmetricalBinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/dsa/nonlinear/tree/binary/learning/CheckIfTwoTreeAreIdentical.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/nonlinear/binary/tree/learning/CheckIfTwoTreeAreIdentical.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/dsa/nonlinear/tree/binary/learning/ChildrenSumProperty.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/nonlinear/binary/tree/learning/ChildrenSumProperty.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/dsa/nonlinear/tree/binary/learning/ConstructABinaryTreeFromPostOrderAndInOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/nonlinear/binary/tree/learning/ConstructABinaryTreeFromPostOrderAndInOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/dsa/nonlinear/tree/binary/learning/ConstructABinaryTreeFromPrOrderAndInOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/nonlinear/binary/tree/learning/ConstructABinaryTreeFromPrOrderAndInOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/dsa/nonlinear/tree/binary/learning/CountTotalNodesInACompleteBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/nonlinear/binary/tree/learning/CountTotalNodesInACompleteBinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/dsa/nonlinear/tree/binary/learning/DiameterOfABinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/nonlinear/binary/tree/learning/DiameterOfABinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/dsa/nonlinear/tree/binary/learning/FlattenABinaryTreeToLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/nonlinear/binary/tree/learning/FlattenABinaryTreeToLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/dsa/nonlinear/tree/binary/learning/LowestCommonAncestor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/nonlinear/binary/tree/learning/LowestCommonAncestor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/dsa/nonlinear/tree/binary/learning/MaxDepth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/nonlinear/binary/tree/learning/MaxDepth.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/dsa/nonlinear/tree/binary/learning/MaximumPathSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/nonlinear/binary/tree/learning/MaximumPathSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/dsa/nonlinear/tree/binary/learning/MinTimeTakenToBurnBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/nonlinear/binary/tree/learning/MinTimeTakenToBurnBinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/dsa/nonlinear/tree/binary/learning/MorrisTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/nonlinear/binary/tree/learning/MorrisTraversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/dsa/nonlinear/tree/binary/learning/NodesAtADistanceOfKInBiinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/nonlinear/binary/tree/learning/NodesAtADistanceOfKInBiinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/dsa/nonlinear/tree/binary/learning/RightLeftSideView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/nonlinear/binary/tree/learning/RightLeftSideView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/dsa/nonlinear/tree/binary/learning/RootToNodePath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/nonlinear/binary/tree/learning/RootToNodePath.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/dsa/nonlinear/tree/binary/learning/SerialiseAndDeSerialiseBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/nonlinear/binary/tree/learning/SerialiseAndDeSerialiseBinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/dsa/nonlinear/tree/binary/learning/TopViewOfBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/nonlinear/binary/tree/learning/TopViewOfBinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/dsa/nonlinear/tree/binary/learning/VerticalOrderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/nonlinear/binary/tree/learning/VerticalOrderTraversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/dsa/nonlinear/tree/binary/learning/WidthOfBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/nonlinear/binary/tree/learning/WidthOfBinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/dsa/nonlinear/tree/binary/learning/ZigZagTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/nonlinear/binary/tree/learning/ZigZagTraversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/dsa/nonlinear/tree/binary/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/nonlinear/binary/tree/package-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/dsa/nonlinear/tree/binary/search/binarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/nonlinear/binary/search/binarySearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/dsa/nonlinear/tree/binary/search/learning/AggressiveCowsBinarySearchHard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/nonlinear/binary/search/learning/AggressiveCowsBinarySearchHard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/dsa/nonlinear/tree/binary/search/learning/AllocateBooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/nonlinear/binary/search/learning/AllocateBooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/dsa/nonlinear/tree/binary/search/learning/CapacityToShipPackagesWithinDDays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/nonlinear/binary/search/learning/CapacityToShipPackagesWithinDDays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/dsa/nonlinear/tree/binary/search/learning/CountNumberOfOccurrence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/nonlinear/binary/search/learning/CountNumberOfOccurrence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/dsa/nonlinear/tree/binary/search/learning/FindPeakElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/nonlinear/binary/search/learning/FindPeakElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/dsa/nonlinear/tree/binary/search/learning/FindPeakElementII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/nonlinear/binary/search/learning/FindPeakElementII.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/dsa/nonlinear/tree/binary/search/learning/FindTheSmallestDivisorGivenAThreshold.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/nonlinear/binary/search/learning/FindTheSmallestDivisorGivenAThreshold.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/dsa/nonlinear/tree/binary/search/learning/FindingNthRootOfAnInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/nonlinear/binary/search/learning/FindingNthRootOfAnInteger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/dsa/nonlinear/tree/binary/search/learning/FindingSqrtNumberInBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/nonlinear/binary/search/learning/FindingSqrtNumberInBinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/dsa/nonlinear/tree/binary/search/learning/FirstAndLastOccurrence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/nonlinear/binary/search/learning/FirstAndLastOccurrence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/dsa/nonlinear/tree/binary/search/learning/HowManyTimeArrayIsRotated.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/nonlinear/binary/search/learning/HowManyTimeArrayIsRotated.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/dsa/nonlinear/tree/binary/search/learning/IntroductionFindATarget.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/nonlinear/binary/search/learning/IntroductionFindATarget.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/dsa/nonlinear/tree/binary/search/learning/KokoEatingBanana.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/nonlinear/binary/search/learning/KokoEatingBanana.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/dsa/nonlinear/tree/binary/search/learning/KthElementOfTwoSortedArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/nonlinear/binary/search/learning/KthElementOfTwoSortedArrays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/dsa/nonlinear/tree/binary/search/learning/KthMissingPositiveNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/nonlinear/binary/search/learning/KthMissingPositiveNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/dsa/nonlinear/tree/binary/search/learning/LowerUpperBound.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/nonlinear/binary/search/learning/LowerUpperBound.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/dsa/nonlinear/tree/binary/search/learning/MedianInARowWiseSortedMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/nonlinear/binary/search/learning/MedianInARowWiseSortedMatrix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/dsa/nonlinear/tree/binary/search/learning/MedianOfTwoSortedArraysOfDifferentSizes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/nonlinear/binary/search/learning/MedianOfTwoSortedArraysOfDifferentSizes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/dsa/nonlinear/tree/binary/search/learning/MinDaysToMakeMBouquets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/nonlinear/binary/search/learning/MinDaysToMakeMBouquets.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/dsa/nonlinear/tree/binary/search/learning/MinInRotatedSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/nonlinear/binary/search/learning/MinInRotatedSortedArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/dsa/nonlinear/tree/binary/search/learning/MinimiseMaximumDistanceBetweenGasStations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/nonlinear/binary/search/learning/MinimiseMaximumDistanceBetweenGasStations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/dsa/nonlinear/tree/binary/search/learning/PaintersPartitionAndSplitArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/nonlinear/binary/search/learning/PaintersPartitionAndSplitArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/dsa/nonlinear/tree/binary/search/learning/RotatedSortedArrayI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/nonlinear/binary/search/learning/RotatedSortedArrayI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/dsa/nonlinear/tree/binary/search/learning/RotatedSortedArrayII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/nonlinear/binary/search/learning/RotatedSortedArrayII.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/dsa/nonlinear/tree/binary/search/learning/RowWithMaximumNumberOfOnes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/nonlinear/binary/search/learning/RowWithMaximumNumberOfOnes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/dsa/nonlinear/tree/binary/search/learning/SearchInA2DMatrixI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/nonlinear/binary/search/learning/SearchInA2DMatrixI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/dsa/nonlinear/tree/binary/search/learning/SearchInA2DMatrixII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/nonlinear/binary/search/learning/SearchInA2DMatrixII.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/dsa/nonlinear/tree/binary/search/learning/SingleElementInSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/nonlinear/binary/search/learning/SingleElementInSortedArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/dsa/nonlinear/tree/binary/search/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/nonlinear/binary/search/package-info.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,28 +117,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.MinimumWindowSubstring (1).executor": "Run",
-    "Application.MinimumWindowSubstring.executor": "Run",
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/agond/personal/learning/Practice_Low_Level_Desing",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "aws"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.MinimumWindowSubstring (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.MinimumWindowSubstring.executor&quot;: &quot;Run&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/agond/personal/learning/Practice_Low_Level_Desing&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;aws&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.MinimumWindowSubstring (1)">
     <configuration name="MinimumWindowSubstring (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.blind75.twoPointers.MinimumWindowSubstring" />
@@ -140,7 +200,8 @@
       <workItem from="1734024187193" duration="6087000" />
       <workItem from="1734100702718" duration="5915000" />
       <workItem from="1734203358251" duration="13000" />
-      <workItem from="1734354957202" duration="6959000" />
+      <workItem from="1734354957202" duration="10256000" />
+      <workItem from="1734450229535" duration="5866000" />
     </task>
     <task id="LOCAL-00001" summary="Commit - 05/12/2024">
       <option name="closed" value="true" />
@@ -214,7 +275,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734105864373</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Commit - 16/12/2024">
+      <option name="closed" value="true" />
+      <created>1734362639949</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1734362639949</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -230,6 +299,7 @@
     <MESSAGE value="Commit - 11/12/2024" />
     <MESSAGE value="Commit - 12/12/2024" />
     <MESSAGE value="Commit - 13/12/2024" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit - 13/12/2024" />
+    <MESSAGE value="Commit - 16/12/2024" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit - 16/12/2024" />
   </component>
 </project>
