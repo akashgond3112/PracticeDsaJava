@@ -19,7 +19,7 @@ public class MergeKSortedLists extends SinglyLinkedList {
 		}
 	}
 
-	static Node convertArrToLinkedList(ArrayList<Integer> arr) {
+	public static Object convertArrToLinkedList(ArrayList<Integer> arr) {
 		// Create a dummy node to serve as the head of the linked list
 		Node dummyNode = new Node(-1);
 		Node temp = dummyNode;
@@ -49,7 +49,7 @@ public class MergeKSortedLists extends SinglyLinkedList {
 			}
 		}
 		Collections.sort(data);
-		return convertArrToLinkedList(data);
+		return (Node) convertArrToLinkedList(data);
 	}
 
 	public static Node mergeKSortedLists(List<Node> list) {
