@@ -4,21 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c45016e-0ee9-462c-b980-ce259e1891d2" name="Changes" comment="Commit - 17/12/2024">
-      <change afterPath="$PROJECT_DIR$/src/main/blind75/linked/list/LinkedListCycle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/blind75/linked/list/RemoveNthNodeFromEndOfList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/blind75/linked/list/ReorderList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="5c45016e-0ee9-462c-b980-ce259e1891d2" name="Changes" comment="Commit - 18/12/2024">
+      <change afterPath="$PROJECT_DIR$/src/main/blind75/linked/list/MergeKSortedLists.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PracticeDsaJava.iml" beforeDir="false" afterPath="$PROJECT_DIR$/PracticeDsaJava.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/dsa/linear/Array/learning/hard/ThreeSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/dsa/linear/Array/learning/hard/ThreeSum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/dsa/linear/LinkedList/DoublyLinkedList/FindPairsWithGivenSumInDoublyLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/dsa/linear/LinkedList/DoublyLinkedList/FindPairsWithGivenSumInDoublyLinkedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/dsa/linear/LinkedList/SinglyLinkedList/MergeKSortedLists.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/dsa/linear/LinkedList/SinglyLinkedList/MergeKSortedLists.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/dsa/nonlinear/tree/binary/BinaryTreeNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/dsa/nonlinear/tree/binary/BinaryTreePrinter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/dsa/nonlinear/tree/binary/Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/dsa/nonlinear/tree/binary/Pair.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/dsa/nonlinear/tree/binary/Tuple.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,7 +137,8 @@
       <workItem from="1734203358251" duration="13000" />
       <workItem from="1734354957202" duration="10256000" />
       <workItem from="1734450229535" duration="11436000" />
-      <workItem from="1734540767402" duration="4207000" />
+      <workItem from="1734540767402" duration="4222000" />
+      <workItem from="1734617761022" duration="2629000" />
     </task>
     <task id="LOCAL-00001" summary="Commit - 05/12/2024">
       <option name="closed" value="true" />
@@ -239,7 +228,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734457234033</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Commit - 18/12/2024">
+      <option name="closed" value="true" />
+      <created>1734548411596</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1734548411596</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -257,6 +254,7 @@
     <MESSAGE value="Commit - 13/12/2024" />
     <MESSAGE value="Commit - 16/12/2024" />
     <MESSAGE value="Commit - 17/12/2024" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit - 17/12/2024" />
+    <MESSAGE value="Commit - 18/12/2024" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit - 18/12/2024" />
   </component>
 </project>
