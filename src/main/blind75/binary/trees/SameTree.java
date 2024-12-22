@@ -24,7 +24,7 @@ public class SameTree {
      * (degenerate tree): O(n) Where n is the number of nodes in the tree and h is the height of the
      * tree.
      */
-    class SolutionUsingDFS {
+	static class SolutionUsingDFS {
         public boolean isSameTree(TreeNode p, TreeNode q) {
             if (p == null && q == null) {
                 return true;
@@ -41,7 +41,7 @@ public class SameTree {
     /*
      * Time complexity: O(n) Space complexity: O(n)
      */
-    public class SolutionUsingBFS {
+    public static class SolutionUsingBFS {
         public boolean isSameTree(TreeNode p, TreeNode q) {
             Queue<TreeNode> q1 = new LinkedList<>();
             Queue<TreeNode> q2 = new LinkedList<>();
