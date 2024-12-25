@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c45016e-0ee9-462c-b980-ce259e1891d2" name="Changes" comment="Commit - 23/12/2024">
-      <change afterPath="$PROJECT_DIR$/src/main/blind75/binary/trees/ConstructBinaryTreeFromPreorderAndInorderTraversal.java" afterDir="false" />
+    <list default="true" id="5c45016e-0ee9-462c-b980-ce259e1891d2" name="Changes" comment="Commit - 24/12/2024">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,7 +63,7 @@
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/agond/personal/learning/Practice_Low_Level_Desing",
+    "last_opened_file_path": "/space/personal/learning/PracticeDsaJava",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
@@ -142,7 +141,8 @@
       <workItem from="1734793567728" duration="6223000" />
       <workItem from="1734871236935" duration="7247000" />
       <workItem from="1734968160081" duration="1552000" />
-      <workItem from="1735070271657" duration="1153000" />
+      <workItem from="1735070271657" duration="2517000" />
+      <workItem from="1735136768295" duration="12000" />
     </task>
     <task id="LOCAL-00001" summary="Commit - 05/12/2024">
       <option name="closed" value="true" />
@@ -272,7 +272,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734981134786</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Commit - 24/12/2024">
+      <option name="closed" value="true" />
+      <created>1735071532666</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1735071532666</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -295,6 +303,7 @@
     <MESSAGE value="Commit - 21/12/2024" />
     <MESSAGE value="Commit - 22/12/2024" />
     <MESSAGE value="Commit - 23/12/2024" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit - 23/12/2024" />
+    <MESSAGE value="Commit - 24/12/2024" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit - 24/12/2024" />
   </component>
 </project>
