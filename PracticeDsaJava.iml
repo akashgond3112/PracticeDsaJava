@@ -12,6 +12,8 @@
       <excludeFolder url="file://$MODULE_DIR$/bin/main/dsa/slidingWindow" />
       <excludeFolder url="file://$MODULE_DIR$/bin/main/dsa/two_pointers" />
       <excludeFolder url="file://$MODULE_DIR$/bin/main/revision" />
+      <excludeFolder url="file://$MODULE_DIR$/bin/main/blind75" />
+      <excludeFolder url="file://$MODULE_DIR$/bin/main/dsa/nonlinear/binary" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
