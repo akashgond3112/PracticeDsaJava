@@ -68,7 +68,11 @@ public class DesignAddAndSearchWordsDataStructure {
 		}
 	}
 
-
+	/**
+	 * Time complexity: O(n) for addWord(), O(n) for search().
+	 * Space complexity: O(t+n)
+	 * Where n is the length of the string and t is the total number of TrieNodes created in the Trie.
+	 */
 	public static class WordDictionary {
 
 		public static class TrieNode {
