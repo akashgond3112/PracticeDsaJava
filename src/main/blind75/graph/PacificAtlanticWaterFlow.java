@@ -55,6 +55,22 @@ import java.util.Queue;
  * n == heights[r].length
  * 1 <= m, n <= 200
  * 0 <= heights[r][c] <= 105*/
+
+/**
+ * Before diving into the solution, I would ask the interviewer these key clarifying questions:
+ *
+ * 1. "Can water only flow from a higher or equal elevation to a lower or equal elevation?" (This confirms the constraint about water flow mechanics)
+ *
+ * 2. "For each cell, does water need to be able to flow to BOTH oceans through ANY possible path, or does it need to be the SAME path to both oceans?"
+ * (This clarifies a potentially ambiguous part of the problem - from the example it appears to be ANY path to both oceans)
+ *
+ * 3. "Can I assume the input matrix will always be valid and within the given constraints?" (This helps establish error handling requirements)
+ *
+ * 4. "When water reaches a cell adjacent to an ocean (top/left for Pacific, bottom/right for the Atlantic),
+ * can we consider it has reached that ocean regardless of elevation?" (This confirms the boundary condition behavior)
+ *
+ * The most critical of these is probably the second question, as it fundamentally affects how we approach the solution.
+ * */
 public class PacificAtlanticWaterFlow {
 
 	/**

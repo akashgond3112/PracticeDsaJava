@@ -37,6 +37,22 @@ import java.util.Set;
  * prerequisites[i].length == 2
  * 0 <= ai, bi < numCourses
  * All the pairs prerequisites[i] are unique.*/
+
+/**
+ * For this course schedule problem, I would ask these key clarifying questions:
+ *
+ * 1. "Can a course be a prerequisite for multiple other courses?" (This helps understand if we need to handle multiple dependencies from one course)
+ *
+ * 2. "Can a course have multiple prerequisites?" (This confirms if we need to handle multiple prerequisites for a single course)
+ *
+ * 3. "Does an empty prerequisites array mean all courses can be taken in any order?" (This helps establish the base case)
+ *
+ * 4. "What should be returned if numCourses is 1 with no prerequisites?" (This clarifies another edge case)
+ *
+ * 5. "Can we assume all course numbers in prerequisites are valid (i.e., less than numCourses)?" (This helps establish if we need input validation)
+ *
+ * The most crucial question here is about multiple dependencies and prerequisites, as it helps us understand the graph structure we'll be working with.
+ **/
 public class CourseSchedule {
 
 	/**
