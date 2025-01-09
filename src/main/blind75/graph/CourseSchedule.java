@@ -58,7 +58,7 @@ public class CourseSchedule {
 			}
 
 			for (int c = 0; c < numCourses; c++) {
-				if (!dfs(c)) {
+				if (dfs(c)) {
 					return false;
 				}
 			}
@@ -68,21 +68,21 @@ public class CourseSchedule {
 		private boolean dfs(int crs) {
 			if (visiting.contains(crs)) {
 				// Cycle detected
-				return false;
+				return true;
 			}
 			if (preMap.get(crs).isEmpty()) {
-				return true;
+				return false;
 			}
 
 			visiting.add(crs);
 			for (int pre : preMap.get(crs)) {
-				if (!dfs(pre)) {
-					return false;
+				if (dfs(pre)) {
+					return true;
 				}
 			}
 			visiting.remove(crs);
 			preMap.put(crs, new ArrayList<>());
-			return true;
+			return false;
 		}
 	}
 
