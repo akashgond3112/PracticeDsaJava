@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5c45016e-0ee9-462c-b980-ce259e1891d2" name="Changes" comment="Commit : 09/01/2025">
+      <change afterPath="$PROJECT_DIR$/src/main/blind75/graph/GraphValidTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/blind75/graph/NumberOfConnectedComponentsInAnUndirectedGraph.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/blind75/graph/CourseSchedule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/blind75/graph/CourseSchedule.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/blind75/graph/PacificAtlanticWaterFlow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/blind75/graph/PacificAtlanticWaterFlow.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,7 +157,8 @@
       <workItem from="1736282657415" duration="1542000" />
       <workItem from="1736423576645" duration="5228000" />
       <workItem from="1736433798409" duration="9000" />
-      <workItem from="1736447442236" duration="1746000" />
+      <workItem from="1736447442236" duration="2303000" />
+      <workItem from="1736508309225" duration="3352000" />
     </task>
     <task id="LOCAL-00001" summary="Commit - 05/12/2024">
       <option name="closed" value="true" />
@@ -399,7 +400,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736430132221</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Commit : 09/01/2025">
+      <option name="closed" value="true" />
+      <created>1736458472959</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1736458472960</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
