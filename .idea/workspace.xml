@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c45016e-0ee9-462c-b980-ce259e1891d2" name="Changes" comment="Commit : 09/01/2025">
-      <change afterPath="$PROJECT_DIR$/src/main/blind75/graph/GraphValidTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/blind75/graph/NumberOfConnectedComponentsInAnUndirectedGraph.java" afterDir="false" />
+    <list default="true" id="5c45016e-0ee9-462c-b980-ce259e1891d2" name="Changes" comment="Commit : 10/01/2025">
+      <change afterPath="$PROJECT_DIR$/src/main/blind75/graph/AlienDictionary.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -158,7 +157,10 @@
       <workItem from="1736423576645" duration="5228000" />
       <workItem from="1736433798409" duration="9000" />
       <workItem from="1736447442236" duration="2303000" />
-      <workItem from="1736508309225" duration="3352000" />
+      <workItem from="1736508309225" duration="5894000" />
+      <workItem from="1736671905166" duration="890000" />
+      <workItem from="1736856516372" duration="2749000" />
+      <workItem from="1737046844923" duration="2895000" />
     </task>
     <task id="LOCAL-00001" summary="Commit - 05/12/2024">
       <option name="closed" value="true" />
@@ -408,14 +410,29 @@
       <option name="project" value="LOCAL" />
       <updated>1736458472960</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Commit : 10/01/2025">
+      <option name="closed" value="true" />
+      <created>1736511801178</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1736511801178</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Commit : 10/01/2025">
+      <option name="closed" value="true" />
+      <created>1736511812992</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1736511812992</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Commit - 07/12/2024" />
     <MESSAGE value="Commit - 08/12/2024" />
     <MESSAGE value="Commit - 09/12/2024" />
     <MESSAGE value="Commit - 10/12/2024" />
@@ -440,6 +457,7 @@
     <MESSAGE value="Commit : 04/01/2025" />
     <MESSAGE value="Commit : 05/01/2025" />
     <MESSAGE value="Commit : 09/01/2025" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit : 09/01/2025" />
+    <MESSAGE value="Commit : 10/01/2025" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit : 10/01/2025" />
   </component>
 </project>
