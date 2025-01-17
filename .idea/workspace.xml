@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c45016e-0ee9-462c-b980-ce259e1891d2" name="Changes" comment="Commit : 10/01/2025">
-      <change afterPath="$PROJECT_DIR$/src/main/blind75/graph/AlienDictionary.java" afterDir="false" />
+    <list default="true" id="5c45016e-0ee9-462c-b980-ce259e1891d2" name="Changes" comment="Commit : 16/01/2025">
+      <change afterPath="$PROJECT_DIR$/src/main/blind75/dp/ClimbingStairs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/blind75/dp/HouseRobber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -160,7 +161,8 @@
       <workItem from="1736508309225" duration="5894000" />
       <workItem from="1736671905166" duration="890000" />
       <workItem from="1736856516372" duration="2749000" />
-      <workItem from="1737046844923" duration="2895000" />
+      <workItem from="1737046844923" duration="3883000" />
+      <workItem from="1737129497799" duration="1830000" />
     </task>
     <task id="LOCAL-00001" summary="Commit - 05/12/2024">
       <option name="closed" value="true" />
@@ -426,14 +428,21 @@
       <option name="project" value="LOCAL" />
       <updated>1736511812992</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Commit : 16/01/2025">
+      <option name="closed" value="true" />
+      <created>1737058804580</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1737058804580</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Commit - 08/12/2024" />
     <MESSAGE value="Commit - 09/12/2024" />
     <MESSAGE value="Commit - 10/12/2024" />
     <MESSAGE value="Commit - 11/12/2024" />
@@ -458,6 +467,7 @@
     <MESSAGE value="Commit : 05/01/2025" />
     <MESSAGE value="Commit : 09/01/2025" />
     <MESSAGE value="Commit : 10/01/2025" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit : 10/01/2025" />
+    <MESSAGE value="Commit : 16/01/2025" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit : 16/01/2025" />
   </component>
 </project>
