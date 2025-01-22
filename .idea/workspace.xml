@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c45016e-0ee9-462c-b980-ce259e1891d2" name="Changes" comment="Commit : 21/01/2025">
-      <change afterPath="$PROJECT_DIR$/src/main/blind75/dp/LongestPalindromicSubstring.java" afterDir="false" />
+    <list default="true" id="5c45016e-0ee9-462c-b980-ce259e1891d2" name="Changes" comment="Commit : 22/01/2025">
+      <change afterPath="$PROJECT_DIR$/src/main/blind75/dp/PalindromicSubstrings.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/blind75/dp/LongestPalindromicSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/blind75/dp/LongestPalindromicSubstring.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -180,7 +181,7 @@
       <workItem from="1737217715310" duration="17000" />
       <workItem from="1737484406990" duration="1575000" />
       <workItem from="1737566370503" duration="677000" />
-      <workItem from="1737567426244" duration="528000" />
+      <workItem from="1737567426244" duration="2949000" />
     </task>
     <task id="LOCAL-00001" summary="Commit - 05/12/2024">
       <option name="closed" value="true" />
@@ -478,14 +479,21 @@
       <option name="project" value="LOCAL" />
       <updated>1737489131511</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="Commit : 22/01/2025">
+      <option name="closed" value="true" />
+      <created>1737567994867</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1737567994867</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Commit - 11/12/2024" />
     <MESSAGE value="Commit - 12/12/2024" />
     <MESSAGE value="Commit - 13/12/2024" />
     <MESSAGE value="Commit - 16/12/2024" />
@@ -510,6 +518,7 @@
     <MESSAGE value="Commit : 16/01/2025" />
     <MESSAGE value="Commit : 17/01/2025" />
     <MESSAGE value="Commit : 21/01/2025" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit : 21/01/2025" />
+    <MESSAGE value="Commit : 22/01/2025" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit : 22/01/2025" />
   </component>
 </project>
