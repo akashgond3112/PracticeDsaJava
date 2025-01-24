@@ -132,7 +132,7 @@ public class DecodeWays {
 	 */
 	static class SolutionDynamicProgrammingMemoization {
 		public int numDecodings(String s) {
-			int dp = 0, dp2 = 0;
+			int dp, dp2 = 0;
 			int dp1 = 1;
 			for (int i = s.length() - 1; i >= 0; i--) {
 				if (s.charAt(i) == '0') {
