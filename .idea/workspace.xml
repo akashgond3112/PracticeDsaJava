@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c45016e-0ee9-462c-b980-ce259e1891d2" name="Changes" comment="Commit : 26/01/2025">
-      <change afterPath="$PROJECT_DIR$/src/main/blind75/dp/WordBreak.java" afterDir="false" />
+    <list default="true" id="5c45016e-0ee9-462c-b980-ce259e1891d2" name="Changes" comment="Commit : 31/01/2025">
+      <change afterPath="$PROJECT_DIR$/src/main/blind75/dp/LongestIncreasingSubsequence.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -186,7 +186,8 @@
       <workItem from="1737661963263" duration="3463000" />
       <workItem from="1737707786658" duration="617000" />
       <workItem from="1737832875822" duration="7156000" />
-      <workItem from="1738345695225" duration="1671000" />
+      <workItem from="1738345695225" duration="1726000" />
+      <workItem from="1738410402782" duration="1564000" />
     </task>
     <task id="LOCAL-00001" summary="Commit - 05/12/2024">
       <option name="closed" value="true" />
@@ -532,14 +533,21 @@
       <option name="project" value="LOCAL" />
       <updated>1737891982611</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="Commit : 31/01/2025">
+      <option name="closed" value="true" />
+      <created>1738348254337</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1738348254337</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Commit - 17/12/2024" />
     <MESSAGE value="Commit - 18/12/2024" />
     <MESSAGE value="Commit - 19/12/2024" />
     <MESSAGE value="Commit - 21/12/2024" />
@@ -564,6 +572,7 @@
     <MESSAGE value="Commit : 23/01/2025" />
     <MESSAGE value="Commit : 24/01/2025" />
     <MESSAGE value="Commit : 26/01/2025" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit : 26/01/2025" />
+    <MESSAGE value="Commit : 31/01/2025" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit : 31/01/2025" />
   </component>
 </project>
