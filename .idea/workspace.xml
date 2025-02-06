@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c45016e-0ee9-462c-b980-ce259e1891d2" name="Changes" comment="Commit : 01/02/2025">
-      <change afterPath="$PROJECT_DIR$/src/main/blind75/dp/UniquePaths.java" afterDir="false" />
+    <list default="true" id="5c45016e-0ee9-462c-b980-ce259e1891d2" name="Changes" comment="Commit : 05/02/2025">
+      <change afterPath="$PROJECT_DIR$/src/main/meta/CountHillsAndValleysInAnArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -90,7 +90,46 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MinDaysToDeliverParcels" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.blind75.arraysAndHashing.MinDaysToDeliverParcels" />
+      <module name="PracticeDsaJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.blind75.arraysAndHashing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MinimumWindowSubstring (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.blind75.twoPointers.MinimumWindowSubstring" />
+      <module name="PracticeDsaJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.blind75.twoPointers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MinimumWindowSubstring (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.blind75.twoPointers.MinimumWindowSubstring" />
+      <module name="PracticeDsaJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.blind75.twoPointers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MinimumWindowSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.blind75.twoPointers.MinimumWindowSubstring" />
       <module name="PracticeDsaJava" />
       <extension name="coverage">
@@ -189,31 +228,9 @@
       <workItem from="1738345695225" duration="1726000" />
       <workItem from="1738410402782" duration="5806000" />
       <workItem from="1738506027397" duration="612000" />
-      <workItem from="1738776732253" duration="1422000" />
-    </task>
-    <task id="LOCAL-00001" summary="Commit - 05/12/2024">
-      <option name="closed" value="true" />
-      <created>1733419470003</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1733419470004</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Commit - 06/12/2024">
-      <option name="closed" value="true" />
-      <created>1733504454576</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1733504454576</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Commit - 07/12/2024">
-      <option name="closed" value="true" />
-      <created>1733587527525</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1733587527525</updated>
+      <workItem from="1738776732253" duration="2581000" />
+      <workItem from="1738835056652" duration="16000" />
+      <workItem from="1738855503408" duration="624000" />
     </task>
     <task id="LOCAL-00004" summary="Commit - 08/12/2024">
       <option name="closed" value="true" />
@@ -575,14 +592,45 @@
       <option name="project" value="LOCAL" />
       <updated>1738413087512</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="Commit : 05/02/2025">
+      <option name="closed" value="true" />
+      <created>1738778286204</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1738778286204</updated>
+    </task>
+    <task id="LOCAL-00050" summary="Commit : 05/02/2025">
+      <option name="closed" value="true" />
+      <created>1738778307627</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1738778307628</updated>
+    </task>
+    <task id="LOCAL-00051" summary="Commit : 05/02/2025">
+      <option name="closed" value="true" />
+      <created>1738778327217</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1738778327217</updated>
+    </task>
+    <task id="LOCAL-00052" summary="Commit : 05/02/2025">
+      <option name="closed" value="true" />
+      <created>1738778340901</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1738778340901</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Commit - 19/12/2024" />
     <MESSAGE value="Commit - 21/12/2024" />
     <MESSAGE value="Commit - 22/12/2024" />
     <MESSAGE value="Commit - 23/12/2024" />
@@ -607,6 +655,7 @@
     <MESSAGE value="Commit : 26/01/2025" />
     <MESSAGE value="Commit : 31/01/2025" />
     <MESSAGE value="Commit : 01/02/2025" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit : 01/02/2025" />
+    <MESSAGE value="Commit : 05/02/2025" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit : 05/02/2025" />
   </component>
 </project>
