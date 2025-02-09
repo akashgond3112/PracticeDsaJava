@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5c45016e-0ee9-462c-b980-ce259e1891d2" name="Changes" comment="Commit : 06/02/2025">
-      <change afterPath="$PROJECT_DIR$/src/main/meta/easy/ValidPalindromeII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/meta/medium/BinaryTreeVerticalOrderTraversal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/meta/MinimumRemoveToMakeValidParentheses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/meta/medium/MinimumRemoveToMakeValidParentheses.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -233,6 +232,8 @@
       <workItem from="1738835056652" duration="16000" />
       <workItem from="1738855503408" duration="5178000" />
       <workItem from="1739012963559" duration="3483000" />
+      <workItem from="1739093507447" duration="8000" />
+      <workItem from="1739104012888" duration="936000" />
     </task>
     <task id="LOCAL-00005" summary="Commit - 09/12/2024">
       <option name="closed" value="true" />
