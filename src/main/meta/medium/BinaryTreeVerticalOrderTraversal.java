@@ -90,7 +90,7 @@ public class BinaryTreeVerticalOrderTraversal {
 	 * 3. All nodes have the same value. The function should still return the correct vertical order traversal.
 	 * 4. The binary tree is skewed to the left or right. The function should handle this and return the correct vertical order traversal.
 	 */
-	public static class Solution {
+	public static class InOrderVerticalTraversal {
 		/**
 		 * Returns the vertical order traversal of a binary tree.
 		 *
@@ -143,133 +143,131 @@ public class BinaryTreeVerticalOrderTraversal {
 
 			return result;
 		}
+	}
 
-		/**
-		 * Time Complexity (PreOrderVerticalTraversal): O(n) Space Complexity
-		 * (PreOrderVerticalTraversal): O(n)
-		 */
-		public class PreOrderVerticalTraversal {
+	/**
+	 * Time Complexity (PreOrderVerticalTraversal): O(n) Space Complexity
+	 * (PreOrderVerticalTraversal): O(n)
+	 */
+	public class PreOrderVerticalTraversal {
 
-			// TreeNode definition for reference
-			static class TreeNode {
-				int data;
-				TreeNode left, right;
+		// TreeNode definition for reference
+		static class TreeNode {
+			int data;
+			TreeNode left, right;
 
-				TreeNode(int data) {
-					this.data = data;
-				}
+			TreeNode(int data) {
+				this.data = data;
 			}
-
-			// A map of x -> map of y -> list of node values
-			// We'll gather values as we traverse in pre-order
-			private final TreeMap<Integer, TreeMap<Integer, List<Integer>>> nodeMap =
-					new TreeMap<>();
-
-			public List<List<Integer>> verticalOrderPre(TreeNode root) {
-				dfsPre(root, 0, 0); // start from root with x=0, y=0
-				return buildResult();
-			}
-
-			private void dfsPre(TreeNode node, int x, int y) {
-				if (node == null)
-					return;
-
-				// Pre-order: Visit node first
-				nodeMap.computeIfAbsent(x, k -> new TreeMap<>())
-						.computeIfAbsent(y, k -> new ArrayList<>()).add(node.data);
-
-				// Recurse left
-				dfsPre(node.left, x - 1, y + 1);
-				// Recurse right
-				dfsPre(node.right, x + 1, y + 1);
-			}
-
-			private List<List<Integer>> buildResult() {
-				List<List<Integer>> result = new ArrayList<>();
-				for (TreeMap<Integer, List<Integer>> ys : nodeMap.values()) {
-					List<Integer> vertical = new ArrayList<>();
-					for (List<Integer> nodes : ys.values()) {
-						vertical.addAll(nodes);
-					}
-					result.add(vertical);
-				}
-				return result;
-			}
-
 		}
 
-		/**
-		 * Time Complexity (PostOrderVerticalTraversal): O(n) Space Complexity
-		 * (PostOrderVerticalTraversal): O(n)
-		 */
-		public class PostOrderVerticalTraversal {
+		// A map of x -> map of y -> list of node values
+		// We'll gather values as we traverse in pre-order
+		private final TreeMap<Integer, TreeMap<Integer, List<Integer>>> nodeMap = new TreeMap<>();
 
-			// TreeNode definition for reference
-			static class TreeNode {
-				int data;
-				TreeNode left, right;
-
-				TreeNode(int data) {
-					this.data = data;
-				}
-			}
-
-			// A map of x -> map of y -> list of node values
-			// We'll gather values as we traverse in post-order
-			private final TreeMap<Integer, TreeMap<Integer, List<Integer>>> nodeMap =
-					new TreeMap<>();
-
-			public List<List<Integer>> verticalOrderPost(TreeNode root) {
-				dfsPost(root, 0, 0); // start from root with x=0, y=0
-				return buildResult();
-			}
-
-			private void dfsPost(TreeNode node, int x, int y) {
-				if (node == null)
-					return;
-
-				// Post-order: left, right, then visit node
-				dfsPost(node.left, x - 1, y + 1);
-				dfsPost(node.right, x + 1, y + 1);
-
-				nodeMap.computeIfAbsent(x, k -> new TreeMap<>())
-						.computeIfAbsent(y, k -> new ArrayList<>()).add(node.data);
-			}
-
-			private List<List<Integer>> buildResult() {
-				List<List<Integer>> result = new ArrayList<>();
-				for (TreeMap<Integer, List<Integer>> ys : nodeMap.values()) {
-					List<Integer> vertical = new ArrayList<>();
-					for (List<Integer> nodes : ys.values()) {
-						vertical.addAll(nodes);
-					}
-					result.add(vertical);
-				}
-				return result;
-			}
-
+		public List<List<Integer>> verticalOrderPre(TreeNode root) {
+			dfsPre(root, 0, 0); // start from root with x=0, y=0
+			return buildResult();
 		}
 
-		public static void main(String[] args) {
-			// Edge case 1: Empty tree
-			TreeNode root1 = null;
-			System.out.println(Solution.getTreeTraversal(root1)); // Expected output: []
+		private void dfsPre(TreeNode node, int x, int y) {
+			if (node == null)
+				return;
 
-			// Edge case 2: Single node tree
-			TreeNode root2 = new TreeNode(1);
-			System.out.println(Solution.getTreeTraversal(root2)); // Expected output: [[1]]
+			// Pre-order: Visit node first
+			nodeMap.computeIfAbsent(x, k -> new TreeMap<>())
+					.computeIfAbsent(y, k -> new ArrayList<>()).add(node.data);
 
-			// Edge case 3: All nodes have the same value
-			TreeNode root3 = new TreeNode(1, new TreeNode(1), new TreeNode(1));
-			System.out.println(Solution.getTreeTraversal(root3)); // Expected output: [[1], [1], [1]]
-
-			// Edge case 4: Left skewed tree
-			TreeNode root4 = new TreeNode(1, new TreeNode(2, new TreeNode(3), null), null);
-			System.out.println(Solution.getTreeTraversal(root4)); // Expected output: [[3], [2], [1]]
-
-			// Edge case 5: Right skewed tree
-			TreeNode root5 = new TreeNode(1, null, new TreeNode(2, null, new TreeNode(3)));
-			System.out.println(Solution.getTreeTraversal(root5)); // Expected output: [[1], [2], [3]]
+			// Recurse left
+			dfsPre(node.left, x - 1, y + 1);
+			// Recurse right
+			dfsPre(node.right, x + 1, y + 1);
 		}
+
+		private List<List<Integer>> buildResult() {
+			List<List<Integer>> result = new ArrayList<>();
+			for (TreeMap<Integer, List<Integer>> ys : nodeMap.values()) {
+				List<Integer> vertical = new ArrayList<>();
+				for (List<Integer> nodes : ys.values()) {
+					vertical.addAll(nodes);
+				}
+				result.add(vertical);
+			}
+			return result;
+		}
+
+	}
+
+	/**
+	 * Time Complexity (PostOrderVerticalTraversal): O(n) Space Complexity
+	 * (PostOrderVerticalTraversal): O(n)
+	 */
+	public class PostOrderVerticalTraversal {
+
+		// TreeNode definition for reference
+		static class TreeNode {
+			int data;
+			TreeNode left, right;
+
+			TreeNode(int data) {
+				this.data = data;
+			}
+		}
+
+		// A map of x -> map of y -> list of node values
+		// We'll gather values as we traverse in post-order
+		private final TreeMap<Integer, TreeMap<Integer, List<Integer>>> nodeMap = new TreeMap<>();
+
+		public List<List<Integer>> verticalOrderPost(TreeNode root) {
+			dfsPost(root, 0, 0); // start from root with x=0, y=0
+			return buildResult();
+		}
+
+		private void dfsPost(TreeNode node, int x, int y) {
+			if (node == null)
+				return;
+
+			// Post-order: left, right, then visit node
+			dfsPost(node.left, x - 1, y + 1);
+			dfsPost(node.right, x + 1, y + 1);
+
+			nodeMap.computeIfAbsent(x, k -> new TreeMap<>())
+					.computeIfAbsent(y, k -> new ArrayList<>()).add(node.data);
+		}
+
+		private List<List<Integer>> buildResult() {
+			List<List<Integer>> result = new ArrayList<>();
+			for (TreeMap<Integer, List<Integer>> ys : nodeMap.values()) {
+				List<Integer> vertical = new ArrayList<>();
+				for (List<Integer> nodes : ys.values()) {
+					vertical.addAll(nodes);
+				}
+				result.add(vertical);
+			}
+			return result;
+		}
+
+	}
+
+	public static void main(String[] args) {
+		// Edge case 1: Empty tree
+		TreeNode root1 = null;
+		System.out.println(InOrderVerticalTraversal.getTreeTraversal(root1)); // Expected output: []
+
+		// Edge case 2: Single node tree
+		TreeNode root2 = new TreeNode(1);
+		System.out.println(InOrderVerticalTraversal.getTreeTraversal(root2)); // Expected output: [[1]]
+
+		// Edge case 3: All nodes have the same value
+		TreeNode root3 = new TreeNode(1, new TreeNode(1), new TreeNode(1));
+		System.out.println(InOrderVerticalTraversal.getTreeTraversal(root3)); // Expected output: [[1], [1], [1]]
+
+		// Edge case 4: Left skewed tree
+		TreeNode root4 = new TreeNode(1, new TreeNode(2, new TreeNode(3), null), null);
+		System.out.println(InOrderVerticalTraversal.getTreeTraversal(root4)); // Expected output: [[3], [2], [1]]
+
+		// Edge case 5: Right skewed tree
+		TreeNode root5 = new TreeNode(1, null, new TreeNode(2, null, new TreeNode(3)));
+		System.out.println(InOrderVerticalTraversal.getTreeTraversal(root5)); // Expected output: [[1], [2], [3]]
 	}
 }
