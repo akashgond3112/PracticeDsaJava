@@ -41,8 +41,7 @@ public class DotProductOfTwoSparseVectors {
     /**
      * Approach: HashMap Time Complexity: O(n) Space Complexity: O(n)
      */
-
-    class SparseVector {
+	static class SparseVector {
         public Map<Integer, Integer> d = new HashMap<>(128);
 
         SparseVector(int[] nums) {
@@ -75,11 +74,10 @@ public class DotProductOfTwoSparseVectors {
     /**
      * Optimal approach using tuples to store non-zero values For sparse vectors, we only store
      * non-zero elements to save space
-     * 
      */
-    class SparseVectorOptimal {
+	static class SparseVectorOptimal {
         // List of tuples storing (index, value) pairs for non-zero values
-        private List<Pair<Integer, Integer>> nonZeros;
+        private final List<Pair<Integer, Integer>> nonZeros;
 
         SparseVectorOptimal(int[] nums) {
             nonZeros = new ArrayList<>();
