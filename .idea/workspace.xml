@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c45016e-0ee9-462c-b980-ce259e1891d2" name="Changes" comment="Commit : 06/02/2025">
-      <change afterPath="$PROJECT_DIR$/src/main/meta/medium/RandomPickWithWeight.java" afterDir="false" />
+    <list default="true" id="5c45016e-0ee9-462c-b980-ce259e1891d2" name="Changes" comment="Commit : 14/02/2025">
+      <change afterPath="$PROJECT_DIR$/src/main/meta/PassingYearbooks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/meta/RotationalCipher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/meta/easy/ValidWordAbbreviation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/meta/medium/BasicCalculatorII.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,31 +59,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.MinDaysToDeliverParcels.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.MinimumWindowSubstring (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.MinimumWindowSubstring.executor&quot;: &quot;Run&quot;,
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
-    &quot;extract.method.default.visibility&quot;: &quot;private&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/space/IdeaProjects/OBTRAD&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;aws&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.MinDaysToDeliverParcels.executor": "Debug",
+    "Application.MinimumWindowSubstring (1).executor": "Run",
+    "Application.MinimumWindowSubstring.executor": "Run",
+    "Application.PassingYearbooks$Main.executor": "Run",
+    "Application.RotationalCipher$Main.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "extract.method.default.visibility": "private",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/space/IdeaProjects/OBTRAD",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "aws"
   }
-}</component>
-  <component name="RunManager" selected="Application.MinDaysToDeliverParcels">
+}]]></component>
+  <component name="RunManager" selected="Application.PassingYearbooks$Main">
     <configuration name="MinDaysToDeliverParcels" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.blind75.arraysAndHashing.MinDaysToDeliverParcels" />
       <module name="PracticeDsaJava" />
@@ -152,6 +157,32 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="main.blind75.twoPointers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PassingYearbooks$Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.meta.PassingYearbooks$Main" />
+      <module name="PracticeDsaJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.meta.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RotationalCipher$Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.meta.RotationalCipher$Main" />
+      <module name="PracticeDsaJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.meta.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -161,6 +192,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PassingYearbooks$Main" />
+        <item itemvalue="Application.RotationalCipher$Main" />
         <item itemvalue="Application.MinDaysToDeliverParcels" />
         <item itemvalue="Application.MinimumWindowSubstring (1)" />
         <item itemvalue="Application.MinimumWindowSubstring" />
@@ -244,46 +277,8 @@
       <workItem from="1739466955579" duration="2340000" />
       <workItem from="1739523654141" duration="12000" />
       <workItem from="1739553611325" duration="1687000" />
-    </task>
-    <task id="LOCAL-00005" summary="Commit - 09/12/2024">
-      <option name="closed" value="true" />
-      <created>1733763154059</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1733763154059</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Commit - 10/12/2024">
-      <option name="closed" value="true" />
-      <created>1733837730949</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1733837730949</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Commit - 11/12/2024">
-      <option name="closed" value="true" />
-      <created>1733929539222</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1733929539222</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Commit - 12/12/2024">
-      <option name="closed" value="true" />
-      <created>1734032695982</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1734032695982</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Commit - 13/12/2024">
-      <option name="closed" value="true" />
-      <created>1734105864373</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1734105864373</updated>
+      <workItem from="1739560104023" duration="114000" />
+      <workItem from="1739567132304" duration="10351000" />
     </task>
     <task id="LOCAL-00010" summary="Commit - 16/12/2024">
       <option name="closed" value="true" />
@@ -637,14 +632,53 @@
       <option name="project" value="LOCAL" />
       <updated>1738856140628</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="Commit : 14/02/2025">
+      <option name="closed" value="true" />
+      <created>1739560138241</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1739560138243</updated>
+    </task>
+    <task id="LOCAL-00055" summary="Commit : 14/02/2025">
+      <option name="closed" value="true" />
+      <created>1739560146405</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1739560146405</updated>
+    </task>
+    <task id="LOCAL-00056" summary="Commit : 14/02/2025">
+      <option name="closed" value="true" />
+      <created>1739560153852</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1739560153852</updated>
+    </task>
+    <task id="LOCAL-00057" summary="Commit : 14/02/2025">
+      <option name="closed" value="true" />
+      <created>1739560159687</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1739560159687</updated>
+    </task>
+    <task id="LOCAL-00058" summary="Commit : 14/02/2025">
+      <option name="closed" value="true" />
+      <created>1739560197267</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1739560197267</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Commit - 22/12/2024" />
     <MESSAGE value="Commit - 23/12/2024" />
     <MESSAGE value="Commit - 24/12/2024" />
     <MESSAGE value="Commit - 25/12/2024" />
@@ -669,6 +703,7 @@
     <MESSAGE value="Commit : 01/02/2025" />
     <MESSAGE value="Commit : 05/02/2025" />
     <MESSAGE value="Commit : 06/02/2025" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit : 06/02/2025" />
+    <MESSAGE value="Commit : 14/02/2025" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit : 14/02/2025" />
   </component>
 </project>
