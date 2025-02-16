@@ -4,12 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c45016e-0ee9-462c-b980-ce259e1891d2" name="Changes" comment="Commit : 14/02/2025">
-      <change afterPath="$PROJECT_DIR$/src/main/meta/PassingYearbooks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/meta/RotationalCipher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/meta/easy/ValidWordAbbreviation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/meta/medium/BasicCalculatorII.java" afterDir="false" />
+    <list default="true" id="5c45016e-0ee9-462c-b980-ce259e1891d2" name="Changes" comment="Commit : 16/02/2025">
+      <change afterPath="$PROJECT_DIR$/src/main/dsa/nonlinear/binary/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/meta/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/meta/medium/BinaryTreeRightSideView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/meta/medium/MergeIntervals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/meta/medium/MinimumAddToMakeParenthesesValid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/meta/medium/NestedListWeightSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/meta/medium/SimplifyPath.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/blind75/arraysAndHashing/TopKFrequentElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/blind75/arraysAndHashing/TopKFrequentElements.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +47,12 @@
     &quot;accountId&quot;: &quot;ccb9aec5-7ce7-4dba-99b6-431040fbf8f4&quot;
   }
 }</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/meta/medium/BinaryTreeRightSideView.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/meta/medium/MergeIntervals.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/meta/medium/MinimumAddToMakeParenthesesValid.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/meta/medium/NestedListWeightSum.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="KubernetesApiPersistence">{}</component>
   <component name="KubernetesApiProvider">{
   &quot;isMigrated&quot;: true
@@ -278,47 +288,7 @@
       <workItem from="1739523654141" duration="12000" />
       <workItem from="1739553611325" duration="1687000" />
       <workItem from="1739560104023" duration="114000" />
-      <workItem from="1739567132304" duration="10351000" />
-    </task>
-    <task id="LOCAL-00010" summary="Commit - 16/12/2024">
-      <option name="closed" value="true" />
-      <created>1734362639949</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1734362639949</updated>
-    </task>
-    <task id="LOCAL-00011" summary="Commit - 17/12/2024">
-      <option name="closed" value="true" />
-      <created>1734457234033</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1734457234033</updated>
-    </task>
-    <task id="LOCAL-00012" summary="Commit - 18/12/2024">
-      <option name="closed" value="true" />
-      <created>1734548411596</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1734548411596</updated>
-    </task>
-    <task id="LOCAL-00013" summary="Commit - 19/12/2024">
-      <option name="closed" value="true" />
-      <created>1734623504989</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1734623504989</updated>
-    </task>
-    <task id="LOCAL-00014" summary="Commit - 21/12/2024">
-      <option name="closed" value="true" />
-      <created>1734794561167</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1734794561167</updated>
+      <workItem from="1739567132304" duration="27653000" />
     </task>
     <task id="LOCAL-00015" summary="Commit - 22/12/2024">
       <option name="closed" value="true" />
@@ -672,15 +642,53 @@
       <option name="project" value="LOCAL" />
       <updated>1739560197267</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="Commit : 15/02/2025">
+      <option name="closed" value="true" />
+      <created>1739621569835</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1739621569836</updated>
+    </task>
+    <task id="LOCAL-00060" summary="Commit : 15/02/2025">
+      <option name="closed" value="true" />
+      <created>1739621576401</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1739621576401</updated>
+    </task>
+    <task id="LOCAL-00061" summary="Commit : 15/02/2025">
+      <option name="closed" value="true" />
+      <created>1739621584141</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1739621584142</updated>
+    </task>
+    <task id="LOCAL-00062" summary="Commit : 15/02/2025">
+      <option name="closed" value="true" />
+      <created>1739621591906</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1739621591906</updated>
+    </task>
+    <task id="LOCAL-00063" summary="Commit : 16/02/2025">
+      <option name="closed" value="true" />
+      <created>1739729002630</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1739729002630</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Commit - 23/12/2024" />
-    <MESSAGE value="Commit - 24/12/2024" />
     <MESSAGE value="Commit - 25/12/2024" />
     <MESSAGE value="Commit : 26/12/2024" />
     <MESSAGE value="Commit : 28/12/2024" />
@@ -704,6 +712,8 @@
     <MESSAGE value="Commit : 05/02/2025" />
     <MESSAGE value="Commit : 06/02/2025" />
     <MESSAGE value="Commit : 14/02/2025" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit : 14/02/2025" />
+    <MESSAGE value="Commit : 15/02/2025" />
+    <MESSAGE value="Commit : 16/02/2025" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit : 16/02/2025" />
   </component>
 </project>
