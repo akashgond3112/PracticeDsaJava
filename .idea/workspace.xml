@@ -5,15 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5c45016e-0ee9-462c-b980-ce259e1891d2" name="Changes" comment="Commit : 16/02/2025">
-      <change afterPath="$PROJECT_DIR$/src/main/dsa/nonlinear/binary/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/meta/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/meta/medium/BinaryTreeRightSideView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/meta/medium/MergeIntervals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/meta/medium/MinimumAddToMakeParenthesesValid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/meta/medium/NestedListWeightSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/meta/medium/SimplifyPath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/meta/easy/ValidPalindrome.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/blind75/arraysAndHashing/TopKFrequentElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/blind75/arraysAndHashing/TopKFrequentElements.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,33 +62,47 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.MinDaysToDeliverParcels.executor": "Debug",
-    "Application.MinimumWindowSubstring (1).executor": "Run",
-    "Application.MinimumWindowSubstring.executor": "Run",
-    "Application.PassingYearbooks$Main.executor": "Run",
-    "Application.RotationalCipher$Main.executor": "Run",
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "extract.method.default.visibility": "private",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/space/IdeaProjects/OBTRAD",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "SDKs",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "aws"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.DiameterOfBinaryTree.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MinDaysToDeliverParcels.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.MinimumWindowSubstring (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.MinimumWindowSubstring.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PassingYearbooks$Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RotationalCipher$Main.executor&quot;: &quot;Run&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;extract.method.default.visibility&quot;: &quot;private&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/space/IdeaProjects/OBTRAD&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;aws&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.PassingYearbooks$Main">
+}</component>
+  <component name="RunManager" selected="Application.DiameterOfBinaryTree">
+    <configuration name="DiameterOfBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.meta.easy.DiameterOfBinaryTree" />
+      <module name="PracticeDsaJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.meta.easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MinDaysToDeliverParcels" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.blind75.arraysAndHashing.MinDaysToDeliverParcels" />
       <module name="PracticeDsaJava" />
@@ -136,19 +143,6 @@
       </method>
     </configuration>
     <configuration name="MinimumWindowSubstring (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.blind75.twoPointers.MinimumWindowSubstring" />
-      <module name="PracticeDsaJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="main.blind75.twoPointers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MinimumWindowSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.blind75.twoPointers.MinimumWindowSubstring" />
       <module name="PracticeDsaJava" />
       <extension name="coverage">
@@ -202,11 +196,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DiameterOfBinaryTree" />
         <item itemvalue="Application.PassingYearbooks$Main" />
         <item itemvalue="Application.RotationalCipher$Main" />
         <item itemvalue="Application.MinDaysToDeliverParcels" />
         <item itemvalue="Application.MinimumWindowSubstring (1)" />
-        <item itemvalue="Application.MinimumWindowSubstring" />
       </list>
     </recent_temporary>
   </component>
@@ -288,47 +282,11 @@
       <workItem from="1739523654141" duration="12000" />
       <workItem from="1739553611325" duration="1687000" />
       <workItem from="1739560104023" duration="114000" />
-      <workItem from="1739567132304" duration="27653000" />
-    </task>
-    <task id="LOCAL-00015" summary="Commit - 22/12/2024">
-      <option name="closed" value="true" />
-      <created>1734875756140</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1734875756141</updated>
-    </task>
-    <task id="LOCAL-00016" summary="Commit - 23/12/2024">
-      <option name="closed" value="true" />
-      <created>1734981134785</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1734981134786</updated>
-    </task>
-    <task id="LOCAL-00017" summary="Commit - 24/12/2024">
-      <option name="closed" value="true" />
-      <created>1735071532666</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1735071532666</updated>
-    </task>
-    <task id="LOCAL-00018" summary="Commit - 25/12/2024">
-      <option name="closed" value="true" />
-      <created>1735150790660</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1735150790660</updated>
-    </task>
-    <task id="LOCAL-00019" summary="Commit : 26/12/2024">
-      <option name="closed" value="true" />
-      <created>1735228227923</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1735228227923</updated>
+      <workItem from="1739567132304" duration="31709000" />
+      <workItem from="1739781052012" duration="8000" />
+      <workItem from="1739814084742" duration="3000" />
+      <workItem from="1739817201458" duration="1147000" />
+      <workItem from="1739818571886" duration="63000" />
     </task>
     <task id="LOCAL-00020" summary="Commit : 28/12/2024">
       <option name="closed" value="true" />
@@ -682,7 +640,47 @@
       <option name="project" value="LOCAL" />
       <updated>1739729002630</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="Commit : 16/02/2025">
+      <option name="closed" value="true" />
+      <created>1739729010189</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1739729010189</updated>
+    </task>
+    <task id="LOCAL-00065" summary="Commit : 16/02/2025">
+      <option name="closed" value="true" />
+      <created>1739729019435</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1739729019436</updated>
+    </task>
+    <task id="LOCAL-00066" summary="Commit : 16/02/2025">
+      <option name="closed" value="true" />
+      <created>1739729024519</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1739729024519</updated>
+    </task>
+    <task id="LOCAL-00067" summary="Commit : 16/02/2025">
+      <option name="closed" value="true" />
+      <created>1739729028950</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1739729028950</updated>
+    </task>
+    <task id="LOCAL-00068" summary="Commit : 16/02/2025">
+      <option name="closed" value="true" />
+      <created>1739729034049</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1739729034049</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
