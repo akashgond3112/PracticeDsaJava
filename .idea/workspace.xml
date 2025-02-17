@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5c45016e-0ee9-462c-b980-ce259e1891d2" name="Changes" comment="Commit : 16/02/2025">
-      <change afterPath="$PROJECT_DIR$/src/main/meta/easy/ValidPalindrome.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/dsa/nonlinear/binary/tree/learning/DiameterOfABinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/nonlinear/binary/tree/learning/DiameterOfABinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/meta/easy/DiameterOfBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/meta/easy/DiameterOfBinaryTree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -287,6 +288,8 @@
       <workItem from="1739814084742" duration="3000" />
       <workItem from="1739817201458" duration="1147000" />
       <workItem from="1739818571886" duration="63000" />
+      <workItem from="1739826268628" duration="177000" />
+      <workItem from="1739828595785" duration="39000" />
     </task>
     <task id="LOCAL-00020" summary="Commit : 28/12/2024">
       <option name="closed" value="true" />
