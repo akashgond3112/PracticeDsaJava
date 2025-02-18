@@ -3,7 +3,7 @@ package main.meta.medium;
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
-import java.util.List;
+import java.util.PriorityQueue;
 import java.util.Queue;
 import java.util.TreeMap;
 
@@ -79,11 +79,11 @@ public class BinaryTreeVerticalOrderTraversal {
 	 * Space Complexity:
 	 * The space complexity of this solution is O(N) where N is the number of nodes in the binary tree.
 	 * This is because we are using a TreeMap to store the nodes and a Queue for the BFS traversal.
-	 *
+	 * <p>
 	 * Time Complexity:
 	 * The time complexity of this solution is O(N log N) where N is the number of nodes in the binary tree.
 	 * This is because we are inserting nodes into a TreeMap which takes O(log N) time for each insertion.
-	 *
+	 * <p>
 	 * Edge Cases:
 	 * 1. The binary tree is empty (root is null). In this case, the function should return an empty list.
 	 * 2. The binary tree has only one node. The function should return a list containing a single list with that node.
@@ -103,14 +103,16 @@ public class BinaryTreeVerticalOrderTraversal {
 				return new ArrayList<>();
 			}
 
-			TreeMap<Integer, TreeMap<Integer, List<Integer>>> map = new TreeMap<>();
+			TreeMap<Integer, TreeMap<Integer, PriorityQueue<Integer>>> map = new TreeMap<>();
 			Queue<Tuple> queue = new LinkedList<Tuple>();
 			queue.add(new Tuple(root, 0, 0));
 
 			while (!queue.isEmpty()) {
 				Tuple tuple = queue.poll();
 				TreeNode node = tuple.node;
+				// vertical
 				int x = tuple.x;
+				// level
 				int y = tuple.y;
 
 				if (!map.containsKey(x)) {
@@ -118,7 +120,7 @@ public class BinaryTreeVerticalOrderTraversal {
 				}
 
 				if (!map.get(x).containsKey(y)) {
-					map.get(x).put(y, new ArrayList<>());
+					map.get(x).put(y, new PriorityQueue<>());
 				}
 
 				map.get(x).get(y).add(node.data);
@@ -133,14 +135,14 @@ public class BinaryTreeVerticalOrderTraversal {
 			}
 
 			List<List<Integer>> result = new ArrayList<>();
-			for (TreeMap<Integer, List<Integer>> ys : map.values()) {
-				List<Integer> vertical = new ArrayList<>();
-				for (List<Integer> nodes : ys.values()) {
-					vertical.addAll(nodes);
+			for (TreeMap<Integer, PriorityQueue<Integer>> ys : map.values()) {
+				result.add(new ArrayList<>());
+				for (PriorityQueue<Integer> nodes : ys.values()) {
+					while (!nodes.isEmpty()) {
+						result.getLast().add(nodes.poll());
+					}
 				}
-				result.add(vertical);
 			}
-
 			return result;
 		}
 	}
@@ -149,7 +151,7 @@ public class BinaryTreeVerticalOrderTraversal {
 	 * Time Complexity (PreOrderVerticalTraversal): O(n) Space Complexity
 	 * (PreOrderVerticalTraversal): O(n)
 	 */
-	public class PreOrderVerticalTraversal {
+	public static class PreOrderVerticalTraversal {
 
 		// TreeNode definition for reference
 		static class TreeNode {
@@ -202,7 +204,7 @@ public class BinaryTreeVerticalOrderTraversal {
 	 * Time Complexity (PostOrderVerticalTraversal): O(n) Space Complexity
 	 * (PostOrderVerticalTraversal): O(n)
 	 */
-	public class PostOrderVerticalTraversal {
+	public static class PostOrderVerticalTraversal {
 
 		// TreeNode definition for reference
 		static class TreeNode {
