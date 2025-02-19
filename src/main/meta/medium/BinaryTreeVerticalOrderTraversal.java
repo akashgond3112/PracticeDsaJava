@@ -21,14 +21,19 @@ import java.util.TreeMap;
  * -1 6 -1 -1 Sample Output 1 : 2 1 3 6 1 2 3 6 2 6 3 1 Explanation of Sample Output 1 : The given
  * binary tree is shown below:
  *
- * Inorder traversal of given tree = [2, 1, 3, 6] Preorder traversal of given tree = [1, 2, 3, 6]
- * Postorder traversal of given tree = [2, 6, 3, 1] Sample Input 2 : 1 2 4 5 3 -1 -1 -1 -1 -1 -1
- * Sample Output 2 : 5 2 3 1 4 1 2 5 3 4 5 3 2 4 1 Explanation of Sample Output 2 : The given binary
+ * Inorder traversal of given tree = [2, 1, 3, 6]
+ * Preorder traversal of given tree = [1, 2, 3, 6]
+ * Postorder traversal of given tree = [2, 6, 3, 1]
+ * Sample Input 2 : 1 2 4 5 3 -1 -1 -1 -1 -1 -1
+ * Sample Output 2 : 5 2 3 1 4 1 2 5 3 4 5 3 2 4 1
+ * Explanation of Sample
+ * Output 2 : The given binary
  * tree is shown below:
  *
- * Inorder traversal of given tree = [5, 2, 3, 1, 4] Preorder traversal of given tree = [1, 2, 5, 3,
- * 4] Postorder traversal of given tree = [5, 3, 2, 4, 1] Constraints : 1 <= 'N' <= 10^5 0 <= 'data'
- * <= 10^5
+ * Inorder traversal of given tree = [5, 2, 3, 1, 4]
+ * Preorder traversal of given tree = [1, 2, 5, 3,4]
+ * Postorder traversal of given tree = [5, 3, 2, 4, 1]
+ * Constraints : 1 <= 'N' <= 10^5 0 <= 'data'<= 10^5
  *
  * where 'N' is the number of nodes and 'data' denotes the node value of the binary tree nodes.
  *
