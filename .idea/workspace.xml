@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5c45016e-0ee9-462c-b980-ce259e1891d2" name="Changes" comment="Commit : 19/02/2025">
-      <change afterPath="$PROJECT_DIR$/src/main/meta/medium/CopyListWithRandomPointer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/meta/medium/CustomSortString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/meta/medium/LRUCache.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,6 +42,7 @@
 }</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/main/meta/medium/BinaryTreeRightSideView.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/meta/medium/CopyListWithRandomPointer.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/meta/medium/MergeIntervals.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/meta/medium/MinimumAddToMakeParenthesesValid.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/meta/medium/NestedListWeightSum.java" root0="FORCE_HIGHLIGHTING" />
@@ -282,23 +282,7 @@
       <workItem from="1739866720650" duration="10000" />
       <workItem from="1739904289863" duration="4787000" />
       <workItem from="1739984329000" duration="115000" />
-      <workItem from="1739987307101" duration="5506000" />
-    </task>
-    <task id="LOCAL-00026" summary="Commit : 02/01/2025">
-      <option name="closed" value="true" />
-      <created>1735818477725</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1735818477725</updated>
-    </task>
-    <task id="LOCAL-00027" summary="Commit : 04/01/2025">
-      <option name="closed" value="true" />
-      <created>1736029830150</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1736029830150</updated>
+      <workItem from="1739987307101" duration="8231000" />
     </task>
     <task id="LOCAL-00028" summary="Commit : 05/01/2025">
       <option name="closed" value="true" />
@@ -676,7 +660,23 @@
       <option name="project" value="LOCAL" />
       <updated>1739991635972</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="Commit : 19/02/2025">
+      <option name="closed" value="true" />
+      <created>1739995253763</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1739995253763</updated>
+    </task>
+    <task id="LOCAL-00076" summary="Commit : 19/02/2025">
+      <option name="closed" value="true" />
+      <created>1739995262218</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1739995262219</updated>
+    </task>
+    <option name="localTasksCounter" value="77" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
