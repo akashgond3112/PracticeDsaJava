@@ -44,14 +44,37 @@ import java.util.Map;
  * 0 <= value <= 105
  * At most 2 * 105 calls will be made to get and put. */
 
+/**
+ * A Least Recently Used (LRU) Cache implementation that provides O(1) time complexity
+ * for both get and put operations. This cache maintains items in order of their usage,
+ * automatically removing the least recently used item when the cache reaches its capacity.
+ *
+ * Implementation Details:
+ * - Uses a HashMap for O(1) lookups
+ * - Uses a doubly-linked list to maintain usage order
+ * - Maintains dummy head and tail nodes to simplify list operations
+ *
+ * Space Complexity: O(capacity) where capacity is the maximum number of items in the cache
+ */
 public class LRUCache {
-
+	/**
+	 * Node class for the doubly-linked list. Each node contains a key-value pair
+	 * and references to the next and previous nodes.
+	 *
+	 * Space Complexity: O(1) per node
+	 */
 	static class Node {
 		int key;
 		int value;
 		Node next;
 		Node prev;
 
+		/**
+		 * Constructs a new Node with the given key and value.
+		 *
+		 * @param key   the key for the cache entry
+		 * @param value the value associated with the key
+		 */
 		public Node(int key, int value) {
 			this.key = key;
 			this.value = value;
@@ -60,12 +83,24 @@ public class LRUCache {
 		}
 	}
 
-	private final Map<Integer, Node> map;
-	private final int capacity;
-	private final Node head;
-	private final Node tail;
+	private final Map<Integer, Node> map;     // For O(1) lookups
+	private final int capacity;               // Maximum cache size
+	private final Node head;                  // Dummy head node
+	private final Node tail;                  // Dummy tail node
 
+	/**
+	 * Initializes an empty LRU cache with the specified capacity.
+	 * Creates dummy head and tail nodes to simplify list operations.
+	 *
+	 * @param capacity the maximum number of key-value pairs the cache can hold
+	 * @throws IllegalArgumentException if capacity is negative
+	 * Time Complexity: O(1)
+	 * Space Complexity: O(1)
+	 */
 	public LRUCache(int capacity) {
+		if (capacity < 0) {
+			throw new IllegalArgumentException("Capacity must be non-negative");
+		}
 		this.capacity = capacity;
 		this.map = new HashMap<>();
 
@@ -76,14 +111,28 @@ public class LRUCache {
 		tail.prev = head;
 	}
 
-	// Remove a node from the list
-	private void removeNode(
-			Node node) {
-		node.prev.next = node.next;
-		node.next.prev = node.prev;
+	/**
+	 * Removes a node from the doubly-linked list.
+	 * Does not modify the HashMap.
+	 *
+	 * @param node the node to be removed
+	 * Time Complexity: O(1)
+	 */
+	private void removeNode(Node node) {
+		Node prevNode = node.prev;
+		Node afterNode = node.next;
+
+		prevNode.next = afterNode;
+		afterNode.prev = prevNode;
 	}
 
-	// Add a node right after the head
+	/**
+	 * Adds a node right after the head (marks it as most recently used).
+	 * Does not modify the HashMap.
+	 *
+	 * @param node the node to be added after head
+	 * Time Complexity: O(1)
+	 */
 	private void addNodeAfterHead(Node node) {
 		node.next = head.next;
 		node.prev = head;
@@ -91,6 +140,14 @@ public class LRUCache {
 		head.next = node;
 	}
 
+	/**
+	 * Retrieves the value associated with the given key if it exists in the cache.
+	 * Also marks the accessed item as most recently used.
+	 *
+	 * @param key the key whose associated value is to be returned
+	 * @return the value associated with the key, or -1 if the key doesn't exist
+	 * Time Complexity: O(1)
+	 */
 	public int get(int key) {
 		if (!map.containsKey(key)) {
 			return -1;
@@ -102,6 +159,17 @@ public class LRUCache {
 		return node.value;
 	}
 
+	/**
+	 * Inserts or updates a key-value pair in the cache.
+	 * If the key exists, updates its value and marks it as most recently used.
+	 * If the key doesn't exist:
+	 *   - If the cache is at capacity, removes the least recently used item
+	 *   - Adds the new key-value pair as the most recently used item
+	 *
+	 * @param key   the key to be inserted or updated
+	 * @param value the value to be associated with the key
+	 * Time Complexity: O(1)
+	 */
 	public void put(int key, int value) {
 		if (map.containsKey(key)) {
 			// Update the value of the existing node and move it to the head
