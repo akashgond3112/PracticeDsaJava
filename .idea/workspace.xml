@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5c45016e-0ee9-462c-b980-ce259e1891d2" name="Changes" comment="Commit : 18/02/2025">
+      <change afterPath="$PROJECT_DIR$/src/main/meta/medium/FindPeakElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/meta/medium/ShortestPathInBinaryMatrix.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/meta/medium/BinaryTreeVerticalOrderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/meta/medium/BinaryTreeVerticalOrderTraversal.java" afterDir="false" />
     </list>
@@ -64,6 +66,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Application.BinaryTreeVerticalOrderTraversal.executor&quot;: &quot;Run&quot;,
     &quot;Application.DiameterOfBinaryTree.executor&quot;: &quot;Run&quot;,
     &quot;Application.MinDaysToDeliverParcels.executor&quot;: &quot;Debug&quot;,
     &quot;Application.MinimumWindowSubstring (1).executor&quot;: &quot;Run&quot;,
@@ -89,7 +92,20 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;aws&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.DiameterOfBinaryTree">
+  <component name="RunManager" selected="Application.BinaryTreeVerticalOrderTraversal">
+    <configuration name="BinaryTreeVerticalOrderTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.meta.medium.BinaryTreeVerticalOrderTraversal" />
+      <module name="PracticeDsaJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.meta.medium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DiameterOfBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.meta.easy.DiameterOfBinaryTree" />
       <module name="PracticeDsaJava" />
@@ -142,32 +158,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinimumWindowSubstring (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.blind75.twoPointers.MinimumWindowSubstring" />
-      <module name="PracticeDsaJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="main.blind75.twoPointers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MinimumWindowSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.blind75.twoPointers.MinimumWindowSubstring" />
-      <module name="PracticeDsaJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="main.blind75.twoPointers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="PassingYearbooks$Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.meta.PassingYearbooks$Main" />
       <module name="PracticeDsaJava" />
@@ -196,11 +186,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BinaryTreeVerticalOrderTraversal" />
         <item itemvalue="Application.DiameterOfBinaryTree" />
         <item itemvalue="Application.PassingYearbooks$Main" />
         <item itemvalue="Application.RotationalCipher$Main" />
         <item itemvalue="Application.MinDaysToDeliverParcels" />
-        <item itemvalue="Application.MinimumWindowSubstring (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -291,15 +281,9 @@
       <workItem from="1739828595785" duration="39000" />
       <workItem from="1739829255885" duration="25000" />
       <workItem from="1739866720650" duration="10000" />
-      <workItem from="1739904289863" duration="1608000" />
-    </task>
-    <task id="LOCAL-00022" summary="Commit : 30/12/2024">
-      <option name="closed" value="true" />
-      <created>1735570355263</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1735570355263</updated>
+      <workItem from="1739904289863" duration="4787000" />
+      <workItem from="1739984329000" duration="115000" />
+      <workItem from="1739987307101" duration="2948000" />
     </task>
     <task id="LOCAL-00023" summary="Commit : 30/12/2024">
       <option name="closed" value="true" />
@@ -685,7 +669,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739904365197</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="Commit : 18/02/2025">
+      <option name="closed" value="true" />
+      <created>1739912640028</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1739912640028</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
