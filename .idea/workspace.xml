@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c45016e-0ee9-462c-b980-ce259e1891d2" name="Changes" comment="Commit : 19/02/2025">
+    <list default="true" id="5c45016e-0ee9-462c-b980-ce259e1891d2" name="Changes" comment="Commit : 20/02/2025">
       <change afterPath="$PROJECT_DIR$/src/main/meta/hard/MergeKSortedLists.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/dsa/linear/LinkedList/SinglyLinkedList/SinglyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/linear/LinkedList/SinglyLinkedList/SinglyLinkedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -289,15 +287,7 @@
       <workItem from="1739904289863" duration="4787000" />
       <workItem from="1739984329000" duration="115000" />
       <workItem from="1739987307101" duration="9231000" />
-      <workItem from="1740056828785" duration="1493000" />
-    </task>
-    <task id="LOCAL-00030" summary="Commit : 09/01/2025">
-      <option name="closed" value="true" />
-      <created>1736430132221</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1736430132221</updated>
+      <workItem from="1740056828785" duration="1544000" />
     </task>
     <task id="LOCAL-00031" summary="Commit : 09/01/2025">
       <option name="closed" value="true" />
@@ -683,14 +673,21 @@
       <option name="project" value="LOCAL" />
       <updated>1740000883518</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="Commit : 20/02/2025">
+      <option name="closed" value="true" />
+      <created>1740058368275</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1740058368275</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Commit : 29/12/2024" />
     <MESSAGE value="Commit : 30/12/2024" />
     <MESSAGE value="Commit : 31/12/2024" />
     <MESSAGE value="Commit : 02/01/2025" />
@@ -715,6 +712,7 @@
     <MESSAGE value="Commit : 17/02/2025" />
     <MESSAGE value="Commit : 18/02/2025" />
     <MESSAGE value="Commit : 19/02/2025" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit : 19/02/2025" />
+    <MESSAGE value="Commit : 20/02/2025" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit : 20/02/2025" />
   </component>
 </project>
