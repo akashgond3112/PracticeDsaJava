@@ -2,14 +2,19 @@ package main.dsa.linear.LinkedList.SinglyLinkedList;
 
 public class SinglyLinkedList {
 
-	static class Node {
-		int data;
-		Node next;
+	protected static class Node {
+		public int data;
+		public Node next;
 
 		public Node(){}
 
 		public Node(int data) {
 			this.data = data;
+		}
+
+		public Node(int data, Node next) {
+			this.data = data;
+			this.next = next;
 		}
 	}
 
@@ -28,7 +33,7 @@ public class SinglyLinkedList {
 	}
 
 
-	static void printList(Node n) {
+	protected static void printList(Node n) {
 		// Iterate till n reaches null
 		while (n != null) {
 			// Print the data
