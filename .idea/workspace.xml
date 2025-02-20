@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5c45016e-0ee9-462c-b980-ce259e1891d2" name="Changes" comment="Commit : 20/02/2025">
-      <change afterPath="$PROJECT_DIR$/src/main/meta/hard/MergeKSortedLists.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/meta/medium/ContinuousSubarraySum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +42,7 @@
 }</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/main/meta/medium/BinaryTreeRightSideView.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/meta/medium/ContinuousSubarraySum.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/meta/medium/CopyListWithRandomPointer.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/meta/medium/MergeIntervals.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/meta/medium/MinimumAddToMakeParenthesesValid.java" root0="FORCE_HIGHLIGHTING" />
@@ -288,14 +290,7 @@
       <workItem from="1739984329000" duration="115000" />
       <workItem from="1739987307101" duration="9231000" />
       <workItem from="1740056828785" duration="1544000" />
-    </task>
-    <task id="LOCAL-00031" summary="Commit : 09/01/2025">
-      <option name="closed" value="true" />
-      <created>1736458472959</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1736458472960</updated>
+      <workItem from="1740073793732" duration="3049000" />
     </task>
     <task id="LOCAL-00032" summary="Commit : 10/01/2025">
       <option name="closed" value="true" />
@@ -681,7 +676,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740058368275</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <task id="LOCAL-00080" summary="Commit : 20/02/2025">
+      <option name="closed" value="true" />
+      <created>1740073901648</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1740073901648</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
