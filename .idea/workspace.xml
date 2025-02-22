@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c45016e-0ee9-462c-b980-ce259e1891d2" name="Changes" comment="Commit : 21/02/2025">
-      <change afterPath="$PROJECT_DIR$/src/main/meta/hard/RemoveInvalidParentheses.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/meta/medium/CloneGraph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/meta/medium/MaximumSwap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/meta/medium/Subsets.java" afterDir="false" />
+    <list default="true" id="5c45016e-0ee9-462c-b980-ce259e1891d2" name="Changes" comment="Commit : 22/02/2025">
+      <change afterPath="$PROJECT_DIR$/src/main/meta/medium/AccountsMerge.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/meta/easy/RemoveAllAdjacentDuplicatesInString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/meta/easy/RemoveAllAdjacentDuplicatesInString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/dsa/nonlinear/graph/learning/minSpanningTree/kruskalAlgorithm/DisjointSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/nonlinear/graph/learning/minSpanningTree/kruskalAlgorithm/DisjointSet.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -284,47 +281,7 @@
       <workItem from="1739987307101" duration="9231000" />
       <workItem from="1740056828785" duration="1544000" />
       <workItem from="1740073793732" duration="8358000" />
-      <workItem from="1740151899916" duration="23208000" />
-    </task>
-    <task id="LOCAL-00041" summary="Commit : 24/01/2025">
-      <option name="closed" value="true" />
-      <created>1737707802732</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1737707802732</updated>
-    </task>
-    <task id="LOCAL-00042" summary="Commit : 26/01/2025">
-      <option name="closed" value="true" />
-      <created>1737890199903</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1737890199903</updated>
-    </task>
-    <task id="LOCAL-00043" summary="Commit : 26/01/2025">
-      <option name="closed" value="true" />
-      <created>1737891982611</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1737891982611</updated>
-    </task>
-    <task id="LOCAL-00044" summary="Commit : 31/01/2025">
-      <option name="closed" value="true" />
-      <created>1738348254337</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1738348254337</updated>
-    </task>
-    <task id="LOCAL-00045" summary="Commit : 01/02/2025">
-      <option name="closed" value="true" />
-      <created>1738413026498</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1738413026498</updated>
+      <workItem from="1740151899916" duration="28947000" />
     </task>
     <task id="LOCAL-00046" summary="Commit : 01/02/2025">
       <option name="closed" value="true" />
@@ -678,14 +635,53 @@
       <option name="project" value="LOCAL" />
       <updated>1740170928946</updated>
     </task>
-    <option name="localTasksCounter" value="90" />
+    <task id="LOCAL-00090" summary="Commit : 22/02/2025">
+      <option name="closed" value="true" />
+      <created>1740236286981</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1740236286981</updated>
+    </task>
+    <task id="LOCAL-00091" summary="Commit : 22/02/2025">
+      <option name="closed" value="true" />
+      <created>1740236293284</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1740236293285</updated>
+    </task>
+    <task id="LOCAL-00092" summary="Commit : 22/02/2025">
+      <option name="closed" value="true" />
+      <created>1740236298529</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1740236298530</updated>
+    </task>
+    <task id="LOCAL-00093" summary="Commit : 22/02/2025">
+      <option name="closed" value="true" />
+      <created>1740236308663</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1740236308663</updated>
+    </task>
+    <task id="LOCAL-00094" summary="Commit : 22/02/2025">
+      <option name="closed" value="true" />
+      <created>1740236315506</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1740236315506</updated>
+    </task>
+    <option name="localTasksCounter" value="95" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Commit : 31/12/2024" />
     <MESSAGE value="Commit : 02/01/2025" />
     <MESSAGE value="Commit : 04/01/2025" />
     <MESSAGE value="Commit : 05/01/2025" />
@@ -710,6 +706,7 @@
     <MESSAGE value="Commit : 19/02/2025" />
     <MESSAGE value="Commit : 20/02/2025" />
     <MESSAGE value="Commit : 21/02/2025" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit : 21/02/2025" />
+    <MESSAGE value="Commit : 22/02/2025" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit : 22/02/2025" />
   </component>
 </project>

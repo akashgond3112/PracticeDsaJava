@@ -2,7 +2,7 @@ package main.dsa.nonlinear.graph.learning.minSpanningTree.kruskalAlgorithm;
 
 import java.util.*;
 
-class DisjointSet {
+public class DisjointSet {
 	List<Integer> rank = new ArrayList<>();
 	List<Integer> parent = new ArrayList<>();
 	List<Integer> size = new ArrayList<>();
