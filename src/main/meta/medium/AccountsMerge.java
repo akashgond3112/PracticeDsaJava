@@ -62,72 +62,52 @@ import java.util.Queue;
  * Sorting*/
 public class AccountsMerge {
 
-	private static final Map<String, Integer> emailIdx = new HashMap<>(); // email -> id
-	private static final List<String> emails = new ArrayList<>(); // set of emails of all accounts
-	private static final Map<Integer, Integer> emailToAcc = new HashMap<>(); // email_index -> account_Id
-	private static List<List<Integer>> adj;
-	private static final Map<Integer, List<String>> emailGroup = new HashMap<>(); // index of acc -> list of emails
-	private static boolean[] visited;
-
-	private static int getAdjacencyList(List<List<String>> accounts) {
-		int n = accounts.size();
-		int m = 0;
-
-		// Build email index and mappings
-		for (int accId = 0; accId < n; accId++) {
-			List<String> account = accounts.get(accId);
-			for (int i = 1; i < account.size(); i++) {
-				String email = account.get(i);
-				if (!emailIdx.containsKey(email)) {
-					emails.add(email);
-					emailIdx.put(email, m);
-					emailToAcc.put(m, accId);
-					m++;
-				}
-			}
-		}
-
-		// Build adjacency list
-		adj = new ArrayList<>();
-		for (int i = 0; i < m; i++) {
-			adj.add(new ArrayList<>());
-		}
-		for (List<String> account : accounts) {
-			for (int i = 2; i < account.size(); i++) {
-				int id1 = emailIdx.get(account.get(i));
-				int id2 = emailIdx.get(account.get(i - 1));
-				adj.get(id1).add(id2);
-				adj.get(id2).add(id1);
-			}
-		}
-
-		// Initialize visited array
-		visited = new boolean[m];
-		return m;
-	}
-
-	private static List<List<String>> buildResult(List<List<String>> accounts) {
-		List<List<String>> res = new ArrayList<>();
-		for (int accId : emailGroup.keySet()) {
-			List<String> group = emailGroup.get(accId);
-			Collections.sort(group);
-			List<String> merged = new ArrayList<>();
-			merged.add(accounts.get(accId).getFirst());
-			merged.addAll(group);
-			res.add(merged);
-		}
-
-		return res;
-	}
-
 	/**
 	 * Time & Space Complexity Time complexity: O((n∗m)log(n∗m)) Space complexity: O(n∗m) Where n is the number of
 	 * accounts and m is the number of emails.
 	 */
-	static public class SolutionUsingDFS {
+	public static class SolutionUsingDFS {
+		private Map<String, Integer> emailIdx = new HashMap<>(); // email -> id
+		private List<String> emails = new ArrayList<>(); // set of emails of all accounts
+		private Map<Integer, Integer> emailToAcc = new HashMap<>(); // email_index -> account_Id
+		private List<List<Integer>> adj;
+		private Map<Integer, List<String>> emailGroup = new HashMap<>(); // index of acc -> list of emails
+		private boolean[] visited;
 
 		public List<List<String>> accountsMerge(List<List<String>> accounts) {
-			int m = getAdjacencyList(accounts);
+			int n = accounts.size();
+			int m = 0;
+
+			// Build email index and mappings
+			for (int accId = 0; accId < n; accId++) {
+				List<String> account = accounts.get(accId);
+				for (int i = 1; i < account.size(); i++) {
+					String email = account.get(i);
+					if (!emailIdx.containsKey(email)) {
+						emails.add(email);
+						emailIdx.put(email, m);
+						emailToAcc.put(m, accId);
+						m++;
+					}
+				}
+			}
+
+			// Build adjacency list
+			adj = new ArrayList<>();
+			for (int i = 0; i < m; i++) {
+				adj.add(new ArrayList<>());
+			}
+			for (List<String> account : accounts) {
+				for (int i = 2; i < account.size(); i++) {
+					int id1 = emailIdx.get(account.get(i));
+					int id2 = emailIdx.get(account.get(i - 1));
+					adj.get(id1).add(id2);
+					adj.get(id2).add(id1);
+				}
+			}
+
+			// Initialize visited array
+			visited = new boolean[m];
 
 			// DFS traversal
 			for (int i = 0; i < m; i++) {
@@ -139,7 +119,17 @@ public class AccountsMerge {
 			}
 
 			// Build result
-			return buildResult(accounts);
+			List<List<String>> res = new ArrayList<>();
+			for (int accId : emailGroup.keySet()) {
+				List<String> group = emailGroup.get(accId);
+				Collections.sort(group);
+				List<String> merged = new ArrayList<>();
+				merged.add(accounts.get(accId).get(0));
+				merged.addAll(group);
+				res.add(merged);
+			}
+
+			return res;
 		}
 
 		private void dfs(int node, int accId) {
@@ -154,9 +144,47 @@ public class AccountsMerge {
 	}
 
 	public static class SolutionUsingBFS {
+		private Map<String, Integer> emailIdx = new HashMap<>(); // email -> id
+		private List<String> emails = new ArrayList<>(); // set of emails of all accounts
+		private Map<Integer, Integer> emailToAcc = new HashMap<>(); // email_index -> account_Id
+		private List<List<Integer>> adj;
+		private Map<Integer, List<String>> emailGroup = new HashMap<>(); // index of acc -> list of emails
+		private boolean[] visited;
 
 		public List<List<String>> accountsMerge(List<List<String>> accounts) {
-			int m = getAdjacencyList(accounts);
+			int n = accounts.size();
+			int m = 0;
+
+			// Build email index and mappings
+			for (int accId = 0; accId < n; accId++) {
+				List<String> account = accounts.get(accId);
+				for (int i = 1; i < account.size(); i++) {
+					String email = account.get(i);
+					if (!emailIdx.containsKey(email)) {
+						emails.add(email);
+						emailIdx.put(email, m);
+						emailToAcc.put(m, accId);
+						m++;
+					}
+				}
+			}
+
+			// Build adjacency list
+			adj = new ArrayList<>();
+			for (int i = 0; i < m; i++) {
+				adj.add(new ArrayList<>());
+			}
+			for (List<String> account : accounts) {
+				for (int i = 2; i < account.size(); i++) {
+					int id1 = emailIdx.get(account.get(i));
+					int id2 = emailIdx.get(account.get(i - 1));
+					adj.get(id1).add(id2);
+					adj.get(id2).add(id1);
+				}
+			}
+
+			// Initialize visited array
+			visited = new boolean[m];
 
 			// BFS traversal
 			for (int i = 0; i < m; i++) {
@@ -168,7 +196,17 @@ public class AccountsMerge {
 			}
 
 			// Build result
-			return buildResult(accounts);
+			List<List<String>> res = new ArrayList<>();
+			for (int accId : emailGroup.keySet()) {
+				List<String> group = emailGroup.get(accId);
+				Collections.sort(group);
+				List<String> merged = new ArrayList<>();
+				merged.add(accounts.get(accId).get(0));
+				merged.addAll(group);
+				res.add(merged);
+			}
+
+			return res;
 		}
 
 		private void bfs(int start, int accId) {
@@ -226,7 +264,7 @@ public class AccountsMerge {
 					continue;
 				Collections.sort(merges[i]);
 				List<String> temp = new ArrayList<>();
-				temp.add(accounts.get(i).get(0));
+				temp.add(accounts.get(i).getFirst());
 
 				temp.addAll(merges[i]);
 				result.add(temp);
