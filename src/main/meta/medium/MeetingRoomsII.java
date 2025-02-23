@@ -21,7 +21,7 @@ import java.util.Arrays;
 
 public class MeetingRoomsII {
 
-	static class Solution {
+	static class SolutionUsingSorting {
 		public int minMeetingRooms(int[] start, int[] end) {
 			Arrays.sort(start);
 			Arrays.sort(end);
