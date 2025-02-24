@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c45016e-0ee9-462c-b980-ce259e1891d2" name="Changes" comment="Commit : 23/02/2025">
-      <change afterPath="$PROJECT_DIR$/src/main/meta/medium/WordBreak.java" afterDir="false" />
+    <list default="true" id="5c45016e-0ee9-462c-b980-ce259e1891d2" name="Changes" comment="Commit : 24/02/2025">
+      <change afterPath="$PROJECT_DIR$/src/main/meta/medium/StringToInteger.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/meta/PassingYearbooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/meta/PassingYearbooks.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +47,7 @@
     <setting file="file://$PROJECT_DIR$/src/main/meta/medium/MergeIntervals.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/meta/medium/MinimumAddToMakeParenthesesValid.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/meta/medium/NestedListWeightSum.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/meta/medium/StringToInteger.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="KubernetesApiPersistence">{}</component>
   <component name="KubernetesApiProvider">{
@@ -289,15 +289,7 @@
       <workItem from="1740073793732" duration="8358000" />
       <workItem from="1740151899916" duration="45975000" />
       <workItem from="1740385928057" duration="7000" />
-      <workItem from="1740418286646" duration="3506000" />
-    </task>
-    <task id="LOCAL-00053" summary="Commit : 06/02/2025">
-      <option name="closed" value="true" />
-      <created>1738856140628</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1738856140628</updated>
+      <workItem from="1740418286646" duration="6129000" />
     </task>
     <task id="LOCAL-00054" summary="Commit : 14/02/2025">
       <option name="closed" value="true" />
@@ -683,14 +675,21 @@
       <option name="project" value="LOCAL" />
       <updated>1740343447765</updated>
     </task>
-    <option name="localTasksCounter" value="102" />
+    <task id="LOCAL-00102" summary="Commit : 24/02/2025">
+      <option name="closed" value="true" />
+      <created>1740423660959</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1740423660959</updated>
+    </task>
+    <option name="localTasksCounter" value="103" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Commit : 04/01/2025" />
     <MESSAGE value="Commit : 05/01/2025" />
     <MESSAGE value="Commit : 09/01/2025" />
     <MESSAGE value="Commit : 10/01/2025" />
@@ -715,7 +714,8 @@
     <MESSAGE value="Commit : 21/02/2025" />
     <MESSAGE value="Commit : 22/02/2025" />
     <MESSAGE value="Commit : 23/02/2025" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit : 23/02/2025" />
+    <MESSAGE value="Commit : 24/02/2025" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit : 24/02/2025" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
