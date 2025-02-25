@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c45016e-0ee9-462c-b980-ce259e1891d2" name="Changes" comment="Commit : 24/02/2025">
-      <change afterPath="$PROJECT_DIR$/src/main/meta/medium/CuttingRibbons.java" afterDir="false" />
+    <list default="true" id="5c45016e-0ee9-462c-b980-ce259e1891d2" name="Changes" comment="Commit : 25/02/2025">
+      <change afterPath="$PROJECT_DIR$/src/main/meta/medium/SumRootToLeafNumbers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/blind75/binary/trees/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/blind75/binary/trees/TreeNode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +66,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.BinaryTreeVerticalOrderTraversal.executor": "Run",
+    "Application.CuttingRibbons$RibbonCutter.executor": "Run",
     "Application.CuttingRibbons.executor": "Run",
     "Application.DiameterOfBinaryTree.executor": "Run",
     "Application.ExclusiveTimeOfFunctions (1).executor": "Debug",
@@ -275,15 +277,7 @@
       <workItem from="1740151899916" duration="45975000" />
       <workItem from="1740385928057" duration="7000" />
       <workItem from="1740418286646" duration="7524000" />
-      <workItem from="1740506127150" duration="2756000" />
-    </task>
-    <task id="LOCAL-00055" summary="Commit : 14/02/2025">
-      <option name="closed" value="true" />
-      <created>1739560146405</created>
-      <option name="number" value="00055" />
-      <option name="presentableId" value="LOCAL-00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1739560146405</updated>
+      <workItem from="1740506127150" duration="4652000" />
     </task>
     <task id="LOCAL-00056" summary="Commit : 14/02/2025">
       <option name="closed" value="true" />
@@ -669,14 +663,21 @@
       <option name="project" value="LOCAL" />
       <updated>1740429515843</updated>
     </task>
-    <option name="localTasksCounter" value="104" />
+    <task id="LOCAL-00104" summary="Commit : 25/02/2025">
+      <option name="closed" value="true" />
+      <created>1740515093783</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1740515093784</updated>
+    </task>
+    <option name="localTasksCounter" value="105" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Commit : 05/01/2025" />
     <MESSAGE value="Commit : 09/01/2025" />
     <MESSAGE value="Commit : 10/01/2025" />
     <MESSAGE value="Commit : 16/01/2025" />
@@ -701,7 +702,8 @@
     <MESSAGE value="Commit : 22/02/2025" />
     <MESSAGE value="Commit : 23/02/2025" />
     <MESSAGE value="Commit : 24/02/2025" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit : 24/02/2025" />
+    <MESSAGE value="Commit : 25/02/2025" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit : 25/02/2025" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
