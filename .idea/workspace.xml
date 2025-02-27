@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5c45016e-0ee9-462c-b980-ce259e1891d2" name="Changes" comment="Commit : 25/02/2025">
-      <change afterPath="$PROJECT_DIR$/src/main/meta/easy/KthMissingPositiveNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/meta/easy/SquaresOfASortedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/meta/easy/LongestCommonPrefix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/meta/easy/ValidParentheses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/meta/medium/MaxConsecutiveOnesIII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/meta/medium/PalindromicSubstrings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/meta/medium/ThreeSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/meta/medium/ThreeSumClosest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -102,6 +106,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="main.meta.easy" />
       <recent name="main.meta.medium" />
       <recent name="main.meta.hard" />
     </key>
@@ -278,23 +283,8 @@
       <workItem from="1740385928057" duration="7000" />
       <workItem from="1740418286646" duration="7524000" />
       <workItem from="1740506127150" duration="7102000" />
-      <workItem from="1740588149416" duration="5640000" />
-    </task>
-    <task id="LOCAL-00058" summary="Commit : 14/02/2025">
-      <option name="closed" value="true" />
-      <created>1739560197267</created>
-      <option name="number" value="00058" />
-      <option name="presentableId" value="LOCAL-00058" />
-      <option name="project" value="LOCAL" />
-      <updated>1739560197267</updated>
-    </task>
-    <task id="LOCAL-00059" summary="Commit : 15/02/2025">
-      <option name="closed" value="true" />
-      <created>1739621569835</created>
-      <option name="number" value="00059" />
-      <option name="presentableId" value="LOCAL-00059" />
-      <option name="project" value="LOCAL" />
-      <updated>1739621569836</updated>
+      <workItem from="1740588149416" duration="7344000" />
+      <workItem from="1740666615652" duration="11345000" />
     </task>
     <task id="LOCAL-00060" summary="Commit : 15/02/2025">
       <option name="closed" value="true" />
@@ -672,7 +662,23 @@
       <option name="project" value="LOCAL" />
       <updated>1740517345532</updated>
     </task>
-    <option name="localTasksCounter" value="107" />
+    <task id="LOCAL-00107" summary="Commit : 25/02/2025">
+      <option name="closed" value="true" />
+      <created>1740598915147</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1740598915147</updated>
+    </task>
+    <task id="LOCAL-00108" summary="Commit : 25/02/2025">
+      <option name="closed" value="true" />
+      <created>1740598923920</created>
+      <option name="number" value="00108" />
+      <option name="presentableId" value="LOCAL-00108" />
+      <option name="project" value="LOCAL" />
+      <updated>1740598923920</updated>
+    </task>
+    <option name="localTasksCounter" value="109" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
