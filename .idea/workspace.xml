@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c45016e-0ee9-462c-b980-ce259e1891d2" name="Changes" comment="Commit : 27/02/2025">
-      <change afterPath="$PROJECT_DIR$/src/main/meta/hard/InsertDeleteGetRandomWithDuplicates.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/meta/medium/InsertDeleteGetRandom.java" afterDir="false" />
+    <list default="true" id="5c45016e-0ee9-462c-b980-ce259e1891d2" name="Changes" comment="Commit : 28/02/2025">
+      <change afterPath="$PROJECT_DIR$/src/main/meta/medium/LongestSubstringWithoutRepeatingCharacters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/meta/medium/RemoveNthNodeFromEndOfList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -102,8 +102,8 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="main.meta.easy" />
       <recent name="main.meta.medium" />
+      <recent name="main.meta.easy" />
       <recent name="main.meta.hard" />
     </key>
   </component>
@@ -280,23 +280,9 @@
       <workItem from="1740418286646" duration="7524000" />
       <workItem from="1740506127150" duration="7102000" />
       <workItem from="1740588149416" duration="7344000" />
-      <workItem from="1740666615652" duration="12738000" />
-    </task>
-    <task id="LOCAL-00066" summary="Commit : 16/02/2025">
-      <option name="closed" value="true" />
-      <created>1739729024519</created>
-      <option name="number" value="00066" />
-      <option name="presentableId" value="LOCAL-00066" />
-      <option name="project" value="LOCAL" />
-      <updated>1739729024519</updated>
-    </task>
-    <task id="LOCAL-00067" summary="Commit : 16/02/2025">
-      <option name="closed" value="true" />
-      <created>1739729028950</created>
-      <option name="number" value="00067" />
-      <option name="presentableId" value="LOCAL-00067" />
-      <option name="project" value="LOCAL" />
-      <updated>1739729028950</updated>
+      <workItem from="1740666615652" duration="14367000" />
+      <workItem from="1740752119482" duration="961000" />
+      <workItem from="1740755865755" duration="6308000" />
     </task>
     <task id="LOCAL-00068" summary="Commit : 16/02/2025">
       <option name="closed" value="true" />
@@ -674,14 +660,29 @@
       <option name="project" value="LOCAL" />
       <updated>1740691116573</updated>
     </task>
-    <option name="localTasksCounter" value="115" />
+    <task id="LOCAL-00115" summary="Commit : 27/02/2025">
+      <option name="closed" value="true" />
+      <created>1740692883455</created>
+      <option name="number" value="00115" />
+      <option name="presentableId" value="LOCAL-00115" />
+      <option name="project" value="LOCAL" />
+      <updated>1740692883455</updated>
+    </task>
+    <task id="LOCAL-00116" summary="Commit : 28/02/2025">
+      <option name="closed" value="true" />
+      <created>1740763594069</created>
+      <option name="number" value="00116" />
+      <option name="presentableId" value="LOCAL-00116" />
+      <option name="project" value="LOCAL" />
+      <updated>1740763594070</updated>
+    </task>
+    <option name="localTasksCounter" value="117" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Commit : 10/01/2025" />
     <MESSAGE value="Commit : 16/01/2025" />
     <MESSAGE value="Commit : 17/01/2025" />
     <MESSAGE value="Commit : 21/01/2025" />
@@ -706,7 +707,8 @@
     <MESSAGE value="Commit : 24/02/2025" />
     <MESSAGE value="Commit : 25/02/2025" />
     <MESSAGE value="Commit : 27/02/2025" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit : 27/02/2025" />
+    <MESSAGE value="Commit : 28/02/2025" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit : 28/02/2025" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
