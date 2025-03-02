@@ -1,6 +1,6 @@
 package main.meta.medium;
 
-import main.dsa.nonlinear.graph.learning.minSpanningTree.kruskalAlgorithm.DisjointSet;
+import main.dsa.nonlinear.graph.minSpanningTree.kruskalAlgorithm.DisjointSet;
 
 import java.util.ArrayList;
 import java.util.Collections;
