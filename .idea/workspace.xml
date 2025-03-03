@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5c45016e-0ee9-462c-b980-ce259e1891d2" name="Changes" comment="Commit : 02/03/2025">
-      <change afterPath="$PROJECT_DIR$/src/main/meta/easy/TwoSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/meta/hard/IntegerToEnglishWords.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/meta/hard/WordSearchII.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/meta/easy/RangeSumOfBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/meta/easy/RangeSumOfBST.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,43 +64,43 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.BinaryTreeVerticalOrderTraversal.executor": "Run",
-    "Application.CuttingRibbons$RibbonCutter.executor": "Run",
-    "Application.CuttingRibbons.executor": "Run",
-    "Application.DiameterOfBinaryTree.executor": "Run",
-    "Application.ExclusiveTimeOfFunctions (1).executor": "Debug",
-    "Application.ExclusiveTimeOfFunctions (2).executor": "Run",
-    "Application.ExclusiveTimeOfFunctions (3).executor": "Debug",
-    "Application.ExclusiveTimeOfFunctions.executor": "Run",
-    "Application.MinDaysToDeliverParcels.executor": "Debug",
-    "Application.MinimumWindowSubstring (1).executor": "Run",
-    "Application.MinimumWindowSubstring.executor": "Run",
-    "Application.NumberOfIsland.executor": "Run",
-    "Application.PassingYearbooks$Main.executor": "Run",
-    "Application.RotationalCipher$Main.executor": "Run",
-    "Application.Subsets.executor": "Run",
-    "Application.main.dsa.nonlinear.graph.learning.NumberOfIsland.executor": "Run",
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "extract.method.default.visibility": "private",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/space/IdeaProjects/OBTRAD",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "SDKs",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "advanced.settings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.BinaryTreeVerticalOrderTraversal.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CuttingRibbons$RibbonCutter.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CuttingRibbons.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DiameterOfBinaryTree.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExclusiveTimeOfFunctions (1).executor&quot;: &quot;Debug&quot;,
+    &quot;Application.ExclusiveTimeOfFunctions (2).executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExclusiveTimeOfFunctions (3).executor&quot;: &quot;Debug&quot;,
+    &quot;Application.ExclusiveTimeOfFunctions.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MinDaysToDeliverParcels.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.MinimumWindowSubstring (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.MinimumWindowSubstring.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NumberOfIsland.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PassingYearbooks$Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RotationalCipher$Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Subsets.executor&quot;: &quot;Run&quot;,
+    &quot;Application.main.dsa.nonlinear.graph.learning.NumberOfIsland.executor&quot;: &quot;Run&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;extract.method.default.visibility&quot;: &quot;private&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/space/IdeaProjects/OBTRAD&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/dsa/nonlinear/binarysearchtree" />
@@ -106,9 +108,9 @@
       <recent name="$PROJECT_DIR$/src/main/dsa/nonlinear" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="main.meta.hard" />
       <recent name="main.meta.easy" />
       <recent name="main.meta.medium" />
-      <recent name="main.meta.hard" />
     </key>
   </component>
   <component name="RunManager" selected="Application.CuttingRibbons$RibbonCutter">
@@ -286,15 +288,8 @@
       <workItem from="1740588149416" duration="7344000" />
       <workItem from="1740666615652" duration="14367000" />
       <workItem from="1740752119482" duration="961000" />
-      <workItem from="1740755865755" duration="25008000" />
-    </task>
-    <task id="LOCAL-00076" summary="Commit : 19/02/2025">
-      <option name="closed" value="true" />
-      <created>1739995262218</created>
-      <option name="number" value="00076" />
-      <option name="presentableId" value="LOCAL-00076" />
-      <option name="project" value="LOCAL" />
-      <updated>1739995262219</updated>
+      <workItem from="1740755865755" duration="27197000" />
+      <workItem from="1740994283260" duration="2722000" />
     </task>
     <task id="LOCAL-00077" summary="Commit : 19/02/2025">
       <option name="closed" value="true" />
@@ -680,7 +675,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740911693979</updated>
     </task>
-    <option name="localTasksCounter" value="125" />
+    <task id="LOCAL-00125" summary="Commit : 02/03/2025">
+      <option name="closed" value="true" />
+      <created>1740945267647</created>
+      <option name="number" value="00125" />
+      <option name="presentableId" value="LOCAL-00125" />
+      <option name="project" value="LOCAL" />
+      <updated>1740945267648</updated>
+    </task>
+    <option name="localTasksCounter" value="126" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
