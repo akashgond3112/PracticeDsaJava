@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5c45016e-0ee9-462c-b980-ce259e1891d2" name="Changes" comment="Commit : 05/03/2025">
-      <change afterPath="$PROJECT_DIR$/src/main/meta/medium/FindAllAnagramsInAString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/meta/medium/MinimumRemoveToMakeValidParentheses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/meta/medium/MinimumRemoveToMakeValidParentheses.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +111,7 @@
       <recent name="main.meta.easy" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CuttingRibbons$RibbonCutter">
+  <component name="RunManager" selected="Application.MinimumRemoveToMakeValidParentheses">
     <configuration name="CuttingRibbons$RibbonCutter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.meta.medium.CuttingRibbons$RibbonCutter" />
       <module name="PracticeDsaJava" />
@@ -190,8 +190,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExclusiveTimeOfFunctions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.meta.medium.ExclusiveTimeOfFunctions" />
+    <configuration name="MinimumRemoveToMakeValidParentheses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.meta.medium.MinimumRemoveToMakeValidParentheses" />
       <module name="PracticeDsaJava" />
       <extension name="coverage">
         <pattern>
@@ -205,11 +205,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MinimumRemoveToMakeValidParentheses" />
         <item itemvalue="Application.CuttingRibbons$RibbonCutter" />
         <item itemvalue="Application.CuttingRibbons" />
         <item itemvalue="Application.ExclusiveTimeOfFunctions (3)" />
         <item itemvalue="Application.ExclusiveTimeOfFunctions (2)" />
-        <item itemvalue="Application.ExclusiveTimeOfFunctions (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -314,15 +314,7 @@
       <workItem from="1740752119482" duration="961000" />
       <workItem from="1740755865755" duration="27197000" />
       <workItem from="1740994283260" duration="8063000" />
-      <workItem from="1741110290449" duration="17249000" />
-    </task>
-    <task id="LOCAL-00082" summary="Commit : 20/02/2025">
-      <option name="closed" value="true" />
-      <created>1740088921763</created>
-      <option name="number" value="00082" />
-      <option name="presentableId" value="LOCAL-00082" />
-      <option name="project" value="LOCAL" />
-      <updated>1740088921763</updated>
+      <workItem from="1741110290449" duration="19314000" />
     </task>
     <task id="LOCAL-00083" summary="Commit : 21/02/2025">
       <option name="closed" value="true" />
@@ -708,7 +700,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741174194452</updated>
     </task>
-    <option name="localTasksCounter" value="131" />
+    <task id="LOCAL-00131" summary="Commit : 05/03/2025">
+      <option name="closed" value="true" />
+      <created>1741181600761</created>
+      <option name="number" value="00131" />
+      <option name="presentableId" value="LOCAL-00131" />
+      <option name="project" value="LOCAL" />
+      <updated>1741181600761</updated>
+    </task>
+    <option name="localTasksCounter" value="132" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
