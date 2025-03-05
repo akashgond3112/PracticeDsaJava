@@ -68,7 +68,7 @@ public class MaxConsecutiveOnesIII {
                         zeroCount++;
                     }
 
-                    // If we have more zeros than we can flip, break
+                    // If we have more zeros than k we can flip, break
                     if (zeroCount > k) {
                         break;
                     }
