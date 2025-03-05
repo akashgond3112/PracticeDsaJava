@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c45016e-0ee9-462c-b980-ce259e1891d2" name="Changes" comment="Commit : 04/03/2025">
+    <list default="true" id="5c45016e-0ee9-462c-b980-ce259e1891d2" name="Changes" comment="Commit : 05/03/2025">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/meta/easy/RemoveAllAdjacentDuplicatesInString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/meta/easy/RemoveAllAdjacentDuplicatesInString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/meta/medium/MaxConsecutiveOnesIII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/meta/medium/MaxConsecutiveOnesIII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/meta/medium/SubarraySumEqualsK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/meta/medium/SubarraySumEqualsK.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/meta/medium/PowerOfGivenNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/meta/medium/PowerOfGivenNumber.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -290,15 +288,7 @@
       <workItem from="1740752119482" duration="961000" />
       <workItem from="1740755865755" duration="27197000" />
       <workItem from="1740994283260" duration="8063000" />
-      <workItem from="1741110290449" duration="13736000" />
-    </task>
-    <task id="LOCAL-00080" summary="Commit : 20/02/2025">
-      <option name="closed" value="true" />
-      <created>1740073901648</created>
-      <option name="number" value="00080" />
-      <option name="presentableId" value="LOCAL-00080" />
-      <option name="project" value="LOCAL" />
-      <updated>1740073901648</updated>
+      <workItem from="1741110290449" duration="16061000" />
     </task>
     <task id="LOCAL-00081" summary="Commit : 20/02/2025">
       <option name="closed" value="true" />
@@ -684,14 +674,21 @@
       <option name="project" value="LOCAL" />
       <updated>1741121223928</updated>
     </task>
-    <option name="localTasksCounter" value="129" />
+    <task id="LOCAL-00129" summary="Commit : 05/03/2025">
+      <option name="closed" value="true" />
+      <created>1741171775258</created>
+      <option name="number" value="00129" />
+      <option name="presentableId" value="LOCAL-00129" />
+      <option name="project" value="LOCAL" />
+      <updated>1741171775258</updated>
+    </task>
+    <option name="localTasksCounter" value="130" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Commit : 22/01/2025" />
     <MESSAGE value="Commit : 23/01/2025" />
     <MESSAGE value="Commit : 24/01/2025" />
     <MESSAGE value="Commit : 26/01/2025" />
@@ -716,7 +713,8 @@
     <MESSAGE value="Commit : 01/03/2025" />
     <MESSAGE value="Commit : 02/03/2025" />
     <MESSAGE value="Commit : 04/03/2025" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit : 04/03/2025" />
+    <MESSAGE value="Commit : 05/03/2025" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit : 05/03/2025" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
