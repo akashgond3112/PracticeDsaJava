@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5c45016e-0ee9-462c-b980-ce259e1891d2" name="Changes" comment="Commit : 05/03/2025">
+      <change afterPath="$PROJECT_DIR$/src/main/meta/medium/FindAllAnagramsInAString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/meta/medium/PowerOfGivenNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/meta/medium/PowerOfGivenNumber.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,9 +106,9 @@
       <recent name="$PROJECT_DIR$/src/main/dsa/nonlinear" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="main.meta.medium" />
       <recent name="main.meta.hard" />
       <recent name="main.meta.easy" />
-      <recent name="main.meta.medium" />
     </key>
   </component>
   <component name="RunManager" selected="Application.CuttingRibbons$RibbonCutter">
@@ -164,7 +164,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExclusiveTimeOfFunctions (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="ExclusiveTimeOfFunctions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.meta.medium.ExclusiveTimeOfFunctions" />
+      <module name="PracticeDsaJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.meta.medium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExclusiveTimeOfFunctions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.meta.medium.ExclusiveTimeOfFunctions" />
+      <module name="PracticeDsaJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.meta.medium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExclusiveTimeOfFunctions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.meta.medium.ExclusiveTimeOfFunctions" />
       <module name="PracticeDsaJava" />
       <extension name="coverage">
@@ -288,15 +314,7 @@
       <workItem from="1740752119482" duration="961000" />
       <workItem from="1740755865755" duration="27197000" />
       <workItem from="1740994283260" duration="8063000" />
-      <workItem from="1741110290449" duration="16061000" />
-    </task>
-    <task id="LOCAL-00081" summary="Commit : 20/02/2025">
-      <option name="closed" value="true" />
-      <created>1740078685071</created>
-      <option name="number" value="00081" />
-      <option name="presentableId" value="LOCAL-00081" />
-      <option name="project" value="LOCAL" />
-      <updated>1740078685071</updated>
+      <workItem from="1741110290449" duration="17249000" />
     </task>
     <task id="LOCAL-00082" summary="Commit : 20/02/2025">
       <option name="closed" value="true" />
@@ -682,7 +700,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741171775258</updated>
     </task>
-    <option name="localTasksCounter" value="130" />
+    <task id="LOCAL-00130" summary="Commit : 05/03/2025">
+      <option name="closed" value="true" />
+      <created>1741174194452</created>
+      <option name="number" value="00130" />
+      <option name="presentableId" value="LOCAL-00130" />
+      <option name="project" value="LOCAL" />
+      <updated>1741174194452</updated>
+    </task>
+    <option name="localTasksCounter" value="131" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
