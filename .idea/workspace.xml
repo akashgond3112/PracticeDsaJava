@@ -5,15 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5c45016e-0ee9-462c-b980-ce259e1891d2" name="Changes" comment="Commit : 06/03/2025">
-      <change afterPath="$PROJECT_DIR$/src/main/meta/medium/BuildingsWithAnOceanView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/meta/easy/ClosestBinarySearchTreeValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/meta/easy/ClosestBinarySearchTreeValue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/meta/easy/LongestCommonPrefix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/meta/easy/LongestCommonPrefix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/meta/easy/VerifyingAnAlienDictionary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/meta/easy/VerifyingAnAlienDictionary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/meta/medium/BinaryTreeVerticalOrderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/meta/medium/BinaryTreeVerticalOrderTraversal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/meta/medium/DiagonalTraverse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/meta/medium/DiagonalTraverse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/meta/medium/MergeIntervals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/meta/medium/MergeIntervals.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/meta/medium/RandomPickIndex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/meta/medium/RandomPickIndex.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/meta/medium/RandomPickWithWeight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/meta/medium/RandomPickWithWeight.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,44 +64,44 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.BinaryTreeVerticalOrderTraversal.executor": "Run",
-    "Application.CuttingRibbons$RibbonCutter.executor": "Run",
-    "Application.CuttingRibbons.executor": "Run",
-    "Application.DiameterOfBinaryTree.executor": "Run",
-    "Application.ExclusiveTimeOfFunctions (1).executor": "Debug",
-    "Application.ExclusiveTimeOfFunctions (2).executor": "Run",
-    "Application.ExclusiveTimeOfFunctions (3).executor": "Debug",
-    "Application.ExclusiveTimeOfFunctions.executor": "Run",
-    "Application.MinDaysToDeliverParcels.executor": "Debug",
-    "Application.MinimumRemoveToMakeValidParentheses.executor": "Run",
-    "Application.MinimumWindowSubstring (1).executor": "Run",
-    "Application.MinimumWindowSubstring.executor": "Run",
-    "Application.NumberOfIsland.executor": "Run",
-    "Application.PassingYearbooks$Main.executor": "Run",
-    "Application.RotationalCipher$Main.executor": "Run",
-    "Application.Subsets.executor": "Run",
-    "Application.main.dsa.nonlinear.graph.learning.NumberOfIsland.executor": "Run",
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "extract.method.default.visibility": "private",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/space/IdeaProjects/OBTRAD",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "advanced.settings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.BinaryTreeVerticalOrderTraversal.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CuttingRibbons$RibbonCutter.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CuttingRibbons.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DiameterOfBinaryTree.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExclusiveTimeOfFunctions (1).executor&quot;: &quot;Debug&quot;,
+    &quot;Application.ExclusiveTimeOfFunctions (2).executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExclusiveTimeOfFunctions (3).executor&quot;: &quot;Debug&quot;,
+    &quot;Application.ExclusiveTimeOfFunctions.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MinDaysToDeliverParcels.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.MinimumRemoveToMakeValidParentheses.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MinimumWindowSubstring (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.MinimumWindowSubstring.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NumberOfIsland.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PassingYearbooks$Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RotationalCipher$Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Subsets.executor&quot;: &quot;Run&quot;,
+    &quot;Application.main.dsa.nonlinear.graph.learning.NumberOfIsland.executor&quot;: &quot;Run&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;extract.method.default.visibility&quot;: &quot;private&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/space/IdeaProjects/OBTRAD&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/dsa/nonlinear/binarysearchtree" />
@@ -218,7 +212,6 @@
         <item itemvalue="Application.MinimumRemoveToMakeValidParentheses" />
         <item itemvalue="Application.CuttingRibbons$RibbonCutter" />
         <item itemvalue="Application.CuttingRibbons" />
-        <item itemvalue="Application.ExclusiveTimeOfFunctions (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -323,63 +316,8 @@
       <workItem from="1740752119482" duration="961000" />
       <workItem from="1740755865755" duration="27197000" />
       <workItem from="1740994283260" duration="8063000" />
-      <workItem from="1741110290449" duration="46422000" />
-    </task>
-    <task id="LOCAL-00085" summary="Commit : 21/02/2025">
-      <option name="closed" value="true" />
-      <created>1740170901437</created>
-      <option name="number" value="00085" />
-      <option name="presentableId" value="LOCAL-00085" />
-      <option name="project" value="LOCAL" />
-      <updated>1740170901437</updated>
-    </task>
-    <task id="LOCAL-00086" summary="Commit : 21/02/2025">
-      <option name="closed" value="true" />
-      <created>1740170908012</created>
-      <option name="number" value="00086" />
-      <option name="presentableId" value="LOCAL-00086" />
-      <option name="project" value="LOCAL" />
-      <updated>1740170908012</updated>
-    </task>
-    <task id="LOCAL-00087" summary="Commit : 21/02/2025">
-      <option name="closed" value="true" />
-      <created>1740170913379</created>
-      <option name="number" value="00087" />
-      <option name="presentableId" value="LOCAL-00087" />
-      <option name="project" value="LOCAL" />
-      <updated>1740170913379</updated>
-    </task>
-    <task id="LOCAL-00088" summary="Commit : 21/02/2025">
-      <option name="closed" value="true" />
-      <created>1740170921442</created>
-      <option name="number" value="00088" />
-      <option name="presentableId" value="LOCAL-00088" />
-      <option name="project" value="LOCAL" />
-      <updated>1740170921442</updated>
-    </task>
-    <task id="LOCAL-00089" summary="Commit : 21/02/2025">
-      <option name="closed" value="true" />
-      <created>1740170928946</created>
-      <option name="number" value="00089" />
-      <option name="presentableId" value="LOCAL-00089" />
-      <option name="project" value="LOCAL" />
-      <updated>1740170928946</updated>
-    </task>
-    <task id="LOCAL-00090" summary="Commit : 22/02/2025">
-      <option name="closed" value="true" />
-      <created>1740236286981</created>
-      <option name="number" value="00090" />
-      <option name="presentableId" value="LOCAL-00090" />
-      <option name="project" value="LOCAL" />
-      <updated>1740236286981</updated>
-    </task>
-    <task id="LOCAL-00091" summary="Commit : 22/02/2025">
-      <option name="closed" value="true" />
-      <created>1740236293284</created>
-      <option name="number" value="00091" />
-      <option name="presentableId" value="LOCAL-00091" />
-      <option name="project" value="LOCAL" />
-      <updated>1740236293285</updated>
+      <workItem from="1741110290449" duration="54113000" />
+      <workItem from="1741275850527" duration="2500000" />
     </task>
     <task id="LOCAL-00092" summary="Commit : 22/02/2025">
       <option name="closed" value="true" />
@@ -717,7 +655,63 @@
       <option name="project" value="LOCAL" />
       <updated>1741264094847</updated>
     </task>
-    <option name="localTasksCounter" value="134" />
+    <task id="LOCAL-00134" summary="Commit : 06/03/2025">
+      <option name="closed" value="true" />
+      <created>1741264104535</created>
+      <option name="number" value="00134" />
+      <option name="presentableId" value="LOCAL-00134" />
+      <option name="project" value="LOCAL" />
+      <updated>1741264104536</updated>
+    </task>
+    <task id="LOCAL-00135" summary="Commit : 06/03/2025">
+      <option name="closed" value="true" />
+      <created>1741264111870</created>
+      <option name="number" value="00135" />
+      <option name="presentableId" value="LOCAL-00135" />
+      <option name="project" value="LOCAL" />
+      <updated>1741264111870</updated>
+    </task>
+    <task id="LOCAL-00136" summary="Commit : 06/03/2025">
+      <option name="closed" value="true" />
+      <created>1741264122662</created>
+      <option name="number" value="00136" />
+      <option name="presentableId" value="LOCAL-00136" />
+      <option name="project" value="LOCAL" />
+      <updated>1741264122662</updated>
+    </task>
+    <task id="LOCAL-00137" summary="Commit : 06/03/2025">
+      <option name="closed" value="true" />
+      <created>1741264131371</created>
+      <option name="number" value="00137" />
+      <option name="presentableId" value="LOCAL-00137" />
+      <option name="project" value="LOCAL" />
+      <updated>1741264131371</updated>
+    </task>
+    <task id="LOCAL-00138" summary="Commit : 06/03/2025">
+      <option name="closed" value="true" />
+      <created>1741264138677</created>
+      <option name="number" value="00138" />
+      <option name="presentableId" value="LOCAL-00138" />
+      <option name="project" value="LOCAL" />
+      <updated>1741264138677</updated>
+    </task>
+    <task id="LOCAL-00139" summary="Commit : 06/03/2025">
+      <option name="closed" value="true" />
+      <created>1741264146514</created>
+      <option name="number" value="00139" />
+      <option name="presentableId" value="LOCAL-00139" />
+      <option name="project" value="LOCAL" />
+      <updated>1741264146514</updated>
+    </task>
+    <task id="LOCAL-00140" summary="Commit : 06/03/2025">
+      <option name="closed" value="true" />
+      <created>1741264154261</created>
+      <option name="number" value="00140" />
+      <option name="presentableId" value="LOCAL-00140" />
+      <option name="project" value="LOCAL" />
+      <updated>1741264154261</updated>
+    </task>
+    <option name="localTasksCounter" value="141" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -129,9 +129,7 @@ public class RandomPickIndex {
 
 			// Preprocess the array to build the value -> indices mapping
 			for (int i = 0; i < nums.length; i++) {
-				if (!valueToIndices.containsKey(nums[i])) {
-					valueToIndices.put(nums[i], new ArrayList<>());
-				}
+				valueToIndices.putIfAbsent(nums[i], new ArrayList<>());
 				valueToIndices.get(nums[i]).add(i);
 			}
 		}

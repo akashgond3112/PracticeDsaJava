@@ -39,6 +39,54 @@ import java.util.Random;
 public class RandomPickWithWeight {
 
 	/**
+	 * <pre>
+	 * Time Complexity:
+	 * - Constructor: O(n), as we iterate through the weights array to compute the total weight.
+	 * - pickIndex(): O(n), since we iterate through the weights array to find the index.
+	 *
+	 * Space Complexity:
+	 * - O(1), as we only store the weights array and a few integer variables.
+	 * </pre>
+	 */
+	static class SolutionUsingBruteForce {
+		private final int[] weights;
+		private int totalWeight;
+		private final Random rand;
+
+		public SolutionUsingBruteForce(int[] w) {
+			if (w == null || w.length == 0) {
+				throw new IllegalArgumentException("Input array cannot be null or empty");
+			}
+
+			this.weights = w;
+			this.totalWeight = 0;
+			this.rand = new Random();
+
+			// Calculate the total sum of weights
+			for (int weight : w) {
+				this.totalWeight += weight;
+			}
+		}
+
+		public int pickIndex() {
+			// Generate a random number in range [0, totalWeight)
+			int target = rand.nextInt(totalWeight);
+
+			// Iterate through the array and subtract weights until target < 0
+			int sum = 0;
+			for (int i = 0; i < weights.length; i++) {
+				sum += weights[i];
+				if (target < sum) {
+					return i;
+				}
+			}
+			return -1; // This should never be reached
+		}
+	}
+
+
+	/**
+	 * <pre>
 	 * Approach: Prefix Sum + Binary Search
 	 *
 	 * 1. Calculate the prefix sum of the input array
@@ -47,6 +95,7 @@ public class RandomPickWithWeight {
 	 *
 	 * Time Complexity: O(n) for initialization, O(log n) for pickIndex()
 	 * Space Complexity: O(n) for prefix sum array
+	 * </pre>
 	 */
 	static class Solution {
 		private final int[] prefixSum;
@@ -90,19 +139,6 @@ public class RandomPickWithWeight {
 			}
 
 			return left;
-		}
-
-		// Optional: Method to validate input weights
-		private void validateWeights(int[] w) {
-			if (w == null || w.length == 0) {
-				throw new IllegalArgumentException("Weights array cannot be null or empty");
-			}
-
-			for (int weight : w) {
-				if (weight < 0) {
-					throw new IllegalArgumentException("Weights cannot be negative");
-				}
-			}
 		}
 	}
 
