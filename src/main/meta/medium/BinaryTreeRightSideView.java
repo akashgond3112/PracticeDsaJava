@@ -21,6 +21,42 @@ import java.util.Queue;
  */
 public class BinaryTreeRightSideView {
 
+	/**
+	 * Approach: Modified Preorder Traversal for Tree Side Views
+	 *
+	 * This solution provides methods to find both the right side view and left side view
+	 * of a binary tree - the values that would be visible when looking at the tree
+	 * from either the right or left side.
+	 *
+	 * Algorithm for right side view:
+	 * 1. Perform a modified preorder traversal with right child first, then left child
+	 * 2. Track the level/depth of each node during traversal
+	 * 3. For each level, the first node encountered will be the rightmost node
+	 *
+	 * Algorithm for left side view:
+	 * 1. Perform a modified preorder traversal with left child first, then right child
+	 * 2. Track the level/depth of each node during traversal
+	 * 3. For each level, the first node encountered will be the leftmost node
+	 *
+	 * Time Complexity: O(n) for both methods
+	 * - Each node in the tree is visited exactly once
+	 * - All operations at each node are O(1)
+	 *
+	 * Space Complexity: O(h) where h is the height of the tree
+	 * - In the worst case (skewed tree), space complexity is O(n)
+	 * - The recursion stack can grow to the height of the tree
+	 * - The result list contains at most one node per level, so O(h) space
+	 *
+	 * Example visualization:
+	 *     1
+	 *    / \
+	 *   2   3
+	 *  / \   \
+	 * 4   5   6
+	 *
+	 * Right side view: [1,3,6]
+	 * Left side view: [1,2,4]
+	 */
 	public static class TreeNode {
 		int val;
 		TreeNode left;
@@ -40,21 +76,73 @@ public class BinaryTreeRightSideView {
 		}
 	}
 
-	static class SolutionReversePreOrderTraversal {
+	static class TreeSideViews {
+		/**
+		 * Returns the right side view of the binary tree.
+		 */
 		public List<Integer> rightSideView(TreeNode root) {
-			List<Integer> list = new ArrayList<>();
-			rightLeftSideView(root, 0, list);
-			return list;
+			List<Integer> rightSideNodes = new ArrayList<>();
+			traverseRightFirst(root, 0, rightSideNodes);
+			return rightSideNodes;
 		}
 
-		private void rightLeftSideView(TreeNode root, int level, List<Integer> list) {
-			if (root == null)
+		/**
+		 * Helper method to perform a right-first DFS traversal.
+		 *
+		 * @param currentNode The current node being processed
+		 * @param currentLevel The depth/level of the current node (root is level 0)
+		 * @param rightmostNodes List to store the rightmost node at each level
+		 */
+		private void traverseRightFirst(TreeNode currentNode, int currentLevel, List<Integer> rightmostNodes) {
+			// Base case: if current node is null, return
+			if (currentNode == null)
 				return;
-			if (level == list.size()) {
-				list.add(root.val);
+
+			// If this is the first node we've seen at this level
+			// It must be the rightmost node since we process right subtrees first
+			if (currentLevel == rightmostNodes.size()) {
+				rightmostNodes.add(currentNode.val);
 			}
-			rightLeftSideView(root.right, level + 1, list);
-			rightLeftSideView(root.left, level + 1, list);
+
+			// Process right subtree first (higher priority)
+			traverseRightFirst(currentNode.right, currentLevel + 1, rightmostNodes);
+
+			// Then process left subtree
+			traverseRightFirst(currentNode.left, currentLevel + 1, rightmostNodes);
+		}
+
+		/**
+		 * Returns the left side view of the binary tree.
+		 */
+		public List<Integer> leftSideView(TreeNode root) {
+			List<Integer> leftSideNodes = new ArrayList<>();
+			traverseLeftFirst(root, 0, leftSideNodes);
+			return leftSideNodes;
+		}
+
+		/**
+		 * Helper method to perform a left-first DFS traversal.
+		 *
+		 * @param currentNode The current node being processed
+		 * @param currentLevel The depth/level of the current node (root is level 0)
+		 * @param leftmostNodes List to store the leftmost node at each level
+		 */
+		private void traverseLeftFirst(TreeNode currentNode, int currentLevel, List<Integer> leftmostNodes) {
+			// Base case: if current node is null, return
+			if (currentNode == null)
+				return;
+
+			// If this is the first node we've seen at this level
+			// It must be the leftmost node since we process left subtrees first
+			if (currentLevel == leftmostNodes.size()) {
+				leftmostNodes.add(currentNode.val);
+			}
+
+			// Process left subtree first (higher priority)
+			traverseLeftFirst(currentNode.left, currentLevel + 1, leftmostNodes);
+
+			// Then process right subtree
+			traverseLeftFirst(currentNode.right, currentLevel + 1, leftmostNodes);
 		}
 	}
 
