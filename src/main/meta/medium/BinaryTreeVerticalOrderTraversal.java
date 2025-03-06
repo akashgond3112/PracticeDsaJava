@@ -41,24 +41,18 @@ import java.util.TreeMap;
  */
 public class BinaryTreeVerticalOrderTraversal {
 
-	static class TreeNode {
+	static class Node {
 		int data;
-		TreeNode left;
-		TreeNode right;
+		Node left;
+		Node right;
 
-		TreeNode() {
-			this.data = 0;
-			this.left = null;
-			this.right = null;
-		}
-
-		TreeNode(int data) {
+		Node(int data) {
 			this.data = data;
 			this.left = null;
 			this.right = null;
 		}
 
-		TreeNode(int data, TreeNode left, TreeNode right) {
+		Node(int data, Node left, Node right) {
 			this.data = data;
 			this.left = left;
 			this.right = right;
@@ -66,11 +60,11 @@ public class BinaryTreeVerticalOrderTraversal {
 	};
 
 	static class Tuple {
-		TreeNode node;
+		Node node;
 		int x;
 		int y;
 
-		Tuple(TreeNode node, int x, int y) {
+		Tuple(Node node, int x, int y) {
 			this.node = node;
 			this.x = x;
 			this.y = y;
@@ -102,19 +96,19 @@ public class BinaryTreeVerticalOrderTraversal {
 		 * @param root the root of the binary tree
 		 * @return a list of lists of integers representing the vertical order traversal
 		 */
-		public static List<List<Integer>> getTreeTraversal(TreeNode root) {
+		public static List<List<Integer>> getTreeTraversal(Node root) {
 			// Handle the case when the binary tree is empty
 			if (root == null) {
 				return new ArrayList<>();
 			}
 
 			TreeMap<Integer, TreeMap<Integer, PriorityQueue<Integer>>> map = new TreeMap<>();
-			Queue<Tuple> queue = new LinkedList<Tuple>();
+			Queue<Tuple> queue = new LinkedList<>();
 			queue.add(new Tuple(root, 0, 0));
 
 			while (!queue.isEmpty()) {
 				Tuple tuple = queue.poll();
-				TreeNode node = tuple.node;
+				Node node = tuple.node;
 				// vertical
 				int x = tuple.x;
 				// level
@@ -258,23 +252,23 @@ public class BinaryTreeVerticalOrderTraversal {
 
 	public static void main(String[] args) {
 		// Edge case 1: Empty tree
-		TreeNode root1 = null;
+		Node root1 = null;
 		System.out.println(InOrderVerticalTraversal.getTreeTraversal(root1)); // Expected output: []
 
 		// Edge case 2: Single node tree
-		TreeNode root2 = new TreeNode(1);
+		Node root2 = new Node(1);
 		System.out.println(InOrderVerticalTraversal.getTreeTraversal(root2)); // Expected output: [[1]]
 
 		// Edge case 3: All nodes have the same value
-		TreeNode root3 = new TreeNode(1, new TreeNode(1), new TreeNode(1));
+		Node root3 = new Node(1, new Node(1), new Node(1));
 		System.out.println(InOrderVerticalTraversal.getTreeTraversal(root3)); // Expected output: [[1], [1], [1]]
 
 		// Edge case 4: Left skewed tree
-		TreeNode root4 = new TreeNode(1, new TreeNode(2, new TreeNode(3), null), null);
+		Node root4 = new Node(1, new Node(2, new Node(3), null), null);
 		System.out.println(InOrderVerticalTraversal.getTreeTraversal(root4)); // Expected output: [[3], [2], [1]]
 
 		// Edge case 5: Right skewed tree
-		TreeNode root5 = new TreeNode(1, null, new TreeNode(2, null, new TreeNode(3)));
+		Node root5 = new Node(1, null, new Node(2, null, new Node(3)));
 		System.out.println(InOrderVerticalTraversal.getTreeTraversal(root5)); // Expected output: [[1], [2], [3]]
 	}
 }
