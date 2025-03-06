@@ -4,9 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c45016e-0ee9-462c-b980-ce259e1891d2" name="Changes" comment="Commit : 05/03/2025">
+    <list default="true" id="5c45016e-0ee9-462c-b980-ce259e1891d2" name="Changes" comment="Commit : 06/03/2025">
+      <change afterPath="$PROJECT_DIR$/src/main/meta/medium/BuildingsWithAnOceanView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/meta/medium/MinimumRemoveToMakeValidParentheses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/meta/medium/MinimumRemoveToMakeValidParentheses.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/meta/easy/ClosestBinarySearchTreeValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/meta/easy/ClosestBinarySearchTreeValue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/meta/easy/LongestCommonPrefix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/meta/easy/LongestCommonPrefix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/meta/easy/VerifyingAnAlienDictionary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/meta/easy/VerifyingAnAlienDictionary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/meta/medium/BinaryTreeVerticalOrderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/meta/medium/BinaryTreeVerticalOrderTraversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/meta/medium/DiagonalTraverse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/meta/medium/DiagonalTraverse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/meta/medium/MergeIntervals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/meta/medium/MergeIntervals.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +45,8 @@
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/main/meta/medium/BinaryTreeRightSideView.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/meta/easy/ClosestBinarySearchTreeValue.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/meta/medium/BinaryTreeRightSideView.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/meta/medium/ContinuousSubarraySum.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/meta/medium/CopyListWithRandomPointer.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/meta/medium/MergeIntervals.java" root0="FORCE_HIGHLIGHTING" />
@@ -62,43 +70,44 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.BinaryTreeVerticalOrderTraversal.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CuttingRibbons$RibbonCutter.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CuttingRibbons.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DiameterOfBinaryTree.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ExclusiveTimeOfFunctions (1).executor&quot;: &quot;Debug&quot;,
-    &quot;Application.ExclusiveTimeOfFunctions (2).executor&quot;: &quot;Run&quot;,
-    &quot;Application.ExclusiveTimeOfFunctions (3).executor&quot;: &quot;Debug&quot;,
-    &quot;Application.ExclusiveTimeOfFunctions.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MinDaysToDeliverParcels.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.MinimumWindowSubstring (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.MinimumWindowSubstring.executor&quot;: &quot;Run&quot;,
-    &quot;Application.NumberOfIsland.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PassingYearbooks$Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RotationalCipher$Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Subsets.executor&quot;: &quot;Run&quot;,
-    &quot;Application.main.dsa.nonlinear.graph.learning.NumberOfIsland.executor&quot;: &quot;Run&quot;,
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
-    &quot;extract.method.default.visibility&quot;: &quot;private&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/space/IdeaProjects/OBTRAD&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.BinaryTreeVerticalOrderTraversal.executor": "Run",
+    "Application.CuttingRibbons$RibbonCutter.executor": "Run",
+    "Application.CuttingRibbons.executor": "Run",
+    "Application.DiameterOfBinaryTree.executor": "Run",
+    "Application.ExclusiveTimeOfFunctions (1).executor": "Debug",
+    "Application.ExclusiveTimeOfFunctions (2).executor": "Run",
+    "Application.ExclusiveTimeOfFunctions (3).executor": "Debug",
+    "Application.ExclusiveTimeOfFunctions.executor": "Run",
+    "Application.MinDaysToDeliverParcels.executor": "Debug",
+    "Application.MinimumRemoveToMakeValidParentheses.executor": "Run",
+    "Application.MinimumWindowSubstring (1).executor": "Run",
+    "Application.MinimumWindowSubstring.executor": "Run",
+    "Application.NumberOfIsland.executor": "Run",
+    "Application.PassingYearbooks$Main.executor": "Run",
+    "Application.RotationalCipher$Main.executor": "Run",
+    "Application.Subsets.executor": "Run",
+    "Application.main.dsa.nonlinear.graph.learning.NumberOfIsland.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "extract.method.default.visibility": "private",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/space/IdeaProjects/OBTRAD",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "advanced.settings"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/dsa/nonlinear/binarysearchtree" />
@@ -111,7 +120,20 @@
       <recent name="main.meta.easy" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MinimumRemoveToMakeValidParentheses">
+  <component name="RunManager" selected="Application.BinaryTreeVerticalOrderTraversal">
+    <configuration name="BinaryTreeVerticalOrderTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.meta.medium.BinaryTreeVerticalOrderTraversal" />
+      <module name="PracticeDsaJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.meta.medium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CuttingRibbons$RibbonCutter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.meta.medium.CuttingRibbons$RibbonCutter" />
       <module name="PracticeDsaJava" />
@@ -177,19 +199,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExclusiveTimeOfFunctions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.meta.medium.ExclusiveTimeOfFunctions" />
-      <module name="PracticeDsaJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="main.meta.medium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MinimumRemoveToMakeValidParentheses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.meta.medium.MinimumRemoveToMakeValidParentheses" />
       <module name="PracticeDsaJava" />
@@ -205,11 +214,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BinaryTreeVerticalOrderTraversal" />
         <item itemvalue="Application.MinimumRemoveToMakeValidParentheses" />
         <item itemvalue="Application.CuttingRibbons$RibbonCutter" />
         <item itemvalue="Application.CuttingRibbons" />
         <item itemvalue="Application.ExclusiveTimeOfFunctions (3)" />
-        <item itemvalue="Application.ExclusiveTimeOfFunctions (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -314,23 +323,7 @@
       <workItem from="1740752119482" duration="961000" />
       <workItem from="1740755865755" duration="27197000" />
       <workItem from="1740994283260" duration="8063000" />
-      <workItem from="1741110290449" duration="19314000" />
-    </task>
-    <task id="LOCAL-00083" summary="Commit : 21/02/2025">
-      <option name="closed" value="true" />
-      <created>1740151967214</created>
-      <option name="number" value="00083" />
-      <option name="presentableId" value="LOCAL-00083" />
-      <option name="project" value="LOCAL" />
-      <updated>1740151967214</updated>
-    </task>
-    <task id="LOCAL-00084" summary="Commit : 21/02/2025">
-      <option name="closed" value="true" />
-      <created>1740152010651</created>
-      <option name="number" value="00084" />
-      <option name="presentableId" value="LOCAL-00084" />
-      <option name="project" value="LOCAL" />
-      <updated>1740152010651</updated>
+      <workItem from="1741110290449" duration="46422000" />
     </task>
     <task id="LOCAL-00085" summary="Commit : 21/02/2025">
       <option name="closed" value="true" />
@@ -708,14 +701,29 @@
       <option name="project" value="LOCAL" />
       <updated>1741181600761</updated>
     </task>
-    <option name="localTasksCounter" value="132" />
+    <task id="LOCAL-00132" summary="Commit : 05/03/2025">
+      <option name="closed" value="true" />
+      <created>1741184647088</created>
+      <option name="number" value="00132" />
+      <option name="presentableId" value="LOCAL-00132" />
+      <option name="project" value="LOCAL" />
+      <updated>1741184647088</updated>
+    </task>
+    <task id="LOCAL-00133" summary="Commit : 06/03/2025">
+      <option name="closed" value="true" />
+      <created>1741264094847</created>
+      <option name="number" value="00133" />
+      <option name="presentableId" value="LOCAL-00133" />
+      <option name="project" value="LOCAL" />
+      <updated>1741264094847</updated>
+    </task>
+    <option name="localTasksCounter" value="134" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Commit : 23/01/2025" />
     <MESSAGE value="Commit : 24/01/2025" />
     <MESSAGE value="Commit : 26/01/2025" />
     <MESSAGE value="Commit : 31/01/2025" />
@@ -740,7 +748,8 @@
     <MESSAGE value="Commit : 02/03/2025" />
     <MESSAGE value="Commit : 04/03/2025" />
     <MESSAGE value="Commit : 05/03/2025" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit : 05/03/2025" />
+    <MESSAGE value="Commit : 06/03/2025" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit : 06/03/2025" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

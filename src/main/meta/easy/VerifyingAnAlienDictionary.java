@@ -119,10 +119,9 @@ public class VerifyingAnAlienDictionary {
 			// Check each adjacent pair of words
 			for (int i = 0; i < words.length - 1; i++) {
 				String w1 = words[i], w2 = words[i + 1];
-				int j = 0;
 
 				// Compare characters at each position
-				for (; j < w1.length(); j++) {
+				for (int j = 0; j < w1.length(); j++) {
 					// If w2 is shorter than w1 and all characters matched so far,
 					// then w2 should come before w1
 					if (j == w2.length())
