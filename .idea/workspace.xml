@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5c45016e-0ee9-462c-b980-ce259e1891d2" name="Changes" comment="Commit : 06/03/2025">
-      <change afterPath="$PROJECT_DIR$/src/main/meta/easy/MoveZeroes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/meta/hard/RegularExpressionMatching.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -317,14 +316,7 @@
       <workItem from="1740994283260" duration="8063000" />
       <workItem from="1741110290449" duration="54113000" />
       <workItem from="1741275850527" duration="6983000" />
-    </task>
-    <task id="LOCAL-00095" summary="Commit : 22/02/2025">
-      <option name="closed" value="true" />
-      <created>1740242722479</created>
-      <option name="number" value="00095" />
-      <option name="presentableId" value="LOCAL-00095" />
-      <option name="project" value="LOCAL" />
-      <updated>1740242722479</updated>
+      <workItem from="1741434162278" duration="119000" />
     </task>
     <task id="LOCAL-00096" summary="Commit : 22/02/2025">
       <option name="closed" value="true" />
@@ -710,7 +702,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741292839214</updated>
     </task>
-    <option name="localTasksCounter" value="144" />
+    <task id="LOCAL-00144" summary="Commit : 06/03/2025">
+      <option name="closed" value="true" />
+      <created>1741434271416</created>
+      <option name="number" value="00144" />
+      <option name="presentableId" value="LOCAL-00144" />
+      <option name="project" value="LOCAL" />
+      <updated>1741434271417</updated>
+    </task>
+    <option name="localTasksCounter" value="145" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
