@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c45016e-0ee9-462c-b980-ce259e1891d2" name="Changes" comment="Commit : 06/03/2025">
-      <change afterPath="$PROJECT_DIR$/src/main/meta/hard/RegularExpressionMatching.java" afterDir="false" />
+    <list default="true" id="5c45016e-0ee9-462c-b980-ce259e1891d2" name="Changes" comment="Commit : 08/03/2025">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -317,14 +317,8 @@
       <workItem from="1741110290449" duration="54113000" />
       <workItem from="1741275850527" duration="6983000" />
       <workItem from="1741434162278" duration="119000" />
-    </task>
-    <task id="LOCAL-00096" summary="Commit : 22/02/2025">
-      <option name="closed" value="true" />
-      <created>1740243602229</created>
-      <option name="number" value="00096" />
-      <option name="presentableId" value="LOCAL-00096" />
-      <option name="project" value="LOCAL" />
-      <updated>1740243602229</updated>
+      <workItem from="1741437517175" duration="61000" />
+      <workItem from="1741457705537" duration="671000" />
     </task>
     <task id="LOCAL-00097" summary="Commit : 23/02/2025">
       <option name="closed" value="true" />
@@ -710,14 +704,21 @@
       <option name="project" value="LOCAL" />
       <updated>1741434271417</updated>
     </task>
-    <option name="localTasksCounter" value="145" />
+    <task id="LOCAL-00145" summary="Commit : 08/03/2025">
+      <option name="closed" value="true" />
+      <created>1741437564472</created>
+      <option name="number" value="00145" />
+      <option name="presentableId" value="LOCAL-00145" />
+      <option name="project" value="LOCAL" />
+      <updated>1741437564473</updated>
+    </task>
+    <option name="localTasksCounter" value="146" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Commit : 24/01/2025" />
     <MESSAGE value="Commit : 26/01/2025" />
     <MESSAGE value="Commit : 31/01/2025" />
     <MESSAGE value="Commit : 01/02/2025" />
@@ -742,7 +743,8 @@
     <MESSAGE value="Commit : 04/03/2025" />
     <MESSAGE value="Commit : 05/03/2025" />
     <MESSAGE value="Commit : 06/03/2025" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit : 06/03/2025" />
+    <MESSAGE value="Commit : 08/03/2025" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit : 08/03/2025" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
