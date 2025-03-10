@@ -24,7 +24,6 @@ import java.util.*;
  * Input: matrix = [[-5]], k = 1
  * Output: -5
  *
- *
  * Constraints:
  * n == matrix.length == matrix[i].length
  * 1 <= n <= 300
@@ -32,9 +31,7 @@ import java.util.*;
  * All the rows and columns of matrix are guaranteed to be sorted in non-decreasing order.
  * 1 <= k <= n2
  *
- *
  * Follow up:
- *
  * Could you solve the problem with a constant memory (i.e., O(1) memory complexity)?
  * Could you solve the problem in O(n) time complexity? The solution may be too advanced for an interview but you may find reading this paper fun.
  * Topics
