@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c45016e-0ee9-462c-b980-ce259e1891d2" name="Changes" comment="Commit : 12/03/2025">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="5c45016e-0ee9-462c-b980-ce259e1891d2" name="Changes" comment="Commit : 12/03/2025" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -108,8 +106,8 @@
       <recent name="$PROJECT_DIR$/src/main/dsa/nonlinear" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="main.meta.medium" />
       <recent name="main.meta.hard" />
+      <recent name="main.meta.medium" />
       <recent name="main.meta.easy" />
     </key>
   </component>
@@ -299,23 +297,7 @@
       <workItem from="1741551620633" duration="24000" />
       <workItem from="1741595107762" duration="184000" />
       <workItem from="1741630704312" duration="1042000" />
-      <workItem from="1741806343685" duration="1286000" />
-    </task>
-    <task id="LOCAL-00102" summary="Commit : 24/02/2025">
-      <option name="closed" value="true" />
-      <created>1740423660959</created>
-      <option name="number" value="00102" />
-      <option name="presentableId" value="LOCAL-00102" />
-      <option name="project" value="LOCAL" />
-      <updated>1740423660959</updated>
-    </task>
-    <task id="LOCAL-00103" summary="Commit : 24/02/2025">
-      <option name="closed" value="true" />
-      <created>1740429515843</created>
-      <option name="number" value="00103" />
-      <option name="presentableId" value="LOCAL-00103" />
-      <option name="project" value="LOCAL" />
-      <updated>1740429515843</updated>
+      <workItem from="1741806343685" duration="2062000" />
     </task>
     <task id="LOCAL-00104" summary="Commit : 25/02/2025">
       <option name="closed" value="true" />
@@ -693,7 +675,23 @@
       <option name="project" value="LOCAL" />
       <updated>1741806415597</updated>
     </task>
-    <option name="localTasksCounter" value="151" />
+    <task id="LOCAL-00151" summary="Commit : 12/03/2025">
+      <option name="closed" value="true" />
+      <created>1741811035928</created>
+      <option name="number" value="00151" />
+      <option name="presentableId" value="LOCAL-00151" />
+      <option name="project" value="LOCAL" />
+      <updated>1741811035928</updated>
+    </task>
+    <task id="LOCAL-00152" summary="Commit : 12/03/2025">
+      <option name="closed" value="true" />
+      <created>1741811095410</created>
+      <option name="number" value="00152" />
+      <option name="presentableId" value="LOCAL-00152" />
+      <option name="project" value="LOCAL" />
+      <updated>1741811095410</updated>
+    </task>
+    <option name="localTasksCounter" value="153" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
