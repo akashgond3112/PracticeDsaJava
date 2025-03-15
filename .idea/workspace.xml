@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c45016e-0ee9-462c-b980-ce259e1891d2" name="Changes" comment="Commit : 13/03/2025">
+    <list default="true" id="5c45016e-0ee9-462c-b980-ce259e1891d2" name="Changes" comment="Commit : 14/03/2025">
+      <change afterPath="$PROJECT_DIR$/src/main/meta/medium/GenerateParentheses.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -303,22 +304,7 @@
       <workItem from="1741870879357" duration="3201000" />
       <workItem from="1741891314016" duration="873000" />
       <workItem from="1741942931529" duration="5000" />
-    </task>
-    <task id="LOCAL-00107" summary="Commit : 25/02/2025">
-      <option name="closed" value="true" />
-      <created>1740598915147</created>
-      <option name="number" value="00107" />
-      <option name="presentableId" value="LOCAL-00107" />
-      <option name="project" value="LOCAL" />
-      <updated>1740598915147</updated>
-    </task>
-    <task id="LOCAL-00108" summary="Commit : 25/02/2025">
-      <option name="closed" value="true" />
-      <created>1740598923920</created>
-      <option name="number" value="00108" />
-      <option name="presentableId" value="LOCAL-00108" />
-      <option name="project" value="LOCAL" />
-      <updated>1740598923920</updated>
+      <workItem from="1741983693718" duration="3449000" />
     </task>
     <task id="LOCAL-00109" summary="Commit : 27/02/2025">
       <option name="closed" value="true" />
@@ -696,14 +682,29 @@
       <option name="project" value="LOCAL" />
       <updated>1741876672989</updated>
     </task>
-    <option name="localTasksCounter" value="156" />
+    <task id="LOCAL-00156" summary="Commit : 14/03/2025">
+      <option name="closed" value="true" />
+      <created>1741983747481</created>
+      <option name="number" value="00156" />
+      <option name="presentableId" value="LOCAL-00156" />
+      <option name="project" value="LOCAL" />
+      <updated>1741983747481</updated>
+    </task>
+    <task id="LOCAL-00157" summary="Commit : 14/03/2025">
+      <option name="closed" value="true" />
+      <created>1741985689547</created>
+      <option name="number" value="00157" />
+      <option name="presentableId" value="LOCAL-00157" />
+      <option name="project" value="LOCAL" />
+      <updated>1741985689547</updated>
+    </task>
+    <option name="localTasksCounter" value="158" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Commit : 06/02/2025" />
     <MESSAGE value="Commit : 14/02/2025" />
     <MESSAGE value="Commit : 15/02/2025" />
     <MESSAGE value="Commit : 16/02/2025" />
@@ -728,7 +729,8 @@
     <MESSAGE value="Commit : 10/03/2025" />
     <MESSAGE value="Commit : 12/03/2025" />
     <MESSAGE value="Commit : 13/03/2025" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit : 13/03/2025" />
+    <MESSAGE value="Commit : 14/03/2025" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit : 14/03/2025" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
