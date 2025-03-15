@@ -58,6 +58,17 @@ import java.util.*;
  * </pre>
  */
 public class WallsAndGates {
+  /** Possible movement directions: right, left, down, up */
+  private static final int[][] directions = {{1, 0}, {-1, 0}, {0, 1}, {0, -1}};
+
+  /** Represents infinity or an unreachable state */
+  private static final int INF = 214783647;
+
+  /** Tracks visited cells during DFS to avoid cycles */
+  private static boolean[][] visited;
+
+  /** Grid dimensions */
+  private static int row, col;
 
   /**
    * Solution class that implements a backtracking algorithm to solve the island treasure problem.
@@ -70,17 +81,6 @@ public class WallsAndGates {
    * stack can go as deep as row*col in the worst case
    */
   public static class SolutionUsingBackTracking {
-    /** Possible movement directions: right, left, down, up */
-    private static final int[][] directions = {{1, 0}, {-1, 0}, {0, 1}, {0, -1}};
-
-    /** Represents infinity or an unreachable state */
-    private static final int INF = 214783647;
-
-    /** Tracks visited cells during DFS to avoid cycles */
-    private static boolean[][] visited;
-
-    /** Grid dimensions */
-    private static int row, col;
 
     /**
      * Depth-first search to find the shortest path to treasure.
@@ -128,6 +128,81 @@ public class WallsAndGates {
         for (int j = 0; j < col; j++) {
           if (grid[i][j] != INF) {
             grid[i][j] = dfs(grid, i, j);
+          }
+        }
+      }
+    }
+  }
+
+  /**
+   * Solution class that implements a breadth-first search algorithm to solve the island treasure
+   * problem.
+   *
+   * <p>Time Complexity: O(row * col * row * col) - For each cell in the grid, we potentially need
+   * to explore the entire grid - BFS ensures we find the shortest path to treasure
+   *
+   * <p>Space Complexity: O(row * col) - We use a visited array of size row*col - The queue can
+   * contain at most row*col elements
+   */
+  public static class SolutionUsingBFS {
+    /**
+     * Breadth-first search to find the shortest path to treasure.
+     *
+     * @param grid The island grid
+     * @param r Starting row position
+     * @param c Starting column position
+     * @return The minimum distance to treasure or INF if unreachable
+     *     <p>Time Complexity: O(row * col) Space Complexity: O(row * col) for the queue
+     */
+    private static int bfs(int[][] grid, int r, int c) {
+      Queue<int[]> q = new LinkedList<>();
+      q.add(new int[] {r, c});
+      visited[r][c] = true;
+      int steps = 0;
+      while (!q.isEmpty()) {
+        int size = q.size();
+        for (int i = 0; i < size; i++) {
+          int[] cur = q.poll();
+			assert cur != null;
+			int curRow = cur[0];
+          int curCol = cur[1];
+          if (grid[curRow][curCol] == 0) return steps;
+          for (int[] dir : directions) {
+            int newRow = curRow + dir[0];
+            int newCol = curCol + dir[1];
+            if (newRow >= 0
+                && newRow < row
+                && newCol >= 0
+                && newCol < col
+                && !visited[newRow][newCol]
+                && grid[newRow][newCol] != -1) {
+              visited[newRow][newCol] = true;
+              q.add(new int[] {newRow, newCol});
+            }
+          }
+        }
+        steps++;
+      }
+      return INF;
+    }
+
+    /**
+     * Processes the entire island grid to find treasure distances using BFS.
+     *
+     * @param grid The island grid where: - 0 represents treasure - -1 represents obstacles - Other
+     *     values represent land cells - INF represents unreachable cells
+     *     <p>After execution, each cell in the grid will contain the minimum distance to the
+     *     nearest treasure, or INF if unreachable.
+     *     <p>Time Complexity: O(row * col * row * col) Space Complexity: O(row * col)
+     */
+    public static void islandTreasure(int[][] grid) {
+      row = grid.length;
+      col = grid[0].length;
+      visited = new boolean[row][col];
+      for (int i = 0; i < row; i++) {
+        for (int j = 0; j < col; j++) {
+          if (grid[i][j] != INF) {
+            grid[i][j] = bfs(grid, i, j);
           }
         }
       }
