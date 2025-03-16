@@ -1,7 +1,5 @@
 package main.meta.easy;
 
-import java.util.*;
-
 /**
  *
  *
