@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c45016e-0ee9-462c-b980-ce259e1891d2" name="Changes" comment="Commit : 15/03/2025">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="5c45016e-0ee9-462c-b980-ce259e1891d2" name="Changes" comment="Commit : 16/03/2025" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -127,6 +125,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="BinaryTreeVerticalOrderTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.meta.medium.BinaryTreeVerticalOrderTraversal" />
+      <module name="PracticeDsaJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.meta.medium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CuttingRibbons$RibbonCutter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.meta.medium.CuttingRibbons$RibbonCutter" />
+      <module name="PracticeDsaJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.meta.medium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CuttingRibbons$RibbonCutter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.meta.medium.CuttingRibbons$RibbonCutter" />
       <module name="PracticeDsaJava" />
@@ -153,8 +177,47 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CuttingRibbons" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.meta.medium.CuttingRibbons" />
+      <module name="PracticeDsaJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.meta.medium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="KthSmallestElementInASortedMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.meta.medium.KthSmallestElementInASortedMatrix" />
+      <module name="PracticeDsaJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.meta.medium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KthSmallestElementInASortedMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.meta.medium.KthSmallestElementInASortedMatrix" />
+      <module name="PracticeDsaJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.meta.medium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MinimumRemoveToMakeValidParentheses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.meta.medium.MinimumRemoveToMakeValidParentheses" />
       <module name="PracticeDsaJava" />
       <extension name="coverage">
         <pattern>
@@ -305,14 +368,7 @@
       <workItem from="1741942931529" duration="5000" />
       <workItem from="1741983693718" duration="12952000" />
       <workItem from="1742113565662" duration="4000" />
-    </task>
-    <task id="LOCAL-00113" summary="Commit : 27/02/2025">
-      <option name="closed" value="true" />
-      <created>1740691109003</created>
-      <option name="number" value="00113" />
-      <option name="presentableId" value="LOCAL-00113" />
-      <option name="project" value="LOCAL" />
-      <updated>1740691109003</updated>
+      <workItem from="1742118419734" duration="118000" />
     </task>
     <task id="LOCAL-00114" summary="Commit : 27/02/2025">
       <option name="closed" value="true" />
@@ -698,14 +754,21 @@
       <option name="project" value="LOCAL" />
       <updated>1742067008097</updated>
     </task>
-    <option name="localTasksCounter" value="162" />
+    <task id="LOCAL-00162" summary="Commit : 16/03/2025">
+      <option name="closed" value="true" />
+      <created>1742118451451</created>
+      <option name="number" value="00162" />
+      <option name="presentableId" value="LOCAL-00162" />
+      <option name="project" value="LOCAL" />
+      <updated>1742118451452</updated>
+    </task>
+    <option name="localTasksCounter" value="163" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Commit : 15/02/2025" />
     <MESSAGE value="Commit : 16/02/2025" />
     <MESSAGE value="Commit : 17/02/2025" />
     <MESSAGE value="Commit : 18/02/2025" />
@@ -730,7 +793,8 @@
     <MESSAGE value="Commit : 13/03/2025" />
     <MESSAGE value="Commit : 14/03/2025" />
     <MESSAGE value="Commit : 15/03/2025" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit : 15/03/2025" />
+    <MESSAGE value="Commit : 16/03/2025" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit : 16/03/2025" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
