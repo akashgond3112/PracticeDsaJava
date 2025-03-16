@@ -163,8 +163,8 @@ public class WallsAndGates {
         int size = q.size();
         for (int i = 0; i < size; i++) {
           int[] cur = q.poll();
-			assert cur != null;
-			int curRow = cur[0];
+          assert cur != null;
+          int curRow = cur[0];
           int curCol = cur[1];
           if (grid[curRow][curCol] == 0) return steps;
           for (int[] dir : directions) {
@@ -204,6 +204,79 @@ public class WallsAndGates {
           if (grid[i][j] != INF) {
             grid[i][j] = bfs(grid, i, j);
           }
+        }
+      }
+    }
+  }
+
+  /**
+   * Solution class that implements a multi-source breadth-first search algorithm to solve the
+   * island treasure problem.
+   *
+   * <p>Time Complexity: O(m * n) - We process each cell in the grid exactly once - For each cell,
+   * we check its four adjacent neighbors
+   *
+   * <p>Space Complexity: O(m * n) - In worst case, the queue could contain all treasure cells (up
+   * to m*n)
+   */
+  public static class SolutionUsingBFSMultiSource {
+    /**
+     * Processes the entire island grid to find treasure distances using multi-source BFS. This
+     * approach starts BFS from all treasure cells simultaneously, which is more efficient than
+     * starting from each cell separately.
+     *
+     * @param grid The island grid where: - 0 represents treasure - -1 represents obstacles - Other
+     *     positive values will be overwritten with distances
+     *     <p>After execution, each cell in the grid will contain the minimum distance to the
+     *     nearest treasure, or Integer.MAX_VALUE if unreachable.
+     *     <p>Time Complexity: O(m * n) Space Complexity: O(m * n)
+     */
+    public void islandTreasure(int[][] grid) {
+      Queue<int[]> q = new LinkedList<>();
+      int m = grid.length;
+      int n = grid[0].length; // Fixed: Use grid[0].length for columns
+
+      // Add all treasure cells to the queue as starting points
+      // and mark all non-treasure, non-obstacle cells as unvisited
+      for (int i = 0; i < m; i++) {
+        for (int j = 0; j < n; j++) { // Fixed: Use j < n instead of i < n
+          if (grid[i][j] == 0) {
+            q.add(new int[] {i, j});
+          } else if (grid[i][j] != -1) {
+            grid[i][j] = Integer.MAX_VALUE; // Mark unvisited cells
+          }
+        }
+      }
+
+      // Return if no treasure exists
+      if (q.isEmpty()) {
+        return;
+      }
+
+      // Process the queue in BFS manner
+      while (!q.isEmpty()) {
+        int[] node = q.poll();
+        int row = node[0];
+        int col = node[1];
+
+        // Check all four directions
+        for (int[] dir : directions) {
+          int curRow = row + dir[0]; // Fixed: Add to current position
+          int curCol = col + dir[1]; // Fixed: Add to current position
+
+          // Skip invalid cells, obstacles, or already visited cells with shorter paths
+          if (curRow < 0
+              || curRow >= m
+              || curCol < 0
+              || curCol >= n
+              || grid[curRow][curCol] == -1
+              || grid[curRow][curCol] != Integer.MAX_VALUE) {
+            continue;
+          }
+
+          // Update distance and add to queue
+          grid[curRow][curCol] = grid[row][col] + 1; // Fixed: Update with parent's distance + 1
+          q.add(new int[] {curRow, curCol});
         }
       }
     }
