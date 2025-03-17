@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c45016e-0ee9-462c-b980-ce259e1891d2" name="Changes" comment="Commit : 16/03/2025">
-      <change afterPath="$PROJECT_DIR$/src/main/meta/medium/MultiplyStrings.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="5c45016e-0ee9-462c-b980-ce259e1891d2" name="Changes" comment="Commit : 17/03/2025" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -374,15 +371,7 @@
       <workItem from="1742118419734" duration="118000" />
       <workItem from="1742118576275" duration="3847000" />
       <workItem from="1742199882466" duration="14000" />
-      <workItem from="1742233327876" duration="1604000" />
-    </task>
-    <task id="LOCAL-00117" summary="Commit : 28/02/2025">
-      <option name="closed" value="true" />
-      <created>1740763601118</created>
-      <option name="number" value="00117" />
-      <option name="presentableId" value="LOCAL-00117" />
-      <option name="project" value="LOCAL" />
-      <updated>1740763601118</updated>
+      <workItem from="1742233327876" duration="1725000" />
     </task>
     <task id="LOCAL-00118" summary="Commit : 28/02/2025">
       <option name="closed" value="true" />
@@ -768,14 +757,21 @@
       <option name="project" value="LOCAL" />
       <updated>1742125883335</updated>
     </task>
-    <option name="localTasksCounter" value="166" />
+    <task id="LOCAL-00166" summary="Commit : 17/03/2025">
+      <option name="closed" value="true" />
+      <created>1742234952530</created>
+      <option name="number" value="00166" />
+      <option name="presentableId" value="LOCAL-00166" />
+      <option name="project" value="LOCAL" />
+      <updated>1742234952530</updated>
+    </task>
+    <option name="localTasksCounter" value="167" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Commit : 16/02/2025" />
     <MESSAGE value="Commit : 17/02/2025" />
     <MESSAGE value="Commit : 18/02/2025" />
     <MESSAGE value="Commit : 19/02/2025" />
@@ -800,7 +796,8 @@
     <MESSAGE value="Commit : 14/03/2025" />
     <MESSAGE value="Commit : 15/03/2025" />
     <MESSAGE value="Commit : 16/03/2025" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit : 16/03/2025" />
+    <MESSAGE value="Commit : 17/03/2025" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit : 17/03/2025" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
