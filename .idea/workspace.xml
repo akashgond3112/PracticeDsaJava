@@ -4,10 +4,100 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c45016e-0ee9-462c-b980-ce259e1891d2" name="Changes" comment="Commit : 19/03/2025">
-      <change afterPath="$PROJECT_DIR$/src/main/dsa/nonlinear/binarysearchtree/BinarySearchTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/dsa/nonlinear/binarysearchtree/Node.java" afterDir="false" />
+    <list default="true" id="5c45016e-0ee9-462c-b980-ce259e1891d2" name="Changes" comment="Commit : 24/03/2025">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vscode/settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/dsa/linear/LinkedList/DoublyLinkedList/FindPairsWithGivenSumInDoublyLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/dsa/linear/LinkedList/DoublyLinkedList/FindPairsWithGivenSumInDoublyLinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/dsa/linear/LinkedList/SinglyLinkedList/AddOneToANumberRepresentedAsLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/dsa/linear/LinkedList/SinglyLinkedList/AddOneToANumberRepresentedAsLinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/dsa/linear/LinkedList/SinglyLinkedList/AddTwoNumbers.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/dsa/linear/LinkedList/SinglyLinkedList/AddTwoNumbers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/dsa/linear/LinkedList/SinglyLinkedList/CheckIfLinkedListIsPalindrome.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/dsa/linear/LinkedList/SinglyLinkedList/CheckIfLinkedListIsPalindrome.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/dsa/linear/LinkedList/SinglyLinkedList/CycleDetectionInASinglyLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/dsa/linear/LinkedList/SinglyLinkedList/CycleDetectionInASinglyLinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/dsa/linear/LinkedList/SinglyLinkedList/DeleteKthNodeFromEnd.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/dsa/linear/LinkedList/SinglyLinkedList/DeleteKthNodeFromEnd.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/dsa/linear/LinkedList/SinglyLinkedList/DeleteMiddleNodeFromLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/dsa/linear/LinkedList/SinglyLinkedList/DeleteMiddleNodeFromLinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/dsa/linear/LinkedList/SinglyLinkedList/IntersectionOfTwoLinkedLists.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/dsa/linear/LinkedList/SinglyLinkedList/IntersectionOfTwoLinkedLists.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/dsa/linear/LinkedList/SinglyLinkedList/LengthOfLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/dsa/linear/LinkedList/SinglyLinkedList/LengthOfLinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/dsa/linear/LinkedList/SinglyLinkedList/LinkedListCycleII.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/dsa/linear/LinkedList/SinglyLinkedList/LinkedListCycleII.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/dsa/linear/LinkedList/SinglyLinkedList/MergeKSortedLists$Pair.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/dsa/linear/LinkedList/SinglyLinkedList/MergeKSortedLists$Pair.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/dsa/linear/LinkedList/SinglyLinkedList/MergeKSortedLists.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/dsa/linear/LinkedList/SinglyLinkedList/MergeKSortedLists.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/dsa/linear/LinkedList/SinglyLinkedList/MergeTwoSortedLinkedLists.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/dsa/linear/LinkedList/SinglyLinkedList/MergeTwoSortedLinkedLists.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/dsa/linear/LinkedList/SinglyLinkedList/MiddleOfLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/dsa/linear/LinkedList/SinglyLinkedList/MiddleOfLinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/dsa/linear/LinkedList/SinglyLinkedList/RearrangeOddAndEvenPlaces.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/dsa/linear/LinkedList/SinglyLinkedList/RearrangeOddAndEvenPlaces.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/dsa/linear/LinkedList/SinglyLinkedList/ReverseLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/dsa/linear/LinkedList/SinglyLinkedList/ReverseLinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/dsa/linear/LinkedList/SinglyLinkedList/ReverseListInKGroups.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/dsa/linear/LinkedList/SinglyLinkedList/ReverseListInKGroups.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/dsa/linear/LinkedList/SinglyLinkedList/RotateLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/dsa/linear/LinkedList/SinglyLinkedList/RotateLinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/dsa/linear/LinkedList/SinglyLinkedList/SinglyLinkedList$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/dsa/linear/LinkedList/SinglyLinkedList/SinglyLinkedList$Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/dsa/linear/LinkedList/SinglyLinkedList/SinglyLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/dsa/linear/LinkedList/SinglyLinkedList/SinglyLinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/dsa/linear/LinkedList/SinglyLinkedList/SortLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/dsa/linear/LinkedList/SinglyLinkedList/SortLinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/dsa/linear/LinkedList/SinglyLinkedList/SortLinkedListII.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/dsa/linear/LinkedList/SinglyLinkedList/SortLinkedListII.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/dsa/nonlinear/graph/learning/BipartiteGraph.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/dsa/nonlinear/graph/learning/DetectACycleInAGraph$Pair.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/dsa/nonlinear/graph/learning/DetectACycleInAGraph.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/dsa/nonlinear/graph/learning/Dijkstra/CheapestFlightsWithinKStops$Pair.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/dsa/nonlinear/graph/learning/Dijkstra/CheapestFlightsWithinKStops$Tuple.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/dsa/nonlinear/graph/learning/Dijkstra/CheapestFlightsWithinKStops.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/dsa/nonlinear/graph/learning/Dijkstra/DijkstraAlgorithm$Pair.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/dsa/nonlinear/graph/learning/Dijkstra/DijkstraAlgorithm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/dsa/nonlinear/graph/learning/Dijkstra/MinimumMultiplicationsToReachEnd$Pair.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/dsa/nonlinear/graph/learning/Dijkstra/MinimumMultiplicationsToReachEnd.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/dsa/nonlinear/graph/learning/Dijkstra/NumberOfWaysToArriveAtDestination$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/dsa/nonlinear/graph/learning/Dijkstra/NumberOfWaysToArriveAtDestination$Pair.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/dsa/nonlinear/graph/learning/Dijkstra/NumberOfWaysToArriveAtDestination.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/dsa/nonlinear/graph/learning/Dijkstra/PathWithMinimumEffort$Tuple.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/dsa/nonlinear/graph/learning/Dijkstra/PathWithMinimumEffort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/dsa/nonlinear/graph/learning/Dijkstra/ShortestDistanceInABinaryMaze$Tuple.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/dsa/nonlinear/graph/learning/Dijkstra/ShortestDistanceInABinaryMaze.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/dsa/nonlinear/graph/learning/Dijkstra/ShortestPathInWeightedUndirectedGraph$Pair.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/dsa/nonlinear/graph/learning/Dijkstra/ShortestPathInWeightedUndirectedGraph.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/dsa/nonlinear/graph/learning/DistanceOfNearestCellHaving1$NearestCell.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/dsa/nonlinear/graph/learning/DistanceOfNearestCellHaving1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/dsa/nonlinear/graph/learning/EventualSafeStates.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/dsa/nonlinear/graph/learning/Graph.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/dsa/nonlinear/graph/learning/NumberOfDistinctIslands$Pair.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/dsa/nonlinear/graph/learning/NumberOfDistinctIslands.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/dsa/nonlinear/graph/learning/NumberOfEnclaves$Pair.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/dsa/nonlinear/graph/learning/NumberOfEnclaves.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/dsa/nonlinear/graph/learning/NumberOfIsland$Pair.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/dsa/nonlinear/graph/learning/NumberOfIsland.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/dsa/nonlinear/graph/learning/NumberOfProvinces$FloodFillAlgorithm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/dsa/nonlinear/graph/learning/NumberOfProvinces.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/dsa/nonlinear/graph/learning/ReplaceOWithX.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/dsa/nonlinear/graph/learning/RottenOranges$Pair.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/dsa/nonlinear/graph/learning/RottenOranges.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/dsa/nonlinear/graph/learning/UndirectedGraphCycle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/dsa/nonlinear/graph/learning/bellmanFordAlgorithm/DistanceFromTheSource$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/dsa/nonlinear/graph/learning/bellmanFordAlgorithm/DistanceFromTheSource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/dsa/nonlinear/graph/learning/floydWarshall/CityWithTheSmallestNumberOfNeighborsAtAThresholdDistance.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/dsa/nonlinear/graph/learning/floydWarshall/FloydWarshall.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/dsa/nonlinear/graph/learning/kosarajuAlgorithm/StronglyConnectedComponents.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/dsa/nonlinear/graph/learning/minSpanningTree/kruskalAlgorithm/AccountMerge$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/dsa/nonlinear/graph/learning/minSpanningTree/kruskalAlgorithm/AccountMerge.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/dsa/nonlinear/graph/learning/minSpanningTree/kruskalAlgorithm/ConnectingTheGraph.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/dsa/nonlinear/graph/learning/minSpanningTree/kruskalAlgorithm/DisjointSet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/dsa/nonlinear/graph/learning/minSpanningTree/kruskalAlgorithm/MaximumConnectedGroup.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/dsa/nonlinear/graph/learning/minSpanningTree/kruskalAlgorithm/MaximumStoneRemoval.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/dsa/nonlinear/graph/learning/minSpanningTree/kruskalAlgorithm/MinimumSpanningTree$Edge.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/dsa/nonlinear/graph/learning/minSpanningTree/kruskalAlgorithm/MinimumSpanningTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/dsa/nonlinear/graph/learning/minSpanningTree/kruskalAlgorithm/NumberOfIslands.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/dsa/nonlinear/graph/learning/minSpanningTree/kruskalAlgorithm/NumberOfProvinces.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/dsa/nonlinear/graph/learning/minSpanningTree/primsAlgorithm/MinimumSpanningTree$Pair.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/dsa/nonlinear/graph/learning/minSpanningTree/primsAlgorithm/MinimumSpanningTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/dsa/nonlinear/graph/learning/tarjanAlgorithm/ArticulationPointI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/dsa/nonlinear/graph/learning/tarjanAlgorithm/CriticalConnectionsInANetwork.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/dsa/nonlinear/graph/learning/topologicalsort/AlienDictionary.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/dsa/nonlinear/graph/learning/topologicalsort/CourseSchedule.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/dsa/nonlinear/graph/learning/topologicalsort/DetectACycleInADirectedGraph.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/dsa/nonlinear/graph/learning/topologicalsort/KahnsAlgorithm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/dsa/nonlinear/graph/learning/topologicalsort/PrerequisiteTasks.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/dsa/nonlinear/graph/learning/topologicalsort/ShortestPathInDirectedAcyclicGraph$Pair.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/dsa/nonlinear/graph/learning/topologicalsort/ShortestPathInDirectedAcyclicGraph.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/dsa/nonlinear/graph/learning/topologicalsort/ShortestPathInUnDirectedAcyclicGraph.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/dsa/nonlinear/graph/learning/topologicalsort/TopologicalSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/dsa/nonlinear/graph/learning/topologicalsort/WordLadderI$Pair.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/dsa/nonlinear/graph/learning/topologicalsort/WordLadderI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/dsa/nonlinear/graph/learning/topologicalsort/WordLadderII$comp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/dsa/nonlinear/graph/learning/topologicalsort/WordLadderII.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/dsa/nonlinear/graph/learning/topologicalsort/WordLadderIII.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/dsa/nonlinear/binarysearchtree/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/dsa/nonlinear/binarysearchtree/BinarySearchTree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -378,15 +468,10 @@
       <workItem from="1742233327876" duration="1725000" />
       <workItem from="1742381443077" duration="6000" />
       <workItem from="1742413717582" duration="2078000" />
-      <workItem from="1742837608579" duration="2745000" />
-    </task>
-    <task id="LOCAL-00122" summary="Commit : 02/03/2025">
-      <option name="closed" value="true" />
-      <created>1740907794355</created>
-      <option name="number" value="00122" />
-      <option name="presentableId" value="LOCAL-00122" />
-      <option name="project" value="LOCAL" />
-      <updated>1740907794355</updated>
+      <workItem from="1742837608579" duration="4845000" />
+      <workItem from="1742925229747" duration="19000" />
+      <workItem from="1742927355002" duration="28000" />
+      <workItem from="1742927388497" duration="1000" />
     </task>
     <task id="LOCAL-00123" summary="Commit : 02/03/2025">
       <option name="closed" value="true" />
@@ -772,14 +857,21 @@
       <option name="project" value="LOCAL" />
       <updated>1742413724851</updated>
     </task>
-    <option name="localTasksCounter" value="171" />
+    <task id="LOCAL-00171" summary="Commit : 24/03/2025">
+      <option name="closed" value="true" />
+      <created>1742847059149</created>
+      <option name="number" value="00171" />
+      <option name="presentableId" value="LOCAL-00171" />
+      <option name="project" value="LOCAL" />
+      <updated>1742847059149</updated>
+    </task>
+    <option name="localTasksCounter" value="172" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Commit : 19/02/2025" />
     <MESSAGE value="Commit : 20/02/2025" />
     <MESSAGE value="Commit : 21/02/2025" />
     <MESSAGE value="Commit : 22/02/2025" />
@@ -804,7 +896,8 @@
     <MESSAGE value="Commit : 17/03/2025" />
     <MESSAGE value="Commit : 18/03/2025" />
     <MESSAGE value="Commit : 19/03/2025" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit : 19/03/2025" />
+    <MESSAGE value="Commit : 24/03/2025" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit : 24/03/2025" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

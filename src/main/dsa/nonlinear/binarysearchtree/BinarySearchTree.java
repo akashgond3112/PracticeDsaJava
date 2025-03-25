@@ -63,4 +63,39 @@ public class BinarySearchTree {
 		}
 		return minValue;
 	}
+
+	public Integer floor(Node root, int key) {
+		if (root == null) {
+			return null;
+		}
+
+		if (root.key == key) {
+			return root.key;
+		}
+
+		if (root.key > key) {
+			return floor(root.left, key);
+		}
+
+		Integer floorValue = floor(root.right, key);
+		return (floorValue != null) ? floorValue : root.key;
+	}
+
+	public Integer ceiling(Node root, int key) {
+		if (root == null) {
+			return null;
+		}
+
+		if (root.key == key) {
+			return root.key;
+		}
+
+		if (root.key < key) {
+			return ceiling(root.right, key);
+		}
+
+		Integer ceilingValue = ceiling(root.left, key);
+		return (ceilingValue != null) ? ceilingValue : root.key;
+	}
+
 }

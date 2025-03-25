@@ -3,3 +3,8 @@ PracticeDSA.iml
 .vscode
 /out/
 /bin/
+*.class
+target/
+.settings/
+.classpath
+.project
