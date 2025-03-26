@@ -1,7 +1,5 @@
 package main.meta.medium;
 
-import java.util.*;
-
 /**
  *
  *
@@ -46,18 +44,26 @@ import java.util.*;
 public class KthSmallestInSortedMatrix {
 
   /**
-   * Finds the kth smallest element in a sorted matrix where both rows and columns are sorted in
-   * ascending order. Solution for finding the kth smallest element in a sorted matrix.
+   * Finds the kth smallest element in a sorted matrix where both rows and columns
+   * are sorted in
+   * ascending order. Solution for finding the kth smallest element in a sorted
+   * matrix.
    *
-   * <p>In this implementation, we use a binary search approach on the range of values rather than
-   * searching through indices. We count elements smaller than a given value to determine where the
+   * <p>
+   * In this implementation, we use a binary search approach on the range of
+   * values rather than
+   * searching through indices. We count elements smaller than a given value to
+   * determine where the
    * kth smallest element falls.
    *
-   * <p>Time Complexity: O(n * log(max-min)) where n is the dimension of the matrix and (max-min) is
-   * the range of values in the matrix. Space Complexity: O(1) - uses constant extra space.
+   * <p>
+   * Time Complexity: O(n * log(max-min)) where n is the dimension of the matrix
+   * and (max-min) is
+   * the range of values in the matrix. Space Complexity: O(1) - uses constant
+   * extra space.
    *
    * @param matrix The n x n sorted matrix
-   * @param k The position of the element to find (1-based)
+   * @param k      The position of the element to find (1-based)
    * @return The kth smallest element in the matrix
    */
   public int kthSmallest(int[][] matrix, int k) {
@@ -80,7 +86,8 @@ public class KthSmallestInSortedMatrix {
   }
 
   /**
-   * Counts the number of elements in the matrix that are smaller than or equal to target. Uses the
+   * Counts the number of elements in the matrix that are smaller than or equal to
+   * target. Uses the
    * property that rows and columns are sorted to efficiently count.
    *
    * @param matrix The sorted matrix
@@ -111,9 +118,9 @@ public class KthSmallestInSortedMatrix {
 
     // Test case 1
     int[][] matrix1 = {
-      {1, 5, 9},
-      {10, 11, 13},
-      {12, 13, 15}
+        { 1, 5, 9 },
+        { 10, 11, 13 },
+        { 12, 13, 15 }
     };
     int k1 = 8;
     System.out.println("Test Case 1:");
@@ -122,7 +129,7 @@ public class KthSmallestInSortedMatrix {
     System.out.println();
 
     // Test case 2
-    int[][] matrix2 = {{-5}};
+    int[][] matrix2 = { { -5 } };
     int k2 = 1;
     System.out.println("Test Case 2:");
     System.out.println("Expected: -5");
@@ -131,11 +138,11 @@ public class KthSmallestInSortedMatrix {
 
     // Test case 3 - larger matrix
     int[][] matrix3 = {
-      {1, 4, 7, 11, 15},
-      {2, 5, 8, 12, 19},
-      {3, 6, 9, 16, 22},
-      {10, 13, 14, 17, 24},
-      {18, 21, 23, 26, 30}
+        { 1, 4, 7, 11, 15 },
+        { 2, 5, 8, 12, 19 },
+        { 3, 6, 9, 16, 22 },
+        { 10, 13, 14, 17, 24 },
+        { 18, 21, 23, 26, 30 }
     };
     int k3 = 5;
     System.out.println("Test Case 3:");
