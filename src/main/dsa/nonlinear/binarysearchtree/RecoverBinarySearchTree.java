@@ -32,11 +32,72 @@ package main.dsa.nonlinear.binarysearchtree;
  */
 public class RecoverBinarySearchTree {
 
-	class Solution {
-		public void recoverTree(Node root) {
-		}
-	}
+    /**
+     * Solution class for recovering a Binary Search Tree where two nodes are
+     * swapped.
+     * This implementation uses Morris Traversal to detect and fix the swapped
+     * nodes.
+     */
+    class Solution {
 
-	public static void main(String[] args) {
-	}
+        private Node first;
+        private Node prev;
+        private Node middle;
+        private Node last;
+
+        /**
+         * Recovers the Binary Search Tree by finding and swapping two misplaced nodes.
+         * Uses inorder traversal to identify violations of BST property where two nodes
+         * are swapped.
+         * 
+         * The algorithm handles two cases:
+         * 1. When the swapped nodes are adjacent (uses first and middle)
+         * 2. When the swapped nodes are not adjacent (uses first and last)
+         *
+         * @param root The root node of the binary search tree to be recovered
+         */
+        public void recoverTree(Node root) {
+
+            first = middle = last = null;
+
+            prev = new Node(Integer.MIN_VALUE);
+            inOrder(root);
+
+            if (first != null && last != null) {
+                int t = first.key;
+                first.key = last.key;
+                last.key = t;
+            } else if (first != null && middle != null) {
+                int t = first.key;
+                first.key = middle.key;
+                middle.key = t;
+            }
+
+        }
+
+        /**
+         * Performs inorder traversal of the tree to find violations of BST property.
+         * Updates first, middle, and last pointers when violations are found.
+         * 
+         * @param root The current node being processed in the traversal
+         */
+        private void inOrder(Node root) {
+            if (root == null)
+                return;
+
+            inOrder(root.left);
+
+            if (prev != null && (root.key < prev.key)) {
+                if (first == null) {
+                    first = prev;
+                    middle = root;
+                } else {
+                    last = root;
+                }
+            }
+
+            prev = root;
+            inOrder(root.right);
+        }
+    }
 }
