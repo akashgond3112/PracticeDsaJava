@@ -32,7 +32,7 @@ public class FindtheIndexOfTheFirstOccurrenceInAString {
 	public int strStr(String haystack, String needle) {
 
 		// Edge case: if needle is empty, return 0
-		if (needle.length() == 0) {
+		if (needle.isEmpty()) {
 			return 0;
 		}
 
